@@ -179,23 +179,36 @@ for (const m of samples) {
 
 // 3. catalog ETags: en vs zh distinct + 304 round-trip.
 //    GET, not HEAD — the worker's catalog handler only synthesizes ETags on GET.
+//    Retried: immediately after a bulk D1 write, back-to-back reads can race
+//    write propagation across worker instances (CI once saw 200-when-304).
+const CATALOG = process.env.CATALOG_BASE_URL ?? "https://api.syscity.net";
 const etagOf = async (url) => {
   const r = await fetch(url);
   await r.arrayBuffer(); // drain the body; we only need headers
   return r.headers.get("etag");
 };
-const ee = await etagOf(`${process.env.CATALOG_BASE_URL ?? "https://api.syscity.net"}/catalog.json`);
-const ez = await etagOf(`${process.env.CATALOG_BASE_URL ?? "https://api.syscity.net"}/catalog.json?lang=zh`);
-if (!ee || !ez || ee === ez) {
-  console.error(`✗ en/zh ETags not distinct (${ee} / ${ez})`);
+let etagOk = false;
+let etagErr = "";
+for (let attempt = 1; attempt <= 3 && !etagOk; attempt++) {
+  if (attempt > 1) await new Promise((r) => setTimeout(r, 5000));
+  const ee = await etagOf(`${CATALOG}/catalog.json`);
+  const ez = await etagOf(`${CATALOG}/catalog.json?lang=zh`);
+  if (!ee || !ez || ee === ez) {
+    etagErr = `en/zh ETags not distinct (${ee} / ${ez})`;
+    continue;
+  }
+  const code = await fetch(`${CATALOG}/catalog.json`, {
+    headers: { "If-None-Match": ee },
+  }).then((r) => r.status);
+  if (code !== 304) {
+    etagErr = `expected 304 with If-None-Match, got ${code}`;
+    continue;
+  }
+  console.log(`✓ catalog ETags distinct + 304 (${ee} / ${ez})`);
+  etagOk = true;
+}
+if (!etagOk) {
+  console.error(`✗ ${etagErr}`);
   process.exit(1);
 }
-const code = await fetch(`${process.env.CATALOG_BASE_URL ?? "https://api.syscity.net"}/catalog.json`, {
-  headers: { "If-None-Match": ee },
-}).then((r) => r.status);
-if (code !== 304) {
-  console.error(`✗ expected 304 with If-None-Match, got ${code}`);
-  process.exit(1);
-}
-console.log(`✓ catalog ETags distinct + 304 (${ee} / ${ez})`);
 console.log("publish verified");

@@ -33,9 +33,17 @@ jobs:
         run: node scripts/validate.mjs
       - name: Pack (reproducible)
         run: node scripts/pack.mjs
-      - name: Publish entries to R2 + D1
-        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
-        run: node scripts/publish.mjs ${{ inputs.scope == 'all' && '' || '--changed' }}
+      - name: Publish all entries to R2 + D1
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' && inputs.scope == 'all' }}
+        run: node scripts/publish.mjs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          D1_DATABASE: ${{ vars.D1_DATABASE }}
+      - name: Publish changed entries to R2 + D1
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' && inputs.scope != 'all' }}
+        run: node scripts/publish.mjs --changed
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

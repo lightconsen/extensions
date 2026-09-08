@@ -1,0 +1,16 @@
+id: vercel-find-skills
+type: skill
+version: 1.0.0
+category: engineering
+name: find-skills
+description: "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
+license: MIT
+source:
+  repo: https://github.com/vercel-labs/skills
+  commit: 1682051d48c34f5eb135e6475c1a965dce05e820
+  paths:
+    - skills/find-skills
+i18n:
+  zh:
+    name: find-skills
+    description: "帮助用户发现和安装代理技能，当他们提出诸如“我该怎么做X”、“为X找技能”、“是否有技能可以...”等问题，或表示有兴趣扩展能力时。当用户正在寻找可能作为可安装技能存在的功能时，应使用此技能。"

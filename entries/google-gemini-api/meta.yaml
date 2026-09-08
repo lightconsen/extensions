@@ -1,0 +1,16 @@
+id: google-gemini-api
+type: skill
+version: 1.0.0
+category: data-ai
+name: gemini-api
+description: "Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like multimodal inputs, tools, media generation, caching, batch prediction, and Live API."
+license: Apache-2.0
+source:
+  repo: https://github.com/google/skills
+  commit: d56d145e512dca644a3b7ba8332da523c9a60e3c
+  paths:
+    - skills/cloud/gemini-api
+i18n:
+  zh:
+    name: gemini-api
+    description: "当用户询问在企业环境中使用Gemini，或明确提到Vertex AI、Google Cloud或Agent Platform时使用。指导在Agent Platform上使用Gemini API与Google Gen AI SDK。涵盖SDK的使用（Python, JS/TS, Go, Java, C#），以及多模态输入、工具、媒体生成、缓存、批量预测和Live API等功能。"

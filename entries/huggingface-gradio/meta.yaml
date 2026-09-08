@@ -1,0 +1,16 @@
+id: huggingface-gradio
+type: skill
+version: 1.0.0
+category: data-ai
+name: huggingface-gradio
+description: "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots."
+license: Apache-2.0
+source:
+  repo: https://github.com/huggingface/skills
+  commit: 97862b0fcc89c850fdd00c82ede1e62d3c930a6d
+  paths:
+    - skills/huggingface-gradio
+i18n:
+  zh:
+    name: huggingface-gradio
+    description: "使用Python构建Gradio网页界面和演示。在创建或编辑Gradio应用、组件、事件监听器、布局或聊天机器人时使用。"

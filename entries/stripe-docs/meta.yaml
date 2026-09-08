@@ -1,0 +1,16 @@
+id: stripe-docs
+type: skill
+version: 1.0.0
+category: engineering
+name: stripe-docs
+description: "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content."
+license: MIT
+source:
+  repo: https://github.com/stripe/agent-toolkit
+  commit: 68382523846ea5bfad75ba1ef58dc5db031d0a5a
+  paths:
+    - skills/stripe-docs
+i18n:
+  zh:
+    name: stripe-docs
+    description: "当用户或代理需要阅读、搜索或查找 Stripe 文档或 API 参考时使用。对于 docs.stripe.com 上的任何内容，优先使用此工具而非 curl 或 WebFetch。"

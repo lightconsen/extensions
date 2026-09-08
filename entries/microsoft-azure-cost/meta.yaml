@@ -1,0 +1,16 @@
+id: microsoft-azure-cost
+type: skill
+version: 1.0.0
+category: engineering
+name: azure-cost
+description: "Azure cost management: query costs, forecast spending, optimize to reduce waste. WHEN: \\\"Azure costs\\\", \\\"Azure bill\\\", \\\"cost breakdown\\\", \\\"how much am I spending\\\", \\\"forecast spending\\\", \\\"optimize costs\\\", \\\"reduce spending\\\", \\\"orphaned resources\\\", \\\"rightsize VMs\\\", \\\"cost spike\\\", \\\"reduce storage costs\\\", \\\"AKS cost\\\". DO NOT USE FOR: deploying resources, provisioning, diagnostics, or security audits."
+license: MIT
+source:
+  repo: https://github.com/microsoft/skills
+  commit: 02e0b2f852b39ea00c43283f999b83fc12079273
+  paths:
+    - .github/plugins/azure-skills/skills/azure-cost
+i18n:
+  zh:
+    name: azure-cost
+    description: "Azure 成本管理：查询成本、预测支出、优化以减少浪费。何时使用：\"Azure 成本\"、\"Azure 账单\"、\"成本明细\"、\"我花了多少钱\"、\"预测支出\"、\"优化成本\"、\"减少支出\"、\"孤立资源\"、\"调整虚拟机规模\"、\"成本激增\"、\"降低存储成本\"、\"AKS 成本\"。不要用于：部署资源、配置、诊断或安全审计。"

@@ -1,0 +1,16 @@
+id: microsoft-kql
+type: skill
+version: 1.0.0
+category: data-ai
+name: kql
+description: "KQL language expertise for writing correct, efficient Kusto Query Language queries. Covers syntax gotchas, join patterns, dynamic types, datetime pitfalls, regex patterns, serialization, memory management, result-size discipline, and advanced functions (geo, vector, graph). USE THIS SKILL whenever writing, debugging, or reviewing KQL queries — even simple ones — because the gotchas section prevents the most common errors that waste tool calls and cause expensive retry cascades. Trigger on: KQL, Kusto, ADX, Azure Data Explorer, Fabric Real-Time Intelligence, EventHouse, Log Analytics, log analysis, data exploration, time series, anomaly detection, summarize, where clause, join, extend, project, let statement, parse operator, extract function, any mention of pipe-forward query syntax."
+license: MIT
+source:
+  repo: https://github.com/microsoft/skills
+  commit: 02e0b2f852b39ea00c43283f999b83fc12079273
+  paths:
+    - .github/skills/kql
+i18n:
+  zh:
+    name: kql
+    description: "KQL 语言专业知识，用于编写正确、高效的 Kusto 查询语言查询。涵盖语法陷阱、联接模式、动态类型、日期时间陷阱、正则表达式模式、序列化、内存管理、结果大小控制，以及高级函数（geo、vector、graph）。在编写、调试或审查 KQL 查询时（即使是简单查询），请使用此技能，因为陷阱部分可防止最常见的错误，这些错误会浪费工具调用并导致昂贵的重试级联。触发条件：KQL、Kusto、ADX、Azure Data Explorer、Fabric Real-Time Intelligence、EventHouse、Log Analytics、日志分析、数据探索、时间序列、异常检测、summarize、where 子句、join、extend、project、let 语句、parse 运算符、extract 函数，以及任何提及管道转发查询语法的内容。"

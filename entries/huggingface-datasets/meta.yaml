@@ -1,0 +1,16 @@
+id: huggingface-datasets
+type: skill
+version: 1.0.0
+category: data-ai
+name: huggingface-datasets
+description: "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics."
+license: Apache-2.0
+source:
+  repo: https://github.com/huggingface/skills
+  commit: 97862b0fcc89c850fdd00c82ede1e62d3c930a6d
+  paths:
+    - skills/huggingface-datasets
+i18n:
+  zh:
+    name: huggingface-datasets
+    description: "使用此技能处理Hugging Face Dataset Viewer API工作流：获取子集/分割元数据、分页浏览行、搜索文本、应用过滤器、下载parquet URL、读取大小或统计信息。"

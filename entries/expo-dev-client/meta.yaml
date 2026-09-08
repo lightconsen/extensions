@@ -1,0 +1,16 @@
+id: expo-dev-client
+type: skill
+version: 1.0.0
+category: engineering
+name: expo-dev-client
+description: "Framework (OSS). Build and distribute Expo development clients locally or via TestFlight for internal testing. For production TestFlight releases and store submission, use the eas-app-stores skill."
+license: MIT
+source:
+  repo: https://github.com/expo/skills
+  commit: 170589a7ee8963156f63de8202fa96cf08a9e610
+  paths:
+    - plugins/expo/skills/expo-dev-client
+i18n:
+  zh:
+    name: expo-dev-client
+    description: "框架（开源）。构建并分发 Expo 开发客户端，可通过本地或 TestFlight 进行内部测试。对于生产环境的 TestFlight 发布和应用商店提交，请使用 eas-app-stores 技能。"

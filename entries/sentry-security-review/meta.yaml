@@ -1,0 +1,16 @@
+id: sentry-security-review
+type: skill
+version: 1.0.0
+category: security
+name: security-review
+description: "Security code review for vulnerabilities. Use when asked to \"security review\", \"find vulnerabilities\", \"check for security issues\", \"audit security\", \"OWASP review\", or review code for injection, XSS, authentication, authorization, cryptography issues. Provides systematic review with confidence-based reporting."
+license: Apache-2.0
+source:
+  repo: https://github.com/getsentry/skills
+  commit: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+  paths:
+    - skills/security-review
+i18n:
+  zh:
+    name: security-review
+    description: "针对漏洞的安全代码审查。当被要求进行“安全审查”、“查找漏洞”、“检查安全问题”、“审计安全性”、“OWASP审查”，或审查代码中的注入、XSS、身份验证、授权、加密问题时使用。提供系统性的审查，并给出基于置信度的报告。"

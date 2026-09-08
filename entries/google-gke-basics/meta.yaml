@@ -1,0 +1,16 @@
+id: google-gke-basics
+type: skill
+version: 1.0.0
+category: engineering
+name: gke-basics
+description: "Manages core GKE cluster provisioning, credentials, Autopilot vs Standard selection, and workload deployment. Use when creating GKE clusters, fetching kubectl credentials, configuring Workload Identity, or deciding between Autopilot and Standard modes. Don't use for specialized GKE networking (use gke-networking), advanced security hardening (use gke-platform-security or gke-workload-security), or cluster upgrades (use gke-upgrades)."
+license: Apache-2.0
+source:
+  repo: https://github.com/google/skills
+  commit: d56d145e512dca644a3b7ba8332da523c9a60e3c
+  paths:
+    - skills/cloud/gke-basics
+i18n:
+  zh:
+    name: gke-basics
+    description: "管理核心GKE集群配置、凭据、Autopilot与Standard选择以及工作负载部署。在创建GKE集群、获取kubectl凭据、配置Workload Identity或决定采用Autopilot还是Standard模式时使用。不要用于专门的GKE网络（使用gke-networking）、高级安全加固（使用gke-platform-security或gke-workload-security）或集群升级（使用gke-upgrades）。"

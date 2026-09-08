@@ -1,0 +1,16 @@
+id: microsoft-azure-storage
+type: skill
+version: 1.0.0
+category: engineering
+name: azure-storage
+description: "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Answers questions about storage access tiers (hot, cool, cold, archive), when to use each tier, and tier comparison. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics. Includes lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, storage tiers, hot cool cold archive, storage tier comparison, when to use storage tiers, lifecycle management, Azure Storage concepts. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging)."
+license: MIT
+source:
+  repo: https://github.com/microsoft/skills
+  commit: 02e0b2f852b39ea00c43283f999b83fc12079273
+  paths:
+    - .github/plugins/azure-skills/skills/azure-storage
+i18n:
+  zh:
+    name: azure-storage
+    description: "Azure 存储服务，包括 Blob 存储、文件共享、队列存储、表存储和 Data Lake。解答有关存储访问层（hot、cool、cold、archive）、何时使用各层以及各层比较的问题。提供对象存储、SMB 文件共享、异步消息传递、NoSQL 键值和大数据分析。包含生命周期管理。用途：blob 存储、文件共享、队列存储、表存储、data lake、上传文件、下载 blob、存储帐户、访问层、存储层、hot cool cold archive、存储层比较、何时使用存储层、生命周期管理、Azure 存储概念。不适用于：SQL 数据库、Cosmos DB（使用 azure-prepare）、使用事件中心或服务总线的消息传递（使用 azure-messaging）。"

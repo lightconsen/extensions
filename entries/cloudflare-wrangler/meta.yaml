@@ -1,0 +1,16 @@
+id: cloudflare-wrangler
+type: skill
+version: 1.0.0
+category: engineering
+name: wrangler
+description: "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, deployment, and Cloudflare resource management."
+license: Apache-2.0
+source:
+  repo: https://github.com/cloudflare/skills
+  commit: b052c32bab7dd493513260228a36c88294f343f1
+  paths:
+    - skills/wrangler
+i18n:
+  zh:
+    name: wrangler
+    description: "运行或排查 Wrangler CLI 命令，并配置 Worker 项目以进行本地开发、部署和 Cloudflare 资源管理。"

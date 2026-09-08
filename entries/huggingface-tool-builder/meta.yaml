@@ -1,0 +1,16 @@
+id: huggingface-tool-builder
+type: skill
+version: 1.0.0
+category: data-ai
+name: huggingface-tool-builder
+description: "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data."
+license: Apache-2.0
+source:
+  repo: https://github.com/huggingface/skills
+  commit: 97862b0fcc89c850fdd00c82ede1e62d3c930a6d
+  paths:
+    - skills/huggingface-tool-builder
+i18n:
+  zh:
+    name: huggingface-tool-builder
+    description: "当用户想要构建工具/脚本，或完成某个任务，而使用Hugging Face API的数据会有所帮助时，使用此技能。当串联或组合API调用，或任务将被重复/自动化时，此技能尤其有用。此技能会创建一个可重用的脚本来获取、丰富或处理数据。"

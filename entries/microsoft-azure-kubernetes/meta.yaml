@@ -1,0 +1,16 @@
+id: microsoft-azure-kubernetes
+type: skill
+version: 1.0.0
+category: engineering
+name: azure-kubernetes
+description: "Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking options (private API server, Azure CNI Overlay, egress configuration), security, and operations (autoscaling, upgrade strategy, cost analysis). WHEN: create AKS environment, provision AKS, enable AKS observability, design AKS networking, choose AKS SKU, secure AKS, optimize AKS, AKS spot nodes, AKS cluster-autoscaler, rightsize AKS pod, pod rightsizing, over-provisioned AKS pod, pod resource requests and limits, Vertical Pod Autoscaler, VPA recommendations."
+license: MIT
+source:
+  repo: https://github.com/microsoft/skills
+  commit: 02e0b2f852b39ea00c43283f999b83fc12079273
+  paths:
+    - .github/plugins/azure-skills/skills/azure-kubernetes
+i18n:
+  zh:
+    name: azure-kubernetes
+    description: "规划、创建和配置生产就绪的 Azure Kubernetes Service (AKS) 集群。涵盖 Day-0 检查清单、SKU 选择（Automatic 与 Standard）、网络选项（私有 API 服务器、Azure CNI Overlay、出口配置）、安全性和运维（自动扩缩容、升级策略、成本分析）。适用场景：创建 AKS 环境、预配 AKS、启用 AKS 可观测性、设计 AKS 网络、选择 AKS SKU、保护 AKS 安全、优化 AKS、AKS 竞价节点、AKS cluster-autoscaler、调整 AKS Pod 大小、Pod 资源合理化、过度预配的 AKS Pod、Pod 资源请求和限制、Vertical Pod Autoscaler、VPA 建议。"

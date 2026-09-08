@@ -1,0 +1,16 @@
+id: google-cloud-waf-security
+type: skill
+version: 1.0.0
+category: security
+name: google-cloud-waf-security
+description: "Generates security-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate workloads, identify security requirements, and provide actionable recommendations for IAM, network security, data protection, and operational security."
+license: Apache-2.0
+source:
+  repo: https://github.com/google/skills
+  commit: d56d145e512dca644a3b7ba8332da523c9a60e3c
+  paths:
+    - skills/cloud/google-cloud-waf-security
+i18n:
+  zh:
+    name: google-cloud-waf-security
+    description: "根据 Google Cloud Well-Architected Framework (WAF) 中的设计原则和建议，为 Google Cloud 工作负载生成以安全为重点的指导。使用此技能来评估工作负载、识别安全需求，并为 IAM、网络安全、数据保护和运营安全提供可操作的建议。"

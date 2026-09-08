@@ -1,0 +1,16 @@
+id: cloudflare-durable-objects
+type: skill
+version: 1.0.0
+category: engineering
+name: durable-objects
+description: "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
+license: Apache-2.0
+source:
+  repo: https://github.com/cloudflare/skills
+  commit: b052c32bab7dd493513260228a36c88294f343f1
+  paths:
+    - skills/durable-objects
+i18n:
+  zh:
+    name: durable-objects
+    description: "构建、调试或审查 Cloudflare Durable Objects 代码，以实现持久状态和协调。"

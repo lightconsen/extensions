@@ -1,0 +1,16 @@
+id: sentry-code-review
+type: skill
+version: 1.0.0
+category: engineering
+name: code-review
+description: "Perform code reviews following Sentry engineering practices. Use when reviewing pull requests, examining code changes, or providing feedback on code quality. Covers security, performance, testing, and design review."
+license: Apache-2.0
+source:
+  repo: https://github.com/getsentry/skills
+  commit: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+  paths:
+    - skills/code-review
+i18n:
+  zh:
+    name: code-review
+    description: "按照 Sentry 工程实践执行代码审查。在审查拉取请求、检查代码改动或对代码质量提供反馈时使用。涵盖安全、性能、测试和设计审查。"

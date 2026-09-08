@@ -1,0 +1,16 @@
+id: huggingface-spaces
+type: skill
+version: 1.0.0
+category: data-ai
+name: huggingface-spaces
+description: "Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants. Use whenever the user asks to create or host an app on Hugging Face, port code onto ZeroGPU, fix a Space that won't build or run, or otherwise work with `hf spaces …`, `@spaces.GPU`, Space README frontmatter, or the `spaces` Python package."
+license: Apache-2.0
+source:
+  repo: https://github.com/huggingface/skills
+  commit: 97862b0fcc89c850fdd00c82ede1e62d3c930a6d
+  paths:
+    - skills/huggingface-spaces
+i18n:
+  zh:
+    name: huggingface-spaces
+    description: "在 Hugging Face Spaces 上构建、部署和维护应用程序——涵盖 Gradio / Docker / Static SDKs、ZeroGPU 和专用硬件、模型加载、调试、存储桶、推理提供方、社区资助。当用户要求创建或托管 Hugging Face 应用、将代码移植到 ZeroGPU、修复无法构建或运行的 Space，或处理 `hf spaces …`、`@spaces.GPU`、Space README frontmatter 或 `spaces` Python 包时，均使用此技能。"

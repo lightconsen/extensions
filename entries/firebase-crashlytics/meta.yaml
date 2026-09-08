@@ -1,0 +1,16 @@
+id: firebase-crashlytics
+type: skill
+version: 1.0.0
+category: engineering
+name: firebase-crashlytics
+description: "Comprehensive guide for Firebase Crashlytics, including provisioning and SDK usage. Use this skill when the user needs help setting up Crashlytics, adding crash reporting, or using the Crashlytics SDK in their application."
+license: Apache-2.0
+source:
+  repo: https://github.com/firebase/skills
+  commit: a0b4e143f40c1ebe05fe5f9a4787fecd4da8f478
+  paths:
+    - skills/firebase-crashlytics
+i18n:
+  zh:
+    name: firebase-crashlytics
+    description: "Firebase Crashlytics 的全面指南，包括配置和 SDK 使用。当用户需要帮助设置 Crashlytics、添加崩溃报告或其应用程序中使用 Crashlytics SDK 时，使用此技能。"

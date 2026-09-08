@@ -1,0 +1,16 @@
+id: google-bigquery-basics
+type: skill
+version: 1.0.0
+category: data-ai
+name: bigquery-basics
+description: "Manages datasets, tables, and jobs in BigQuery. Use when you need to interact with BigQuery, run SQL queries, manage BigQuery resources (datasets, tables, views), or perform basic data ingestion and analysis."
+license: Apache-2.0
+source:
+  repo: https://github.com/google/skills
+  commit: d56d145e512dca644a3b7ba8332da523c9a60e3c
+  paths:
+    - skills/cloud/bigquery-basics
+i18n:
+  zh:
+    name: "bigquery-基础"
+    description: "管理 BigQuery 中的数据集、表和作业。当您需要与 BigQuery 交互、运行 SQL 查询、管理 BigQuery 资源（数据集、表、视图）或执行基本的数据摄取和分析时使用。"

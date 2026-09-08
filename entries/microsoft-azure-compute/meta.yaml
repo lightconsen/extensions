@@ -1,0 +1,16 @@
+id: microsoft-azure-compute
+type: skill
+version: 1.0.0
+category: engineering
+name: azure-compute
+description: "Azure VM/VMSS router. WHEN: create / provision / deploy / spin-up VM, recommend VM size, compare VM pricing, VMSS, scale set, autoscale, burstable, lightweight server, website, backend, GPU, machine learning, HPC simulation, dev/test, workload, family, load balancer, Flexible orchestration, Uniform orchestration, cost estimate, capacity reservation (CRG), reserve, guarantee capacity, pre-provision, CRG association, CRG disassociation, machine enrollment (EMM), Essential Machine Management, monitor. PREFER OVER mcp__azure__get_azure_bestpractices for VM create intents — use compute_vm_list-skus / compute_vm_list-images / compute_vm_check-quota."
+license: MIT
+source:
+  repo: https://github.com/microsoft/skills
+  commit: 02e0b2f852b39ea00c43283f999b83fc12079273
+  paths:
+    - .github/plugins/azure-skills/skills/azure-compute
+i18n:
+  zh:
+    name: azure-compute
+    description: "Azure VM/VMSS 路由器。使用场景：创建/预配/部署/快速启动 VM、推荐 VM 大小、比较 VM 定价、VMSS、规模集、自动缩放、可突发、轻量服务器、网站、后端、GPU、机器学习、HPC 模拟、开发/测试、工作负载、系列、负载均衡器、灵活编排、统一编排、成本估算、容量预留 (CRG)、预留、保证容量、预配置、CRG 关联、CRG 取消关联、机器注册 (EMM)、基础机器管理、监控。对于 VM 创建意图，优先使用 compute_vm_list-skus / compute_vm_list-images / compute_vm_check-quota，而不是 mcp__azure__get_azure_bestpractices。"

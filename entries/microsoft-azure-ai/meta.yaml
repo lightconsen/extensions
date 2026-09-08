@@ -1,0 +1,16 @@
+id: microsoft-azure-ai
+type: skill
+version: 1.0.0
+category: data-ai
+name: azure-ai
+description: "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech."
+license: MIT
+source:
+  repo: https://github.com/microsoft/skills
+  commit: 02e0b2f852b39ea00c43283f999b83fc12079273
+  paths:
+    - .github/plugins/azure-skills/skills/azure-ai
+i18n:
+  zh:
+    name: azure-ai
+    description: "用于 Azure AI：Search、Speech、OpenAI、Document Intelligence。可帮助执行搜索、向量/混合搜索、语音转文本、文本转语音、转录、OCR。适用情况：AI 搜索、查询搜索、向量搜索、混合搜索、语义搜索、语音转文本、文本转语音、转录、OCR、将文本转换为语音。"

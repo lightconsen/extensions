@@ -1,0 +1,16 @@
+id: expo-eas-simulator
+type: skill
+version: 1.0.0
+category: engineering
+name: eas-simulator
+description: "EAS service (paid). Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simulator:*` commands - it has the current syntax for this experimental API. Use whenever the user needs a simulator they can't run locally - 'run my app on a cloud simulator', 'use eas simulator to run/install/screenshot my app', 'I'm on Linux/Cursor and need an iOS device', 'no sim on this box / headless CI', 'let an agent click through my app and screenshot it', 'test my dev build on a remote sim with live reload', 'stream a sim to my browser' - even when they don't say 'EAS Simulator' or 'cloud'. On a host WITHOUT a local simulator (Linux, CI, cloud sandbox) it's the default; on macOS, do NOT auto-trigger for a plain 'run on the simulator' - use it only for a cloud/remote/shareable sim, an iOS version they lack, or an agent-driven session. NOT for local sims (expo run:ios, Xcode, Android Studio), EAS Build/Update, web preview, or physical devices."
+license: MIT
+source:
+  repo: https://github.com/expo/skills
+  commit: 170589a7ee8963156f63de8202fa96cf08a9e610
+  paths:
+    - plugins/expo/skills/eas-simulator
+i18n:
+  zh:
+    name: eas-simulator
+    description: "EAS 服务（付费）。在 EAS 云托管的远程 iOS/Android 模拟器上运行并控制用户的应用程序。在运行任何 `eas simulator:*` 命令之前请先阅读——它包含此实验性 API 的当前语法。每当用户需要无法在本地运行的模拟器时使用：'在云模拟器上运行我的应用'、'使用 eas simulator 运行/安装/截屏我的应用'、'我在 Linux/Cursor 上需要 iOS 设备'、'这台机器上没有模拟器 / 无头 CI'、'让代理点击我的应用并截屏'、'在远程模拟器上测试我的开发构建并支持实时重新加载'、'将模拟器流式传输到我的浏览器'——即使他们没有提到“EAS Simulator”或“云”。在没有本地模拟器的主机（Linux、CI、云沙箱）上，它是默认选项；在 macOS 上，不要为普通的'在模拟器上运行'自动触发它——仅在需要云/远程/可共享的模拟器、缺少某个 iOS 版本或代理驱动的会话时使用。不适用于本地模拟器（expo run:ios、Xcode、Android Studio）、EAS Build/Update、Web 预览或物理设备。"

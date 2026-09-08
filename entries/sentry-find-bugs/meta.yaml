@@ -1,0 +1,16 @@
+id: sentry-find-bugs
+type: skill
+version: 1.0.0
+category: engineering
+name: find-bugs
+description: "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch."
+license: Apache-2.0
+source:
+  repo: https://github.com/getsentry/skills
+  commit: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+  paths:
+    - skills/find-bugs
+i18n:
+  zh:
+    name: "查找错误"
+    description: "查找本地分支更改中的错误、安全漏洞和代码质量问题。当被要求审查更改、查找错误、进行安全审查或审计当前分支上的代码时使用。"

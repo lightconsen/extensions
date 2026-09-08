@@ -1,0 +1,16 @@
+id: stripe-best-practices
+type: skill
+version: 1.0.0
+category: engineering
+name: stripe-best-practices
+description: "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, tax and registrations (Stripe Tax, automatic_tax, product tax codes), Treasury financial accounts, integration options (Checkout, Payment Element), migrating from deprecated Stripe APIs, and security best practices (API key management, restricted keys, webhooks, OAuth). Use when building, modifying, or reviewing any Stripe integration, including accepting payments, building marketplaces, integrating Stripe, processing payments, setting up subscriptions, collecting sales tax, VAT, or GST, creating connected accounts, or implementing secure key handling."
+license: MIT
+source:
+  repo: https://github.com/stripe/agent-toolkit
+  commit: 68382523846ea5bfad75ba1ef58dc5db031d0a5a
+  paths:
+    - skills/stripe-best-practices
+i18n:
+  zh:
+    name: stripe-best-practices
+    description: "指导 Stripe 集成决策，涵盖 API 选择（Checkout Sessions 与 PaymentIntents）、Connect 平台设置（Accounts v2、控制器属性）、计费/订阅、税务与登记（Stripe Tax、automatic_tax、产品税务代码）、Treasury 金融账户、集成选项（Checkout、Payment Element）、从已弃用的 Stripe API 迁移，以及安全最佳实践（API 密钥管理、受限密钥、webhooks、OAuth）。在构建、修改或审查任何 Stripe 集成时使用，包括接受付款、构建市场平台、集成 Stripe、处理支付、设置订阅、收取销售税、增值税或 GST、创建关联账户，或实施安全的密钥处理。"

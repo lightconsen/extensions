@@ -1,0 +1,16 @@
+id: stripe-apps
+type: skill
+version: 1.0.0
+category: engineering
+name: stripe-apps
+description: "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"add a panel to the customer page\", \"customize my Stripe Dashboard\", \"react to Stripe events from my app\", \"connect my service to Stripe without sharing API keys\"). Covers the full app development workflow (scaffold, preview, upload, versioning), UI extension architecture (sandboxed iframe, Stripe UI toolkit, viewports), extension types (UI extensions, backend-only, extension interfaces, embedded apps), authentication (platform keys, OAuth, restricted API keys), stripe-app.yaml manifest setup (permissions, viewports, CSP), webhook configuration for apps, Secret Store API, `fetchStripeSignature` auth, and marketplace publishing, plus submitting one agentic feedback report after a build. Use when the user mentions Stripe Apps, UI extensions, @stripe/ui-extension-sdk, stripe-app.yaml, Dashboard extensions, or customizing the Stripe Dashboard."
+license: MIT
+source:
+  repo: https://github.com/stripe/agent-toolkit
+  commit: 68382523846ea5bfad75ba1ef58dc5db031d0a5a
+  paths:
+    - skills/stripe-apps
+i18n:
+  zh:
+    name: stripe-apps
+    description: "在构建、修改或审查 Stripe App 时使用——或当用户描述的内容暗示与 Stripe App 相关时（例如“向客户页面添加面板”“自定义我的 Stripe Dashboard”“从我的 app 响应 Stripe 事件”“在不共享 API 密钥的情况下将我的服务连接到 Stripe”）。涵盖完整的应用开发工作流程（脚手架搭建、预览、上传、版本管理）、UI 扩展架构（沙箱 iframe、Stripe UI toolkit、viewport）、扩展类型（UI 扩展、仅后端、扩展接口、嵌入式 app）、身份验证（platform keys、OAuth、受限 API 密钥）、stripe-app.yaml 清单配置（权限、viewport、CSP）、面向应用的 webhook 配置、Secret Store API、`fetchStripeSignature` 身份验证，以及市场发布，并在一次构建后提交一份智能体反馈报告。当用户提到 Stripe Apps、UI extensions、@stripe/ui-extension-sdk、stripe-app.yaml、Dashboard 扩展或自定义 Stripe Dashboard 时使用。"

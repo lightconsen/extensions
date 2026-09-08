@@ -1,0 +1,16 @@
+id: supabase-postgres-best-practices
+type: skill
+version: 1.0.0
+category: data-ai
+name: supabase-postgres-best-practices
+description: "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changing anything that lives in a Postgres database: creating or altering tables and columns (including choosing column types), schema design, migrations and declarative schema files, RLS policies and the tests that verify them, indexes, triggers, database functions, queues and scheduled jobs (pg_cron, pgmq), vector/semantic search (pgvector), and restoring dumps (pg_restore) or importing data. Also load it when diagnosing slow queries, high CPU, timeouts, EXPLAIN plans, connection exhaustion, locking, bloat, or rows visible to the wrong user or tenant. This is not just a performance guide — schema, migration, security, and SQL authoring tasks need these rules too, even for a one-column change or a single query."
+license: MIT
+source:
+  repo: https://github.com/supabase/agent-skills
+  commit: 8331f910845103c08d51f6ca1d86ebb7d1f745e3
+  paths:
+    - skills/supabase-postgres-best-practices
+i18n:
+  zh:
+    name: supabase-postgres-best-practices
+    description: "由 Supabase 维护的 Postgres 最佳实践，适用于任何位置运行的 Postgres。在编写或更改任何存在于 Postgres 数据库中的内容之前，请加载此技能：创建或修改表和列（包括选择列类型）、模式设计、迁移和声明式模式文件、RLS 策略及其验证测试、索引、触发器、数据库函数、队列和计划任务（pg_cron、pgmq）、向量/语义搜索（pgvector），以及恢复转储（pg_restore）或导入数据。在诊断慢查询、高 CPU、超时、EXPLAIN 计划、连接耗尽、锁定、膨胀，或行对错误用户或租户可见时，也应加载此技能。这不仅是一份性能指南——模式、迁移、安全和 SQL 编写任务也需要这些规则，即使只改动一列或执行单条查询也不例外。"

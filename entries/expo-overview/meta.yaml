@@ -1,0 +1,16 @@
+id: expo-overview
+type: skill
+version: 1.0.0
+category: engineering
+name: expo-overview
+description: "Framework (OSS). Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing another expo-* / eas-* skill — when the request, PRD, or spec mentions Expo, EAS, Expo Go, or an expo-* package, or the project has an `expo` dependency in `package.json`. Within that gate it also covers app specs and designs to implement (tabs, stacks, maps, lists, navigation, building from a screenshot), and phrasings like 'implement a mobile app', 'make my app look native', 'add navigation', 'fetch some data', 'upgrade my SDK', 'add Expo to my existing native app', 'ship to the App Store', or 'I'm new to Expo, where do I start'. A fully specified request (SDK pinned, libraries named, layout given) still routes through here — the shared setup rules still apply. Do NOT load it when neither signal is present: a bare React Native project with no `expo` dependency is not Expo work. Detects the real goal, routes to the right expo-* / eas-* skill, and owns the shared setup rules."
+license: MIT
+source:
+  repo: https://github.com/expo/skills
+  commit: 170589a7ee8963156f63de8202fa96cf08a9e610
+  paths:
+    - plugins/expo/skills/expo-overview
+i18n:
+  zh:
+    name: expo-overview
+    description: "框架（OSS）。是所有 Expo 或 EAS 任务的入口点和路由器。当请求、PRD 或规格说明中提到 Expo、EAS、Expo Go 或某个 expo-* 包，或者项目的 package.json 中有 expo 依赖时，请先加载此技能——在编写代码之前，在选择其他 expo-* / eas-* 技能之前。在该范围内，它还包括要实现的应用规格和设计（标签页、堆栈、地图、列表、导航、从屏幕截图构建），以及类似措辞：‘实现移动应用’、‘让我的应用看起来像原生’、‘添加导航’、‘获取一些数据’、‘升级我的 SDK’、‘将 Expo 添加到我的现有原生应用中’、‘发布到 App Store’、‘我是 Expo 新手，应该从哪里开始？’。即使请求完全明确（SDK 版本固定、库已命名、布局已给出），仍会路由到这里——共享设置规则仍然适用。当两个信号都不存在时，不要加载它：没有 expo 依赖的纯 React Native 项目不属于 Expo 工作。它检测真实目标，路由到正确的 expo-* / eas-* 技能，并拥有共享设置规则。"

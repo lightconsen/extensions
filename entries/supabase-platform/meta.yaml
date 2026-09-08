@@ -1,0 +1,16 @@
+id: supabase-platform
+type: skill
+version: 1.0.0
+category: engineering
+name: supabase
+description: "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, declarative schemas, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector); debugging and troubleshooting errors or unexpected behavior on Supabase projects (HTTP errors, Postgres errors, RLS surprises, permission denied, schema cache issues, timeouts, Edge Function crashes, Realtime drops, Storage failures) and reading or querying logs (Logs Explorer, ClickHouse)."
+license: MIT
+source:
+  repo: https://github.com/supabase/agent-skills
+  commit: 8331f910845103c08d51f6ca1d86ebb7d1f745e3
+  paths:
+    - skills/supabase
+i18n:
+  zh:
+    name: supabase
+    description: "当处理任何涉及 Supabase 的任务时使用。触发场景包括：Supabase 产品（Database、Auth、Edge Functions、Realtime、Storage、Vectors、Cron、Queues）；Next.js、React、SvelteKit、Astro、Remix 中的客户端库和 SSR 集成（supabase-js、@supabase/ssr）；身份验证问题（登录、注销、会话、JWT、cookies、getSession、getUser、getClaims、RLS）；Supabase CLI 或 MCP 服务器；schema 变更、迁移、声明式 schema、安全审计、Postgres 扩展（pg_graphql、pg_cron、pg_vector）；调试和排查 Supabase 项目中的错误或意外行为（HTTP 错误、Postgres 错误、RLS 意外情况、权限被拒绝、schema 缓存问题、超时、Edge Function 崩溃、Realtime 连接断开、Storage 故障）；以及读取或查询日志（Logs Explorer、ClickHouse）。"

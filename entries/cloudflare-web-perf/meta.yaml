@@ -1,0 +1,16 @@
+id: cloudflare-web-perf
+type: skill
+version: 1.0.0
+category: engineering
+name: web-perf
+description: "Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance scores."
+license: Apache-2.0
+source:
+  repo: https://github.com/cloudflare/skills
+  commit: b052c32bab7dd493513260228a36c88294f343f1
+  paths:
+    - skills/web-perf
+i18n:
+  zh:
+    name: web-perf
+    description: "审核、诊断或优化网站加载和交互性能、Core Web Vitals 以及 Lighthouse 性能得分。"

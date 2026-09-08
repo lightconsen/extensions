@@ -1,0 +1,16 @@
+id: firebase-hosting-basics
+type: skill
+version: 1.0.0
+category: engineering
+name: firebase-hosting-basics
+description: "Deploys and configures classic Firebase Hosting for static websites, single-page apps (SPAs), and microservices. Use when deploying static sites/SPAs, setting up custom domains, configuring firebase.json hosting settings (redirects, rewrites, headers, multi-site), or managing preview channels. Don't use for Firebase App Hosting (Next.js/SSR), Auth, Firestore queries/rules, Data Connect, or Crashlytics."
+license: Apache-2.0
+source:
+  repo: https://github.com/firebase/skills
+  commit: a0b4e143f40c1ebe05fe5f9a4787fecd4da8f478
+  paths:
+    - skills/firebase-hosting-basics
+i18n:
+  zh:
+    name: firebase-hosting-basics
+    description: "部署并配置经典的 Firebase Hosting，用于静态网站、单页应用（SPA）和微服务。当部署静态网站/SPA、设置自定义域名、配置 firebase.json 托管设置（重定向、重写、标头、多站点）或管理预览渠道时使用。不要用于 Firebase App Hosting（Next.js/SSR）、Auth、Firestore 查询/规则、Data Connect 或 Crashlytics。"

@@ -1,0 +1,16 @@
+id: microsoft-azure-diagnostics
+type: skill
+version: 1.0.0
+category: engineering
+name: azure-diagnostics
+description: "Debug Azure production issues on Azure using AppLens, Azure Monitor, resource health, and safe triage. WHEN: debug production issues, troubleshoot app service, app service high CPU, app service deployment failure, troubleshoot container apps, troubleshoot functions, troubleshoot AKS, VM RDP, Linux SSH, VM black screen, can't connect to VM, reset VM password, NSG or firewall blocking, kubectl cannot connect, kube-system/CoreDNS failures, pod pending, crashloop, node not ready, upgrade failures, analyze logs, KQL, insights, image pull failures, cold start issues, health probe failures, resource health, root cause of errors, troubleshoot event hubs, troubleshoot service bus, messaging SDK error, AMQP connection failure, message lock lost, service bus dead letter."
+license: MIT
+source:
+  repo: https://github.com/microsoft/skills
+  commit: 02e0b2f852b39ea00c43283f999b83fc12079273
+  paths:
+    - .github/plugins/azure-skills/skills/azure-diagnostics
+i18n:
+  zh:
+    name: azure-diagnostics
+    description: "使用 AppLens、Azure Monitor、资源运行状况和安全分流来调试 Azure 上的生产问题。适用场景：调试生产问题、排查 App Service、App Service CPU 占用率高、App Service 部署失败、排查 Container Apps、排查 Functions、排查 AKS、VM RDP、Linux SSH、VM 黑屏、无法连接 VM、重置 VM 密码、NSG 或防火墙阻止、kubectl 无法连接、kube-system/CoreDNS 故障、Pod 挂起、崩溃循环、节点未就绪、升级失败、分析日志、KQL、insights、镜像拉取失败、冷启动问题、运行状况探测失败、资源运行状况、错误根因、排查 Event Hubs、排查 Service Bus、消息传递 SDK 错误、AMQP 连接失败、消息锁丢失、Service Bus 死信。"

@@ -1,0 +1,16 @@
+id: expo-router
+type: skill
+version: 1.0.0
+category: engineering
+name: expo-router
+description: "Framework (OSS). Navigation and routing for Expo Router. Covers file-based routes, groups and dynamic routes, folder organization, Link with previews and context menus, native Stack, page titles, modals and form sheets, NativeTabs, headers and toolbars, and header search bars."
+license: MIT
+source:
+  repo: https://github.com/expo/skills
+  commit: 170589a7ee8963156f63de8202fa96cf08a9e610
+  paths:
+    - plugins/expo/skills/expo-router
+i18n:
+  zh:
+    name: expo-router
+    description: "框架（开源软件）。Expo Router 的导航和路由。涵盖基于文件的路由、分组和动态路由、文件夹组织、带有预览和上下文菜单的 Link、原生 Stack、页面标题、模态框和表单页、NativeTabs、标题栏和工具栏，以及标题栏搜索栏。"

@@ -1,0 +1,16 @@
+id: huggingface-papers
+type: skill
+version: 1.0.0
+category: research-education
+name: huggingface-papers
+description: "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper."
+license: Apache-2.0
+source:
+  repo: https://github.com/huggingface/skills
+  commit: 97862b0fcc89c850fdd00c82ede1e62d3c930a6d
+  paths:
+    - skills/huggingface-papers
+i18n:
+  zh:
+    name: huggingface-papers
+    description: "以 Markdown 格式查找并阅读 Hugging Face 论文页面，并使用 papers API 获取结构化元数据，例如作者、关联的模型/数据集/空间、GitHub 仓库和项目页面。当用户分享 Hugging Face 论文页面 URL、arXiv URL 或 ID，或要求总结、解释或分析 AI 研究论文时使用。"

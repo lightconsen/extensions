@@ -1,0 +1,16 @@
+id: google-bigtable-basics
+type: skill
+version: 1.0.0
+category: data-ai
+name: bigtable-basics
+description: "Assists in provisioning instances/tables, designing performant schemas, and querying data in Bigtable. Use when designing Bigtable row keys, configuring column families, writing SQL queries or client library code (Java, Go, Python) for Bigtable, or diagnosing performance/hotspotting issues. Also use when provisioning Bigtable clusters using gcloud or cbt CLIs. Don't use for generic Cloud SQL administration."
+license: Apache-2.0
+source:
+  repo: https://github.com/google/skills
+  commit: d56d145e512dca644a3b7ba8332da523c9a60e3c
+  paths:
+    - skills/cloud/bigtable-basics
+i18n:
+  zh:
+    name: bigtable-basics
+    description: "帮助配置实例/表、设计高性能的架构以及查询Bigtable中的数据。在需要设计Bigtable行键、配置列族、编写SQL查询或针对Bigtable的客户端库代码（Java、Go、Python），或诊断性能/热点问题时使用。在使用gcloud或cbt命令行工具预配Bigtable集群时也可使用。请勿用于常规的Cloud SQL管理。"

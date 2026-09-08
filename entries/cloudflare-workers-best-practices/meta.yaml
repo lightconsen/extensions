@@ -1,0 +1,16 @@
+id: cloudflare-workers-best-practices
+type: skill
+version: 1.0.0
+category: engineering
+name: workers-best-practices
+description: "Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers."
+license: Apache-2.0
+source:
+  repo: https://github.com/cloudflare/skills
+  commit: b052c32bab7dd493513260228a36c88294f343f1
+  paths:
+    - skills/workers-best-practices
+i18n:
+  zh:
+    name: workers-best-practices
+    description: "面向生产应用的 Cloudflare Workers 最佳实践。在编写、审查或配置 Workers 时使用。"

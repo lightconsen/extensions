@@ -1,0 +1,16 @@
+id: sentry-doc-coauthoring
+type: skill
+version: 1.0.0
+category: content-writing
+name: doc-coauthoring
+description: "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
+license: Apache-2.0
+source:
+  repo: https://github.com/getsentry/skills
+  commit: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+  paths:
+    - skills/doc-coauthoring
+i18n:
+  zh:
+    name: doc-coauthoring
+    description: "引导用户通过结构化工作流共同编写文档。当用户想要编写文档、提案、技术规格、决策文档或类似的结构化内容时使用。该工作流帮助用户高效传递上下文、通过迭代完善内容，并验证文档对读者有效。当用户提到编写文档、创建提案、起草规格或类似的文档任务时触发。"

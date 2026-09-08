@@ -1,0 +1,16 @@
+id: firebase-security-rules-auditor
+type: skill
+version: 1.0.0
+category: security
+name: firebase-security-rules-auditor
+description: "Audits Firebase (Firestore, Cloud Storage) security rules for vulnerabilities, privilege escalation, role bypasses, create vs update inconsistencies, resource exhaustion, type safety, size limits, and hasOnly ownership checks. Use when auditing/reviewing rules, running red-team rule assessments, or scoring against auditor checklists. Don't use for Firebase CLI (login, deploy), Auth, Crashlytics, Remote Config, or database queries."
+license: Apache-2.0
+source:
+  repo: https://github.com/firebase/skills
+  commit: a0b4e143f40c1ebe05fe5f9a4787fecd4da8f478
+  paths:
+    - skills/firebase-security-rules-auditor
+i18n:
+  zh:
+    name: firebase-security-rules-auditor
+    description: "审计 Firebase（Firestore、Cloud Storage）安全规则，检查漏洞、权限提升、角色绕过、create 与 update 不一致、资源耗尽、类型安全、大小限制以及 hasOnly 所有权检查。在审计/审查规则、运行红队规则评估或根据审计员检查表评分时使用。请勿用于 Firebase CLI（登录、部署）、Auth、Crashlytics、Remote Config 或数据库查询。"

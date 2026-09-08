@@ -1,0 +1,16 @@
+id: sentry-pr-writer
+type: skill
+version: 1.0.0
+category: engineering
+name: pr-writer
+description: "Create or refresh reviewer-facing PR titles and descriptions. Use when opening a PR, updating its title or body, or preparing branch changes for review."
+license: Apache-2.0
+source:
+  repo: https://github.com/getsentry/skills
+  commit: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+  paths:
+    - skills/pr-writer
+i18n:
+  zh:
+    name: pr-writer
+    description: "创建或刷新面向审阅者的 PR 标题和描述。在开启 PR、更新其标题或正文，或准备分支更改以供审阅时使用。"

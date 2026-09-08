@@ -1,0 +1,16 @@
+id: firebase-basics
+type: skill
+version: 1.0.0
+category: engineering
+name: firebase-basics
+description: "Provides foundational Firebase CLI setup, CLI installation, version checks (`firebase-tools@latest --version`), CLI login (including --no-localhost), project creation, project selection (`firebase use`), and app config file downloads (`google-services.json`, `GoogleService-Info.plist`). Use ONLY for CLI login, project creation/switching, or downloading app config files. Don't use for Firebase Hosting deploy, Firestore, Auth, App Hosting, Data Connect, Crashlytics, or Remote Config."
+license: Apache-2.0
+source:
+  repo: https://github.com/firebase/skills
+  commit: a0b4e143f40c1ebe05fe5f9a4787fecd4da8f478
+  paths:
+    - skills/firebase-basics
+i18n:
+  zh:
+    name: firebase-basics
+    description: "提供基础的 Firebase CLI 设置、CLI 安装、版本检查（`firebase-tools@latest --version`）、CLI 登录（包括 --no-localhost）、项目创建、项目选择（`firebase use`）以及应用配置文件下载（`google-services.json`、`GoogleService-Info.plist`）。仅用于 CLI 登录、项目创建/切换或下载应用配置文件。请勿用于 Firebase Hosting 部署、Firestore、Auth、App Hosting、Data Connect、Crashlytics 或 Remote Config。"

@@ -1,0 +1,16 @@
+id: google-cloud-sql-basics
+type: skill
+version: 1.0.0
+category: engineering
+name: cloud-sql-basics
+description: "This file generates or explains Cloud SQL resources. Use this file when the user asks to create a Cloud SQL instance or database for MySQL, PostgreSQL, or SQL Server."
+license: Apache-2.0
+source:
+  repo: https://github.com/google/skills
+  commit: d56d145e512dca644a3b7ba8332da523c9a60e3c
+  paths:
+    - skills/cloud/cloud-sql-basics
+i18n:
+  zh:
+    name: "Cloud SQL 基础"
+    description: "此文件用于生成或解释 Cloud SQL 资源。当用户要求创建用于 MySQL、PostgreSQL 或 SQL Server 的 Cloud SQL 实例或数据库时，请使用此文件。"

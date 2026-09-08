@@ -1,0 +1,16 @@
+id: expo-native-ui
+type: skill
+version: 1.0.0
+category: engineering
+name: expo-native-ui
+description: "Framework (OSS). Build beautiful, native-feeling Expo screens. Covers Apple HIG styling, semantic colors, native controls, SF Symbols, media, visual effects, gradients, storage, and responsive layout. For routing and navigation, use the expo-router skill; for motion and animation, use the expo-animation skill."
+license: MIT
+source:
+  repo: https://github.com/expo/skills
+  commit: 170589a7ee8963156f63de8202fa96cf08a9e610
+  paths:
+    - plugins/expo/skills/expo-native-ui
+i18n:
+  zh:
+    name: expo-native-ui
+    description: "框架（开源）。构建美观、具有原生体验的 Expo 屏幕。涵盖 Apple HIG 样式、语义颜色、原生控件、SF Symbols、媒体、视觉效果、渐变、存储和响应式布局。对于路由和导航，请使用 expo-router 技能；对于动效和动画，请使用 expo-animation 技能。"

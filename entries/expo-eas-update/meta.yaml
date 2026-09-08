@@ -1,0 +1,16 @@
+id: expo-eas-update
+type: skill
+version: 1.0.0
+category: engineering
+name: eas-update
+description: "EAS service (paid). Configure and use EAS Update for over-the-air JavaScript and asset updates with expo-updates and EAS CLI. Use when setting up OTA updates, running eas update:configure or eas update, publishing to preview/staging/production channels, explaining branches/channels/runtime versions, testing updates, or debugging why an installed build still shows old code. Load for TestFlight, preview, or production updates that do not appear, including questions about cold launches or reopening the app. Not for update health metrics; use eas-update-insights for adoption, crashes, and rollout monitoring."
+license: MIT
+source:
+  repo: https://github.com/expo/skills
+  commit: 170589a7ee8963156f63de8202fa96cf08a9e610
+  paths:
+    - plugins/expo/skills/eas-update
+i18n:
+  zh:
+    name: eas-update
+    description: "EAS服务（付费）。使用expo-updates和EAS CLI配置并使用EAS Update，用于JavaScript和资源的无线（OTA）更新。适用于以下场景：设置OTA更新、运行eas update:configure或eas update、发布到预览/暂存/生产渠道、解释分支/渠道/运行时版本、测试更新，或调试已安装的构建仍显示旧代码的原因。当TestFlight、预览或生产环境的更新未出现时（包括冷启动或重新打开应用的问题）使用。不用于更新健康指标；如需监控采用率、崩溃和灰度发布，请使用eas-update-insights。"

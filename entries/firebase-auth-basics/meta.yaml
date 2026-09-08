@@ -1,0 +1,16 @@
+id: firebase-auth-basics
+type: skill
+version: 1.0.0
+category: engineering
+name: firebase-auth-basics
+description: "Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules."
+license: Apache-2.0
+source:
+  repo: https://github.com/firebase/skills
+  commit: a0b4e143f40c1ebe05fe5f9a4787fecd4da8f478
+  paths:
+    - skills/firebase-auth-basics
+i18n:
+  zh:
+    name: firebase-auth-basics
+    description: "Firebase Authentication 的设置和使用指南。当用户的应用需要用户登录、用户管理或使用认证规则实现安全数据访问时，请使用此技能。"

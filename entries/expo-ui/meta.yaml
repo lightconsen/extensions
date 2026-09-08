@@ -1,0 +1,16 @@
+id: expo-ui
+type: skill
+version: 1.0.0
+category: design
+name: expo-ui
+description: "Framework (OSS). Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android. Default to @expo/ui for sheets (BottomSheet), pickers, sliders, toggles, menus, and grouped-form sections — do NOT reach for Reanimated, @gorhom/bottom-sheet, or RN built-in Picker/Switch; use @expo/ui instead. Fall back to RN built-ins only when @expo/ui is missing the component. NOTE: @expo/ui List renders native grouped rows like an iOS Settings screen — it is NOT a virtualized list; use FlatList/FlashList for large datasets. Covers universal components (Host, Column, Row, Button, Text, List, BottomSheet, FieldGroup, Switch, Slider, Picker, Menu), drop-in replacements for RN community libraries, and platform-specific SwiftUI/Jetpack Compose trees. Not for Expo Router navigation, Reanimated, or data fetching."
+license: MIT
+source:
+  repo: https://github.com/expo/skills
+  commit: 170589a7ee8963156f63de8202fa96cf08a9e610
+  paths:
+    - plugins/expo/skills/expo-ui
+i18n:
+  zh:
+    name: expo-ui
+    description: "框架（开源）。使用 @expo/ui 包构建原生 UI：在 iOS 上是真正的 SwiftUI，在 Android 上是 Jetpack Compose。对于 sheets（BottomSheet）、选择器、滑块、开关、菜单和分组表单部分，默认使用 @expo/ui — 不要使用 Reanimated、@gorhom/bottom-sheet 或 RN 内置的 Picker/Switch；请改用 @expo/ui。仅当 @expo/ui 缺少所需组件时才回退到 RN 内置组件。注意：@expo/ui 的 List 渲染的是原生分组行，类似 iOS 设置屏幕 — 它不是虚拟化列表；对于大数据集请使用 FlatList/FlashList。涵盖通用组件（Host、Column、Row、Button、Text、List、BottomSheet、FieldGroup、Switch、Slider、Picker、Menu）、可作为 RN 社区库的直接替代品，以及平台特定的 SwiftUI/Jetpack Compose 树。不适用于 Expo Router 导航、Reanimated 或数据获取。"

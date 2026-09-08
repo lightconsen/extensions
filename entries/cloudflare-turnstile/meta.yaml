@@ -1,0 +1,16 @@
+id: cloudflare-turnstile
+type: skill
+version: 1.0.0
+category: security
+name: turnstile-spin
+description: "Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including server-side Siteverify."
+license: Apache-2.0
+source:
+  repo: https://github.com/cloudflare/skills
+  commit: b052c32bab7dd493513260228a36c88294f343f1
+  paths:
+    - skills/turnstile-spin
+i18n:
+  zh:
+    name: turnstile-spin
+    description: "在现有前端和后端中设置、修复或迁移到 Cloudflare Turnstile 机器人验证，包括服务器端 Siteverify。"

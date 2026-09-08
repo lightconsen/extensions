@@ -1,0 +1,16 @@
+id: cloudflare-email-service
+type: skill
+version: 1.0.0
+category: engineering
+name: cloudflare-email-service
+description: "Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration."
+license: Apache-2.0
+source:
+  repo: https://github.com/cloudflare/skills
+  commit: b052c32bab7dd493513260228a36c88294f343f1
+  paths:
+    - skills/cloudflare-email-service
+i18n:
+  zh:
+    name: cloudflare-email-service
+    description: "实现或排查 Cloudflare Email Sending 和 Email Routing 集成及其投递配置。"

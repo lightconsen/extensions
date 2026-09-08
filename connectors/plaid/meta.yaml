@@ -1,0 +1,13 @@
+id: plaid
+type: connector
+version: 1.0.0
+category: business
+name: Plaid
+description: "Bank account data, transactions and identity through the Plaid API."
+connector:
+  url: "https://mcp.plaid.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Plaid
+    description: "通过 Plaid API 获取银行账户数据、交易和身份信息。"

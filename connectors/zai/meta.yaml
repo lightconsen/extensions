@@ -1,0 +1,13 @@
+id: zai
+type: connector
+version: 1.0.0
+category: data-ai
+name: Z.ai
+description: "Access the GLM model family and Z.ai open platform APIs."
+connector:
+  url: "https://mcp.z.ai"
+  auth: operator
+i18n:
+  zh:
+    name: "智谱"
+    description: "访问GLM模型系列和Z.ai开放平台API。"

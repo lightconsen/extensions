@@ -1,0 +1,16 @@
+id: ms-docs
+type: connector
+version: 1.0.0
+category: engineering
+name: "Microsoft Learn"
+description: "Search official Microsoft Learn documentation for Azure, .NET, Microsoft 365 and more."
+license: MIT
+source:
+  repo: https://github.com/microsoftdocs/mcp
+connector:
+  url: "https://learn.microsoft.com/api/mcp"
+  auth: none
+i18n:
+  zh:
+    name: "Microsoft Learn"
+    description: "搜索 Azure、.NET、Microsoft 365 等产品的 Microsoft Learn 官方文档。"

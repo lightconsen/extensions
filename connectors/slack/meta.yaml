@@ -1,0 +1,13 @@
+id: slack
+type: connector
+version: 1.0.0
+category: business
+name: Slack
+description: "Official Slack server: list channels, read threads and send messages."
+connector:
+  url: "https://mcp.slack.com/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Slack
+    description: "官方 Slack 服务器：列出频道、阅读话题和发送消息。"

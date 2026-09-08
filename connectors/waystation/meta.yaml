@@ -1,0 +1,13 @@
+id: waystation
+type: connector
+version: 1.0.0
+category: business
+name: WayStation
+description: "One hub connecting agents to Google Workspace, Notion, Slack and other SaaS tools."
+connector:
+  url: "https://mcp.waystation.ai/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: WayStation
+    description: "一个将智能体连接到 Google Workspace、Notion、Slack 和其他 SaaS 工具的中心。"

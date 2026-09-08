@@ -1,0 +1,13 @@
+id: notion
+type: connector
+version: 1.0.0
+category: business
+name: Notion
+description: "Official Notion server: search, read and update pages, databases and comments."
+connector:
+  url: "https://mcp.notion.com/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Notion
+    description: "官方 Notion 服务器：搜索、读取和更新页面、数据库和评论。"

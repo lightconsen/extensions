@@ -1,0 +1,13 @@
+id: hyperbrowser
+type: connector
+version: 1.0.0
+category: engineering
+name: Hyperbrowser
+description: "Cloud browsers with stealth sessions and scraping APIs for AI agents."
+connector:
+  url: "https://mcp.hyperbrowser.ai"
+  auth: operator
+i18n:
+  zh:
+    name: Hyperbrowser
+    description: "面向AI智能体的云浏览器，具备隐身会话和抓取API。"

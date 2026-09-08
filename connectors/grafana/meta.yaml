@@ -1,0 +1,13 @@
+id: grafana
+type: connector
+version: 1.0.0
+category: engineering
+name: Grafana
+description: "Query dashboards, panels and Loki logs from your Grafana stack."
+connector:
+  url: "https://mcp.grafana.com"
+  auth: operator
+i18n:
+  zh:
+    name: Grafana
+    description: "从您的 Grafana 技术栈中查询仪表盘、面板和 Loki 日志。"

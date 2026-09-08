@@ -1,0 +1,16 @@
+id: e2b
+type: connector
+version: 1.0.0
+category: engineering
+name: E2B
+description: "Secure cloud sandboxes for running AI-generated code with filesystem and network access."
+license: MIT
+source:
+  repo: https://github.com/e2b-dev/E2B
+connector:
+  url: "https://mcp.e2b.dev"
+  auth: operator
+i18n:
+  zh:
+    name: E2B
+    description: "用于运行AI生成代码的安全云沙箱，提供文件系统和网络访问。"

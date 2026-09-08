@@ -1,0 +1,16 @@
+id: aws-knowledge
+type: connector
+version: 1.0.0
+category: engineering
+name: "AWS Knowledge"
+description: "Search AWS documentation, news and reference content from the official AWS knowledge server."
+license: Apache-2.0
+source:
+  repo: https://github.com/awslabs/mcp
+connector:
+  url: "https://knowledge-mcp.global.aws.dev/mcp"
+  auth: none
+i18n:
+  zh:
+    name: "AWS 知识"
+    description: "从官方 AWS 知识服务器搜索 AWS 文档、新闻和参考内容。"

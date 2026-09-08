@@ -1,0 +1,13 @@
+id: fal
+type: connector
+version: 1.0.0
+category: design
+name: fal.ai
+description: "Generate images, video and audio with fal.ai's hosted generative models."
+connector:
+  url: "https://mcp.fal.ai"
+  auth: operator
+i18n:
+  zh:
+    name: fal.ai
+    description: "使用 fal.ai 托管的生成模型生成图像、视频和音频。"

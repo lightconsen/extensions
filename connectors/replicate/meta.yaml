@@ -1,0 +1,13 @@
+id: replicate
+type: connector
+version: 1.0.0
+category: design
+name: Replicate
+description: "Run, fine-tune and manage hosted machine-learning models on Replicate."
+connector:
+  url: "https://mcp.replicate.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Replicate
+    description: "在 Replicate 上运行、微调并管理托管的机器学习模型。"

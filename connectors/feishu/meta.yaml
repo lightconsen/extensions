@@ -1,0 +1,13 @@
+id: feishu
+type: connector
+version: 1.0.0
+category: business
+name: "Feishu / Lark"
+description: "Official Feishu (Lark) server: docs, messages, calendars and approvals — the top choice for Chinese teams."
+connector:
+  url: "https://mcp.feishu.cn/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: "飞书"
+    description: "官方Feishu (Lark)服务器：文档、消息、日历和审批——中国团队的首选。"

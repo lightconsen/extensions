@@ -1,0 +1,16 @@
+id: exa
+type: connector
+version: 1.0.0
+category: research-education
+name: Exa
+description: "Semantic web search and content retrieval built for AI applications."
+license: Apache-2.0
+source:
+  repo: https://github.com/exa-labs/exa-mcp-server
+connector:
+  url: "https://mcp.exa.ai/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: Exa
+    description: "专为AI应用构建的语义网络搜索与内容检索服务。"

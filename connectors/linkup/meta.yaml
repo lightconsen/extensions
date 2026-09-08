@@ -1,0 +1,13 @@
+id: linkup
+type: connector
+version: 1.0.0
+category: research-education
+name: Linkup
+description: "Web search API with quality-ranked sources, popular for agentic research."
+connector:
+  url: "https://mcp.linkup.so/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: Linkup
+    description: "提供质量排序来源的网页搜索API，常用于智能体研究。"

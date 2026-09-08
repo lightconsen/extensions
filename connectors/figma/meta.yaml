@@ -1,0 +1,13 @@
+id: figma
+type: connector
+version: 1.0.0
+category: design
+name: Figma
+description: "Official Figma server: read designs, edit canvases and extract code-ready context."
+connector:
+  url: "https://mcp.figma.com/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Figma
+    description: "官方 Figma 服务器：读取设计、编辑画布并提取可写代码的上下文。"

@@ -1,0 +1,13 @@
+id: dingtalk
+type: connector
+version: 1.0.0
+category: business
+name: DingTalk
+description: "Official DingTalk server: messages, calendars and organizational contacts for Chinese teams."
+connector:
+  url: "https://mcp.dingtalk.com/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: "钉钉"
+    description: "DingTalk 官方服务器：面向中国团队的消息、日历和组织联系人。"

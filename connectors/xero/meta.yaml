@@ -1,0 +1,13 @@
+id: xero
+type: connector
+version: 1.0.0
+category: business
+name: Xero
+description: "Accounting automation on Xero: invoices, contacts and reports."
+connector:
+  url: "https://mcp.xero.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Xero
+    description: "Xero上的会计自动化：发票、联系人和报告。"

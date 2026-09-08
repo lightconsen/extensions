@@ -1,0 +1,13 @@
+id: circleci
+type: connector
+version: 1.0.0
+category: engineering
+name: CircleCI
+description: "Inspect pipelines, jobs and test failures from CircleCI."
+connector:
+  url: "https://mcp.circleci.com"
+  auth: operator
+i18n:
+  zh:
+    name: CircleCI
+    description: "检查来自 CircleCI 的流水线、作业和测试失败。"

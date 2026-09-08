@@ -1,0 +1,13 @@
+id: browserbase
+type: connector
+version: 1.0.0
+category: engineering
+name: Browserbase
+description: "Managed cloud browser infrastructure for reliable, scalable web automation."
+connector:
+  url: "https://mcp.browserbase.com"
+  auth: operator
+i18n:
+  zh:
+    name: Browserbase
+    description: "用于可靠、可扩展的Web自动化的托管云浏览器基础设施。"

@@ -1,0 +1,13 @@
+id: zapier
+type: connector
+version: 1.0.0
+category: business
+name: Zapier
+description: "Connect your agent to 8,000+ apps through Zapier workflows and actions."
+connector:
+  url: "https://mcp.zapier.com/api/mcp/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Zapier
+    description: "通过 Zapier 工作流和操作将您的智能体连接到 8,000 多个应用。"

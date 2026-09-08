@@ -1,0 +1,13 @@
+id: pagerduty
+type: connector
+version: 1.0.0
+category: engineering
+name: PagerDuty
+description: "Manage incidents, on-call schedules and alerts in PagerDuty."
+connector:
+  url: "https://mcp.pagerduty.com"
+  auth: oauth
+i18n:
+  zh:
+    name: PagerDuty
+    description: "在 PagerDuty 中管理事件、值班安排和警报。"

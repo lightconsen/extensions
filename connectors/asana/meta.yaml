@@ -1,0 +1,13 @@
+id: asana
+type: connector
+version: 1.0.0
+category: business
+name: Asana
+description: "Official Asana server: create and manage tasks, projects, subtasks and comments."
+connector:
+  url: "https://mcp.asana.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Asana
+    description: "官方 Asana 服务器：创建和管理任务、项目、子任务和评论。"

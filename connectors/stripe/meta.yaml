@@ -1,0 +1,13 @@
+id: stripe
+type: connector
+version: 1.0.0
+category: business
+name: Stripe
+description: "Official Stripe server: manage payments, customers, invoices and disputes."
+connector:
+  url: "https://mcp.stripe.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Stripe
+    description: "Stripe 官方服务器：管理支付、客户、发票和争议。"

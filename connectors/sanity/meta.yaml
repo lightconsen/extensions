@@ -1,0 +1,13 @@
+id: sanity
+type: connector
+version: 1.0.0
+category: design
+name: Sanity
+description: "Query and manage structured content in the Sanity CMS from your agent."
+connector:
+  url: "https://mcp.sanity.io/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Sanity
+    description: "由您的代理查询和管理Sanity CMS中的结构化内容。"

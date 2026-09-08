@@ -1,0 +1,13 @@
+id: render
+type: connector
+version: 1.0.0
+category: engineering
+name: Render
+description: "Deploy and manage services, jobs and cron tasks on Render."
+connector:
+  url: "https://mcp.render.com"
+  auth: operator
+i18n:
+  zh:
+    name: Render
+    description: "在 Render 上部署和管理服务、作业和定时任务。"

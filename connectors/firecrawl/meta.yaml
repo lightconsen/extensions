@@ -1,0 +1,16 @@
+id: firecrawl
+type: connector
+version: 1.0.0
+category: research-education
+name: Firecrawl
+description: "Crawl websites, extract structured data and take screenshots, ready for LLM consumption."
+license: MIT
+source:
+  repo: https://github.com/firecrawl/firecrawl-mcp-server
+connector:
+  url: "https://mcp.firecrawl.dev/v2"
+  auth: operator
+i18n:
+  zh:
+    name: Firecrawl
+    description: "爬取网站、提取结构化数据并截图，为LLM使用做好准备。"

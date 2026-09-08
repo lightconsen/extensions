@@ -1,0 +1,13 @@
+id: fastly
+type: connector
+version: 1.0.0
+category: engineering
+name: Fastly
+description: "Manage CDN services, purge caches and inspect Fastly configurations."
+connector:
+  url: "https://mcp.fastly.com"
+  auth: operator
+i18n:
+  zh:
+    name: Fastly
+    description: "管理CDN服务、清除缓存并检查Fastly配置。"

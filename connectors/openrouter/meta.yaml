@@ -1,0 +1,13 @@
+id: openrouter
+type: connector
+version: 1.0.0
+category: data-ai
+name: OpenRouter
+description: "Route LLM requests across hundreds of providers through OpenRouter."
+connector:
+  url: "https://mcp.openrouter.ai"
+  auth: operator
+i18n:
+  zh:
+    name: OpenRouter
+    description: "通过OpenRouter在数百个提供商之间路由LLM请求。"

@@ -1,0 +1,13 @@
+id: deepgram
+type: connector
+version: 1.0.0
+category: data-ai
+name: Deepgram
+description: "Speech-to-text and text-to-speech through the Deepgram API."
+connector:
+  url: "https://mcp.deepgram.com"
+  auth: operator
+i18n:
+  zh:
+    name: Deepgram
+    description: "通过 Deepgram API 进行语音转文本和文本转语音。"

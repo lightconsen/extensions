@@ -1,0 +1,13 @@
+id: klavis
+type: connector
+version: 1.0.0
+category: business
+name: Klavis
+description: "Unified MCP gateway with hosted OAuth for 100+ service integrations."
+connector:
+  url: "https://mcp.klavis.ai"
+  auth: operator
+i18n:
+  zh:
+    name: Klavis
+    description: "统一MCP网关，提供托管OAuth，支持100多种服务集成。"

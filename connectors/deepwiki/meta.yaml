@@ -1,0 +1,13 @@
+id: deepwiki
+type: connector
+version: 1.0.0
+category: engineering
+name: DeepWiki
+description: "Ask questions about any public GitHub repository and get cited, wiki-style answers."
+connector:
+  url: "https://mcp.deepwiki.com/mcp"
+  auth: none
+i18n:
+  zh:
+    name: DeepWiki
+    description: "就任何公共GitHub仓库提出问题，并获得带有引用的、维基风格的答案。"

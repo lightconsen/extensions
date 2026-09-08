@@ -1,0 +1,16 @@
+id: neon
+type: connector
+version: 1.0.0
+category: data-ai
+name: Neon
+description: "Provision Postgres databases, run migrations and manage Neon projects."
+license: MIT
+source:
+  repo: https://github.com/neondatabase/mcp-server-neon
+connector:
+  url: "https://mcp.neon.tech/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Neon
+    description: "配置 Postgres 数据库、运行迁移并管理 Neon 项目。"

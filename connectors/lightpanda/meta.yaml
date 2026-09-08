@@ -1,0 +1,13 @@
+id: lightpanda
+type: connector
+version: 1.0.0
+category: engineering
+name: Lightpanda
+description: "Fast, low-memory headless browser built for AI agents and automation."
+connector:
+  url: "https://mcp.lightpanda.io"
+  auth: none
+i18n:
+  zh:
+    name: Lightpanda
+    description: "为AI代理和自动化而构建的快速、低内存无头浏览器。"

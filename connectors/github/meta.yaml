@@ -1,0 +1,16 @@
+id: github
+type: connector
+version: 1.0.0
+category: engineering
+name: GitHub
+description: "Official GitHub MCP server: manage issues, pull requests, Actions workflows and repositories."
+license: MIT
+source:
+  repo: https://github.com/github/github-mcp-server
+connector:
+  url: "https://api.githubcopilot.com/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: GitHub
+    description: "官方 GitHub MCP 服务器：管理问题、拉取请求、Actions 工作流和仓库。"

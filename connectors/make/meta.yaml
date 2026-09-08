@@ -1,0 +1,13 @@
+id: make
+type: connector
+version: 1.0.0
+category: business
+name: Make
+description: "Run and manage Make scenario automations from your agent."
+connector:
+  url: "https://mcp.make.com/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Make
+    description: "从您的智能体运行和管理Make场景自动化。"

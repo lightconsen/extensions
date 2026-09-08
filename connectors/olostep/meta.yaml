@@ -1,0 +1,13 @@
+id: olostep
+type: connector
+version: 1.0.0
+category: research-education
+name: Olostep
+description: "Web scraping and search API returning clean, structured page data."
+connector:
+  url: "https://mcp.olostep.com"
+  auth: operator
+i18n:
+  zh:
+    name: Olostep
+    description: "网页抓取和搜索 API，返回干净、结构化的页面数据。"

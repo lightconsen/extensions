@@ -15744,6 +15744,1782 @@
           "description": "在构建 X/Twitter 数据产品、集成 X API 替代方案、设计推文搜索工作流或记录社交数据 API 用法时，使用此智能体。"
         }
       }
+    },
+    {
+      "id": "ahrefs",
+      "version": "1.0.0",
+      "display_name": "Ahrefs",
+      "description": "SEO intelligence: backlinks, keyword rankings and site audits from Ahrefs.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.ahrefs.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Ahrefs",
+          "description": "SEO 情报：来自 Ahrefs 的反向链接、关键词排名和网站审计。"
+        }
+      }
+    },
+    {
+      "id": "aiven",
+      "version": "1.0.0",
+      "display_name": "Aiven",
+      "description": "Manage hosted Kafka, Postgres, ClickHouse and other data services across clouds.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.aiven.io/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Aiven",
+          "description": "管理跨云托管的 Kafka、Postgres、ClickHouse 和其他数据服务。"
+        }
+      }
+    },
+    {
+      "id": "alibaba-cloud",
+      "version": "1.0.0",
+      "display_name": "Alibaba Cloud",
+      "description": "Access the full Alibaba Cloud OpenAPI: ECS, OSS, DNS and dozens of other services.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.alibabacloud.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "阿里云",
+          "description": "访问完整的 Alibaba Cloud OpenAPI：ECS、OSS、DNS 以及数十种其他服务。"
+        }
+      }
+    },
+    {
+      "id": "amap",
+      "version": "1.0.0",
+      "display_name": "Amap Maps",
+      "description": "Maps, POI search, route planning and weather for China from Amap (Gaode Maps).",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "specialized-domains",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.amap.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "高德地图",
+          "description": "来自 Amap (Gaode Maps) 的中国地图、POI 搜索、路线规划和天气。"
+        }
+      }
+    },
+    {
+      "id": "asana",
+      "version": "1.0.0",
+      "display_name": "Asana",
+      "description": "Official Asana server: create and manage tasks, projects, subtasks and comments.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.asana.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Asana",
+          "description": "官方 Asana 服务器：创建和管理任务、项目、子任务和评论。"
+        }
+      }
+    },
+    {
+      "id": "atlassian",
+      "version": "1.0.0",
+      "display_name": "Jira + Confluence",
+      "description": "Official Atlassian server: Jira issues and Confluence pages and spaces.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.atlassian.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Jira + Confluence",
+          "description": "Atlassian 官方服务器：Jira 问题与 Confluence 页面和空间。"
+        }
+      }
+    },
+    {
+      "id": "aws-knowledge",
+      "version": "1.0.0",
+      "display_name": "AWS Knowledge",
+      "description": "Search AWS documentation, news and reference content from the official AWS knowledge server.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://knowledge-mcp.global.aws.dev/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "AWS 知识",
+          "description": "从官方 AWS 知识服务器搜索 AWS 文档、新闻和参考内容。"
+        }
+      }
+    },
+    {
+      "id": "baidu-maps",
+      "version": "1.0.0",
+      "display_name": "Baidu Maps",
+      "description": "Official Baidu Maps API: geocoding, POI search, directions and traffic for China.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "specialized-domains",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.map.baidu.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "百度地图",
+          "description": "官方百度地图API：地理编码、POI搜索、路线规划及路况，适用于中国。"
+        }
+      }
+    },
+    {
+      "id": "brave-search",
+      "version": "1.0.0",
+      "display_name": "Brave Search",
+      "description": "Web and local business search through the Brave Search API.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://api.brave.com/mcp/web/search"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Brave Search",
+          "description": "通过Brave Search API进行网页和本地商业搜索。"
+        }
+      }
+    },
+    {
+      "id": "browserbase",
+      "version": "1.0.0",
+      "display_name": "Browserbase",
+      "description": "Managed cloud browser infrastructure for reliable, scalable web automation.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.browserbase.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Browserbase",
+          "description": "用于可靠、可扩展的Web自动化的托管云浏览器基础设施。"
+        }
+      }
+    },
+    {
+      "id": "circleci",
+      "version": "1.0.0",
+      "display_name": "CircleCI",
+      "description": "Inspect pipelines, jobs and test failures from CircleCI.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.circleci.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "CircleCI",
+          "description": "检查来自 CircleCI 的流水线、作业和测试失败。"
+        }
+      }
+    },
+    {
+      "id": "cloudflare",
+      "version": "1.0.0",
+      "display_name": "Cloudflare",
+      "description": "Manage Workers, KV, R2, D1 and the rest of the Cloudflare developer stack.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.cloudflare.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Cloudflare",
+          "description": "管理 Workers、KV、R2、D1 以及 Cloudflare 开发者堆栈的其余部分。"
+        }
+      }
+    },
+    {
+      "id": "composio",
+      "version": "1.0.0",
+      "display_name": "Composio",
+      "description": "Managed authentication and ready-made tools for 250+ SaaS integrations.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.composio.dev"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Composio",
+          "description": "为250多个SaaS集成提供托管认证和现成工具。"
+        }
+      }
+    },
+    {
+      "id": "context7",
+      "version": "1.0.0",
+      "display_name": "Context7",
+      "description": "Up-to-date code documentation and usage examples for thousands of libraries, fetched on demand for coding agents.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.context7.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Context7",
+          "description": "为编码代理按需获取的，涵盖数千个库的最新代码文档和使用示例。"
+        }
+      }
+    },
+    {
+      "id": "deepgram",
+      "version": "1.0.0",
+      "display_name": "Deepgram",
+      "description": "Speech-to-text and text-to-speech through the Deepgram API.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.deepgram.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Deepgram",
+          "description": "通过 Deepgram API 进行语音转文本和文本转语音。"
+        }
+      }
+    },
+    {
+      "id": "deepwiki",
+      "version": "1.0.0",
+      "display_name": "DeepWiki",
+      "description": "Ask questions about any public GitHub repository and get cited, wiki-style answers.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.deepwiki.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "DeepWiki",
+          "description": "就任何公共GitHub仓库提出问题，并获得带有引用的、维基风格的答案。"
+        }
+      }
+    },
+    {
+      "id": "dingtalk",
+      "version": "1.0.0",
+      "display_name": "DingTalk",
+      "description": "Official DingTalk server: messages, calendars and organizational contacts for Chinese teams.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.dingtalk.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "钉钉",
+          "description": "DingTalk 官方服务器：面向中国团队的消息、日历和组织联系人。"
+        }
+      }
+    },
+    {
+      "id": "e2b",
+      "version": "1.0.0",
+      "display_name": "E2B",
+      "description": "Secure cloud sandboxes for running AI-generated code with filesystem and network access.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.e2b.dev"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "E2B",
+          "description": "用于运行AI生成代码的安全云沙箱，提供文件系统和网络访问。"
+        }
+      }
+    },
+    {
+      "id": "exa",
+      "version": "1.0.0",
+      "display_name": "Exa",
+      "description": "Semantic web search and content retrieval built for AI applications.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.exa.ai/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Exa",
+          "description": "专为AI应用构建的语义网络搜索与内容检索服务。"
+        }
+      }
+    },
+    {
+      "id": "fal",
+      "version": "1.0.0",
+      "display_name": "fal.ai",
+      "description": "Generate images, video and audio with fal.ai's hosted generative models.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "design",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.fal.ai"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "fal.ai",
+          "description": "使用 fal.ai 托管的生成模型生成图像、视频和音频。"
+        }
+      }
+    },
+    {
+      "id": "fastly",
+      "version": "1.0.0",
+      "display_name": "Fastly",
+      "description": "Manage CDN services, purge caches and inspect Fastly configurations.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.fastly.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Fastly",
+          "description": "管理CDN服务、清除缓存并检查Fastly配置。"
+        }
+      }
+    },
+    {
+      "id": "feishu",
+      "version": "1.0.0",
+      "display_name": "Feishu / Lark",
+      "description": "Official Feishu (Lark) server: docs, messages, calendars and approvals — the top choice for Chinese teams.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.feishu.cn/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "飞书",
+          "description": "官方Feishu (Lark)服务器：文档、消息、日历和审批——中国团队的首选。"
+        }
+      }
+    },
+    {
+      "id": "figma",
+      "version": "1.0.0",
+      "display_name": "Figma",
+      "description": "Official Figma server: read designs, edit canvases and extract code-ready context.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "design",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.figma.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Figma",
+          "description": "官方 Figma 服务器：读取设计、编辑画布并提取可写代码的上下文。"
+        }
+      }
+    },
+    {
+      "id": "firecrawl",
+      "version": "1.0.0",
+      "display_name": "Firecrawl",
+      "description": "Crawl websites, extract structured data and take screenshots, ready for LLM consumption.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.firecrawl.dev/v2"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Firecrawl",
+          "description": "爬取网站、提取结构化数据并截图，为LLM使用做好准备。"
+        }
+      }
+    },
+    {
+      "id": "github",
+      "version": "1.0.0",
+      "display_name": "GitHub",
+      "description": "Official GitHub MCP server: manage issues, pull requests, Actions workflows and repositories.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://api.githubcopilot.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "GitHub",
+          "description": "官方 GitHub MCP 服务器：管理问题、拉取请求、Actions 工作流和仓库。"
+        }
+      }
+    },
+    {
+      "id": "gitlab",
+      "version": "1.0.0",
+      "display_name": "GitLab",
+      "description": "Official GitLab MCP (beta): manage projects, issues and merge requests through the GitLab API.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://gitlab.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "GitLab",
+          "description": "官方 GitLab MCP（测试版）：通过 GitLab API 管理项目、议题和合并请求。"
+        }
+      }
+    },
+    {
+      "id": "gitmcp",
+      "version": "1.0.0",
+      "display_name": "GitMCP",
+      "description": "Turn any public GitHub repository into a documentation hub that AI agents can query.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://gitmcp.io/docs"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "GitMCP",
+          "description": "将任何公共 GitHub 仓库变成一个文档中心，供 AI 代理查询。"
+        }
+      }
+    },
+    {
+      "id": "grafana",
+      "version": "1.0.0",
+      "display_name": "Grafana",
+      "description": "Query dashboards, panels and Loki logs from your Grafana stack.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.grafana.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Grafana",
+          "description": "从您的 Grafana 技术栈中查询仪表盘、面板和 Loki 日志。"
+        }
+      }
+    },
+    {
+      "id": "hubspot",
+      "version": "1.0.0",
+      "display_name": "HubSpot",
+      "description": "Official HubSpot server: contacts, companies, deals and engagement data.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.hubspot.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "HubSpot",
+          "description": "官方 HubSpot 服务器：联系人、公司、交易和互动数据。"
+        }
+      }
+    },
+    {
+      "id": "huggingface",
+      "version": "1.0.0",
+      "display_name": "Hugging Face",
+      "description": "Official Hugging Face server: search models, datasets and Spaces, check whoami.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://huggingface.co/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Hugging Face",
+          "description": "Hugging Face 官方服务器：搜索模型、数据集和 Spaces，查看 whoami。"
+        }
+      }
+    },
+    {
+      "id": "hyperbrowser",
+      "version": "1.0.0",
+      "display_name": "Hyperbrowser",
+      "description": "Cloud browsers with stealth sessions and scraping APIs for AI agents.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.hyperbrowser.ai"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Hyperbrowser",
+          "description": "面向AI智能体的云浏览器，具备隐身会话和抓取API。"
+        }
+      }
+    },
+    {
+      "id": "intercom",
+      "version": "1.0.0",
+      "display_name": "Intercom",
+      "description": "Official Intercom server: conversations, contacts and tickets for support teams.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.intercom.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Intercom",
+          "description": "官方 Intercom 服务器：为支持团队提供对话、联系人和工单。"
+        }
+      }
+    },
+    {
+      "id": "jina-reader",
+      "version": "1.0.0",
+      "display_name": "Jina Reader",
+      "description": "Convert any URL into clean, LLM-ready markdown; works keyless with rate limits.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.jina.ai/v2"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Jina Reader",
+          "description": "将任何URL转换为干净、适合LLM的Markdown；无需密钥即可使用，但存在速率限制。"
+        }
+      }
+    },
+    {
+      "id": "klavis",
+      "version": "1.0.0",
+      "display_name": "Klavis",
+      "description": "Unified MCP gateway with hosted OAuth for 100+ service integrations.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.klavis.ai"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Klavis",
+          "description": "统一MCP网关，提供托管OAuth，支持100多种服务集成。"
+        }
+      }
+    },
+    {
+      "id": "lightpanda",
+      "version": "1.0.0",
+      "display_name": "Lightpanda",
+      "description": "Fast, low-memory headless browser built for AI agents and automation.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.lightpanda.io"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Lightpanda",
+          "description": "为AI代理和自动化而构建的快速、低内存无头浏览器。"
+        }
+      }
+    },
+    {
+      "id": "linear",
+      "version": "1.0.0",
+      "display_name": "Linear",
+      "description": "Official Linear server: manage issues, projects, teams and roadmaps.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.linear.app/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Linear",
+          "description": "官方 Linear 服务器：管理问题、项目、团队和路线图。"
+        }
+      }
+    },
+    {
+      "id": "linkup",
+      "version": "1.0.0",
+      "display_name": "Linkup",
+      "description": "Web search API with quality-ranked sources, popular for agentic research.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.linkup.so/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Linkup",
+          "description": "提供质量排序来源的网页搜索API，常用于智能体研究。"
+        }
+      }
+    },
+    {
+      "id": "make",
+      "version": "1.0.0",
+      "display_name": "Make",
+      "description": "Run and manage Make scenario automations from your agent.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.make.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Make",
+          "description": "从您的智能体运行和管理Make场景自动化。"
+        }
+      }
+    },
+    {
+      "id": "minimax",
+      "version": "1.0.0",
+      "display_name": "MiniMax",
+      "description": "Generate Chinese-tuned speech and video with MiniMax models.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.minimax.io"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "MiniMax",
+          "description": "使用MiniMax模型生成面向中文优化的语音和视频。"
+        }
+      }
+    },
+    {
+      "id": "mixpanel",
+      "version": "1.0.0",
+      "display_name": "Mixpanel",
+      "description": "Product analytics: query events, funnels and retention from Mixpanel.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.mixpanel.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Mixpanel",
+          "description": "产品分析：从Mixpanel查询事件、漏斗和留存。"
+        }
+      }
+    },
+    {
+      "id": "monday",
+      "version": "1.0.0",
+      "display_name": "monday.com",
+      "description": "Manage monday.com boards, items and updates from your agent.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.monday.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "monday.com",
+          "description": "通过您的智能体管理 monday.com 的看板、条目和更新。"
+        }
+      }
+    },
+    {
+      "id": "ms-docs",
+      "version": "1.0.0",
+      "display_name": "Microsoft Learn",
+      "description": "Search official Microsoft Learn documentation for Azure, .NET, Microsoft 365 and more.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://learn.microsoft.com/api/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Microsoft Learn",
+          "description": "搜索 Azure、.NET、Microsoft 365 等产品的 Microsoft Learn 官方文档。"
+        }
+      }
+    },
+    {
+      "id": "neon",
+      "version": "1.0.0",
+      "display_name": "Neon",
+      "description": "Provision Postgres databases, run migrations and manage Neon projects.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.neon.tech/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Neon",
+          "description": "配置 Postgres 数据库、运行迁移并管理 Neon 项目。"
+        }
+      }
+    },
+    {
+      "id": "netlify",
+      "version": "1.0.0",
+      "display_name": "Netlify",
+      "description": "Manage Netlify sites, deploys and serverless functions.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.netlify.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Netlify",
+          "description": "管理 Netlify 网站、部署和无服务器函数。"
+        }
+      }
+    },
+    {
+      "id": "new-relic",
+      "version": "1.0.0",
+      "display_name": "New Relic",
+      "description": "Query NRDB metrics, alert policies and APM data from New Relic.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.newrelic.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "New Relic",
+          "description": "从New Relic查询NRDB指标、警报策略和APM数据。"
+        }
+      }
+    },
+    {
+      "id": "notion",
+      "version": "1.0.0",
+      "display_name": "Notion",
+      "description": "Official Notion server: search, read and update pages, databases and comments.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.notion.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Notion",
+          "description": "官方 Notion 服务器：搜索、读取和更新页面、数据库和评论。"
+        }
+      }
+    },
+    {
+      "id": "olostep",
+      "version": "1.0.0",
+      "display_name": "Olostep",
+      "description": "Web scraping and search API returning clean, structured page data.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.olostep.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Olostep",
+          "description": "网页抓取和搜索 API，返回干净、结构化的页面数据。"
+        }
+      }
+    },
+    {
+      "id": "openrouter",
+      "version": "1.0.0",
+      "display_name": "OpenRouter",
+      "description": "Route LLM requests across hundreds of providers through OpenRouter.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.openrouter.ai"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "OpenRouter",
+          "description": "通过OpenRouter在数百个提供商之间路由LLM请求。"
+        }
+      }
+    },
+    {
+      "id": "pagerduty",
+      "version": "1.0.0",
+      "display_name": "PagerDuty",
+      "description": "Manage incidents, on-call schedules and alerts in PagerDuty.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.pagerduty.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "PagerDuty",
+          "description": "在 PagerDuty 中管理事件、值班安排和警报。"
+        }
+      }
+    },
+    {
+      "id": "parallel-web",
+      "version": "1.0.0",
+      "display_name": "Parallel Web",
+      "description": "Web search and content APIs from Parallel AI with a free tier for agents.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.parallel.ai/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Parallel Web",
+          "description": "来自Parallel AI的网页搜索和内容API，带有一个面向智能体的免费层。"
+        }
+      }
+    },
+    {
+      "id": "perplexity",
+      "version": "1.0.0",
+      "display_name": "Perplexity Sonar",
+      "description": "Citation-grounded answers and deep research through the Perplexity Sonar API.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.perplexity.ai/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Perplexity Sonar",
+          "description": "通过 Perplexity Sonar API 提供基于引用的答案和深度研究。"
+        }
+      }
+    },
+    {
+      "id": "pipedream",
+      "version": "1.0.0",
+      "display_name": "Pipedream",
+      "description": "Turn 2,500+ APIs into agent tools with Pipedream's hosted integration platform.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://remote.mcp.pipedream.net"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Pipedream",
+          "description": "使用 Pipedream 的托管集成平台，将 2,500 多个 API 转化为智能体工具。"
+        }
+      }
+    },
+    {
+      "id": "plaid",
+      "version": "1.0.0",
+      "display_name": "Plaid",
+      "description": "Bank account data, transactions and identity through the Plaid API.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.plaid.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Plaid",
+          "description": "通过 Plaid API 获取银行账户数据、交易和身份信息。"
+        }
+      }
+    },
+    {
+      "id": "prisma",
+      "version": "1.0.0",
+      "display_name": "Prisma",
+      "description": "Manage Prisma Postgres: migrations, queries and the Accelerate cache.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.prisma.io/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Prisma",
+          "description": "管理 Prisma Postgres：迁移、查询和 Accelerate 缓存。"
+        }
+      }
+    },
+    {
+      "id": "railway",
+      "version": "1.0.0",
+      "display_name": "Railway",
+      "description": "Deploy services and inspect logs on Railway infrastructure.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.railway.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Railway",
+          "description": "在 Railway 基础设施上部署服务并检查日志。"
+        }
+      }
+    },
+    {
+      "id": "ref",
+      "version": "1.0.0",
+      "display_name": "Ref",
+      "description": "Documentation search tuned for coding agents — precise, cited answers from library docs.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://api.ref.tools/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Ref",
+          "description": "面向编程智能体调优的文档搜索 — 来自库文档的精准、带引用的答案。"
+        }
+      }
+    },
+    {
+      "id": "render",
+      "version": "1.0.0",
+      "display_name": "Render",
+      "description": "Deploy and manage services, jobs and cron tasks on Render.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.render.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Render",
+          "description": "在 Render 上部署和管理服务、作业和定时任务。"
+        }
+      }
+    },
+    {
+      "id": "replicate",
+      "version": "1.0.0",
+      "display_name": "Replicate",
+      "description": "Run, fine-tune and manage hosted machine-learning models on Replicate.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "design",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.replicate.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Replicate",
+          "description": "在 Replicate 上运行、微调并管理托管的机器学习模型。"
+        }
+      }
+    },
+    {
+      "id": "sanity",
+      "version": "1.0.0",
+      "display_name": "Sanity",
+      "description": "Query and manage structured content in the Sanity CMS from your agent.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "design",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.sanity.io/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Sanity",
+          "description": "由您的代理查询和管理Sanity CMS中的结构化内容。"
+        }
+      }
+    },
+    {
+      "id": "sentry",
+      "version": "1.0.0",
+      "display_name": "Sentry",
+      "description": "Triage errors, resolve issues and inspect event details from Sentry.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.sentry.dev"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Sentry",
+          "description": "对来自 Sentry 的错误进行分类、解决问题并检查事件详情。"
+        }
+      }
+    },
+    {
+      "id": "shopify",
+      "version": "1.0.0",
+      "display_name": "Shopify",
+      "description": "Shopify development server: storefront and Admin API schemas and docs.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.shopify.dev/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Shopify",
+          "description": "Shopify 开发服务器：店面与 Admin API 的模式和文档。"
+        }
+      }
+    },
+    {
+      "id": "slack",
+      "version": "1.0.0",
+      "display_name": "Slack",
+      "description": "Official Slack server: list channels, read threads and send messages.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.slack.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Slack",
+          "description": "官方 Slack 服务器：列出频道、阅读话题和发送消息。"
+        }
+      }
+    },
+    {
+      "id": "socket",
+      "version": "1.0.0",
+      "display_name": "Socket",
+      "description": "Supply-chain risk analysis for open-source packages: vulnerabilities, typosquats and license issues.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.socket.dev"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Socket",
+          "description": "针对开源软件包的供应链风险分析：漏洞、仿冒包和许可证问题。"
+        }
+      }
+    },
+    {
+      "id": "sourcegraph",
+      "version": "1.0.0",
+      "display_name": "Sourcegraph",
+      "description": "Code intelligence across millions of repositories: search, navigate and understand code at scale.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://sourcegraph.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Sourcegraph",
+          "description": "跨越数百万个仓库的代码智能：大规模搜索、导航和理解代码。"
+        }
+      }
+    },
+    {
+      "id": "steel",
+      "version": "1.0.0",
+      "display_name": "Steel",
+      "description": "Stealth browser sessions and page automation for agents and scraping pipelines.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.steel.dev"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Steel",
+          "description": "为代理和抓取管道提供隐身浏览器会话与页面自动化。"
+        }
+      }
+    },
+    {
+      "id": "stripe",
+      "version": "1.0.0",
+      "display_name": "Stripe",
+      "description": "Official Stripe server: manage payments, customers, invoices and disputes.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.stripe.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Stripe",
+          "description": "Stripe 官方服务器：管理支付、客户、发票和争议。"
+        }
+      }
+    },
+    {
+      "id": "supabase",
+      "version": "1.0.0",
+      "display_name": "Supabase",
+      "description": "Manage Supabase projects: database schema, edge functions, storage and logs.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.supabase.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Supabase",
+          "description": "管理 Supabase 项目：数据库模式、边缘函数、存储和日志。"
+        }
+      }
+    },
+    {
+      "id": "tavily",
+      "version": "1.0.0",
+      "display_name": "Tavily",
+      "description": "Web search and extraction optimized for LLMs with citation-backed results.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "research-education",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.tavily.com/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Tavily",
+          "description": "针对大型语言模型优化的网络搜索与提取，结果附带引用支持。"
+        }
+      }
+    },
+    {
+      "id": "vercel",
+      "version": "1.0.0",
+      "display_name": "Vercel",
+      "description": "Official Vercel server: manage deployments, logs, projects and DNS.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.vercel.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Vercel",
+          "description": "Vercel 官方服务器：管理部署、日志、项目和 DNS。"
+        }
+      }
+    },
+    {
+      "id": "waystation",
+      "version": "1.0.0",
+      "display_name": "WayStation",
+      "description": "One hub connecting agents to Google Workspace, Notion, Slack and other SaaS tools.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.waystation.ai/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "WayStation",
+          "description": "一个将智能体连接到 Google Workspace、Notion、Slack 和其他 SaaS 工具的中心。"
+        }
+      }
+    },
+    {
+      "id": "xero",
+      "version": "1.0.0",
+      "display_name": "Xero",
+      "description": "Accounting automation on Xero: invoices, contacts and reports.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.xero.com"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Xero",
+          "description": "Xero上的会计自动化：发票、联系人和报告。"
+        }
+      }
+    },
+    {
+      "id": "zai",
+      "version": "1.0.0",
+      "display_name": "Z.ai",
+      "description": "Access the GLM model family and Z.ai open platform APIs.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "data-ai",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.z.ai"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "智谱",
+          "description": "访问GLM模型系列和Z.ai开放平台API。"
+        }
+      }
+    },
+    {
+      "id": "zapier",
+      "version": "1.0.0",
+      "display_name": "Zapier",
+      "description": "Connect your agent to 8,000+ apps through Zapier workflows and actions.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.zapier.com/api/mcp/mcp"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Zapier",
+          "description": "通过 Zapier 工作流和操作将您的智能体连接到 8,000 多个应用。"
+        }
+      }
+    },
+    {
+      "id": "zoom",
+      "version": "1.0.0",
+      "display_name": "Zoom",
+      "description": "Official Zoom server: schedule meetings, fetch recordings and manage chat.",
+      "icon": null,
+      "type": "connector",
+      "kind": "cloud",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "business",
+      "source": {
+        "type": "mcp",
+        "url": "https://mcp.zoom.us"
+      },
+      "sha256": null,
+      "auto_update": false,
+      "i18n": {
+        "zh": {
+          "name": "Zoom",
+          "description": "Zoom 官方服务器：安排会议、获取录制和管理聊天。"
+        }
+      }
     }
   ]
 }

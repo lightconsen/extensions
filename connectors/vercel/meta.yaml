@@ -1,0 +1,13 @@
+id: vercel
+type: connector
+version: 1.0.0
+category: engineering
+name: Vercel
+description: "Official Vercel server: manage deployments, logs, projects and DNS."
+connector:
+  url: "https://mcp.vercel.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Vercel
+    description: "Vercel 官方服务器：管理部署、日志、项目和 DNS。"

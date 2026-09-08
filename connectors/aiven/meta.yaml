@@ -1,0 +1,13 @@
+id: aiven
+type: connector
+version: 1.0.0
+category: data-ai
+name: Aiven
+description: "Manage hosted Kafka, Postgres, ClickHouse and other data services across clouds."
+connector:
+  url: "https://mcp.aiven.io/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Aiven
+    description: "管理跨云托管的 Kafka、Postgres、ClickHouse 和其他数据服务。"

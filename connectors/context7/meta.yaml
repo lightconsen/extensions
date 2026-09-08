@@ -1,0 +1,16 @@
+id: context7
+type: connector
+version: 1.0.0
+category: engineering
+name: Context7
+description: "Up-to-date code documentation and usage examples for thousands of libraries, fetched on demand for coding agents."
+license: Apache-2.0
+source:
+  repo: https://github.com/upstash/context7
+connector:
+  url: "https://mcp.context7.com/mcp"
+  auth: none
+i18n:
+  zh:
+    name: Context7
+    description: "为编码代理按需获取的，涵盖数千个库的最新代码文档和使用示例。"

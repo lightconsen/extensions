@@ -1,0 +1,13 @@
+id: railway
+type: connector
+version: 1.0.0
+category: engineering
+name: Railway
+description: "Deploy services and inspect logs on Railway infrastructure."
+connector:
+  url: "https://mcp.railway.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Railway
+    description: "在 Railway 基础设施上部署服务并检查日志。"

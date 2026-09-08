@@ -1,0 +1,13 @@
+id: huggingface
+type: connector
+version: 1.0.0
+category: data-ai
+name: "Hugging Face"
+description: "Official Hugging Face server: search models, datasets and Spaces, check whoami."
+connector:
+  url: "https://huggingface.co/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: "Hugging Face"
+    description: "Hugging Face 官方服务器：搜索模型、数据集和 Spaces，查看 whoami。"

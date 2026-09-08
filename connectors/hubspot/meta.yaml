@@ -1,0 +1,13 @@
+id: hubspot
+type: connector
+version: 1.0.0
+category: business
+name: HubSpot
+description: "Official HubSpot server: contacts, companies, deals and engagement data."
+connector:
+  url: "https://mcp.hubspot.com"
+  auth: oauth
+i18n:
+  zh:
+    name: HubSpot
+    description: "官方 HubSpot 服务器：联系人、公司、交易和互动数据。"

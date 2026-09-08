@@ -1,0 +1,13 @@
+id: mixpanel
+type: connector
+version: 1.0.0
+category: business
+name: Mixpanel
+description: "Product analytics: query events, funnels and retention from Mixpanel."
+connector:
+  url: "https://mcp.mixpanel.com"
+  auth: operator
+i18n:
+  zh:
+    name: Mixpanel
+    description: "产品分析：从Mixpanel查询事件、漏斗和留存。"

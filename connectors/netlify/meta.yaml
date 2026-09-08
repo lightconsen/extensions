@@ -1,0 +1,13 @@
+id: netlify
+type: connector
+version: 1.0.0
+category: engineering
+name: Netlify
+description: "Manage Netlify sites, deploys and serverless functions."
+connector:
+  url: "https://mcp.netlify.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Netlify
+    description: "管理 Netlify 网站、部署和无服务器函数。"

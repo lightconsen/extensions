@@ -1,0 +1,13 @@
+id: linear
+type: connector
+version: 1.0.0
+category: business
+name: Linear
+description: "Official Linear server: manage issues, projects, teams and roadmaps."
+connector:
+  url: "https://mcp.linear.app/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Linear
+    description: "官方 Linear 服务器：管理问题、项目、团队和路线图。"

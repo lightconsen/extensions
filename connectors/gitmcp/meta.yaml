@@ -1,0 +1,16 @@
+id: gitmcp
+type: connector
+version: 1.0.0
+category: engineering
+name: GitMCP
+description: "Turn any public GitHub repository into a documentation hub that AI agents can query."
+license: Apache-2.0
+source:
+  repo: https://github.com/idosal/git-mcp
+connector:
+  url: "https://gitmcp.io/docs"
+  auth: none
+i18n:
+  zh:
+    name: GitMCP
+    description: "将任何公共 GitHub 仓库变成一个文档中心，供 AI 代理查询。"

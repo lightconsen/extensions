@@ -1,0 +1,13 @@
+id: sourcegraph
+type: connector
+version: 1.0.0
+category: engineering
+name: Sourcegraph
+description: "Code intelligence across millions of repositories: search, navigate and understand code at scale."
+connector:
+  url: "https://sourcegraph.com/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: Sourcegraph
+    description: "跨越数百万个仓库的代码智能：大规模搜索、导航和理解代码。"

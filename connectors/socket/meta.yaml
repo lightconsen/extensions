@@ -1,0 +1,13 @@
+id: socket
+type: connector
+version: 1.0.0
+category: engineering
+name: Socket
+description: "Supply-chain risk analysis for open-source packages: vulnerabilities, typosquats and license issues."
+connector:
+  url: "https://mcp.socket.dev"
+  auth: operator
+i18n:
+  zh:
+    name: Socket
+    description: "针对开源软件包的供应链风险分析：漏洞、仿冒包和许可证问题。"

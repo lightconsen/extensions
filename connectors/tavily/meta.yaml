@@ -1,0 +1,16 @@
+id: tavily
+type: connector
+version: 1.0.0
+category: research-education
+name: Tavily
+description: "Web search and extraction optimized for LLMs with citation-backed results."
+license: MIT
+source:
+  repo: https://github.com/tavily-ai/tavily-mcp
+connector:
+  url: "https://mcp.tavily.com/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: Tavily
+    description: "针对大型语言模型优化的网络搜索与提取，结果附带引用支持。"

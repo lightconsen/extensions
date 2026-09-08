@@ -1,0 +1,13 @@
+id: ref
+type: connector
+version: 1.0.0
+category: engineering
+name: Ref
+description: "Documentation search tuned for coding agents — precise, cited answers from library docs."
+connector:
+  url: "https://api.ref.tools/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: Ref
+    description: "面向编程智能体调优的文档搜索 — 来自库文档的精准、带引用的答案。"

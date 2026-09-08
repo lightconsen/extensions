@@ -1,0 +1,13 @@
+id: parallel-web
+type: connector
+version: 1.0.0
+category: research-education
+name: "Parallel Web"
+description: "Web search and content APIs from Parallel AI with a free tier for agents."
+connector:
+  url: "https://mcp.parallel.ai/mcp"
+  auth: none
+i18n:
+  zh:
+    name: "Parallel Web"
+    description: "来自Parallel AI的网页搜索和内容API，带有一个面向智能体的免费层。"

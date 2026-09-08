@@ -1,0 +1,13 @@
+id: zoom
+type: connector
+version: 1.0.0
+category: business
+name: Zoom
+description: "Official Zoom server: schedule meetings, fetch recordings and manage chat."
+connector:
+  url: "https://mcp.zoom.us"
+  auth: oauth
+i18n:
+  zh:
+    name: Zoom
+    description: "Zoom 官方服务器：安排会议、获取录制和管理聊天。"

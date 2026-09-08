@@ -1,0 +1,13 @@
+id: shopify
+type: connector
+version: 1.0.0
+category: business
+name: Shopify
+description: "Shopify development server: storefront and Admin API schemas and docs."
+connector:
+  url: "https://mcp.shopify.dev/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Shopify
+    description: "Shopify 开发服务器：店面与 Admin API 的模式和文档。"

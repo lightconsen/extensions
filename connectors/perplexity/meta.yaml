@@ -1,0 +1,13 @@
+id: perplexity
+type: connector
+version: 1.0.0
+category: research-education
+name: "Perplexity Sonar"
+description: "Citation-grounded answers and deep research through the Perplexity Sonar API."
+connector:
+  url: "https://mcp.perplexity.ai/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: "Perplexity Sonar"
+    description: "通过 Perplexity Sonar API 提供基于引用的答案和深度研究。"

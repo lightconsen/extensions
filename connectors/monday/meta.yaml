@@ -1,0 +1,13 @@
+id: monday
+type: connector
+version: 1.0.0
+category: business
+name: monday.com
+description: "Manage monday.com boards, items and updates from your agent."
+connector:
+  url: "https://mcp.monday.com"
+  auth: oauth
+i18n:
+  zh:
+    name: monday.com
+    description: "通过您的智能体管理 monday.com 的看板、条目和更新。"

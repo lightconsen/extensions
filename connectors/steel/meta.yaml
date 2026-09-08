@@ -1,0 +1,13 @@
+id: steel
+type: connector
+version: 1.0.0
+category: engineering
+name: Steel
+description: "Stealth browser sessions and page automation for agents and scraping pipelines."
+connector:
+  url: "https://mcp.steel.dev"
+  auth: operator
+i18n:
+  zh:
+    name: Steel
+    description: "为代理和抓取管道提供隐身浏览器会话与页面自动化。"

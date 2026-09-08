@@ -1,0 +1,13 @@
+id: cloudflare
+type: connector
+version: 1.0.0
+category: engineering
+name: Cloudflare
+description: "Manage Workers, KV, R2, D1 and the rest of the Cloudflare developer stack."
+connector:
+  url: "https://mcp.cloudflare.com"
+  auth: oauth
+i18n:
+  zh:
+    name: Cloudflare
+    description: "管理 Workers、KV、R2、D1 以及 Cloudflare 开发者堆栈的其余部分。"

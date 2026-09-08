@@ -1,0 +1,13 @@
+id: intercom
+type: connector
+version: 1.0.0
+category: business
+name: Intercom
+description: "Official Intercom server: conversations, contacts and tickets for support teams."
+connector:
+  url: "https://mcp.intercom.com/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Intercom
+    description: "官方 Intercom 服务器：为支持团队提供对话、联系人和工单。"

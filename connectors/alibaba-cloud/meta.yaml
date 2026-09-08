@@ -1,0 +1,13 @@
+id: alibaba-cloud
+type: connector
+version: 1.0.0
+category: engineering
+name: "Alibaba Cloud"
+description: "Access the full Alibaba Cloud OpenAPI: ECS, OSS, DNS and dozens of other services."
+connector:
+  url: "https://mcp.alibabacloud.com"
+  auth: oauth
+i18n:
+  zh:
+    name: "阿里云"
+    description: "访问完整的 Alibaba Cloud OpenAPI：ECS、OSS、DNS 以及数十种其他服务。"

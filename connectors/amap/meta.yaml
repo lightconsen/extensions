@@ -1,0 +1,13 @@
+id: amap
+type: connector
+version: 1.0.0
+category: specialized-domains
+name: "Amap Maps"
+description: "Maps, POI search, route planning and weather for China from Amap (Gaode Maps)."
+connector:
+  url: "https://mcp.amap.com/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: "高德地图"
+    description: "来自 Amap (Gaode Maps) 的中国地图、POI 搜索、路线规划和天气。"

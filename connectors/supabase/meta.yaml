@@ -1,0 +1,16 @@
+id: supabase
+type: connector
+version: 1.0.0
+category: data-ai
+name: Supabase
+description: "Manage Supabase projects: database schema, edge functions, storage and logs."
+license: Apache-2.0
+source:
+  repo: https://github.com/supabase-community/supabase-mcp
+connector:
+  url: "https://mcp.supabase.com/mcp"
+  auth: oauth
+i18n:
+  zh:
+    name: Supabase
+    description: "管理 Supabase 项目：数据库模式、边缘函数、存储和日志。"

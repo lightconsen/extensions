@@ -1,0 +1,13 @@
+id: minimax
+type: connector
+version: 1.0.0
+category: data-ai
+name: MiniMax
+description: "Generate Chinese-tuned speech and video with MiniMax models."
+connector:
+  url: "https://mcp.minimax.io"
+  auth: operator
+i18n:
+  zh:
+    name: MiniMax
+    description: "使用MiniMax模型生成面向中文优化的语音和视频。"

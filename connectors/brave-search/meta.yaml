@@ -1,0 +1,16 @@
+id: brave-search
+type: connector
+version: 1.0.0
+category: research-education
+name: "Brave Search"
+description: "Web and local business search through the Brave Search API."
+license: MIT
+source:
+  repo: https://github.com/brave/brave-search-mcp-server
+connector:
+  url: "https://api.brave.com/mcp/web/search"
+  auth: operator
+i18n:
+  zh:
+    name: "Brave Search"
+    description: "通过Brave Search API进行网页和本地商业搜索。"

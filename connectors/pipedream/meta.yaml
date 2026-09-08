@@ -1,0 +1,13 @@
+id: pipedream
+type: connector
+version: 1.0.0
+category: business
+name: Pipedream
+description: "Turn 2,500+ APIs into agent tools with Pipedream's hosted integration platform."
+connector:
+  url: "https://remote.mcp.pipedream.net"
+  auth: oauth
+i18n:
+  zh:
+    name: Pipedream
+    description: "使用 Pipedream 的托管集成平台，将 2,500 多个 API 转化为智能体工具。"

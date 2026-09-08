@@ -1,0 +1,13 @@
+id: ahrefs
+type: connector
+version: 1.0.0
+category: business
+name: Ahrefs
+description: "SEO intelligence: backlinks, keyword rankings and site audits from Ahrefs."
+connector:
+  url: "https://mcp.ahrefs.com"
+  auth: operator
+i18n:
+  zh:
+    name: Ahrefs
+    description: "SEO 情报：来自 Ahrefs 的反向链接、关键词排名和网站审计。"

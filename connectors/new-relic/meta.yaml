@@ -1,0 +1,13 @@
+id: new-relic
+type: connector
+version: 1.0.0
+category: engineering
+name: "New Relic"
+description: "Query NRDB metrics, alert policies and APM data from New Relic."
+connector:
+  url: "https://mcp.newrelic.com/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: "New Relic"
+    description: "从New Relic查询NRDB指标、警报策略和APM数据。"

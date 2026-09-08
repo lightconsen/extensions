@@ -1,0 +1,13 @@
+id: atlassian
+type: connector
+version: 1.0.0
+category: business
+name: "Jira + Confluence"
+description: "Official Atlassian server: Jira issues and Confluence pages and spaces."
+connector:
+  url: "https://mcp.atlassian.com"
+  auth: oauth
+i18n:
+  zh:
+    name: "Jira + Confluence"
+    description: "Atlassian 官方服务器：Jira 问题与 Confluence 页面和空间。"

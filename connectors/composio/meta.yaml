@@ -1,0 +1,16 @@
+id: composio
+type: connector
+version: 1.0.0
+category: business
+name: Composio
+description: "Managed authentication and ready-made tools for 250+ SaaS integrations."
+license: Apache-2.0
+source:
+  repo: https://github.com/composiohq/composio
+connector:
+  url: "https://mcp.composio.dev"
+  auth: operator
+i18n:
+  zh:
+    name: Composio
+    description: "为250多个SaaS集成提供托管认证和现成工具。"

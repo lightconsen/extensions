@@ -1,0 +1,13 @@
+id: gitlab
+type: connector
+version: 1.0.0
+category: engineering
+name: GitLab
+description: "Official GitLab MCP (beta): manage projects, issues and merge requests through the GitLab API."
+connector:
+  url: "https://gitlab.com/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: GitLab
+    description: "官方 GitLab MCP（测试版）：通过 GitLab API 管理项目、议题和合并请求。"

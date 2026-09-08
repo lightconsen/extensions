@@ -1,0 +1,13 @@
+id: baidu-maps
+type: connector
+version: 1.0.0
+category: specialized-domains
+name: "Baidu Maps"
+description: "Official Baidu Maps API: geocoding, POI search, directions and traffic for China."
+connector:
+  url: "https://mcp.map.baidu.com/mcp"
+  auth: operator
+i18n:
+  zh:
+    name: "百度地图"
+    description: "官方百度地图API：地理编码、POI搜索、路线规划及路况，适用于中国。"

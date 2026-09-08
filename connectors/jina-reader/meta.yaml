@@ -1,0 +1,16 @@
+id: jina-reader
+type: connector
+version: 1.0.0
+category: research-education
+name: "Jina Reader"
+description: "Convert any URL into clean, LLM-ready markdown; works keyless with rate limits."
+license: Apache-2.0
+source:
+  repo: https://github.com/jina-ai/reader
+connector:
+  url: "https://mcp.jina.ai/v2"
+  auth: none
+i18n:
+  zh:
+    name: "Jina Reader"
+    description: "将任何URL转换为干净、适合LLM的Markdown；无需密钥即可使用，但存在速率限制。"

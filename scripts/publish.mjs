@@ -179,11 +179,13 @@ for (const m of samples) {
 
 // 3. catalog ETags: en vs zh distinct + 304 round-trip.
 //    GET, not HEAD — the worker's catalog handler only synthesizes ETags on GET.
-//    Retried: immediately after a bulk D1 write, back-to-back reads can race
-//    write propagation across worker instances (CI once saw 200-when-304).
+//    accept-encoding: identity — compressed responses get their strong ETag
+//    rewritten to weak (W/"…") by Cloudflare, which the handler's strict
+//    If-None-Match comparison then never matches (→ 200 instead of 304).
+//    Retried: bulk writes just landed, allow reads to settle.
 const CATALOG = process.env.CATALOG_BASE_URL ?? "https://api.syscity.net";
 const etagOf = async (url) => {
-  const r = await fetch(url);
+  const r = await fetch(url, { headers: { "accept-encoding": "identity" } });
   await r.arrayBuffer(); // drain the body; we only need headers
   return r.headers.get("etag");
 };
@@ -197,8 +199,12 @@ for (let attempt = 1; attempt <= 3 && !etagOk; attempt++) {
     etagErr = `en/zh ETags not distinct (${ee} / ${ez})`;
     continue;
   }
+  if (ee.startsWith("W/")) {
+    etagErr = `weak ETag came back despite identity encoding (${ee})`;
+    continue;
+  }
   const code = await fetch(`${CATALOG}/catalog.json`, {
-    headers: { "If-None-Match": ee },
+    headers: { "accept-encoding": "identity", "if-none-match": ee },
   }).then((r) => r.status);
   if (code !== 304) {
     etagErr = `expected 304 with If-None-Match, got ${code}`;

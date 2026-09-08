@@ -7,7 +7,7 @@
 ## Checklist
 
 - [ ] 上游来源已链接（meta.yaml `source.repo` + `source.paths` 指向真实 upstream 文件）
-- [ ] 上游 license 已核验并写入 meta.yaml（必须是 [allowlist](../CONTRIBUTING.md#license-政策) 之一）；LICENSE 文件为上游原文
+- [ ] 上游 license 已核验并写入 meta.yaml（必须是 [allowlist](../docs/CONTRIBUTING.zh-CN.md#3-license-政策) 之一）；LICENSE 文件为上游原文
 - [ ] ATTRIBUTION.md 标明来源路径与上游 commit
 - [ ] 内容不含密钥、token、私人信息
 - [ ] 提供了中文翻译（meta.yaml `i18n.zh.name` / `i18n.zh.description`）

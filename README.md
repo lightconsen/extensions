@@ -1,65 +1,59 @@
-# syscity extensions 目录
+**English** | [简体中文](docs/README.zh-CN.md)
 
-syscity 市场的**公开目录内容源仓库**（source of truth）。每条 expert（专家）和 skill（技能）是 `entries/<id>/` 下的一个目录；merge 到 main 后 CI 自动打包发布到线上市场。
+# syscity extensions catalog
 
-**线上目录**：`https://api.syscity.net/catalog.json` · **引擎侧市场页**：syscity app 内置市场
+Source of truth for the **public syscity marketplace catalog**. Every expert and skill lives in its own directory under `entries/<id>/`; merging to `main` makes CI pack and publish it to the live marketplace.
 
-# The syscity extensions catalog
+**Live catalog**: `https://api.syscity.net/catalog.json` · consumed by the syscity app's built-in marketplace
 
-Source of truth for the public syscity marketplace catalog. Each expert/skill lives in `entries/<id>/`; CI packs and publishes to the live catalog on merge to `main`.
-
-## 数据流（拆开存，合并发）
+## Data flow (split for review, merged for serving)
 
 ```
-entries/<id>/          ← 真相源：人只改这里（PR 拆开评审）
-     │  scripts/pack.mjs + publish.mjs（CI on merge）
+entries/<id>/          ← source of truth — humans only edit here (one PR per entry)
+     │  scripts/pack.mjs + publish.mjs (CI on merge)
      ▼
-R2 归档 + D1 catalog_entries  ← 运行时存储（catalog.json / /archives 路由）
+R2 archives + D1 catalog_entries  ← runtime store (catalog.json + /archives routes)
      │
-     └── index/catalog.json  ← 生成的聚合视图，供人工总览（勿手编）
+     └── index/catalog.json  ← generated aggregate for humans (never hand-edited)
 ```
 
-- **仓库管内容**：SOUL/SKILL 正文、名称与描述（含中文）、分类、license、来源。
-- **运行时字段不在仓库里**：`visibility`、`credits_per_use`、`required_plan` 由云端 `ops catalog set` 管理，PR 不改。
-- 线上 `catalog.json` 契约不变（引擎全量同步）；本仓库 `index/catalog.json` 只是镜像视图。
+- **The repo owns content**: SOUL/SKILL bodies, names and descriptions (including Chinese), categories, licenses, provenance.
+- **Runtime fields stay out of the repo**: `visibility`, `credits_per_use`, `required_plan` are managed in the cloud via `ops catalog set` — PRs don't touch them.
+- The live `catalog.json` contract is unchanged (engine full-sync); `index/catalog.json` in this repo is only a mirror view.
 
-## Entry 结构
+## Entry layout
 
 ```
 entries/ws-backend-architect/
-├── meta.yaml          # 目录元数据（id/type/version/category/license/来源/中文翻译）
-├── SOUL.md            # expert 正文（frontmatter: name/persona/voice/... + 角色 prompt）
-│   └── 或 SKILL.md    # skill 正文（frontmatter: name/description + 使用说明）+ references/
-├── LICENSE            # 上游 license 原文
-└── ATTRIBUTION.md     # 来源路径、上游 commit、license
+├── meta.yaml          # catalog metadata (id/type/version/category/license/source/zh i18n)
+├── SOUL.md            # expert body (frontmatter: name/persona/voice/… + role prompt)
+│   └── or SKILL.md    # skill body (frontmatter: name/description + usage) + references/
+├── LICENSE            # upstream license, verbatim
+└── ATTRIBUTION.md     # upstream paths, commit, license
 ```
 
-完整字段说明见 [CONTRIBUTING.md](CONTRIBUTING.md)；模板在 [templates/entry/](templates/entry/)。
+Field reference in [CONTRIBUTING.md](CONTRIBUTING.md); templates in [templates/entry/](templates/entry/).
 
-## 贡献
+## Contributing
 
-1. Fork → 建分支 → 复制 `templates/entry/` → 填内容
-2. 本地校验（可选，CI 会跑）：`node scripts/validate.mjs`
-3. 开 PR → review（license 与内容审查是主闸门）→ merge
-4. CI 自动：validate → 可复现打包 → 上传 R2 → D1 upsert → verify → 重生成 index
+1. Fork → branch → copy `templates/entry/` → fill it in
+2. Optional local check (CI runs it anyway): `node scripts/validate.mjs`
+3. Open a PR → review (license and content review are the gate) → merge
+4. CI automatically: validate → reproducible pack → upload R2 → D1 upsert → verify → regenerate index
 
-删除条目不走 PR（无法自动下架），联系维护者。License 必须在 allowlist 内（MIT / Apache-2.0 / BSD / ISC / MPL-2.0 / CC0 / CC-BY-4.0）。
+Deleting an entry does not go through a PR (no automatic takedown) — contact a maintainer. Licenses must be on the allowlist (MIT / Apache-2.0 / BSD / ISC / MPL-2.0 / CC0 / CC-BY-4.0).
 
-## 脚本
+## Scripts
 
-| 命令 | 作用 |
+| Command | Purpose |
 |---|---|
-| `node scripts/validate.mjs` | 校验全部 entry（布局/元数据/license/卫生） |
-| `node scripts/pack.mjs [--only RE]` | 可复现打包 → `.build/`（GNU tar 固定 mtime + `gzip -n`） |
-| `node scripts/publish.mjs [--dry-run] [--changed]` | 发布到 R2+D1（只更新内容列）+ verify |
-| `node scripts/gen-index.mjs` | 重新生成 `index/catalog.json` |
+| `node scripts/validate.mjs` | Validate all entries (layout / metadata / license / hygiene) |
+| `node scripts/pack.mjs [--only RE]` | Reproducible packing → `.build/` (GNU tar fixed mtime + `gzip -n`) |
+| `node scripts/publish.mjs [--dry-run] [--changed]` | Publish to R2+D1 (content columns only) + verify |
+| `node scripts/gen-index.mjs` | Regenerate `index/catalog.json` |
 
-发布需要 `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID`（CI secrets）；macOS 本地打包仅作冒烟，不作为发布基准。
+Publishing needs `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` (CI secrets); a macOS-local pack is a smoke test only, never the publishing baseline.
 
 ## License
 
-仓库工具件（scripts、workflows、文档）Apache-2.0。**每条 entry 内容归属其上游 license**，见各自目录内的 `LICENSE` 与 `meta.yaml`。
-
-## English
-
-Source of truth for the public syscity marketplace catalog. One directory per entry under `entries/<id>/` (`meta.yaml` + `SOUL.md`/`SKILL.md` + `LICENSE` + `ATTRIBUTION.md`). CI validates, packs reproducibly, and publishes to R2 + D1 on merge; runtime fields (visibility/credits) stay in the cloud, not in this repo. Contributions: see CONTRIBUTING.md — upstream license must be on the allowlist, zh translation required, one PR per entry.
+Repo tooling (scripts, workflows, docs) is Apache-2.0. **Each entry's content belongs to its upstream license** — see the `LICENSE` and `meta.yaml` in its directory.

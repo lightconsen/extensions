@@ -15,6 +15,7 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { parseMeta } from "./lib.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const BUILD = path.join(ROOT, ".build");
@@ -37,17 +38,29 @@ if (!fs.existsSync(manifestFile)) {
 let manifest = fs.readFileSync(manifestFile, "utf8").split("\n").filter(Boolean).map(JSON.parse);
 
 if (changedOnly) {
-  const diff = execFileSync("git", ["diff", "--name-only", "HEAD~1", "HEAD", "--", "entries/"], {
+  const diff = execFileSync("git", ["diff", "--name-only", "HEAD~1", "HEAD", "--", "entries/", "connectors/"], {
     cwd: ROOT,
     encoding: "utf8",
     maxBuffer: 8 * 1024 * 1024,
   });
-  const touched = new Set(diff.split("\n").filter(Boolean).map((l) => l.split("/")[1]).filter(Boolean));
+  var touched = new Set(diff.split("\n").filter(Boolean).map((l) => l.split("/")[1]).filter(Boolean));
   manifest = manifest.filter((m) => touched.has(m.id));
-  console.log(`git diff touched ${touched.size} entry dir(s)`);
+  console.log(`git diff touched ${touched.size} dir(s)`);
 }
 if (only) manifest = manifest.filter((m) => only.test(m.id));
-if (manifest.length === 0) {
+
+// connectors/ — cloud-relay registry entries (kind=cloud, no archive to pack).
+const CONNECTORS = path.join(ROOT, "connectors");
+const connManifest = fs.existsSync(CONNECTORS)
+  ? fs
+      .readdirSync(CONNECTORS)
+      .sort()
+      .filter((id) => fs.statSync(path.join(CONNECTORS, id)).isDirectory())
+      .filter((id) => (only ? only.test(id) : true))
+      .filter((id) => (changedOnly ? touched.has(id) : true))
+      .map((id) => ({ id, ...parseMeta(fs.readFileSync(path.join(CONNECTORS, id, "meta.yaml"), "utf8")) }))
+  : [];
+if (manifest.length === 0 && connManifest.length === 0) {
   console.log("nothing to publish");
   process.exit(0);
 }
@@ -136,32 +149,105 @@ if (!dryRun) {
   for (const f of sqlFiles) wrangler(["d1", "execute", D1_DATABASE, "--remote", "--file", f]);
 }
 
+// ── connectors/ → catalog_entries (kind=cloud) + relay registration ─────────
+// No R2 archives. catalog_entries gets source_type=mcp, sha256=NULL. auth:none
+// also registers the relay row with provider_auth=NULL (never a secret from
+// git); oauth/operator wait for the token vault / an operator key — the relay
+// row, if any, stays runtime-owned. Runtime columns (visibility/credits) are
+// never touched here.
+if (connManifest.length && !dryRun) {
+  const connI18n = (c) => {
+    const a = [];
+    if (c.i18n?.zh?.name) a.push(`'$.zh.name', '${esc(c.i18n.zh.name)}'`);
+    if (c.i18n?.zh?.description) a.push(`'$.zh.description', '${esc(c.i18n.zh.description)}'`);
+    return a.length ? `json_set('{}', ${a.join(", ")})` : "NULL";
+  };
+  let cout = "";
+  for (const c of connManifest) {
+    const url = c.connector?.url ?? "";
+    const auth = c.connector?.auth ?? "";
+    cout += `INSERT INTO catalog_entries
+(id, version, display_name, description, icon, source_type, source_url, sha256,
+ type, kind, visibility, credits_per_use, category, required_plan, i18n, updated_at)
+VALUES
+('${esc(c.id)}', '${esc(c.version)}', '${esc(c.name)}', '${esc(c.description)}',
+ NULL, 'mcp', '${esc(url)}', NULL,
+ 'connector', 'cloud', 'public', 0, '${esc(c.category)}', NULL, ${connI18n(c)}, datetime('now'))
+ON CONFLICT(id, version) DO UPDATE SET
+  display_name = excluded.display_name, description = excluded.description,
+  source_type = excluded.source_type, source_url = excluded.source_url,
+  type = excluded.type, kind = excluded.kind, category = excluded.category,
+  i18n = excluded.i18n, updated_at = excluded.updated_at;
+`;
+    if (auth === "none") {
+      cout += `INSERT INTO cloud_connectors (id, provider_mcp_url, provider_auth, credits_per_use)
+VALUES ('${esc(c.id)}', '${esc(url)}', NULL, 0)
+ON CONFLICT(id) DO UPDATE SET provider_mcp_url = excluded.provider_mcp_url
+  WHERE cloud_connectors.provider_auth IS NULL;
+`;
+    }
+  }
+  const connSql = path.join(BUILD, "connectors.sql");
+  fs.writeFileSync(connSql, cout);
+  wrangler(["d1", "execute", D1_DATABASE, "--remote", "--file", connSql]);
+  console.log(`D1: ${connManifest.length} connector(s) upserted`);
+}
+
 // ── verify ──────────────────────────────────────────────────────────────────
 if (dryRun) {
   for (const m of manifest.slice(0, 5)) console.log(`  would publish ${m.id} (${m.type}/${m.category}) sha=${m.sha256.slice(0, 12)}…`);
+  for (const c of connManifest.slice(0, 5)) console.log(`  would publish connector ${c.id} (auth=${c.connector?.auth}) → ${c.connector?.url}`);
+  console.log(`dry-run: ${manifest.length} archive(s) + ${connManifest.length} connector(s), no writes`);
   process.exit(0);
 }
 
 // 1. D1 rows match the manifest exactly (id → sha256/content columns).
-const idList = manifest.map((m) => `'${esc(m.id)}'`).join(",");
-const rows = d1(["--command", `SELECT id, sha256, type, category FROM catalog_entries WHERE id IN (${idList})`]);
-const bad = [];
-const d1sha = new Map(rows.map((r) => [r.id, r]));
-for (const m of manifest) {
-  const r = d1sha.get(m.id);
-  if (!r) bad.push(`${m.id}: missing in D1 after upsert`);
-  else if (r.sha256 !== m.sha256) bad.push(`${m.id}: sha256 drift D1=${r.sha256} local=${m.sha256}`);
-  else if (r.type !== m.type) bad.push(`${m.id}: type drift`);
-  else if (r.category !== m.category) bad.push(`${m.id}: category drift`);
+if (manifest.length) {
+  const idList = manifest.map((m) => `'${esc(m.id)}'`).join(",");
+  const rows = d1(["--command", `SELECT id, sha256, type, category FROM catalog_entries WHERE id IN (${idList})`]);
+  const bad = [];
+  const d1sha = new Map(rows.map((r) => [r.id, r]));
+  for (const m of manifest) {
+    const r = d1sha.get(m.id);
+    if (!r) bad.push(`${m.id}: missing in D1 after upsert`);
+    else if (r.sha256 !== m.sha256) bad.push(`${m.id}: sha256 drift D1=${r.sha256} local=${m.sha256}`);
+    else if (r.type !== m.type) bad.push(`${m.id}: type drift`);
+    else if (r.category !== m.category) bad.push(`${m.id}: category drift`);
+  }
+  if (bad.length) {
+    for (const b of bad) console.error(`✗ ${b}`);
+    process.exit(1);
+  }
+  console.log(`✓ D1 matches manifest for ${manifest.length} id(s)`);
 }
-if (bad.length) {
-  for (const b of bad) console.error(`✗ ${b}`);
-  process.exit(1);
+
+// 1b. connector rows landed + every auth:none connector has a relay row.
+if (connManifest.length) {
+  const cidList = connManifest.map((c) => `'${esc(c.id)}'`).join(",");
+  const crows = d1(["--command", `SELECT id FROM catalog_entries WHERE id IN (${cidList})`]);
+  const cfound = new Set(crows.map((r) => r.id));
+  const cmissing = connManifest.filter((c) => !cfound.has(c.id));
+  if (cmissing.length) {
+    for (const c of cmissing) console.error(`✗ connector ${c.id}: missing in catalog_entries after upsert`);
+    process.exit(1);
+  }
+  const noneList = connManifest.filter((c) => c.connector?.auth === "none").map((c) => `'${esc(c.id)}'`).join(",");
+  if (noneList) {
+    const rrows = d1(["--command", `SELECT id FROM cloud_connectors WHERE id IN (${noneList})`]);
+    const rfound = new Set(rrows.map((r) => r.id));
+    const rmissing = connManifest.filter((c) => c.connector?.auth === "none" && !rfound.has(c.id));
+    if (rmissing.length) {
+      for (const c of rmissing) console.error(`✗ connector ${c.id}: no relay row in cloud_connectors`);
+      process.exit(1);
+    }
+  }
+  console.log(`✓ catalog_entries + cloud_connectors ok for ${connManifest.length} connector(s)`);
 }
-console.log(`✓ D1 matches manifest for ${manifest.length} id(s)`);
 
 // 2. sample archive downloads — R2 bytes must equal the D1 sha256.
-const samples = [manifest[0], manifest[Math.floor(manifest.length / 2)], manifest[manifest.length - 1]];
+const samples = manifest.length
+  ? [manifest[0], manifest[Math.floor(manifest.length / 2)], manifest[manifest.length - 1]]
+  : [];
 for (const m of samples) {
   const res = await fetch(m.source_url);
   if (!res.ok) {

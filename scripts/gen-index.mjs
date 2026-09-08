@@ -46,6 +46,32 @@ for (const id of fs.readdirSync(ENTRIES).sort()) {
   });
 }
 
+// connectors/ — cloud-relay registry entries (kind=cloud, no archive).
+const CONNECTORS = path.join(ROOT, "connectors");
+if (fs.existsSync(CONNECTORS)) {
+  for (const id of fs.readdirSync(CONNECTORS).sort()) {
+    const dir = path.join(CONNECTORS, id);
+    if (!fs.statSync(dir).isDirectory()) continue;
+    const meta = parseMeta(fs.readFileSync(path.join(dir, "meta.yaml"), "utf8"));
+    connectors.push({
+      id,
+      version: meta.version ?? "1.0.0",
+      display_name: meta.name ?? "",
+      description: meta.description ?? "",
+      icon: null,
+      type: "connector",
+      kind: "cloud",
+      visibility: "public",
+      credits_per_use: 0,
+      category: meta.category ?? null,
+      source: { type: "mcp", url: meta.connector?.url ?? "" },
+      sha256: null,
+      auto_update: false,
+      i18n: meta.i18n?.zh ? { zh: { name: meta.i18n.zh.name ?? null, description: meta.i18n.zh.description ?? null } } : null,
+    });
+  }
+}
+
 const out = path.join(ROOT, "index", "catalog.json");
 fs.mkdirSync(path.dirname(out), { recursive: true });
 fs.writeFileSync(out, JSON.stringify({ version: 1, connectors }, null, 2) + "\n");

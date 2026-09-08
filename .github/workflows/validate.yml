@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches: [main]
-    paths: ["entries/**", "scripts/**", "templates/**"]
+    paths: ["entries/**", "connectors/**", "scripts/**", "templates/**"]
 
 jobs:
   validate:

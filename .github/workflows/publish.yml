@@ -3,7 +3,7 @@ name: publish
 on:
   push:
     branches: [main]
-    paths: ["entries/**"]
+    paths: ["entries/**", "connectors/**"]
   workflow_dispatch:
     inputs:
       scope:

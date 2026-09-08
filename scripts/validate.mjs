@@ -37,6 +37,9 @@ const warnings = [];
 const err = (id, msg) => errors.push(`${id}: ${msg}`);
 const warn = (id, msg) => warnings.push(`${id}: ${msg}`);
 
+const CONNECTORS = path.join(ROOT, "connectors");
+const AUTHS = ["none", "oauth", "operator"];
+
 function walk(dir, base = dir, out = []) {
   for (const name of fs.readdirSync(dir)) {
     const p = path.join(dir, name);
@@ -135,10 +138,59 @@ for (const id of fs.readdirSync(ENTRIES).sort()) {
   ok++;
 }
 
+// ── connectors/ — relay registry metadata (no archive, single meta.yaml) ────
+let okC = 0;
+const connectorIds = new Set();
+if (fs.existsSync(CONNECTORS)) {
+  const entryIds = new Set(
+    fs.readdirSync(ENTRIES).filter((n) => fs.statSync(path.join(ENTRIES, n)).isDirectory()),
+  );
+  for (const id of fs.readdirSync(CONNECTORS).sort()) {
+    const dir = path.join(CONNECTORS, id);
+    if (!fs.statSync(dir).isDirectory()) {
+      err(id, "stray file in connectors/ (only connector directories allowed)");
+      continue;
+    }
+    if (entryIds.has(id)) err(id, "id collides with an entries/ directory (shared catalog namespace)");
+    connectorIds.add(id);
+
+    let meta;
+    try {
+      meta = parseMeta(fs.readFileSync(path.join(dir, "meta.yaml"), "utf8"));
+    } catch (e) {
+      err(id, `meta.yaml: ${e.message}`);
+      continue;
+    }
+    if (meta.id !== id) err(id, `meta.id "${meta.id}" != directory name`);
+    if (!idValid(String(meta.id ?? ""))) err(id, `id must match ${ID_RE} (no "..")`);
+    if (meta.type !== "connector") err(id, `type must be connector (got ${meta.type})`);
+    if (!VERSION_RE.test(String(meta.version ?? ""))) err(id, `version must be semver (got ${meta.version})`);
+    if (!CATEGORIES.includes(meta.category)) err(id, `category "${meta.category}" not allowed`);
+    if (typeof meta.name !== "string" || !meta.name.trim()) err(id, "name missing");
+    if (typeof meta.description !== "string" || meta.description.trim().length < 10) err(id, "description missing/too short");
+    if ((meta.description ?? "").length > 2000) err(id, "description > 2000 chars");
+    const url = String(meta.connector?.url ?? "");
+    if (!/^https:\/\/[^\s"'<>()]+$/.test(url)) err(id, `connector.url must be an https:// MCP endpoint (got ${url})`);
+    if (!AUTHS.includes(meta.connector?.auth)) err(id, `connector.auth must be one of ${AUTHS.join("|")} (got ${meta.connector?.auth})`);
+    if (meta.license != null && !LICENSES.includes(meta.license)) err(id, `license "${meta.license}" not in allowlist`);
+    if (meta.source?.repo != null && !REPO_RE.test(String(meta.source.repo))) err(id, `source.repo must be a github.com URL (got ${meta.source.repo})`);
+    const zh = meta.i18n?.zh ?? {};
+    if (typeof zh.name !== "string" || !zh.name.trim()) err(id, "i18n.zh.name missing (zh translation is required)");
+    if (typeof zh.description !== "string" || !zh.description.trim()) err(id, "i18n.zh.description missing");
+
+    const extra = fs.readdirSync(dir).filter((f) => f !== "meta.yaml");
+    if (extra.length) err(id, `unexpected files (only meta.yaml allowed): ${extra.join(", ")}`);
+    if (meta.license == null && meta.source?.repo == null) {
+      warn(id, "no license/source.repo provenance (recommended)");
+    }
+    okC++;
+  }
+}
+
 for (const w of warnings) console.log(`⚠ ${w}`);
 if (errors.length) {
   for (const e of errors) console.error(`✗ ${e}`);
   console.error(`\nvalidate FAILED: ${ok} ok, ${errors.length} error(s), ${warnings.length} warning(s)`);
   process.exit(1);
 }
-console.log(`validate ok: ${ok} entries, ${warnings.length} warning(s)`);
+console.log(`validate ok: ${ok} entries, ${okC} connectors, ${warnings.length} warning(s)`);

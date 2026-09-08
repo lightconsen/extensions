@@ -1,0 +1,16 @@
+id: my-entry-id
+type: expert            # expert | skill
+version: 1.0.0
+category: engineering   # engineering | data-ai | security | design | content-writing | business | research-education | specialized-domains
+name: "My Entry"
+description: "One-paragraph description. For experts, include trigger conditions: Use when ..."
+license: MIT
+source:
+  repo: https://github.com/owner/repo
+  commit: abc1234
+  paths:
+    - "path/to/upstream/file.md"
+i18n:
+  zh:
+    name: "条目中文名"
+    description: "中文描述，语义与英文一致。"

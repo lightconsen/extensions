@@ -1,0 +1,20 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths: ["entries/**", "scripts/**", "templates/**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate entries
+        run: node scripts/validate.mjs
+      - name: Pack smoke (reproducible tar)
+        run: node scripts/pack.mjs

@@ -1,0 +1,15 @@
+{
+  "name": "extensions",
+  "private": true,
+  "description": "syscity marketplace catalog source of truth",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "pack": "node scripts/pack.mjs",
+    "publish": "node scripts/publish.mjs",
+    "gen-index": "node scripts/gen-index.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.129.0"
+  }
+}

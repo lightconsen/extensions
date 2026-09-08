@@ -4,6 +4,13 @@ on:
   push:
     branches: [main]
     paths: ["entries/**"]
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: "changed = only entries touched by HEAD~1..HEAD; all = full publication"
+        default: changed
+        type: choice
+        options: [changed, all]
 
 concurrency:
   group: publish-production
@@ -15,24 +22,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2 # publish.mjs --changed diffs HEAD~1..HEAD
+          fetch-depth: 2 # --changed diffs HEAD~1..HEAD
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
       - name: Validate
         run: node scripts/validate.mjs
       - name: Pack (reproducible)
         run: node scripts/pack.mjs
-      - name: Publish changed entries to R2 + D1
-        if: env.CLOUDFLARE_API_TOKEN != ''
-        run: node scripts/publish.mjs --changed
+      - name: Publish entries to R2 + D1
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
+        run: node scripts/publish.mjs ${{ inputs.scope == 'all' && '' || '--changed' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_BUCKET: ${{ vars.R2_BUCKET }}
           D1_DATABASE: ${{ vars.D1_DATABASE }}
       - name: Publish skipped (no CLOUDFLARE_API_TOKEN secret)
-        if: env.CLOUDFLARE_API_TOKEN == ''
+        if: ${{ env.CLOUDFLARE_API_TOKEN == '' }}
         run: echo "::warning::CLOUDFLARE_API_TOKEN not set — publish skipped, validate+pack only"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

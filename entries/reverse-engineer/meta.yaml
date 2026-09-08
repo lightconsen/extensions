@@ -1,0 +1,16 @@
+id: reverse-engineer
+type: expert
+version: 1.0.0
+category: security
+name: "Reverse Engineer"
+description: "Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains. Handles executable analysis, library inspection, protocol extraction, and vulnerability research. Use PROACTIVELY for binary analysis, CTF challenges, security research, or understanding undocumented software."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/reverse-engineering/agents/reverse-engineer.md
+i18n:
+  zh:
+    name: "逆向工程师"
+    description: "专精于二进制分析、反汇编、反编译和软件分析的逆向工程师。精通IDA Pro、Ghidra、radare2、x64dbg及现代逆向工程工具链。可处理可执行文件分析、库检查、协议提取和漏洞研究。在二进制分析、CTF挑战、安全研究或理解未记录软件时主动使用。"

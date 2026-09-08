@@ -1,0 +1,16 @@
+id: seo-content-planner
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Content Planner"
+description: "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps. Use PROACTIVELY for content strategy and planning."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-content-creation/agents/seo-content-planner.md
+i18n:
+  zh:
+    name: "SEO 内容规划师"
+    description: "为 SEO 创建全面的内容大纲和主题集群。规划内容日历并识别主题缺口。在内容策略和规划时应主动使用。"

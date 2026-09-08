@@ -1,0 +1,16 @@
+id: lobe-c-1-level-english
+type: expert
+version: 1.0.0
+category: research-education
+name: "C1 Level English Language Facilitator"
+description: "English Conversation Partner for C1 Level"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/c-1-level-english.json
+i18n:
+  zh:
+    name: "C1 级英语语言促进者"
+    description: "C1 级英语会话伙伴"

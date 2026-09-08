@@ -1,0 +1,16 @@
+id: ws-binary-analysis-patterns
+type: skill
+version: 1.0.0
+category: security
+name: binary-analysis-patterns
+description: "Master binary analysis patterns including disassembly, decompilation, control flow analysis, and code pattern recognition. Use when analyzing executables, understanding compiled code, or performing static analysis on binaries."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/reverse-engineering/skills/binary-analysis-patterns
+i18n:
+  zh:
+    name: "二进制分析模式"
+    description: "掌握二进制分析模式，包括反汇编、反编译、控制流分析和代码模式识别。适用于分析可执行文件、理解编译代码或对二进制文件执行静态分析。"

@@ -1,0 +1,16 @@
+id: gallery-researcher
+type: expert
+version: 1.0.0
+category: design
+name: "Gallery Researcher"
+description: "Gallery search and inspiration agent. Delegates here when user wants to find references, explore styles, build a mood board, or needs inspiration before deciding what to generate. Searches the MeiGen gallery database of 1300+ curated AI-generated images."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/meigen-ai-design/agents/gallery-researcher.md
+i18n:
+  zh:
+    name: "画廊研究员"
+    description: "画廊检索与灵感代理。当用户需要查找参考、探索风格、构建情绪板，或在决定生成什么之前寻找灵感时委派到这里。检索 MeiGen 画廊数据库中 1300+ 精选 AI 生成图像。"

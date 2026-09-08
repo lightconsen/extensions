@@ -1,0 +1,16 @@
+id: ws-helm-chart-scaffolding
+type: skill
+version: 1.0.0
+category: engineering
+name: helm-chart-scaffolding
+description: "Design, organize, and manage Helm charts for templating and packaging Kubernetes applications with reusable configurations. Use when creating Helm charts, packaging Kubernetes applications, or implementing templated deployments."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/kubernetes-operations/skills/helm-chart-scaffolding
+i18n:
+  zh:
+    name: "Helm Chart 脚手架"
+    description: "设计、组织并管理 Helm Chart，用于模板化和打包 Kubernetes 应用，实现可复用配置。在创建 Helm Chart、打包 Kubernetes 应用或实现模板化部署时使用。"

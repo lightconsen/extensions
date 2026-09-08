@@ -1,0 +1,16 @@
+id: ws-javascript-testing-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: javascript-testing-patterns
+description: "Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or implementing TDD/BDD workflows."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/javascript-typescript/skills/javascript-testing-patterns
+i18n:
+  zh:
+    name: "JavaScript 测试模式"
+    description: "使用 Jest、Vitest 和 Testing Library 实现全面的测试策略，进行单元测试、集成测试和端到端测试，并运用 mock、fixtures 和测试驱动开发。在编写 JavaScript/TypeScript 测试、搭建测试基础设施或实施 TDD/BDD 工作流时使用。"

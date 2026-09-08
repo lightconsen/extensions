@@ -1,0 +1,17 @@
+id: cpp-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Cpp Pro"
+description: "Use this agent when building high-performance C++ systems requiring modern C++20/23 features, template metaprogramming, or zero-overhead abstractions for systems programming, embedded systems, or performance-critical applications."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/systems-programming/agents/cpp-pro.md
+    - categories/02-language-specialists/cpp-pro.md
+i18n:
+  zh:
+    name: "C++ 专家"
+    description: "在构建需要现代 C++20/23 特性、模板元编程或零开销抽象的高性能 C++ 系统时，请使用此智能体，适用于系统编程、嵌入式系统或性能关键型应用。"

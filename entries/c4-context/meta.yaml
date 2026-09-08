@@ -1,0 +1,16 @@
+id: c4-context
+type: expert
+version: 1.0.0
+category: engineering
+name: "C4 Context"
+description: "Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies. Synthesizes container and component documentation with system documentation to create comprehensive context-level architecture. Use when creating the highest-level C4 system context documentation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/c4-architecture/agents/c4-context.md
+i18n:
+  zh:
+    name: "C4上下文"
+    description: "C4 上下文层文档专家。创建高层系统上下文图，记录用户角色、用户旅程、系统功能和外部依赖。整合容器和组件文档与系统文档，创建全面的上下文级架构。在创建最高层级的 C4 系统上下文文档时使用。"

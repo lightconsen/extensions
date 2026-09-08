@@ -1,0 +1,16 @@
+id: lobe-grammarly
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Linguistic Luminary"
+description: "AI Grammar Fixer: Enhances text quality, readability, and professionalism through meticulous grammar checks."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/grammarly.json
+i18n:
+  zh:
+    name: "语言大师"
+    description: "AI语法修正器：通过细致的语法检查提升文本质量、可读性和专业性。"

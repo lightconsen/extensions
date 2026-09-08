@@ -1,0 +1,16 @@
+id: terragrunt-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Terragrunt Expert"
+description: "Expert Terragrunt specialist mastering infrastructure orchestration, DRY configurations, and multi-environment deployments. Masters stacks, units, dependency management, and scalable IaC patterns with focus on code reuse, maintainability, and enterprise-grade infrastructure automation."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/terragrunt-expert.md
+i18n:
+  zh:
+    name: "Terragrunt 专家"
+    description: "Terragrunt 专家，精通基础设施编排、DRY 配置和多环境部署。掌握 stacks、units、依赖管理和可扩展 IaC 模式，重点强调代码重用、可维护性和企业级基础设施自动化。"

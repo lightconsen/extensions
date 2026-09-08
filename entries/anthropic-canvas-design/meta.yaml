@@ -1,0 +1,16 @@
+id: anthropic-canvas-design
+type: skill
+version: 1.0.0
+category: design
+name: "Canvas Design"
+description: "Create visual art in .png and .pdf with professional design philosophy - posters, banners, wallpapers"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - canvas-design
+i18n:
+  zh:
+    name: "视觉海报设计"
+    description: "以专业设计理念创作 .png/.pdf 视觉作品——海报、横幅、壁纸"

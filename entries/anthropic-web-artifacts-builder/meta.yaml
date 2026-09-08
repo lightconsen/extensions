@@ -1,0 +1,16 @@
+id: anthropic-web-artifacts-builder
+type: skill
+version: 1.0.0
+category: engineering
+name: "Web Artifacts Builder"
+description: "Build elaborate multi-component web artifacts with React, TypeScript and Vite tooling"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - web-artifacts-builder
+i18n:
+  zh:
+    name: "Web 组件构建"
+    description: "用 React、TypeScript 与 Vite 工具链构建复杂的多组件 Web 应用"

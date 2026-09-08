@@ -1,0 +1,16 @@
+id: ws-database-migration
+type: skill
+version: 1.0.0
+category: engineering
+name: database-migration
+description: "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/framework-migration/skills/database-migration
+i18n:
+  zh:
+    name: "数据库迁移"
+    description: "跨 ORM 和平台执行数据库迁移，包含零停机策略、数据转换和回滚流程。适用于迁移数据库、变更数据库模式、执行数据转换或实施零停机部署策略。"

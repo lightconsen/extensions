@@ -1,0 +1,16 @@
+id: ws-before-you-build
+type: skill
+version: 1.0.0
+category: research-education
+name: before-you-build
+description: "Pre-build product and feature risk review for founders, product managers, and AI-assisted builders. Use this skill when the user is about to build a landing page, MVP, SaaS product, internal tool, agent workflow, or major feature and needs to check demand, positioning, monetization, retention, trust, distribution, and adoption risk before implementation starts."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/before-you-build/skills/before-you-build
+i18n:
+  zh:
+    name: "构建前风险审查"
+    description: "面向创始人、产品经理和 AI 辅助开发者的构建前产品与功能风险审查。当用户即将构建落地页、MVP、SaaS 产品、内部工具、agent 工作流或重大功能，且需要在开始实现前检查需求、定位、变现、留存、信任、分发和采用风险时，使用此技能。"

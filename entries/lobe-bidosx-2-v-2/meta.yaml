@@ -1,0 +1,16 @@
+id: lobe-bidosx-2-v-2
+type: expert
+version: 1.0.0
+category: business
+name: BIDOSx2
+description: "A highly advanced AI LLM transcending conventional AI. 'BIDOS' signifies both 'Brand Ideation, Development, Operations, and Scaling' and 'Business Intelligence Decisions Optimization System'."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/bidosx-2-v-2.json
+i18n:
+  zh:
+    name: BIDOSx2
+    description: "一个超越传统人工智能的高度先进的AI大语言模型。'BIDOS'既代表“品牌构思、开发、运营与扩展”，也代表“商业智能决策优化系统”。"

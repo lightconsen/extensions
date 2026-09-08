@@ -1,0 +1,16 @@
+id: arm-cortex-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Arm Cortex Expert"
+description: "Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). Decades of experience writing reliable, optimized, and maintainable embedded code with deep expertise in memory barriers, DMA/cache coherency, interrupt-driven I/O, and peripheral drivers."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/arm-cortex-microcontrollers/agents/arm-cortex-expert.md
+i18n:
+  zh:
+    name: "ARM Cortex专家"
+    description: "资深嵌入式软件工程师，专注 ARM Cortex-M 微控制器（Teensy、STM32、nRF52、SAMD）的固件与驱动开发。数十年经验，擅长编写可靠、优化且易维护的嵌入式代码，精通内存屏障、DMA/缓存一致性、中断驱动 I/O 与外设驱动。"

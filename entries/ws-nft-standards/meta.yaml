@@ -1,0 +1,16 @@
+id: ws-nft-standards
+type: skill
+version: 1.0.0
+category: engineering
+name: nft-standards
+description: "Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minting strategies, and marketplace integration. Use when creating NFT contracts, building NFT marketplaces, or implementing digital asset systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/blockchain-web3/skills/nft-standards
+i18n:
+  zh:
+    name: "NFT 标准"
+    description: "实现 NFT 标准（ERC-721、ERC-1155），包括正确的元数据处理、铸造策略和市场集成。用于创建 NFT 合约、构建 NFT 市场或实现数字资产系统。"

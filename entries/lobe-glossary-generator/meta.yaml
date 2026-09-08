@@ -1,0 +1,16 @@
+id: lobe-glossary-generator
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Glossary Generator"
+description: "Expert in generating glossaries with English definitions and example sentences"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/glossary-generator.json
+i18n:
+  zh:
+    name: "词汇表生成器"
+    description: "生成带有英文定义和例句的词汇表专家"

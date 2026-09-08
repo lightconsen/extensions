@@ -1,0 +1,16 @@
+id: ws-dbt-transformation-patterns
+type: skill
+version: 1.0.0
+category: data-ai
+name: dbt-transformation-patterns
+description: "Master dbt (data build tool) for analytics engineering with model organization, testing, documentation, and incremental strategies. Use when building data transformations, creating data models, or implementing analytics engineering best practices."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/data-engineering/skills/dbt-transformation-patterns
+i18n:
+  zh:
+    name: "dbt 转换模式"
+    description: "掌握 dbt（数据构建工具）在分析工程中的模型组织、测试、文档和增量策略。适用于构建数据转换、创建数据模型或实施分析工程最佳实践。"

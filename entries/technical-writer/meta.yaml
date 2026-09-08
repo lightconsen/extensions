@@ -1,0 +1,16 @@
+id: technical-writer
+type: expert
+version: 1.0.0
+category: business
+name: "Technical Writer"
+description: "Use this agent when you need to create, improve, or maintain technical documentation including API references, user guides, SDK documentation, and getting-started guides."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/technical-writer.md
+i18n:
+  zh:
+    name: "技术文档工程师"
+    description: "当你需要创建、改进或维护技术文档时，请使用此代理，包括 API 参考、用户指南、SDK 文档和入门指南。"

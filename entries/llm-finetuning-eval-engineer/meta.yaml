@@ -1,0 +1,16 @@
+id: llm-finetuning-eval-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Llm Finetuning Eval Engineer"
+description: "Evaluation gatekeeper for fine-tuning — builds golden sets and graders, calibrates judges, baselines base models, and issues checkpoint promotion verdicts. Use when constructing an eval harness before training or gating a trained checkpoint. Deliberately independent from training execution."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/agents/llm-finetuning-eval-engineer.md
+i18n:
+  zh:
+    name: "LLM 微调评估工程师"
+    description: "微调评估守门人——构建黄金数据集和评分器，校准评判器，为基座模型建立基线，并发布检查点晋升判定。在训练前构建评估框架，或对训练后的检查点进行把关时使用。刻意独立于训练执行。"

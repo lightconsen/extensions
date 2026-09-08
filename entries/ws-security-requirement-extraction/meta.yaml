@@ -1,0 +1,16 @@
+id: ws-security-requirement-extraction
+type: skill
+version: 1.0.0
+category: security
+name: security-requirement-extraction
+description: "Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/security-scanning/skills/security-requirement-extraction
+i18n:
+  zh:
+    name: "安全需求提取"
+    description: "从威胁模型和业务上下文中推导安全需求。在将威胁转化为可操作的需求、创建安全用户故事或构建安全测试用例时使用。"

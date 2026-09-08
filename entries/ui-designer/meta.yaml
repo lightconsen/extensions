@@ -1,0 +1,17 @@
+id: ui-designer
+type: expert
+version: 1.0.0
+category: design
+name: "Ui Designer"
+description: "Expert UI designer specializing in component creation, layout systems, and visual design implementation. Masters modern design patterns, responsive layouts, and design-to-code workflows. Use PROACTIVELY when building UI components, designing layouts, creating mockups, or implementing visual designs."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/agents/ui-designer.md
+    - categories/01-core-development/ui-designer.md
+i18n:
+  zh:
+    name: "UI 设计师"
+    description: "UI 设计专家，专注于组件创建、布局系统和视觉设计实现。精通现代设计模式、响应式布局和设计到代码的工作流。在构建 UI 组件、设计布局、创建原型或实现视觉设计时主动使用。"

@@ -1,0 +1,16 @@
+id: lobe-grammar-corrector
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Grammar Corrector"
+description: "Correct grammar error text or paragraph. Great for essay or email"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/grammar-corrector.json
+i18n:
+  zh:
+    name: "语法纠正器"
+    description: "纠正语法错误的文本或段落。非常适合论文或电子邮件"

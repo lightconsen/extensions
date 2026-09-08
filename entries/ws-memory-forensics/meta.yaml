@@ -1,0 +1,16 @@
+id: ws-memory-forensics
+type: skill
+version: 1.0.0
+category: security
+name: memory-forensics
+description: "Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating incidents, or performing malware analysis from RAM captures."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/reverse-engineering/skills/memory-forensics
+i18n:
+  zh:
+    name: "内存取证"
+    description: "掌握内存取证技术，包括使用 Volatility 及相关工具进行内存获取、进程分析和工件提取。用于分析内存转储、事件调查或从 RAM 捕获中进行恶意软件分析。"

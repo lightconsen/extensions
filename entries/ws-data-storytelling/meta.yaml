@@ -1,0 +1,16 @@
+id: ws-data-storytelling
+type: skill
+version: 1.0.0
+category: business
+name: data-storytelling
+description: "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/business-analytics/skills/data-storytelling
+i18n:
+  zh:
+    name: "数据叙事"
+    description: "利用可视化、背景和有说服力的结构，将数据转化为引人入胜的故事。适用于向利益相关者展示分析结果、编写数据报告或制作高管汇报。"

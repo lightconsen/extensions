@@ -1,0 +1,16 @@
+id: ws-rust-async-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: rust-async-patterns
+description: "Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/systems-programming/skills/rust-async-patterns
+i18n:
+  zh:
+    name: "Rust 异步模式"
+    description: "掌握使用 Tokio、异步 trait、错误处理和并发模式进行 Rust 异步编程。在构建异步 Rust 应用、实现并发系统或调试异步代码时使用。"

@@ -1,0 +1,16 @@
+id: ws-dotnet-backend-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: dotnet-backend-patterns
+description: "Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuration, caching, and testing with xUnit. Use when developing .NET backends, reviewing C# code, or designing API architectures."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/dotnet-contribution/skills/dotnet-backend-patterns
+i18n:
+  zh:
+    name: ".NET 后端模式"
+    description: "掌握使用 C#/.NET 构建健壮 API、MCP 服务器和企业应用的后端开发模式，涵盖 async/await、依赖注入、Entity Framework Core、Dapper、配置、缓存以及 xUnit 测试。在开发 .NET 后端、审查 C# 代码或设计 API 架构时使用。"

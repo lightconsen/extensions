@@ -1,0 +1,16 @@
+id: frontend-security-coder
+type: expert
+version: 1.0.0
+category: security
+name: "Frontend Security Coder"
+description: "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. Use PROACTIVELY for frontend security implementations or client-side security code reviews."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/frontend-mobile-security/agents/frontend-security-coder.md
+i18n:
+  zh:
+    name: "前端安全编码员"
+    description: "专注于 XSS 防护、输出清理和客户端安全模式的前端安全编码专家。在前端安全实现或客户端安全代码审查时主动使用。"

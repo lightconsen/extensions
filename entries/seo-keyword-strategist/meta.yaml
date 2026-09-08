@@ -1,0 +1,16 @@
+id: seo-keyword-strategist
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Keyword Strategist"
+description: "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-technical-optimization/agents/seo-keyword-strategist.md
+i18n:
+  zh:
+    name: "SEO 关键词策略师"
+    description: "分析提供内容中的关键词使用情况，计算关键词密度，根据主题建议语义变体和 LSI 关键词。防止过度优化。在内容优化时应主动使用。"

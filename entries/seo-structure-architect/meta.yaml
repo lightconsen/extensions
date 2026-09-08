@@ -1,0 +1,16 @@
+id: seo-structure-architect
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Structure Architect"
+description: "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization. Use PROACTIVELY for content structuring."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-technical-optimization/agents/seo-structure-architect.md
+i18n:
+  zh:
+    name: "SEO 结构架构师"
+    description: "分析并优化内容结构，包括标题层级；建议 Schema 标记和内部链接机会。创建对搜索友好的内容组织。请主动用于内容结构化。"

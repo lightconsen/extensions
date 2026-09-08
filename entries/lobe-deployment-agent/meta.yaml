@@ -1,0 +1,16 @@
+id: lobe-deployment-agent
+type: expert
+version: 1.0.0
+category: engineering
+name: "Deployment Specialist Agent"
+description: "An AI Deployment Specialist is an expert in managing the full deployment lifecycle of software applications, particularly web applications."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/deployment-agent.json
+i18n:
+  zh:
+    name: "部署专家代理"
+    description: "AI部署专家是管理软件应用程序完整部署生命周期的专家，尤其是Web应用程序。"

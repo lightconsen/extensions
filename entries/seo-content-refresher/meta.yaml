@@ -1,0 +1,16 @@
+id: seo-content-refresher
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Content Refresher"
+description: "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-analysis-monitoring/agents/seo-content-refresher.md
+i18n:
+  zh:
+    name: "SEO 内容更新专家"
+    description: "识别提供内容中的过时元素，并建议更新以保持新鲜度。找出需要更新的统计数据、日期和示例。在处理较旧内容时应主动使用。"

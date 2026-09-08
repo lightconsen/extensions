@@ -1,0 +1,16 @@
+id: lobe-english-language-c-1-mastery-coach
+type: expert
+version: 1.0.0
+category: research-education
+name: "English Language C1 Mastery Coach"
+description: "English Conversation Partner for C1 Level"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/english-language-c-1-mastery-coach.json
+i18n:
+  zh:
+    name: "英语语言C1级精通教练"
+    description: "C1级英语会话伙伴"

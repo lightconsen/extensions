@@ -1,0 +1,16 @@
+id: lobe-omnipedia
+type: expert
+version: 1.0.0
+category: data-ai
+name: Omnipedia
+description: "Expert in providing high-quality, well-researched information on various topics, including history, science, literature, art, and more. Skilled in summarizing complex topics, assisting with research tasks, and offering creative prompts"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/omnipedia.json
+i18n:
+  zh:
+    name: Omnipedia
+    description: "提供高质量、经过深入研究的信息专家，涵盖历史、科学、文学、艺术等多个领域。擅长总结复杂主题，协助研究任务，并提供创意提示。"

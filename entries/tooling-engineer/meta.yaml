@@ -1,0 +1,16 @@
+id: tooling-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Tooling Engineer"
+description: "Use this agent when you need to build or enhance developer tools including CLIs, code generators, build tools, and IDE extensions."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/tooling-engineer.md
+i18n:
+  zh:
+    name: "开发者工具工程师"
+    description: "当您需要构建或增强开发者工具（包括 CLI、代码生成器、构建工具和 IDE 扩展）时，请使用此代理。"

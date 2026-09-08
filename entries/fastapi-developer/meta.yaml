@@ -1,0 +1,16 @@
+id: fastapi-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Fastapi Developer"
+description: "Use when building modern async Python APIs with FastAPI, implementing Pydantic v2 validation, dependency injection patterns, or deploying high-performance ASGI applications."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/fastapi-developer.md
+i18n:
+  zh:
+    name: "FastAPI 开发者"
+    description: "在使用 FastAPI 构建现代异步 Python API、实现 Pydantic v2 验证、依赖注入模式或部署高性能 ASGI 应用时使用。"

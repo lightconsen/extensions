@@ -1,0 +1,16 @@
+id: ws-architecture-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: architecture-patterns
+description: "Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use this skill when designing clean architecture for a new microservice, when refactoring a monolith to use bounded contexts, when implementing hexagonal or onion architecture patterns, or when debugging dependency cycles between application layers."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/skills/architecture-patterns
+i18n:
+  zh:
+    name: "架构模式"
+    description: "应用经过验证的后端架构模式，包括整洁架构、六边形架构和领域驱动设计。在为新微服务设计整洁架构、重构单体以使用限界上下文、实现六边形或洋葱架构模式，或调试应用层之间的依赖循环时使用此技能。"

@@ -1,0 +1,16 @@
+id: m365-admin
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "M365 Admin"
+description: "Use when automating Microsoft 365 administrative tasks including Exchange Online mailbox provisioning, Teams collaboration management, SharePoint site configuration, license lifecycle management, and Graph API-driven identity automation."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/m365-admin.md
+i18n:
+  zh:
+    name: "M365 管理员"
+    description: "用于自动化Microsoft 365管理任务，包括Exchange Online邮箱预配、Teams协作管理、SharePoint网站配置、许可证生命周期管理，以及由Graph API驱动的身份自动化。"

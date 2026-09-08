@@ -1,0 +1,16 @@
+id: lobe-birthday-invitation-message
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Birthday Invitation Messages"
+description: "Specializes in crafting engaging and personalized Birthday Invitation messages, catering to various themes and tones."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/birthday-invitation-message.json
+i18n:
+  zh:
+    name: "生日邀请信息"
+    description: "专注于制作引人入胜且个性化的生日邀请信息，满足各种主题和语调的需求。"

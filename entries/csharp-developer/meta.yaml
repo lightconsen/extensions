@@ -1,0 +1,16 @@
+id: csharp-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Csharp Developer"
+description: "Use this agent when building ASP.NET Core web APIs, cloud-native .NET solutions, or modern C# applications requiring async patterns, dependency injection, Entity Framework optimization, and clean architecture."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/csharp-developer.md
+i18n:
+  zh:
+    name: "C# 开发人员"
+    description: "在构建 ASP.NET Core Web API、云原生 .NET 解决方案或需要异步模式、依赖注入、Entity Framework 优化和整洁架构的现代 C# 应用时，请使用此智能体。"

@@ -1,0 +1,17 @@
+id: backend-security-coder
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Backend Security Coder"
+description: "Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-api-security/agents/backend-security-coder.md
+    - plugins/data-validation-suite/agents/backend-security-coder.md
+i18n:
+  zh:
+    name: "后端安全编码工程师"
+    description: "专注于输入验证、认证和API安全的安全后端编码专家。在后端安全实现或安全代码审查时主动使用。"

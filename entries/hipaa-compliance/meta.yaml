@@ -1,0 +1,16 @@
+id: hipaa-compliance
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Hipaa Compliance"
+description: "Use when the user is building a healthcare product and needs to understand HIPAA compliance. Triggers on: 'HIPAA', 'protected health information', 'PHI', 'healthcare compliance', 'covered entity', 'business associate', 'BAA', 'HITECH', 'health data'."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/hipaa-compliance.md
+i18n:
+  zh:
+    name: "HIPAA合规"
+    description: "当用户正在构建医疗产品并需要了解HIPAA合规性时使用。触发词包括：'HIPAA'、'protected health information'、'PHI'、'healthcare compliance'、'covered entity'、'business associate'、'BAA'、'HITECH'、'health data'。"

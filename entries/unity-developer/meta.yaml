@@ -1,0 +1,16 @@
+id: unity-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Unity Developer"
+description: "Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment. Handles gameplay systems, UI implementation, and platform optimization. Use PROACTIVELY for Unity performance issues, game mechanics, or cross-platform builds."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/game-development/agents/unity-developer.md
+i18n:
+  zh:
+    name: "Unity 开发者"
+    description: "使用优化后的 C# 脚本、高效渲染和恰当的资产管理来构建 Unity 游戏。精通 Unity 6 LTS、URP/HDRP 渲染管线及跨平台部署。处理游戏系统、UI 实现和平台优化。在遇到 Unity 性能问题、游戏机制或跨平台构建时主动使用。"

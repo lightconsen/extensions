@@ -1,0 +1,16 @@
+id: ws-event-store-design
+type: skill
+version: 1.0.0
+category: engineering
+name: event-store-design
+description: "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/skills/event-store-design
+i18n:
+  zh:
+    name: "事件存储设计"
+    description: "为事件溯源系统设计和实现事件存储。在构建事件溯源基础设施、选择事件存储技术或实现事件持久化模式时使用。"

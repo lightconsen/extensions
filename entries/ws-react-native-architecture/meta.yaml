@@ -1,0 +1,16 @@
+id: ws-react-native-architecture
+type: skill
+version: 1.0.0
+category: engineering
+name: react-native-architecture
+description: "Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecting React Native projects."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/frontend-mobile-development/skills/react-native-architecture
+i18n:
+  zh:
+    name: "React Native 架构"
+    description: "使用 Expo、导航、原生模块、离线同步和跨平台模式构建生产级 React Native 应用。在开发移动应用、实现原生集成或搭建 React Native 项目架构时使用。"

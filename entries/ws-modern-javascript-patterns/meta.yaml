@@ -1,0 +1,16 @@
+id: ws-modern-javascript-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: modern-javascript-patterns
+description: "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code. Use when refactoring legacy code, implementing modern patterns, or optimizing JavaScript applications."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/javascript-typescript/skills/modern-javascript-patterns
+i18n:
+  zh:
+    name: "现代 JavaScript 模式"
+    description: "掌握 ES6+ 特性，包括 async/await、解构、展开运算符、箭头函数、Promise、模块、迭代器、生成器以及函数式编程模式，以编写简洁高效的 JavaScript 代码。用于重构遗留代码、实现现代模式或优化 JavaScript 应用。"

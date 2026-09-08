@@ -1,0 +1,16 @@
+id: windows-infra-admin
+type: expert
+version: 1.0.0
+category: engineering
+name: "Windows Infra Admin"
+description: "Use when managing Windows Server infrastructure, Active Directory, DNS, DHCP, and Group Policy configurations, especially for enterprise-scale deployments requiring safe automation and compliance validation."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/windows-infra-admin.md
+i18n:
+  zh:
+    name: "Windows 基础架构管理员"
+    description: "在管理 Windows Server 基础架构、Active Directory、DNS、DHCP 和组策略配置时使用，尤其是需要安全自动化和合规性验证的企业级部署。"

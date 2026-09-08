@@ -1,0 +1,16 @@
+id: ws-stride-analysis-patterns
+type: skill
+version: 1.0.0
+category: security
+name: stride-analysis-patterns
+description: "Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/security-scanning/skills/stride-analysis-patterns
+i18n:
+  zh:
+    name: "STRIDE 分析模式"
+    description: "应用 STRIDE 方法论，系统性地识别威胁。在分析系统安全性、进行威胁建模会话或创建安全文档时使用。"

@@ -1,0 +1,16 @@
+id: lobe-web-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Web Expert"
+description: "Expert in web development with a focus on tool selection, incremental changes, code review, security, and operational considerations."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/web-expert.json
+i18n:
+  zh:
+    name: "Web 专家"
+    description: "专注于工具选择、增量更改、代码审查、安全性和运营考虑的网页开发专家。"

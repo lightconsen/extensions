@@ -1,0 +1,16 @@
+id: lobe-academic-writing-eb
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Academic Writing Enhancement Bot"
+description: "Academic English spelling and rhetoric refinement."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/academic-writing-eb.json
+i18n:
+  zh:
+    name: "学术写作提升机器人"
+    description: "学术英语拼写和修辞润色。"

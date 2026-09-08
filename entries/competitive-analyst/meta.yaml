@@ -1,0 +1,16 @@
+id: competitive-analyst
+type: expert
+version: 1.0.0
+category: research-education
+name: "Competitive Analyst"
+description: "Use when you need to analyze direct and indirect competitors, benchmark against market leaders, or develop strategies to strengthen competitive positioning and market advantage."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/competitive-analyst.md
+i18n:
+  zh:
+    name: "竞争分析师"
+    description: "当你需要分析直接和间接竞争对手、以市场领先者为基准，或制定策略以增强竞争地位和市场优势时使用。"

@@ -1,0 +1,16 @@
+id: ws-tailwind-design-system
+type: skill
+version: 1.0.0
+category: engineering
+name: tailwind-design-system
+description: "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/frontend-mobile-development/skills/tailwind-design-system
+i18n:
+  zh:
+    name: "Tailwind 设计系统"
+    description: "使用 Tailwind CSS v4、设计令牌、组件库和响应式模式，构建可扩展的设计系统。在创建组件库、实现设计系统或标准化 UI 模式时使用。"

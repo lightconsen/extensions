@@ -1,0 +1,16 @@
+id: ws-gitlab-ci-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: gitlab-ci-patterns
+description: "Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for scalable automation. Use when implementing GitLab CI/CD, optimizing pipeline performance, or setting up automated testing and deployment."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cicd-automation/skills/gitlab-ci-patterns
+i18n:
+  zh:
+    name: "GitLab CI/CD 模式"
+    description: "使用多阶段工作流、缓存和分布式 runner 构建 GitLab CI/CD 管道，实现可扩展的自动化。在实现 GitLab CI/CD、优化管道性能或设置自动化测试与部署时使用。"

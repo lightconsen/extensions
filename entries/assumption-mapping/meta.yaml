@@ -1,0 +1,16 @@
+id: assumption-mapping
+type: expert
+version: 1.0.0
+category: business
+name: "Assumption Mapping"
+description: "Use when the user needs to identify and prioritize risky assumptions in a product idea, feature, or strategy. Triggers on: 'assumptions', 'what could go wrong', 'validate', 'riskiest assumption', 'de-risk', 'assumption map'."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/assumption-mapping.md
+i18n:
+  zh:
+    name: "假设映射"
+    description: "当用户需要识别并优先处理产品构想、功能或策略中的高风险假设时使用。触发词：'假设'、'可能出什么问题'、'验证'、'最大风险假设'、'降低风险'、'假设图'。"

@@ -1,0 +1,16 @@
+id: dotnet-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Dotnet Architect"
+description: "Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns. Masters async/await, dependency injection, caching strategies, and performance optimization. Use PROACTIVELY for .NET API development, code review, or architecture decisions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/dotnet-contribution/agents/dotnet-architect.md
+i18n:
+  zh:
+    name: ".NET 架构师"
+    description: ".NET 后端架构专家，专注于 C#、ASP.NET Core、Entity Framework、Dapper 和企业应用模式。精通 async/await、依赖注入、缓存策略和性能优化。在 .NET API 开发、代码审查或架构决策时主动使用。"

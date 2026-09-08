@@ -1,0 +1,16 @@
+id: ws-e2e-testing-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: e2e-testing-patterns
+description: "Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky tests, or establishing testing standards."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/e2e-testing-patterns
+i18n:
+  zh:
+    name: "端到端测试模式"
+    description: "使用 Playwright 和 Cypress 掌握端到端测试，构建可靠的测试套件，以发现问题、增强信心并实现快速部署。在实施端到端测试、排查不稳定测试或建立测试标准时使用。"

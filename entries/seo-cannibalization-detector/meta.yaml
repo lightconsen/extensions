@@ -1,0 +1,16 @@
+id: seo-cannibalization-detector
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Cannibalization Detector"
+description: "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-analysis-monitoring/agents/seo-cannibalization-detector.md
+i18n:
+  zh:
+    name: "SEO 关键词蚕食检测器"
+    description: "分析所提供的多个页面，识别关键词重叠和潜在的关键词蚕食问题。建议差异化策略。在审查相似内容时应主动使用。"

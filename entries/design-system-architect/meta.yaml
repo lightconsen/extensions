@@ -1,0 +1,16 @@
+id: design-system-architect
+type: expert
+version: 1.0.0
+category: design
+name: "Design System Architect"
+description: "Expert design system architect specializing in design tokens, component libraries, theming infrastructure, and scalable design operations. Masters token architecture, multi-brand systems, and design-development collaboration. Use PROACTIVELY when building design systems, creating token architectures, implementing theming, or establishing component libraries."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/agents/design-system-architect.md
+i18n:
+  zh:
+    name: "设计系统架构师"
+    description: "专业设计系统架构师，专注于设计令牌、组件库、主题基础设施和可扩展的设计运营。精通令牌架构、多品牌系统以及设计与开发协作。请主动在构建设计系统、创建令牌架构、实施主题化或建立组件库时使用。"

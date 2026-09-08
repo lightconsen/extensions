@@ -1,0 +1,16 @@
+id: session-end
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Session End"
+description: "Use at the end of every significant work session. Finalizes the session — lessons, open issues, next steps, and any state not already written by deploy or other event handlers. Skips cleanly if nothing significant changed. Pairs with session-start."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/operating-kit/agents/session-end.md
+i18n:
+  zh:
+    name: "会话结束"
+    description: "在每个重要工作会话结束时使用。收尾会话内容——经验教训、待处理问题、后续步骤以及尚未由部署或其他事件处理器写入的任何状态。若无重大变化则干净跳过。与 session-start 配对。"

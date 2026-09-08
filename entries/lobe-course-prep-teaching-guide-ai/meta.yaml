@@ -1,0 +1,16 @@
+id: lobe-course-prep-teaching-guide-ai
+type: expert
+version: 1.0.0
+category: research-education
+name: "AI Assistant for Course Content and Teaching Guidelines"
+description: "This AI assistant is designed to help educators and instructors prepare comprehensive course content and provide practical teaching guidelines. It leverages advanced NLP capabilities to generate lesson plans, suggest engaging teaching strategies, and offer insights into educational best practices."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/course-prep-teaching-guide-ai.json
+i18n:
+  zh:
+    name: "课程内容与教学指南的 AI 助手"
+    description: "此 AI 助手旨在帮助教育工作者和讲师准备全面的课程内容并提供实用的教学指南。它利用先进的自然语言处理能力生成课程计划，建议引人入胜的教学策略，并提供教育最佳实践的见解。"

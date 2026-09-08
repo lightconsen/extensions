@@ -1,0 +1,16 @@
+id: elixir-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Elixir Pro"
+description: "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems. Use PROACTIVELY for Elixir refactoring, OTP design, or complex BEAM optimizations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/functional-programming/agents/elixir-pro.md
+i18n:
+  zh:
+    name: "Elixir 高级专家"
+    description: "使用 OTP 模式、监督树和 Phoenix LiveView 编写惯用的 Elixir 代码。精通并发、容错和分布式系统。在 Elixir 重构、OTP 设计或复杂的 BEAM 优化时主动使用。"

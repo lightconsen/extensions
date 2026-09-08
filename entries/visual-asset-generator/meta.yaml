@@ -1,0 +1,16 @@
+id: visual-asset-generator
+type: expert
+version: 1.0.0
+category: engineering
+name: "Visual Asset Generator"
+description: "Use this agent when you need to generate production-ready visual assets for a project — app icons, favicons, OG images, logos, wordmarks, or social media images. Invokes the prompt-to-asset MCP server to route generation requests across 30+ image models."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/visual-asset-generator.md
+i18n:
+  zh:
+    name: "视觉资产生成器"
+    description: "当您需要为项目生成生产级视觉资产时使用此代理——应用图标、favicon、OG 图片、徽标、文字标识或社交媒体图片。调用 prompt-to-asset MCP 服务器以将生成请求路由到 30 多个图像模型。"

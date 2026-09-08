@@ -1,0 +1,16 @@
+id: backlog-grooming
+type: expert
+version: 1.0.0
+category: business
+name: "Backlog Grooming"
+description: "Use when the user needs to groom, refine, or clean up a product backlog. Triggers on: 'groom backlog', 'backlog refinement', 'backlog grooming', 'clean up backlog', 'refine stories', 'sprint refinement', 'backlog management'."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/backlog-grooming.md
+i18n:
+  zh:
+    name: "待办事项梳理"
+    description: "当用户需要梳理、细化或清理产品待办列表时使用。触发词：'梳理待办列表'、'待办列表细化'、'待办梳理'、'清理待办列表'、'细化故事'、'冲刺细化'、'待办管理'。"

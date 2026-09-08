@@ -1,0 +1,16 @@
+id: lobe-general-chain-of-thought
+type: expert
+version: 1.0.0
+category: research-education
+name: "Principled Problem Solver"
+description: "Excellent at principled problem-solving and categorization. Chain of Thought agent"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/general-chain-of-thought.json
+i18n:
+  zh:
+    name: "有原则的问题解决者"
+    description: "擅长有原则的问题解决和分类。思维链代理"

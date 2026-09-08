@@ -1,0 +1,16 @@
+id: ws-pptx-visual-assets
+type: skill
+version: 1.0.0
+category: business
+name: pptx-visual-assets
+description: "Use when selecting and placing approved supporting icons, images, SVGs, diagrams, or infographics in an editable PPTX deck."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/pptx-deck-creation/skills/pptx-visual-assets
+i18n:
+  zh:
+    name: "PPTX 视觉素材"
+    description: "在可编辑 PPTX 演示文稿中选择和放置经批准的辅助图标、图片、SVG、图表或信息图时使用。"

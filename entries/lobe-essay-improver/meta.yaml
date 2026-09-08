@@ -1,0 +1,16 @@
+id: lobe-essay-improver
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Essay Improver"
+description: "Improve your texts to be more elegant and professional"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/essay-improver.json
+i18n:
+  zh:
+    name: "论文润色器"
+    description: "提升您的文本，使其更优雅且专业"

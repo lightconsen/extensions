@@ -1,0 +1,16 @@
+id: ws-python-anti-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: python-anti-patterns
+description: "Use this skill when reviewing Python code for common anti-patterns to avoid. Use as a checklist when reviewing code, before finalizing implementations, or when debugging issues that might stem from known bad practices."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-anti-patterns
+i18n:
+  zh:
+    name: "Python 反模式"
+    description: "在审查 Python 代码以避免常见反模式时使用此技能。在审查代码时、最终确定实现前或调试可能源于已知不良实践的问题时作为检查清单使用。"

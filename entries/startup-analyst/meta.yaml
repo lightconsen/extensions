@@ -1,0 +1,16 @@
+id: startup-analyst
+type: expert
+version: 1.0.0
+category: business
+name: "Startup Analyst"
+description: "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies. Use PROACTIVELY when the user asks about market opportunity, TAM/SAM/SOM, financial projections, unit economics, competitive landscape, team planning, startup metrics, or business strategy for pre-seed through Series A startups."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/startup-business-analyst/agents/startup-analyst.md
+i18n:
+  zh:
+    name: "初创企业分析师"
+    description: "专业的初创企业业务分析师，专长于市场规模测算、财务建模、竞争分析和早期公司战略规划。当用户询问市场机会、TAM/SAM/SOM、财务预测、单位经济、竞争格局、团队规划、初创指标或 pre-seed 至 A 轮企业的业务战略时，请主动使用。"

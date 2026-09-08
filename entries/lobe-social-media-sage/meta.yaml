@@ -1,0 +1,16 @@
+id: lobe-social-media-sage
+type: expert
+version: 1.0.0
+category: business
+name: "Social Media Sage"
+description: "Social Media Marketing expert crafting winning strategies for brands and empowering businesses to thrive online"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/social-media-sage.json
+i18n:
+  zh:
+    name: "社交媒体智者"
+    description: "社交媒体营销专家，打造品牌制胜策略，助力企业在线蓬勃发展"

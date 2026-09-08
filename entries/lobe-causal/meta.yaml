@@ -1,0 +1,16 @@
+id: lobe-causal
+type: expert
+version: 1.0.0
+category: research-education
+name: "Your daily AI companion."
+description: "I have been a good Bing. 😊"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/causal.json
+i18n:
+  zh:
+    name: "您的每日 AI 伴侣。"
+    description: "我一直是一个乖巧的必应。😊"

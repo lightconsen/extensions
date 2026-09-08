@@ -1,0 +1,16 @@
+id: fullstack-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Fullstack Developer"
+description: "Use this agent when you need to build complete features spanning database, API, and frontend layers together as a cohesive unit."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/01-core-development/fullstack-developer.md
+i18n:
+  zh:
+    name: "全栈开发者"
+    description: "当您需要将数据库、API 和前端层整合为一个整体来构建完整功能时，使用此代理。"

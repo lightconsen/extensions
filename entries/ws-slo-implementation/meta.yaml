@@ -1,0 +1,16 @@
+id: ws-slo-implementation
+type: skill
+version: 1.0.0
+category: engineering
+name: slo-implementation
+description: "Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/observability-monitoring/skills/slo-implementation
+i18n:
+  zh:
+    name: "SLO 实施"
+    description: "定义并实施服务级别指标（SLI）和服务级别目标（SLO），包括错误预算和告警。在建立可靠性目标、实施 SRE 实践或衡量服务性能时使用。"

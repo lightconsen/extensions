@@ -1,0 +1,21 @@
+id: backend-architect
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Backend Architect"
+description: "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. Masters REST/GraphQL/gRPC APIs, event-driven architectures, service mesh patterns, and modern backend frameworks. Handles service boundary definition, inter-service communication, resilience patterns, and observability. Use PROACTIVELY when creating new backend services or APIs."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/api-scaffolding/agents/backend-architect.md
+    - plugins/backend-api-security/agents/backend-architect.md
+    - plugins/backend-development/agents/backend-architect.md
+    - plugins/data-engineering/agents/backend-architect.md
+    - plugins/database-cloud-optimization/agents/backend-architect.md
+    - plugins/multi-platform-apps/agents/backend-architect.md
+i18n:
+  zh:
+    name: "后端架构师"
+    description: "专注于可扩展API设计、微服务架构和分布式系统的后端架构专家。精通REST/GraphQL/gRPC API、事件驱动架构、服务网格模式和现代后端框架。处理服务边界定义、服务间通信、弹性模式和可观测性。在创建新的后端服务或API时主动使用。"

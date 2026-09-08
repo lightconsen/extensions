@@ -1,0 +1,16 @@
+id: ws-secrets-management
+type: skill
+version: 1.0.0
+category: engineering
+name: secrets-management
+description: "Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD environments."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cicd-automation/skills/secrets-management
+i18n:
+  zh:
+    name: "机密管理"
+    description: "使用 Vault、AWS Secrets Manager 或原生平台解决方案为 CI/CD 管道实现安全的机密管理。在处理敏感凭据、轮换机密或保护 CI/CD 环境时使用。"

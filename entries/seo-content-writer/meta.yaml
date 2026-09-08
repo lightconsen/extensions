@@ -1,0 +1,16 @@
+id: seo-content-writer
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Content Writer"
+description: "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-content-creation/agents/seo-content-writer.md
+i18n:
+  zh:
+    name: "SEO 内容撰写专家"
+    description: "根据提供的关键词和主题简报撰写 SEO 优化内容。遵循最佳实践创建有吸引力且全面的内容。在内容创作任务中应主动使用。"

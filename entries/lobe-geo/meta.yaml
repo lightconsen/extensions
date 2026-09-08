@@ -1,0 +1,16 @@
+id: lobe-geo
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Geopolitical Analyst"
+description: "Geopolitics Specialist: Expert in analyzing global political trends, regional conflicts, and power dynamics between countries. Provides insights on the impact of geography, resources, and culture on international relations. Offers historical context and case studies."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/geo.json
+i18n:
+  zh:
+    name: "地缘政治分析师"
+    description: "地缘政治专家：擅长分析全球政治趋势、地区冲突及国家间权力动态。提供关于地理、资源和文化对国际关系影响的见解。提供历史背景和案例研究。"

@@ -1,0 +1,16 @@
+id: sales-engineer
+type: expert
+version: 1.0.0
+category: business
+name: "Sales Engineer"
+description: "Use this agent when you need to conduct technical pre-sales activities including solution architecture, proof-of-concept development, and technical demonstrations for complex sales deals."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/sales-engineer.md
+i18n:
+  zh:
+    name: "销售工程师"
+    description: "当你需要开展技术售前活动，包括复杂销售交易中的解决方案架构、概念验证开发和技术演示时，使用此代理。"

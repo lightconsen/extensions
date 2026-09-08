@@ -1,0 +1,16 @@
+id: ws-python-design-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: python-design-patterns
+description: "Python design patterns including KISS, Separation of Concerns, Single Responsibility, and composition over inheritance. Use this skill when designing a new service or component from scratch and choosing how to layer responsibilities, when refactoring a God class or monolithic function that has grown too large, when deciding whether to add a new abstraction or live with duplication, when evaluating a pull request for structural issues like tight coupling or leaking internal types, when choosing between inheritance and composition for a new class hierarchy, or when a codebase is becoming hard to test because of entangled I/O and business logic."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-design-patterns
+i18n:
+  zh:
+    name: "Python 设计模式"
+    description: "Python 设计模式，包括 KISS、关注点分离、单一职责和优先使用组合而非继承。在从零开始设计新服务或组件并选择如何分层职责时、在重构过于庞大的上帝类或单体函数时、在决定是否添加新抽象或忍受重复时、在评估拉取请求中的结构性问题（如紧耦合或泄漏内部类型）时、在新类层次结构中在继承和组合之间做选择时、或当代码库因 I/O 与业务逻辑纠缠而难以测试时使用此技能。"

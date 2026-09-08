@@ -1,0 +1,16 @@
+id: ws-team-composition-analysis
+type: skill
+version: 1.0.0
+category: business
+name: team-composition-analysis
+description: "Design optimal team structures, hiring plans, compensation strategies, and equity allocation for early-stage startups from pre-seed through Series A. Use this skill when planning headcount, determining which roles to hire next, setting compensation or equity ranges, designing org structure, or building a hiring budget aligned to funding milestones."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/startup-business-analyst/skills/team-composition-analysis
+i18n:
+  zh:
+    name: "团队构成分析"
+    description: "为从 pre-seed 到 A 轮的早期创业公司设计最佳团队结构、招聘计划、薪酬策略和股权分配。在规划人员编制、决定接下来招聘哪些职位、设定薪酬或股权范围、设计组织架构，或制定与融资里程碑对齐的招聘预算时使用此技能。"

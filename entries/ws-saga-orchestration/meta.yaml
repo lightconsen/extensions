@@ -1,0 +1,16 @@
+id: ws-saga-orchestration
+type: skill
+version: 1.0.0
+category: engineering
+name: saga-orchestration
+description: "Implement saga patterns for distributed transactions and cross-aggregate workflows. Use this skill when implementing distributed transactions across microservices where 2PC is unavailable, designing compensating actions for failed order workflows that span inventory, payment, and shipping services, building event-driven saga coordinators for travel booking systems that must roll back hotel, flight, and car rental reservations atomically, or debugging stuck saga states in production where compensation steps never complete."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/skills/saga-orchestration
+i18n:
+  zh:
+    name: "Saga 编排"
+    description: "为分布式事务和跨聚合工作流实现 Saga 模式。此技能适用于：在无法使用 2PC（两阶段提交）的微服务间实现分布式事务；为涉及库存、支付和物流服务的失败订单工作流设计补偿操作；为需要原子化回滚酒店、航班和租车预订的旅行预订系统构建事件驱动的 Saga 协调器；或调试生产环境中补偿步骤永不完成而卡住的 Saga 状态。"

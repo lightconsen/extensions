@@ -1,0 +1,16 @@
+id: ws-python-project-structure
+type: skill
+version: 1.0.0
+category: engineering
+name: python-project-structure
+description: "Python project organization, module architecture, and public API design. Use when setting up new projects, organizing modules, defining public interfaces with __all__, or planning directory layouts."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-project-structure
+i18n:
+  zh:
+    name: "Python 项目结构"
+    description: "涵盖 Python 项目组织、模块架构和公共 API 设计。在搭建新项目、组织模块、通过 __all__ 定义公共接口或规划目录布局时使用。"

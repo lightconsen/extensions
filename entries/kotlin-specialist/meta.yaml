@@ -1,0 +1,16 @@
+id: kotlin-specialist
+type: expert
+version: 1.0.0
+category: engineering
+name: "Kotlin Specialist"
+description: "Use when building Kotlin applications requiring advanced coroutine patterns, multiplatform code sharing, or Android/server-side development with functional programming principles."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/kotlin-specialist.md
+i18n:
+  zh:
+    name: "Kotlin专家"
+    description: "在构建需要高级协程模式、多平台代码共享或采用函数式编程原则进行Android/服务端开发的Kotlin应用时使用。"

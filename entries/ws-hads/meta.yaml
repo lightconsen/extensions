@@ -1,0 +1,16 @@
+id: ws-hads
+type: skill
+version: 1.0.0
+category: content-writing
+name: hads
+description: "Use when writing technical documentation that needs to be readable by both humans and AI models, converting existing docs to HADS format, validating a HADS document, or optimizing documentation for token-efficient AI consumption."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/documentation-standards/skills/hads
+i18n:
+  zh:
+    name: HADS
+    description: "在编写需要人类和 AI 模型都能阅读的技术文档、将现有文档转换为 HADS 格式、验证 HADS 文档，或优化文档以实现 token 高效的 AI 阅读时使用。"

@@ -1,0 +1,16 @@
+id: bash-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Bash Pro"
+description: "Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilities. Expert in safe, portable, and testable shell scripts."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/shell-scripting/agents/bash-pro.md
+i18n:
+  zh:
+    name: "Bash专家"
+    description: "精通用于生产自动化、CI/CD管道和系统工具的防御性Bash脚本编写。擅长安全、可移植且可测试的Shell脚本。"

@@ -1,0 +1,16 @@
+id: lobe-the-20-autoextract
+type: expert
+version: 1.0.0
+category: research-education
+name: "Auto Extraction Data"
+description: "The20 Auto Extraction Data"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/the-20-autoextract.json
+i18n:
+  zh:
+    name: "自动提取数据"
+    description: "The20 自动提取数据"

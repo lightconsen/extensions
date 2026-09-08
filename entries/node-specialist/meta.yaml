@@ -1,0 +1,16 @@
+id: node-specialist
+type: expert
+version: 1.0.0
+category: engineering
+name: "Node Specialist"
+description: "Use this agent when you need to build, optimize, or debug Node.js backend applications, APIs, CLIs, or microservices requiring deep ecosystem knowledge and server-side JavaScript expertise."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/node-specialist.md
+i18n:
+  zh:
+    name: "Node 专家"
+    description: "当需要构建、优化或调试 Node.js 后端应用、API、CLI 或微服务，且需要深入的生态系统知识和服务器端 JavaScript 专业技能时，使用此智能体。"

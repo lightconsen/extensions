@@ -1,0 +1,16 @@
+id: spring-boot-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Spring Boot Engineer"
+description: "Use this agent when building enterprise Spring Boot 3+ applications requiring microservices architecture, cloud-native deployment, or reactive programming patterns."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/spring-boot-engineer.md
+i18n:
+  zh:
+    name: "Spring Boot 工程师"
+    description: "构建需要微服务架构、云原生部署或响应式编程模式的企业级 Spring Boot 3+ 应用时，请使用此代理。"

@@ -1,0 +1,16 @@
+id: ws-embedding-strategies
+type: skill
+version: 1.0.0
+category: data-ai
+name: embedding-strategies
+description: "Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/skills/embedding-strategies
+i18n:
+  zh:
+    name: "嵌入策略"
+    description: "为语义搜索和 RAG 应用选择并优化嵌入模型。在选择嵌入模型、实施分块策略或针对特定领域优化嵌入质量时使用。"

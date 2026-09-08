@@ -1,0 +1,16 @@
+id: ws-protocol-reverse-engineering
+type: skill
+version: 1.0.0
+category: security
+name: protocol-reverse-engineering
+description: "Master network protocol reverse engineering including packet analysis, protocol dissection, and custom protocol documentation. Use when analyzing network traffic, understanding proprietary protocols, or debugging network communication."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/reverse-engineering/skills/protocol-reverse-engineering
+i18n:
+  zh:
+    name: "协议逆向工程"
+    description: "掌握网络协议逆向工程，包括数据包分析、协议解析和自定义协议文档。在分析网络流量、理解专有协议或调试网络通信时使用。"

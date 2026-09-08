@@ -1,0 +1,16 @@
+id: ws-postmortem-writing
+type: skill
+version: 1.0.0
+category: engineering
+name: postmortem-writing
+description: "Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documents, or improving incident response processes."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/incident-response/skills/postmortem-writing
+i18n:
+  zh:
+    name: "事后分析撰写"
+    description: "撰写有效的无指责事后分析，包括根本原因分析、时间线和行动项。在进行事件审查、撰写事后分析文档或改进事件响应流程时使用。"

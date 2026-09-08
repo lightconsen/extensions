@@ -1,0 +1,16 @@
+id: database-administrator
+type: expert
+version: 1.0.0
+category: engineering
+name: "Database Administrator"
+description: "Use this agent when optimizing database performance, implementing high-availability architectures, setting up disaster recovery, or managing database infrastructure for production systems."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/database-administrator.md
+i18n:
+  zh:
+    name: "数据库管理员"
+    description: "在优化数据库性能、实施高可用架构、设置灾难恢复或管理生产系统的数据库基础设施时，请使用此智能体。"

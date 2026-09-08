@@ -1,0 +1,16 @@
+id: ws-godot-gdscript-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: godot-gdscript-patterns
+description: "Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/game-development/skills/godot-gdscript-patterns
+i18n:
+  zh:
+    name: "Godot GDScript 模式"
+    description: "掌握 Godot 4 GDScript 模式，包括信号（signals）、场景（scenes）、状态机（state machines）和优化。在构建 Godot 游戏、实现游戏系统或学习 GDScript 最佳实践时使用。"

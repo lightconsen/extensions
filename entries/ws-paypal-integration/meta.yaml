@@ -1,0 +1,16 @@
+id: ws-paypal-integration
+type: skill
+version: 1.0.0
+category: business
+name: paypal-integration
+description: "Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processing online transactions, or building e-commerce checkout flows."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/payment-processing/skills/paypal-integration
+i18n:
+  zh:
+    name: "PayPal 集成"
+    description: "集成 PayPal 支付处理，支持快速结账、订阅和退款管理。用于实现 PayPal 支付、处理在线交易或构建电子商务结账流程。"

@@ -1,0 +1,16 @@
+id: ws-nextjs-app-router-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: nextjs-app-router-patterns
+description: "Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/frontend-mobile-development/skills/nextjs-app-router-patterns
+i18n:
+  zh:
+    name: "Next.js App Router 模式"
+    description: "掌握 Next.js 14+ App Router，包括服务端组件、流式渲染、并行路由和高级数据获取。用于构建 Next.js 应用、实现 SSR/SSG 或优化 React Server Components。"

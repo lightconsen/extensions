@@ -1,0 +1,16 @@
+id: ws-quantized-export
+type: skill
+version: 1.0.0
+category: data-ai
+name: quantized-export
+description: "Export a promoted fine-tuned model in the right deployment format — merged safetensors, LoRA-only, GGUF with imatrix, or FP8. Use after a checkpoint passes promotion, when choosing a quantization format for a target device, or when an exported model fails its smoke test."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/skills/quantized-export
+i18n:
+  zh:
+    name: "量化导出"
+    description: "以正确的部署格式导出已晋升的微调模型——合并后的 safetensors、仅 LoRA、带 imatrix 的 GGUF 或 FP8。在检查点通过晋升后、为目标设备选择量化格式，或导出模型未通过冒烟测试时使用。"

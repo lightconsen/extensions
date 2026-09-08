@@ -1,0 +1,16 @@
+id: rust-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Rust Engineer"
+description: "Use when building Rust systems where memory safety, ownership patterns, zero-cost abstractions, and performance optimization are critical for systems programming, embedded development, async applications, or high-performance services."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/rust-engineer.md
+i18n:
+  zh:
+    name: "Rust 工程师"
+    description: "在构建 Rust 系统时使用，此时内存安全、所有权模式、零成本抽象和性能优化对于系统编程、嵌入式开发、异步应用或高性能服务至关重要。"

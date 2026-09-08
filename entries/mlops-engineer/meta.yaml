@@ -1,0 +1,17 @@
+id: mlops-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Mlops Engineer"
+description: "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. Implements automated training, deployment, and monitoring across cloud platforms. Use PROACTIVELY for ML infrastructure, experiment management, or pipeline automation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/machine-learning-ops/agents/mlops-engineer.md
+    - categories/05-data-ai/mlops-engineer.md
+i18n:
+  zh:
+    name: "MLOps 工程师"
+    description: "使用MLflow、Kubeflow和现代MLOps工具构建全面的ML流水线、实验追踪和模型注册。跨云平台实现自动化训练、部署和监控。在ML基础设施、实验管理或流水线自动化中请主动使用。"

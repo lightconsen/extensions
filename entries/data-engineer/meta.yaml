@@ -1,0 +1,17 @@
+id: data-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Data Engineer"
+description: "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms. Use PROACTIVELY for data pipeline design, analytics infrastructure, or modern data stack implementation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/data-engineering/agents/data-engineer.md
+    - categories/05-data-ai/data-engineer.md
+i18n:
+  zh:
+    name: "数据工程师"
+    description: "构建可扩展的数据管道、现代数据仓库和实时流架构。实施 Apache Spark、dbt、Airflow 和云原生数据平台。请主动在数据管道设计、分析基础设施或现代数据栈实施中使用。"

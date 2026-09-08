@@ -1,0 +1,17 @@
+id: business-analyst
+type: expert
+version: 1.0.0
+category: business
+name: "Business Analyst"
+description: "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for business intelligence or strategic analysis."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/business-analytics/agents/business-analyst.md
+    - categories/08-business-product/business-analyst.md
+i18n:
+  zh:
+    name: "业务分析师"
+    description: "精通利用 AI 驱动的分析、实时仪表盘和数据洞察开展现代业务分析。构建全面的 KPI 框架、预测模型和战略建议。在商业智能或战略分析工作中主动使用。"

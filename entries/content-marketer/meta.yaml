@@ -1,0 +1,17 @@
+id: content-marketer
+type: expert
+version: 1.0.0
+category: business
+name: "Content Marketer"
+description: "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Masters modern content tools, social media automation, and conversion optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive content marketing."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/content-marketing/agents/content-marketer.md
+    - categories/08-business-product/content-marketer.md
+i18n:
+  zh:
+    name: "内容营销专家"
+    description: "精英级内容营销策略师，专精于 AI 驱动的内容创作、全渠道分发、SEO 优化和数据驱动的效果营销。掌握现代内容工具、社交媒体自动化和转化率优化，遵循 2024/2025 最佳实践。在全面内容营销中主动使用。"

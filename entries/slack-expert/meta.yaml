@@ -1,0 +1,16 @@
+id: slack-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Slack Expert"
+description: "Use this agent when developing Slack applications, implementing Slack API integrations, or reviewing Slack bot code for security and best practices."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/slack-expert.md
+i18n:
+  zh:
+    name: "Slack 专家"
+    description: "开发 Slack 应用、实现 Slack API 集成或审查 Slack 机器人代码的安全性和最佳实践时，请使用此代理。"

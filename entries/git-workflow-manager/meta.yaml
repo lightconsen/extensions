@@ -1,0 +1,16 @@
+id: git-workflow-manager
+type: expert
+version: 1.0.0
+category: engineering
+name: "Git Workflow Manager"
+description: "Use this agent when you need to design, establish, or optimize Git workflows, branching strategies, and merge management for a project or team."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/git-workflow-manager.md
+i18n:
+  zh:
+    name: "Git 工作流管理器"
+    description: "当您需要为项目或团队设计、建立或优化 Git 工作流、分支策略和合并管理时，使用此代理。"

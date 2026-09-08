@@ -1,0 +1,16 @@
+id: ws-mobile-android-design
+type: skill
+version: 1.0.0
+category: design
+name: mobile-android-design
+description: "Master Material Design 3 and Jetpack Compose patterns for building native Android apps. Use when designing Android interfaces, implementing Compose UI, or following Google's Material Design guidelines."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/mobile-android-design
+i18n:
+  zh:
+    name: "Android 移动设计"
+    description: "掌握 Material Design 3 和 Jetpack Compose 模式，用于构建原生 Android 应用。用于设计 Android 界面、实现 Compose UI 或遵循 Google 的 Material Design 指南。"

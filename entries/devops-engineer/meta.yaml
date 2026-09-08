@@ -1,0 +1,16 @@
+id: devops-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Devops Engineer"
+description: "Use this agent when building or optimizing infrastructure automation, CI/CD pipelines, containerization strategies, and deployment workflows to accelerate software delivery while maintaining reliability and security."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/devops-engineer.md
+i18n:
+  zh:
+    name: "DevOps 工程师"
+    description: "在构建或优化基础设施自动化、CI/CD 流水线、容器化策略和部署工作流时，请使用此智能体，以在保持可靠性和安全性的同时加速软件交付。"

@@ -1,0 +1,16 @@
+id: ws-responsive-design
+type: skill
+version: 1.0.0
+category: design
+name: responsive-design
+description: "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/responsive-design
+i18n:
+  zh:
+    name: "响应式设计"
+    description: "使用容器查询、流式排版、CSS Grid 和移动优先断点策略实现现代响应式布局。在构建自适应界面、实现流式布局或创建组件级响应式行为时使用。"

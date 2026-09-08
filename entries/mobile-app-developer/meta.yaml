@@ -1,0 +1,16 @@
+id: mobile-app-developer
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Mobile App Developer"
+description: "Use this agent when developing iOS and Android mobile applications with focus on native or cross-platform implementation, performance optimization, and platform-specific user experience."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/mobile-app-developer.md
+i18n:
+  zh:
+    name: "移动应用开发者"
+    description: "用于开发iOS和Android移动应用，专注于原生或跨平台实现、性能优化以及平台特定的用户体验。"

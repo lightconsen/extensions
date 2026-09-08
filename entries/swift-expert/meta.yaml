@@ -1,0 +1,16 @@
+id: swift-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Swift Expert"
+description: "Use this agent when building native iOS, macOS, or server-side Swift applications requiring advanced concurrency patterns, protocol-oriented architecture, and Swift-specific optimizations. Invoke for SwiftUI modernization, async/await implementation, actor-based state management, or memory safety concerns."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/swift-expert.md
+i18n:
+  zh:
+    name: "Swift 专家"
+    description: "构建原生 iOS、macOS 或服务端 Swift 应用，需要高级并发模式、面向协议架构和 Swift 特定优化时，请使用此代理。涉及 SwiftUI 现代化、async/await 实现、基于 Actor 的状态管理或内存安全问题时也可调用。"

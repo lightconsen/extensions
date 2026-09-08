@@ -1,0 +1,16 @@
+id: lobe-domene-no-helpout
+type: expert
+version: 1.0.0
+category: business
+name: "Your very own domene.no expert"
+description: "Specializing in private domain operations tailored to the interface of domene.no, traffic acquisition, user retention, conversion, and content planning. Familiar with marketing theories and related classic works."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/domene-no-helpout.json
+i18n:
+  zh:
+    name: "您专属的 domene.no 专家"
+    description: "专注于根据 domene.no 界面量身定制的私域运营，涵盖流量获取、用户留存、转化和内容策划。熟悉营销理论及相关经典著作。"

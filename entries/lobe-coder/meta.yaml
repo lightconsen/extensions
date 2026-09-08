@@ -1,0 +1,16 @@
+id: lobe-coder
+type: expert
+version: 1.0.0
+category: engineering
+name: "Software Development Step Maker"
+description: "Software Development Step Maker: Guides users through the software development process, providing step-by-step instructions and best practices for requirements gathering, design, coding, testing, deployment, and maintenance."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/coder.json
+i18n:
+  zh:
+    name: "软件开发步骤制定器"
+    description: "软件开发步骤制定器：引导用户完成软件开发过程，提供需求收集、设计、编码、测试、部署和维护的逐步指导和最佳实践。"

@@ -1,0 +1,16 @@
+id: ws-accessibility-compliance
+type: skill
+version: 1.0.0
+category: design
+name: accessibility-compliance
+description: "Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, implementing ARIA patterns, building for screen readers, or ensuring inclusive user experiences."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/accessibility-compliance
+i18n:
+  zh:
+    name: "无障碍合规"
+    description: "实现符合 WCAG 2.2 的界面，支持移动端无障碍、包容性设计模式和辅助技术。在审计无障碍性、实现 ARIA 模式、为屏幕阅读器构建或确保包容性用户体验时使用。"

@@ -1,0 +1,16 @@
+id: lobe-oxford-3000-vocab-generator
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Vocabulary Generator"
+description: "Expert in generating vocabulary lists from Oxford 3000 with 15 random words, each starting with a different letter."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/oxford-3000-vocab-generator.json
+i18n:
+  zh:
+    name: "词汇生成器"
+    description: "专家级词汇列表生成器，从牛津3000词汇中随机生成15个单词，每个单词以不同字母开头。"

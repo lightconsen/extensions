@@ -1,0 +1,16 @@
+id: anthropic-mcp-builder
+type: skill
+version: 1.0.0
+category: engineering
+name: "MCP Builder"
+description: "Guide for building high-quality Model Context Protocol servers in Python or TypeScript"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - mcp-builder
+i18n:
+  zh:
+    name: "MCP 服务器构建"
+    description: "用 Python 或 TypeScript 构建高质量 Model Context Protocol 服务器的指南"

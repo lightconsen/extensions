@@ -1,0 +1,16 @@
+id: lobe-summsi
+type: expert
+version: 1.0.0
+category: data-ai
+name: Summsi
+description: "Expert in text analysis, question generation, and detailed answering."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/summsi.json
+i18n:
+  zh:
+    name: Summsi
+    description: "文本分析、问题生成和详细回答的专家。"

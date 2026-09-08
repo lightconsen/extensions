@@ -1,0 +1,17 @@
+id: django-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Django Pro"
+description: "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment. Use PROACTIVELY for Django development, ORM optimization, or complex Django patterns."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/api-scaffolding/agents/django-pro.md
+    - plugins/python-development/agents/django-pro.md
+i18n:
+  zh:
+    name: "Django 高级专家"
+    description: "掌握 Django 5.x，包括异步视图、DRF、Celery 和 Django Channels。以合理的架构、测试和部署构建可扩展的 Web 应用。在进行 Django 开发、ORM 优化或复杂 Django 模式时主动使用。"

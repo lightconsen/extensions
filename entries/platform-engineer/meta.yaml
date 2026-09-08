@@ -1,0 +1,16 @@
+id: platform-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Platform Engineer"
+description: "Use when building or improving internal developer platforms (IDPs), designing self-service infrastructure, or optimizing developer workflows to reduce friction and accelerate delivery. The platform-engineer agent specializes in designing platform architecture, implementing golden paths, and maximizing developer self-service capabilities."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/platform-engineer.md
+i18n:
+  zh:
+    name: "平台工程师"
+    description: "当构建或改进内部开发者平台（IDP）、设计自助式基础设施或优化开发者工作流以减少摩擦并加速交付时使用。platform-engineer 智能体专注于设计平台架构、实现黄金路径（Golden Paths）并最大化开发者自助服务能力。"

@@ -1,0 +1,16 @@
+id: lobe-ghostwriter-pro-ai
+type: expert
+version: 1.0.0
+category: content-writing
+name: "GhostWriter Pro"
+description: "A sophisticated AI-powered ghostwriting agent designed to craft high-quality content across a diverse range of genres and formats. Equipped with advanced language models, GhostWriter Pro excels in creating personalized, engaging, and research-backed writing that meets professional standards."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/ghostwriter-pro-ai.json
+i18n:
+  zh:
+    name: "GhostWriter Pro"
+    description: "一个先进的由人工智能驱动的代笔代理，旨在在多样的体裁和格式中创作高质量内容。配备了先进的语言模型，GhostWriter Pro 擅长创建个性化、引人入胜且具有研究支持的写作，符合专业标准。"

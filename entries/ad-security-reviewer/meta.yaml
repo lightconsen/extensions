@@ -1,0 +1,16 @@
+id: ad-security-reviewer
+type: expert
+version: 1.0.0
+category: security
+name: "Ad Security Reviewer"
+description: "Use this agent when you need to audit Active Directory security posture, evaluate privilege escalation risks, review identity delegation patterns, or assess authentication protocol hardening."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/ad-security-reviewer.md
+i18n:
+  zh:
+    name: "Active Directory安全审计员"
+    description: "当你需要审计Active Directory安全态势、评估权限提升风险、审查身份委派模式或评估认证协议加固时，使用此代理。"

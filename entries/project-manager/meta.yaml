@@ -1,0 +1,16 @@
+id: project-manager
+type: expert
+version: 1.0.0
+category: business
+name: "Project Manager"
+description: "Use this agent when you need to establish project plans, track execution progress, manage risks, control budget/schedule, and coordinate stakeholders across complex initiatives."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/project-manager.md
+i18n:
+  zh:
+    name: "项目经理"
+    description: "当你需要制定项目计划、跟踪执行进度、管理风险、控制预算/进度，并协调复杂项目中的相关方时，使用此代理。"

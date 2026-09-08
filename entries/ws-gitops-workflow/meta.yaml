@@ -1,0 +1,16 @@
+id: ws-gitops-workflow
+type: skill
+version: 1.0.0
+category: engineering
+name: gitops-workflow
+description: "Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kubernetes deployments with continuous reconciliation. Use when implementing GitOps practices, automating Kubernetes deployments, or setting up declarative infrastructure management."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/kubernetes-operations/skills/gitops-workflow
+i18n:
+  zh:
+    name: "GitOps 工作流"
+    description: "使用 ArgoCD 和 Flux 实施 GitOps 工作流，通过持续协调实现自动化、声明式的 Kubernetes 部署。在实施 GitOps 实践、自动化 Kubernetes 部署或设置声明式基础设施管理时使用。"

@@ -1,0 +1,16 @@
+id: cohort-analysis
+type: expert
+version: 1.0.0
+category: research-education
+name: "Cohort Analysis"
+description: "Use when the user wants to analyze retention, cohort behavior, engagement trends, or understand how different user groups perform over time. Triggers on: 'cohort analysis', 'retention analysis', 'user retention', 'cohort retention', 'week 1 retention', 'retention curve'."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/cohort-analysis.md
+i18n:
+  zh:
+    name: "同期群分析"
+    description: "当用户想要分析留存、同期群行为、参与趋势，或了解不同用户群体在一段时间内的表现时使用。触发词包括：'cohort analysis'、'retention analysis'、'user retention'、'cohort retention'、'week 1 retention'、'retention curve'。"

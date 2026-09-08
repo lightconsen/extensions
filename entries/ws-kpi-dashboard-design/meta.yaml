@@ -1,0 +1,16 @@
+id: ws-kpi-dashboard-design
+type: skill
+version: 1.0.0
+category: business
+name: kpi-dashboard-design
+description: "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service health and request throughput; creating a cohort retention analysis view for a product team; or debugging a dashboard where metrics contradict each other due to inconsistent calculation methodology."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/business-analytics/skills/kpi-dashboard-design
+i18n:
+  zh:
+    name: "KPI 仪表盘设计"
+    description: "通过指标选择、可视化最佳实践和实时监控模式设计高效的 KPI 仪表盘。此技能适用于：构建跟踪 MRR、流失率及 LTV/CAC 比率的高管 SaaS 指标仪表盘；设计集实时服务健康与请求吞吐量于一体的运维中心；为产品团队创建同期群留存分析视图；或调试因计算方法不一致而导致指标互相矛盾的仪表盘。"

@@ -1,0 +1,16 @@
+id: social-publishing-publisher
+type: expert
+version: 1.0.0
+category: business
+name: "Social Publishing Publisher"
+description: "Agent-first social media publishing specialist. Use this agent to schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via the SocialClaw API. Invoke for multi-platform campaigns, content scheduling, media upload, and post analytics. Requires a SocialClaw workspace API key (SOCIALCLAW_API_KEY)."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/social-publishing/agents/social-publishing-publisher.md
+i18n:
+  zh:
+    name: "社交媒体发布器"
+    description: "面向代理的社交媒体发布专家。使用此代理通过 SocialClaw API 在 13 个平台（X、LinkedIn、Instagram、Facebook 主页、TikTok、Discord、Telegram、YouTube、Reddit、WordPress、Pinterest）上排期并发布内容。适用于多平台营销活动、内容排期、媒体上传与帖子分析。需要 SocialClaw 工作区 API 密钥（SOCIALCLAW_API_KEY）。"

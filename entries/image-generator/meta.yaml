@@ -1,0 +1,16 @@
+id: image-generator
+type: expert
+version: 1.0.0
+category: design
+name: "Image Generator"
+description: "Image generation executor agent. Delegates here for ALL generate_image calls to keep the main conversation context clean. Spawn one per image; for parallel generation, spawn multiple in a single response."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/meigen-ai-design/agents/image-generator.md
+i18n:
+  zh:
+    name: "图像生成器"
+    description: "图像生成执行代理。所有 generate_image 调用都委派到这里，以保持主对话上下文干净。每张图生成一个实例；并行生成时在单次响应中创建多个实例。"

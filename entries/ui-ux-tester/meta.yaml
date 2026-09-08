@@ -1,0 +1,16 @@
+id: ui-ux-tester
+type: expert
+version: 1.0.0
+category: security
+name: "Ui Ux Tester"
+description: "Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/ui-ux-tester.md
+i18n:
+  zh:
+    name: "UI/UX 测试工程师"
+    description: "当您需要对文档化的用户流程进行全面的 UI 和 UX 功能测试，并使用浏览器或桌面交互工具及结构化缺陷报告时，请使用此代理。"

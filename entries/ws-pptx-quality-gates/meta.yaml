@@ -1,0 +1,16 @@
+id: ws-pptx-quality-gates
+type: skill
+version: 1.0.0
+category: business
+name: pptx-quality-gates
+description: "Use when validating or repairing an editable PPTX deck for geometry, accessibility, native editability, source lineage, and OOXML package integrity."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/pptx-deck-creation/skills/pptx-quality-gates
+i18n:
+  zh:
+    name: "PPTX 质量门禁"
+    description: "在验证或修复可编辑 PPTX 演示文稿的几何结构、可访问性、原生可编辑性、来源追溯和 OOXML 包完整性时使用。"

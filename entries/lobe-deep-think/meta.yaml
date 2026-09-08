@@ -1,0 +1,16 @@
+id: lobe-deep-think
+type: expert
+version: 1.0.0
+category: research-education
+name: "Deep Think"
+description: "Deeper thinking of question"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/deep-think.json
+i18n:
+  zh:
+    name: "深度思考"
+    description: "对问题的更深入思考"

@@ -1,0 +1,16 @@
+id: angular-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Angular Architect"
+description: "Use when architecting enterprise Angular 15+ applications with complex state management, optimizing RxJS patterns, designing micro-frontend systems, or solving performance and scalability challenges in large codebases."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/angular-architect.md
+i18n:
+  zh:
+    name: "Angular架构师"
+    description: "当为具有复杂状态管理的企业级Angular 15+应用进行架构设计、优化RxJS模式、设计微前端系统，或解决大型代码库中的性能和可扩展性挑战时使用。"

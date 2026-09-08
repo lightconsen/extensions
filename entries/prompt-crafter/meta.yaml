@@ -1,0 +1,16 @@
+id: prompt-crafter
+type: expert
+version: 1.0.0
+category: design
+name: "Prompt Crafter"
+description: "Batch prompt writing agent. Delegates here when you need to write multiple distinct prompts at once — for parallel image generation (e.g., \"5 logo concepts\"), serial-to-parallel workflows (e.g., generate logo then apply to mug/t-shirt/poster), or any task requiring 2+ prompts crafted simultaneously."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/meigen-ai-design/agents/prompt-crafter.md
+i18n:
+  zh:
+    name: "提示词创作者"
+    description: "批量提示词编写代理。当需要一次性编写多个不同提示词时委派到这里——用于并行图像生成（如\"5 个 logo 方案\"）、串行转并行工作流（如先生成 logo 再应用到马克杯/T恤/海报），或任何需要同时撰写 2 条以上提示词的任务。"

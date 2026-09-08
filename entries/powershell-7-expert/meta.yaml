@@ -1,0 +1,16 @@
+id: powershell-7-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Powershell 7 Expert"
+description: "Use when building cross-platform cloud automation scripts, Azure infrastructure orchestration, or CI/CD pipelines requiring PowerShell 7+ with modern .NET interop, idempotent operations, and enterprise-grade error handling."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/powershell-7-expert.md
+i18n:
+  zh:
+    name: "PowerShell 7 专家"
+    description: "当构建跨平台云自动化脚本、Azure 基础设施编排或需要 PowerShell 7+ 的 CI/CD 管道，并需要现代 .NET 互操作、幂等操作和企业级错误处理时使用。"

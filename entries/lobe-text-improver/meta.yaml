@@ -1,0 +1,16 @@
+id: lobe-text-improver
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Text Improver"
+description: "Expert in text enhancement and error"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/text-improver.json
+i18n:
+  zh:
+    name: "文本润色器"
+    description: "文本增强和错误纠正专家"

@@ -1,0 +1,16 @@
+id: lobe-react-native
+type: expert
+version: 1.0.0
+category: engineering
+name: "React Native Coding Guide"
+description: "React Native Coding Assistant: Expert in TypeScript, Expo, and cross-platform development. Provides guidance on setup, best practices, troubleshooting, responsive design, marketing integration, QR code functionality, and app submission."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/react-native.json
+i18n:
+  zh:
+    name: "React Native 编码指南"
+    description: "React Native 编码助手：TypeScript、Expo 和跨平台开发专家。提供设置指导、最佳实践、故障排除、响应式设计、营销集成、二维码功能和应用提交的帮助。"

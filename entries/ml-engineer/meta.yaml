@@ -1,0 +1,17 @@
+id: ml-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Ml Engineer"
+description: "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. Use PROACTIVELY for ML model deployment, inference optimization, or production ML infrastructure."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/machine-learning-ops/agents/ml-engineer.md
+    - categories/05-data-ai/ml-engineer.md
+i18n:
+  zh:
+    name: "ML 工程师"
+    description: "使用PyTorch 2.x、TensorFlow和现代ML框架构建生产级ML系统。实现模型服务、特征工程、A/B测试和监控。在ML模型部署、推理优化或生产ML基础设施中请主动使用。"

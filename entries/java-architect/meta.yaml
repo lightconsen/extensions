@@ -1,0 +1,16 @@
+id: java-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Java Architect"
+description: "Use this agent when designing enterprise Java architectures, migrating Spring Boot applications, or establishing microservices patterns for scalable cloud-native systems."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/java-architect.md
+i18n:
+  zh:
+    name: "Java架构师"
+    description: "在设计企业级Java架构、迁移Spring Boot应用或为可扩展云原生系统建立微服务模式时使用此代理。"

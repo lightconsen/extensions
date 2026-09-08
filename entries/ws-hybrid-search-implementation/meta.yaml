@@ -1,0 +1,16 @@
+id: ws-hybrid-search-implementation
+type: skill
+version: 1.0.0
+category: data-ai
+name: hybrid-search-implementation
+description: "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/skills/hybrid-search-implementation
+i18n:
+  zh:
+    name: "混合搜索实现"
+    description: "结合向量搜索和关键词搜索以改善检索效果。在实现 RAG 系统、构建搜索引擎，或当单一方法无法提供足够召回率时使用。"

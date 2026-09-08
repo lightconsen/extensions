@@ -1,0 +1,16 @@
+id: mermaid-expert
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Mermaid Expert"
+description: "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling. Use PROACTIVELY for visual documentation, system diagrams, or process flows."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/documentation-generation/agents/mermaid-expert.md
+i18n:
+  zh:
+    name: "Mermaid 专家"
+    description: "为流程图、时序图、ER图和架构图创建Mermaid图表。精通所有图表类型和样式的语法。在需要视觉文档、系统图或流程图时，请主动使用。"

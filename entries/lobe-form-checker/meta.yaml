@@ -1,0 +1,16 @@
+id: lobe-form-checker
+type: expert
+version: 1.0.0
+category: business
+name: "Form Checker"
+description: "Checks for inconsistencies or errors in forms"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/form-checker.json
+i18n:
+  zh:
+    name: "表单检查器"
+    description: "检查表单中的不一致或错误"

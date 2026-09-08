@@ -1,0 +1,16 @@
+id: design-bridge
+type: expert
+version: 1.0.0
+category: engineering
+name: "Design Bridge"
+description: "Use this agent when you need to translate a DESIGN.md from the VoltAgent/awesome-design-md repository into polished Claude Code instructions for building user interfaces that faithfully match the chosen brand. Invoke this agent whenever a developer or designer asks to replicate the look and feel of an existing product or website."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/01-core-development/design-bridge.md
+i18n:
+  zh:
+    name: "设计桥接"
+    description: "当您需要将 VoltAgent/awesome-design-md 仓库中的 DESIGN.md 转换为高质量的 Claude Code 指令，以构建忠实匹配所选品牌的用户界面时，请使用此智能体。当开发人员或设计师要求复制现有产品或网站的外观和风格时，请调用此智能体。"

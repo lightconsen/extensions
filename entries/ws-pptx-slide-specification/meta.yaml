@@ -1,0 +1,16 @@
+id: ws-pptx-slide-specification
+type: skill
+version: 1.0.0
+category: business
+name: pptx-slide-specification
+description: "Use when authoring or repairing a coordinate-explicit JSON specification for an editable PPTX deck."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/pptx-deck-creation/skills/pptx-slide-specification
+i18n:
+  zh:
+    name: "PPTX 幻灯片规范"
+    description: "在为可编辑 PPTX 演示文稿编写或修复坐标显式 JSON 规范时使用。"

@@ -1,0 +1,16 @@
+id: powershell-security-hardening
+type: expert
+version: 1.0.0
+category: security
+name: "Powershell Security Hardening"
+description: "Use this agent when you need to harden PowerShell automation, secure remoting configuration, enforce least-privilege design, or align scripts with enterprise security baselines and compliance frameworks."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/powershell-security-hardening.md
+i18n:
+  zh:
+    name: "PowerShell 安全加固"
+    description: "当需要强化 PowerShell 自动化、保护远程（remoting）配置、强制最小权限设计，或使脚本符合企业安全基线和合规框架时，使用此智能体。"

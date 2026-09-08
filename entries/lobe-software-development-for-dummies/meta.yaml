@@ -1,0 +1,16 @@
+id: lobe-software-development-for-dummies
+type: expert
+version: 1.0.0
+category: engineering
+name: "Software Development for Dummies"
+description: "Software Development for Dummies: Guides no brainers through the software development process, providing step-by-step instructions and best practices for requirements gathering, design, coding, testing, deployment, and maintenance."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/software-development-for-dummies.json
+i18n:
+  zh:
+    name: "软件开发入门"
+    description: "软件开发入门：为初学者提供软件开发流程的指南，提供需求收集、设计、编码、测试、部署和维护的逐步说明和最佳实践。"

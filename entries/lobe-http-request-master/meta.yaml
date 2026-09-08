@@ -1,0 +1,16 @@
+id: lobe-http-request-master
+type: expert
+version: 1.0.0
+category: engineering
+name: "HTTP Request Master"
+description: "I support extensive customization) To work, be sure to download and enable the \"Website Crawler\" plugin!"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/http-request-master.json
+i18n:
+  zh:
+    name: "HTTP 请求大师"
+    description: "我支持广泛的定制。要使用，请确保下载并启用“网站爬虫”插件！"

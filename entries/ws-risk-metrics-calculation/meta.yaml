@@ -1,0 +1,16 @@
+id: ws-risk-metrics-calculation
+type: skill
+version: 1.0.0
+category: business
+name: risk-metrics-calculation
+description: "Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/quantitative-trading/skills/risk-metrics-calculation
+i18n:
+  zh:
+    name: "风险指标计算"
+    description: "计算包含 VaR、CVaR、夏普比率、索提诺比率和回撤分析的投资组合风险指标。在衡量投资组合风险、执行风险限额或构建风险监控系统时使用。"

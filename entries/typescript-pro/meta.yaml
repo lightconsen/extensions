@@ -1,0 +1,17 @@
+id: typescript-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Typescript Pro"
+description: "Use when implementing TypeScript code requiring advanced type system patterns, complex generics, type-level programming, or end-to-end type safety across full-stack applications."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/javascript-typescript/agents/typescript-pro.md
+    - categories/02-language-specialists/typescript-pro.md
+i18n:
+  zh:
+    name: "TypeScript 专家"
+    description: "在需要实现 TypeScript 代码时使用，特别是高级类型系统模式、复杂泛型、类型级编程或全栈应用的端到端类型安全场景。"

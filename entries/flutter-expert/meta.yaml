@@ -1,0 +1,17 @@
+id: flutter-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Flutter Expert"
+description: "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment. Handles state management, animations, testing, and performance optimization for mobile, web, desktop, and embedded platforms. Use PROACTIVELY for Flutter architecture, UI implementation, or cross-platform features."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/multi-platform-apps/agents/flutter-expert.md
+    - categories/02-language-specialists/flutter-expert.md
+i18n:
+  zh:
+    name: "Flutter 专家"
+    description: "精通使用 Dart 3、高级控件和多平台部署的 Flutter 开发。处理移动端、Web、桌面端和嵌入式平台的状态管理、动画、测试和性能优化。在 Flutter 架构、UI 实现或跨平台功能时主动使用。"

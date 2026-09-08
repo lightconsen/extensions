@@ -1,0 +1,16 @@
+id: scrum-master
+type: expert
+version: 1.0.0
+category: business
+name: "Scrum Master"
+description: "Use when teams need facilitation, process optimization, velocity improvement, or agile ceremony management—especially for sprint planning, retrospectives, impediment removal, and scaling agile practices across multiple teams."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/scrum-master.md
+i18n:
+  zh:
+    name: "Scrum 教练"
+    description: "当团队需要流程引导、过程优化、速度提升或敏捷仪式管理时使用，尤其适用于冲刺规划、回顾会议、清除障碍以及跨团队扩展敏捷实践。"

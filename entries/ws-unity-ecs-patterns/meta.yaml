@@ -1,0 +1,16 @@
+id: ws-unity-ecs-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: unity-ecs-patterns
+description: "Master Unity ECS (Entity Component System) with DOTS, Jobs, and Burst for high-performance game development. Use when building data-oriented games, optimizing performance, or working with large entity counts."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/game-development/skills/unity-ecs-patterns
+i18n:
+  zh:
+    name: "Unity ECS 模式"
+    description: "掌握 Unity ECS（实体组件系统）以及 DOTS、Jobs 和 Burst，用于高性能游戏开发。在构建数据导向型游戏、优化性能或处理大量实体时使用。"

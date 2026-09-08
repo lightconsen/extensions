@@ -1,0 +1,16 @@
+id: ws-debugging-strategies
+type: skill
+version: 1.0.0
+category: engineering
+name: debugging-strategies
+description: "Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use when investigating bugs, performance issues, or unexpected behavior."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/debugging-strategies
+i18n:
+  zh:
+    name: "调试策略"
+    description: "掌握系统化调试技巧、性能剖析工具和根因分析方法，高效定位任何代码库或技术栈中的 Bug。适用于排查 Bug、性能问题或意外行为。"

@@ -1,0 +1,16 @@
+id: posix-shell-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Posix Shell Pro"
+description: "Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix)."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/shell-scripting/agents/posix-shell-pro.md
+i18n:
+  zh:
+    name: "POSIX Shell 专家"
+    description: "精通严格 POSIX sh 脚本编写，以实现跨类 Unix 系统的最大可移植性。专注于可在任何符合 POSIX 的 shell（dash、ash、sh、bash --posix）上运行的 shell 脚本。"

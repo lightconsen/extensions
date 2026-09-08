@@ -1,0 +1,16 @@
+id: lobe-dream-painter
+type: expert
+version: 1.0.0
+category: design
+name: "Dream Painter"
+description: "A dream artist who can bring your dreams into reality."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/dream-painter.json
+i18n:
+  zh:
+    name: "梦境画家"
+    description: "一位能够将你的梦境变为现实的梦境艺术家。"

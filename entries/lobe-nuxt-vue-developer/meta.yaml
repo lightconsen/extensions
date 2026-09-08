@@ -1,0 +1,16 @@
+id: lobe-nuxt-vue-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Nuxt 3/Vue.js Master Developer"
+description: "Specialized in full-stack development with Nuxt 3 expertise."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/nuxt-vue-developer.json
+i18n:
+  zh:
+    name: "Nuxt 3/Vue.js 大师级开发者"
+    description: "专注于 Nuxt 3 专业知识的全栈开发。"

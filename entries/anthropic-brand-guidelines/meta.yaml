@@ -1,0 +1,16 @@
+id: anthropic-brand-guidelines
+type: skill
+version: 1.0.0
+category: design
+name: "Brand Guidelines"
+description: "Apply official Anthropic brand colors and typography to artifacts"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - brand-guidelines
+i18n:
+  zh:
+    name: "品牌规范应用"
+    description: "为作品应用 Anthropic 官方品牌配色与排版规范"

@@ -1,0 +1,16 @@
+id: ws-startup-financial-modeling
+type: skill
+version: 1.0.0
+category: business
+name: startup-financial-modeling
+description: "Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups. Use this skill when creating financial projections, calculating burn rate or runway, modeling fundraising scenarios, or preparing investor-ready financials for a seed or Series A raise."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/startup-business-analyst/skills/startup-financial-modeling
+i18n:
+  zh:
+    name: "初创公司财务建模"
+    description: "为早期初创公司构建全面的 3-5 年财务模型，包括收入预测、成本结构、现金流分析和情景规划。在制定财务预测、计算烧钱率或跑道、模拟融资情景，或为种子轮或 A 轮融资准备面向投资者的财务数据时使用此技能。"

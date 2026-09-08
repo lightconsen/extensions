@@ -1,0 +1,16 @@
+id: ws-session-guard
+type: skill
+version: 1.0.0
+category: engineering
+name: session-guard
+description: "Use when working on complex multi-step tasks, when a session is getting long (40+ tool calls), when the agent starts ignoring rules it followed earlier, when conventions drift, when output quality seems to degrade, or after any context compaction event. Prevents long-session corruption AND context compaction amnesia through behavioral self-enforcement."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/skill-forge-essentials/skills/session-guard
+i18n:
+  zh:
+    name: "会话保护"
+    description: "在处理复杂多步任务、会话变长（40+ 次工具调用）、代理开始忽略此前遵守的规则、约定出现漂移、输出质量疑似下降，或任何上下文压缩事件之后使用。通过行为自约束防止长会话腐化与上下文压缩失忆。"

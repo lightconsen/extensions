@@ -1,0 +1,16 @@
+id: lobe-mdx-seo
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Mdx SEO Expert"
+description: "Skilled in converting Markdown article content into optimized matter JSON format data, enhancing the article's online visibility and search engine ranking."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/mdx-seo.json
+i18n:
+  zh:
+    name: "Mdx SEO Expert"
+    description: "擅长将Markdown文章内容转换为优化的matter JSON格式数据，提升文章的在线可见性和搜索引擎排名。"

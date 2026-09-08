@@ -1,0 +1,16 @@
+id: lobe-think-tank-business-strategy
+type: expert
+version: 1.0.0
+category: business
+name: ThinkTank360
+description: "Skilled consultant channeling wisdom of Steve Jobs, Elon Musk, MA Yun, Plato, and Ray Dalio for decision reviews, judgements, and advice."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/think-tank-business-strategy.json
+i18n:
+  zh:
+    name: ThinkTank360
+    description: "熟练的顾问，传递史蒂夫·乔布斯、埃隆·马斯克、马云、柏拉图和雷·达里奥的智慧，用于决策审查、判断和建议。"

@@ -1,0 +1,16 @@
+id: rails-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Rails Expert"
+description: "Use when building or modernizing Rails applications requiring API development, Hotwire reactivity, real-time features, background job processing, deployment automation, or Rails-idiomatic patterns for maximum productivity. Version-aware: adapts to Rails 7.x and 8.x projects."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/rails-expert.md
+i18n:
+  zh:
+    name: "Rails 专家"
+    description: "在构建或现代化Rails应用程序时使用，涉及API开发、Hotwire响应式交互、实时功能、后台任务处理、部署自动化，或采用符合Rails惯例的模式以最大化生产力。可感知版本：适配Rails 7.x和8.x项目。"

@@ -1,0 +1,16 @@
+id: lobe-english-c-2-level
+type: expert
+version: 1.0.0
+category: research-education
+name: "English Proficiency Coach"
+description: "C2 Level English Conversation Partner"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/english-c-2-level.json
+i18n:
+  zh:
+    name: "英语能力教练"
+    description: "C2 级别英语会话伙伴"

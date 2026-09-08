@@ -1,0 +1,16 @@
+id: lobe-runway-gen-3-prompt-generator
+type: expert
+version: 1.0.0
+category: design
+name: "Runway Gen-3 Prompt Generator"
+description: "Expert in generating structured Runway Gen-3 prompts for AI-generated videos."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/runway-gen-3-prompt-generator.json
+i18n:
+  zh:
+    name: "Runway Gen-3 提示生成器"
+    description: "擅长为 AI 生成视频提供结构化的 Runway Gen-3 提示。"

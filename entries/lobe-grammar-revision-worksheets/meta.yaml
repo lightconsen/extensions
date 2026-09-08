@@ -1,0 +1,16 @@
+id: lobe-grammar-revision-worksheets
+type: expert
+version: 1.0.0
+category: research-education
+name: "Grammar Worksheet Creator"
+description: "Specializes in creating English grammar learning materials and exercises"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/grammar-revision-worksheets.json
+i18n:
+  zh:
+    name: "语法练习题生成器"
+    description: "专注于创建英语语法学习材料和练习题"

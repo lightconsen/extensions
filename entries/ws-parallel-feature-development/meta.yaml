@@ -1,0 +1,16 @@
+id: ws-parallel-feature-development
+type: skill
+version: 1.0.0
+category: engineering
+name: parallel-feature-development
+description: "Coordinate parallel feature development with file ownership strategies, conflict avoidance rules, and integration patterns for multi-agent implementation. Use this skill when decomposing a large feature into independent work streams, when two or more agents need to implement different layers of the same system simultaneously, when establishing file ownership to prevent merge conflicts in a shared codebase, when designing interface contracts so parallel implementers can build against each other's APIs before they are ready, or when deciding whether to use vertical slices versus horizontal layers for a full-stack feature."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/skills/parallel-feature-development
+i18n:
+  zh:
+    name: "并行功能开发"
+    description: "通过文件所有权策略、冲突避免规则和集成模式，协调多智能体的并行功能开发。在将大型功能分解为独立工作时，或两个以上智能体需要同时实现同一系统的不同层时，或在共享代码库中建立文件所有权以防止合并冲突时，或设计接口契约以便并行实现者在对方 API 就绪前就能基于彼此 API 构建时，或决定对全栈功能使用垂直切片还是水平层时，使用此技能。"

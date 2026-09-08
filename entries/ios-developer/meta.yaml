@@ -1,0 +1,16 @@
+id: ios-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Ios Developer"
+description: "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. Use PROACTIVELY for iOS-specific features, App Store optimization, or native iOS development."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/multi-platform-apps/agents/ios-developer.md
+i18n:
+  zh:
+    name: "iOS开发者"
+    description: "使用Swift/SwiftUI开发原生iOS应用。精通iOS 18、SwiftUI、UIKit集成、Core Data、网络和App Store优化。请主动用于iOS特定功能、App Store优化或原生iOS开发。"

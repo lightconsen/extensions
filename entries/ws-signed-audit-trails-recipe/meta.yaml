@@ -1,0 +1,16 @@
+id: ws-signed-audit-trails-recipe
+type: skill
+version: 1.0.0
+category: security
+name: signed-audit-trails-recipe
+description: "Step-by-step cookbook for setting up cryptographically signed audit trails on Claude Code tool calls. Use when explaining, evaluating, or demonstrating the pattern before committing to the protect-mcp runtime hooks. Covers Cedar policy, Ed25519 receipts, offline verification, tamper detection, CI/CD integration, and SLSA composition."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/signed-audit-trails/skills/signed-audit-trails-recipe
+i18n:
+  zh:
+    name: "签名审计跟踪指南"
+    description: "为 Claude Code 工具调用设置加密签名审计跟踪的分步指南。在决定采用 protect-mcp 运行时钩子之前，用于解释、评估或演示该模式。涵盖 Cedar 策略、Ed25519 收据、离线验证、篡改检测、CI/CD 集成和 SLSA 组合。"

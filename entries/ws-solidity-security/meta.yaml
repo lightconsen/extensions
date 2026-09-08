@@ -1,0 +1,16 @@
+id: ws-solidity-security
+type: skill
+version: 1.0.0
+category: engineering
+name: solidity-security
+description: "Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns. Use when writing smart contracts, auditing existing contracts, or implementing security measures for blockchain applications."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/blockchain-web3/skills/solidity-security
+i18n:
+  zh:
+    name: "Solidity 安全"
+    description: "掌握智能合约安全最佳实践，预防常见漏洞并实现安全的 Solidity 模式。在编写智能合约、审计现有合约或为区块链应用实施安全措施时使用。"

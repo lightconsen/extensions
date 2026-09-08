@@ -1,0 +1,16 @@
+id: architect-reviewer
+type: expert
+version: 1.0.0
+category: security
+name: "Architect Reviewer"
+description: "Use this agent when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/architect-reviewer.md
+i18n:
+  zh:
+    name: "架构评审员"
+    description: "当你需要在宏观层面评估系统设计决策、架构模式和技术选择时，使用此代理。"

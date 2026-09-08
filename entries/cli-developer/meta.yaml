@@ -1,0 +1,16 @@
+id: cli-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Cli Developer"
+description: "Use this agent when building command-line tools and terminal applications that require intuitive command design, cross-platform compatibility, and optimized developer experience."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/cli-developer.md
+i18n:
+  zh:
+    name: "CLI 开发者"
+    description: "在构建命令行工具和终端应用时，如果需要直观的命令设计、跨平台兼容性和优化的开发者体验，请使用此智能体。"

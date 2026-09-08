@@ -1,0 +1,16 @@
+id: ws-data-quality-frameworks
+type: skill
+version: 1.0.0
+category: data-ai
+name: data-quality-frameworks
+description: "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/data-engineering/skills/data-quality-frameworks
+i18n:
+  zh:
+    name: "数据质量框架"
+    description: "使用 Great Expectations、dbt 测试和数据契约实现数据质量验证。适用于构建数据质量管道、实施校验规则或建立数据契约。"

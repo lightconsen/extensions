@@ -1,0 +1,18 @@
+id: terraform-specialist
+type: expert
+version: 1.0.0
+category: engineering
+name: "Terraform Specialist"
+description: "Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns. Handles complex module design, multi-cloud deployments, GitOps workflows, policy as code, and CI/CD integration. Covers migration strategies, security best practices, and modern IaC ecosystems. Use PROACTIVELY for advanced IaC, state management, or infrastructure automation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cicd-automation/agents/terraform-specialist.md
+    - plugins/cloud-infrastructure/agents/terraform-specialist.md
+    - plugins/deployment-strategies/agents/terraform-specialist.md
+i18n:
+  zh:
+    name: "Terraform 专家"
+    description: "Terraform/OpenTofu 专家，精通高级 IaC 自动化、状态管理和企业基础设施模式。处理复杂模块设计、多云部署、GitOps 工作流、策略即代码和 CI/CD 集成。涵盖迁移策略、安全最佳实践和现代 IaC 生态系统。在涉及高级 IaC、状态管理或基础设施自动化时主动使用。"

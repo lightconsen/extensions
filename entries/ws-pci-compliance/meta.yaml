@@ -1,0 +1,16 @@
+id: ws-pci-compliance
+type: skill
+version: 1.0.0
+category: business
+name: pci-compliance
+description: "Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI compliance, or implementing payment card security measures."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/payment-processing/skills/pci-compliance
+i18n:
+  zh:
+    name: "PCI 合规性"
+    description: "实施 PCI DSS 合规要求，以安全处理支付卡数据和支付系统。在保护支付处理、实现 PCI 合规或实施支付卡安全措施时使用。"

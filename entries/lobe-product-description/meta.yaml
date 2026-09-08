@@ -1,0 +1,16 @@
+id: lobe-product-description
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Product Description"
+description: "Craft compelling product descriptions that boost e-commerce sales"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/product-description.json
+i18n:
+  zh:
+    name: "产品描述"
+    description: "撰写引人注目的产品描述，提升电子商务销售额"

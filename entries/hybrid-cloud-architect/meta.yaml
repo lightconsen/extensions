@@ -1,0 +1,16 @@
+id: hybrid-cloud-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Hybrid Cloud Architect"
+description: "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP/OCI and private clouds (OpenStack/VMware). Masters hybrid connectivity, workload placement optimization, edge computing, and cross-cloud automation. Handles compliance, cost optimization, disaster recovery, and migration strategies. Use PROACTIVELY for hybrid architecture, multi-cloud strategy, or complex infrastructure integration."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cloud-infrastructure/agents/hybrid-cloud-architect.md
+i18n:
+  zh:
+    name: "混合云架构师"
+    description: "专注于复杂多云解决方案的混合云架构专家，覆盖AWS/Azure/GCP/OCI及私有云（OpenStack/VMware）。精通混合连接、工作负载位置优化、边缘计算和跨云自动化。处理合规性、成本优化、灾难恢复和迁移策略。请主动用于混合架构、多云策略或复杂基础设施集成。"

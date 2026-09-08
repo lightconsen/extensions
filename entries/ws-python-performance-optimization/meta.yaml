@@ -1,0 +1,16 @@
+id: ws-python-performance-optimization
+type: skill
+version: 1.0.0
+category: engineering
+name: python-performance-optimization
+description: "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-performance-optimization
+i18n:
+  zh:
+    name: "Python 性能优化"
+    description: "使用 cProfile、内存分析器和性能最佳实践，对 Python 代码进行性能分析和优化。在调试性能不佳的 Python 代码、优化瓶颈或提升应用性能时使用。"

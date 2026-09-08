@@ -1,0 +1,18 @@
+id: network-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Network Engineer"
+description: "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. Masters multi-cloud connectivity, service mesh, zero-trust networking, SSL/TLS, global load balancing, and advanced troubleshooting. Handles CDN optimization, network automation, and compliance. Use PROACTIVELY for network design, connectivity issues, or performance optimization."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cloud-infrastructure/agents/network-engineer.md
+    - plugins/observability-monitoring/agents/network-engineer.md
+    - categories/03-infrastructure/network-engineer.md
+i18n:
+  zh:
+    name: "网络工程师"
+    description: "精通现代云网络、安全架构和性能优化的网络工程师。掌握多云互联、服务网格、零信任网络、SSL/TLS、全局负载均衡及高级故障排除。熟悉CDN优化、网络自动化和合规性。在网络设计、连接问题或性能优化中请主动使用。"

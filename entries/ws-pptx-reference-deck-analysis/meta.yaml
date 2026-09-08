@@ -1,0 +1,16 @@
+id: ws-pptx-reference-deck-analysis
+type: skill
+version: 1.0.0
+category: business
+name: pptx-reference-deck-analysis
+description: "Use when analyzing a reference PPTX for read-only structure, theme, typography, layout rhythm, diagnostics, derived template catalogs, or safe OOXML package inspection."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/pptx-deck-creation/skills/pptx-reference-deck-analysis
+i18n:
+  zh:
+    name: "PPTX 参考演示文稿分析"
+    description: "在分析参考 PPTX 的只读结构、主题、排版、布局节奏、诊断、派生模板目录或安全 OOXML 包检查时使用。"

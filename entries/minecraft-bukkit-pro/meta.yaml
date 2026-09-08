@@ -1,0 +1,16 @@
+id: minecraft-bukkit-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Minecraft Bukkit Pro"
+description: "Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. Specializes in event-driven architecture, command systems, world manipulation, player management, and performance optimization. Use PROACTIVELY for plugin architecture, gameplay mechanics, server-side features, or cross-version compatibility."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/game-development/agents/minecraft-bukkit-pro.md
+i18n:
+  zh:
+    name: "Minecraft Bukkit 专家"
+    description: "精通使用Bukkit、Spigot和Paper API进行Minecraft服务器插件开发。专长于事件驱动架构、命令系统、世界操作、玩家管理和性能优化。在需要插件架构、游戏机制、服务端功能或跨版本兼容性时，请主动使用。"

@@ -1,0 +1,17 @@
+id: docs-architect
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Docs Architect"
+description: "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks. Use PROACTIVELY for system documentation, architecture guides, or technical deep-dives."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/code-documentation/agents/docs-architect.md
+    - plugins/documentation-generation/agents/docs-architect.md
+i18n:
+  zh:
+    name: "文档架构师"
+    description: "根据现有代码库创建全面的技术文档。分析架构、设计模式和实现细节，以生成长篇技术手册和电子书。在系统文档、架构指南或技术深度剖析时主动使用。"

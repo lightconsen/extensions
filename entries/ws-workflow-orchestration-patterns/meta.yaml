@@ -1,0 +1,16 @@
+id: ws-workflow-orchestration-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: workflow-orchestration-patterns
+description: "Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/skills/workflow-orchestration-patterns
+i18n:
+  zh:
+    name: "工作流编排模式"
+    description: "使用 Temporal 为分布式系统设计持久化工作流。涵盖工作流与活动分离、Saga 模式、状态管理和确定性约束。适用于构建长期运行进程、分布式事务或微服务编排。"

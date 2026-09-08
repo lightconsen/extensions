@@ -1,0 +1,16 @@
+id: ws-hybrid-cloud-networking
+type: skill
+version: 1.0.0
+category: engineering
+name: hybrid-cloud-networking
+description: "Configure secure, high-performance connectivity between on-premises infrastructure and cloud platforms using VPN and dedicated connections. Use when building hybrid cloud architectures, connecting data centers to cloud, or implementing secure cross-premises networking."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cloud-infrastructure/skills/hybrid-cloud-networking
+i18n:
+  zh:
+    name: "混合云组网"
+    description: "使用 VPN 和专线连接，在本地基础设施和云平台之间配置安全、高性能的连接。在构建混合云架构、将数据中心连接到云，或实现安全跨场所网络时使用。"

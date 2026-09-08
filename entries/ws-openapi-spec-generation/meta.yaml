@@ -1,0 +1,16 @@
+id: ws-openapi-spec-generation
+type: skill
+version: 1.0.0
+category: content-writing
+name: openapi-spec-generation
+description: "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/documentation-generation/skills/openapi-spec-generation
+i18n:
+  zh:
+    name: "OpenAPI 规范生成"
+    description: "从代码生成并维护 OpenAPI 3.1 规范、优先设计规范和验证模式。用于创建 API 文档、生成 SDK 或确保 API 契约合规。"

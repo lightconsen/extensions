@@ -1,0 +1,16 @@
+id: ws-mtls-configuration
+type: skill
+version: 1.0.0
+category: engineering
+name: mtls-configuration
+description: "Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cloud-infrastructure/skills/mtls-configuration
+i18n:
+  zh:
+    name: "mTLS 配置"
+    description: "配置双向 TLS (mTLS) 以实现零信任服务间通信。用于实现零信任网络、证书管理或保护内部服务通信。"

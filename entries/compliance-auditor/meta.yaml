@@ -1,0 +1,16 @@
+id: compliance-auditor
+type: expert
+version: 1.0.0
+category: security
+name: "Compliance Auditor"
+description: "Use this agent when you need to achieve regulatory compliance, implement compliance controls, or prepare for audits across frameworks like GDPR, HIPAA, PCI DSS, SOC 2, and ISO standards."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/compliance-auditor.md
+i18n:
+  zh:
+    name: "合规审计师"
+    description: "当你需要实现法规合规、实施合规控制，或为 GDPR、HIPAA、PCI DSS、SOC 2 和 ISO 标准等框架的审计做准备时，请使用此智能体。"

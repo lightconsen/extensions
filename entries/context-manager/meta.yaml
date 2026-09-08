@@ -1,0 +1,17 @@
+id: context-manager
+type: expert
+version: 1.0.0
+category: engineering
+name: "Context Manager"
+description: "Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems. Orchestrates context across multi-agent workflows, enterprise AI systems, and long-running projects with 2024/2025 best practices. Use PROACTIVELY for complex AI orchestration."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-orchestration/agents/context-manager.md
+    - plugins/context-management/agents/context-manager.md
+i18n:
+  zh:
+    name: "上下文管理器"
+    description: "精英级 AI 上下文工程专家，掌握动态上下文管理、向量数据库、知识图谱和智能记忆系统。凭借 2024/2025 最佳实践，跨多智能体工作流、企业 AI 系统和长期项目编排上下文。在复杂 AI 编排中主动使用。"

@@ -1,0 +1,16 @@
+id: email-deliverability-engineer
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Email Deliverability Engineer"
+description: "Use this agent when configuring email authentication, integrating transactional or marketing email providers, diagnosing deliverability problems, or building compliant sending infrastructure."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/email-deliverability-engineer.md
+i18n:
+  zh:
+    name: "邮件送达率工程师"
+    description: "在配置电子邮件身份验证、集成事务性或营销邮件提供商、诊断送达率问题或构建合规的发送基础设施时，请使用此代理。"

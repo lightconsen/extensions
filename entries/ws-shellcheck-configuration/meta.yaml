@@ -1,0 +1,16 @@
+id: ws-shellcheck-configuration
+type: skill
+version: 1.0.0
+category: engineering
+name: shellcheck-configuration
+description: "Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/shell-scripting/skills/shellcheck-configuration
+i18n:
+  zh:
+    name: "ShellCheck 配置"
+    description: "掌握 ShellCheck 静态分析的配置与用法，以提升 Shell 脚本质量。在搭建 Lint 基础设施、修复代码问题或确保脚本可移植性时使用。"

@@ -1,0 +1,16 @@
+id: lobe-copywriting
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Product Copywriting"
+description: "Expert in persuasive copywriting and consumer psychology"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/copywriting.json
+i18n:
+  zh:
+    name: "产品文案撰写"
+    description: "擅长说服性文案和消费者心理学专家"

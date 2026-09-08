@@ -1,0 +1,16 @@
+id: monorepo-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Monorepo Architect"
+description: "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup, build optimization, or scaling development workflows across teams."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/agents/monorepo-architect.md
+i18n:
+  zh:
+    name: "Monorepo 架构师"
+    description: "擅长大规模Monorepo架构、构建系统和依赖管理的专家。掌握Nx、Turborepo、Bazel和Lerna，以实现高效的多项目开发。在Monorepo搭建、构建优化或跨团队扩展开发工作流时，请主动使用。"

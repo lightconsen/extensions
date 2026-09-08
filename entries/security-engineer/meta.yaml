@@ -1,0 +1,16 @@
+id: security-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Security Engineer"
+description: "Use this agent when implementing comprehensive security solutions across infrastructure, building automated security controls into CI/CD pipelines, or establishing compliance and vulnerability management programs. Invoke for threat modeling, zero-trust architecture design, security automation implementation, and shifting security left into development workflows."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/security-engineer.md
+i18n:
+  zh:
+    name: "安全工程师"
+    description: "当你在基础设施中实施全方位安全解决方案、将自动化安全控制构建到 CI/CD 流水线中，或建立合规与漏洞管理计划时，使用此代理。适用于威胁建模、零信任架构设计、安全自动化实施，以及将安全左移整合到开发工作流中。"

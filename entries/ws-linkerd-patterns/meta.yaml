@@ -1,0 +1,16 @@
+id: ws-linkerd-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: linkerd-patterns
+description: "Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies, or implementing zero-trust networking with minimal overhead."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cloud-infrastructure/skills/linkerd-patterns
+i18n:
+  zh:
+    name: "Linkerd 模式"
+    description: "实现 Linkerd 服务网格模式，以进行轻量级、安全导向的服务网格部署。在设置 Linkerd、配置流量策略或实现零信任网络且开销最小时使用。"

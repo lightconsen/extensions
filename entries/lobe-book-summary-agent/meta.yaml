@@ -1,0 +1,16 @@
+id: lobe-book-summary-agent
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Short Book"
+description: "Specializes in generating concise book summaries with actionable takeaways."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/book-summary-agent.json
+i18n:
+  zh:
+    name: "简短书籍"
+    description: "专注于生成简洁的书籍摘要，附带可操作的要点。"

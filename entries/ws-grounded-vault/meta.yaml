@@ -1,0 +1,16 @@
+id: ws-grounded-vault
+type: skill
+version: 1.0.0
+category: content-writing
+name: grounded-vault
+description: "Use when maintaining a durable Markdown knowledge store that agents compile from sources, when every number or quote in a wiki page must trace back to an immutable source, or when compiled pages need cheap drift detection against the code they describe. Teaches the raw/wiki/archive layout, per-claim provenance links, and git fingerprints for zero-token staleness checks."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/documentation-standards/skills/grounded-vault
+i18n:
+  zh:
+    name: "溯源知识库"
+    description: "在以下情况下使用：维护由智能体从来源汇总而成的持久 Markdown 知识存储；wiki 页面中的每个数字或引用都必须可追溯到不可变来源；或需要对已编译页面与它们描述的代码进行低成本漂移检测时。该技能教授 raw/wiki/archive 布局、逐条声明的溯源链接，以及使用 git 指纹执行零 token 过期检查的方法。"

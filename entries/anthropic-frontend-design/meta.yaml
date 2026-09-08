@@ -1,0 +1,16 @@
+id: anthropic-frontend-design
+type: skill
+version: 1.0.0
+category: design
+name: "Frontend Design"
+description: "Guidance for distinctive production-quality frontend UI design (anthropics/skills, Apache-2.0)"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - frontend-design
+i18n:
+  zh:
+    name: "前端界面设计"
+    description: "打造有辨识度、生产级品质的前端 UI 设计指南（anthropics/skills，Apache-2.0）"

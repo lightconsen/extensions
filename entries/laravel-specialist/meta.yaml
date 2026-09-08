@@ -1,0 +1,16 @@
+id: laravel-specialist
+type: expert
+version: 1.0.0
+category: engineering
+name: "Laravel Specialist"
+description: "Use when building Laravel 10+ applications, architecting Eloquent models with complex relationships, implementing queue systems for async processing, or optimizing API performance."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/laravel-specialist.md
+i18n:
+  zh:
+    name: "Laravel专家"
+    description: "在构建Laravel 10+应用、设计具有复杂关系的Eloquent模型、实现队列系统进行异步处理或优化API性能时使用。"

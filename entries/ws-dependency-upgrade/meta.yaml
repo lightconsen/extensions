@@ -1,0 +1,16 @@
+id: ws-dependency-upgrade
+type: skill
+version: 1.0.0
+category: engineering
+name: dependency-upgrade
+description: "Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in libraries."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/framework-migration/skills/dependency-upgrade
+i18n:
+  zh:
+    name: "依赖升级"
+    description: "通过兼容性分析、分阶段发布和全面测试来管理主要依赖版本升级。适用于升级框架版本、更新主要依赖或处理库中的破坏性变更。"

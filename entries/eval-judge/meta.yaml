@@ -1,0 +1,16 @@
+id: eval-judge
+type: expert
+version: 1.0.0
+category: engineering
+name: "Eval Judge"
+description: "LLM judge for plugin quality assessment. Scores skills on triggering accuracy, orchestration fitness, output quality, and scope calibration using anchored rubrics."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/plugin-eval/agents/eval-judge.md
+i18n:
+  zh:
+    name: "评测裁判"
+    description: "用于插件质量评估的 LLM 裁判。使用锚定评分标准对技能的触发准确性、编排适配度、输出质量和范围校准进行评分。"

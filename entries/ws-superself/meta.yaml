@@ -1,0 +1,16 @@
+id: ws-superself
+type: skill
+version: 1.0.0
+category: specialized-domains
+name: superself
+description: "Use when a project keeps its state in Superself (a `<!-- superself:begin` block in AGENTS.md or CLAUDE.md, or `self setup` resolves the directory to a registered project): read `self context` at session start, attach work to a work unit, report with evidence, and record confirmed decisions so the next session picks up where this one left off."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/superself/skills/superself
+i18n:
+  zh:
+    name: Superself
+    description: "当项目将状态保存在 Superself 中时使用（在 AGENTS.md 或 CLAUDE.md 中以 `<!-- superself:begin` 块保存，或通过 `self setup` 将目录解析为已注册项目）：在会话开始时读取 `self context`，将工作关联到工作单元，附上证据进行汇报，并记录已确认的决策，以便下个会话从当前进度继续。"

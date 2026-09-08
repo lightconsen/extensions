@@ -1,0 +1,16 @@
+id: ws-react-modernization
+type: skill
+version: 1.0.0
+category: engineering
+name: react-modernization
+description: "Upgrade React applications to latest versions, migrate from class components to hooks, and adopt concurrent features. Use when modernizing React codebases, migrating to React Hooks, or upgrading to latest React versions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/framework-migration/skills/react-modernization
+i18n:
+  zh:
+    name: "React 现代化"
+    description: "将 React 应用升级到最新版本，从类组件迁移到 Hooks，并采用并发特性。在现代化 React 代码库、迁移到 React Hooks 或升级到最新版 React 时使用。"

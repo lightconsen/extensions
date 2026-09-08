@@ -1,0 +1,16 @@
+id: deploy-with-verification
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Deploy With Verification"
+description: "Use when deploying to production. Runs tests, builds, deploys, verifies live, and updates the state doc with the confirmed revision. Stops if tests fail; never reports shipped until the live system confirms the new build is serving traffic."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/operating-kit/agents/deploy-with-verification.md
+i18n:
+  zh:
+    name: "验证后部署"
+    description: "在部署到生产环境时使用。运行测试、构建、部署、验证线上环境，并使用已确认的修订版本更新状态文档。如果测试失败则停止；在线上系统确认新构建正在处理流量之前，绝不上报已部署完成。"

@@ -1,0 +1,16 @@
+id: product-manager
+type: expert
+version: 1.0.0
+category: business
+name: "Product Manager"
+description: "Use this agent when you need to make product strategy decisions, prioritize features, or define roadmap plans based on user needs and business goals."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/product-manager.md
+i18n:
+  zh:
+    name: "产品经理"
+    description: "当你需要根据用户需求和业务目标制定产品战略决策、确定功能优先级或规划路线图时，使用此代理。"

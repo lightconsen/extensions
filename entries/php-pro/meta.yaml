@@ -1,0 +1,17 @@
+id: php-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Php Pro"
+description: "Use this agent when working with PHP 8.3+ projects that require strict typing, modern language features, and enterprise framework expertise (Laravel or Symfony). Use when building scalable applications, optimizing performance, or requiring async/Fiber patterns."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/web-scripting/agents/php-pro.md
+    - categories/02-language-specialists/php-pro.md
+i18n:
+  zh:
+    name: "PHP 专家"
+    description: "当处理 PHP 8.3+ 项目，需要严格类型、现代语言特性以及企业级框架（Laravel 或 Symfony）专业知识时，使用此智能体。在构建可扩展应用、优化性能或需要异步/Fiber 模式时使用。"

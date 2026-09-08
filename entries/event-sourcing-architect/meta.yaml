@@ -1,0 +1,16 @@
+id: event-sourcing-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Event Sourcing Architect"
+description: "Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or complex domain modeling with temporal queries."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/agents/event-sourcing-architect.md
+i18n:
+  zh:
+    name: "事件溯源架构师"
+    description: "事件溯源、CQRS 和事件驱动架构模式专家。精通事件存储设计、投影构建、Saga 编排和最终一致性模式。在事件溯源系统、审计追踪需求或需要时间查询的复杂领域建模时主动使用。"

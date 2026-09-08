@@ -1,0 +1,16 @@
+id: ws-rag-implementation
+type: skill
+version: 1.0.0
+category: data-ai
+name: rag-implementation
+description: "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/skills/rag-implementation
+i18n:
+  zh:
+    name: "RAG 实现"
+    description: "为 LLM 应用构建基于向量数据库和语义搜索的检索增强生成（RAG）系统。在实现知识驱动的 AI、构建文档问答系统或将 LLM 与外部知识库集成时使用。"

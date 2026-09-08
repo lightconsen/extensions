@@ -1,0 +1,17 @@
+id: ai-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Ai Engineer"
+description: "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations. Use PROACTIVELY for LLM features, chatbots, AI agents, or AI-powered applications."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/agents/ai-engineer.md
+    - categories/05-data-ai/ai-engineer.md
+i18n:
+  zh:
+    name: "AI工程师"
+    description: "构建生产级LLM应用、高级RAG系统和智能代理。实现向量搜索、多模态AI、代理编排和企业AI集成。在需要LLM功能、聊天机器人、AI代理或AI驱动的应用时主动使用。"

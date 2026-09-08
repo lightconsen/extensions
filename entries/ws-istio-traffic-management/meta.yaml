@@ -1,0 +1,16 @@
+id: ws-istio-traffic-management
+type: skill
+version: 1.0.0
+category: engineering
+name: istio-traffic-management
+description: "Configure Istio traffic management including routing, load balancing, circuit breakers, and canary deployments. Use when implementing service mesh traffic policies, progressive delivery, or resilience patterns."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cloud-infrastructure/skills/istio-traffic-management
+i18n:
+  zh:
+    name: "Istio 流量管理"
+    description: "配置 Istio 流量管理，包括路由、负载均衡、熔断和金丝雀部署。在实施服务网格流量策略、渐进式交付或韧性模式时使用。"

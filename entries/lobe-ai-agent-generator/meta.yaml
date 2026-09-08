@@ -1,0 +1,16 @@
+id: lobe-ai-agent-generator
+type: expert
+version: 1.0.0
+category: research-education
+name: "AI Agent Generator"
+description: "Skilled at creating AI Agent character descriptions that meet the needs."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/ai-agent-generator.json
+i18n:
+  zh:
+    name: "AI 代理生成器"
+    description: "擅长创建符合需求的 AI 代理角色描述。"

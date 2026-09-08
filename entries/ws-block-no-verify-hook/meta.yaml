@@ -1,0 +1,16 @@
+id: ws-block-no-verify-hook
+type: skill
+version: 1.0.0
+category: engineering
+name: block-no-verify-hook
+description: "Configure a PreToolUse hook to prevent AI agents from skipping git pre-commit hooks with --no-verify and other bypass flags. Use when setting up Claude Code projects that enforce commit quality gates."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/block-no-verify/skills/block-no-verify-hook
+i18n:
+  zh:
+    name: "拦截 --no-verify 钩子"
+    description: "配置 PreToolUse 钩子，防止 AI 代理使用 --no-verify 等绕过标志跳过 git 预提交钩子。适用于设置执行提交质量门禁的 Claude Code 项目。"

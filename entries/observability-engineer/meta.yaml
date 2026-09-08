@@ -1,0 +1,17 @@
+id: observability-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Observability Engineer"
+description: "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows. Use PROACTIVELY for monitoring infrastructure, performance optimization, or production reliability."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/application-performance/agents/observability-engineer.md
+    - plugins/observability-monitoring/agents/observability-engineer.md
+i18n:
+  zh:
+    name: "可观测性工程师"
+    description: "构建生产就绪的监控、日志记录和链路追踪系统。实现全面的可观测性策略、SLI/SLO 管理和事件响应工作流。在监控基础设施、性能优化或生产可靠性方面主动使用。"

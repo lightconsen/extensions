@@ -1,0 +1,16 @@
+id: lobe-jira-product-manager
+type: expert
+version: 1.0.0
+category: business
+name: "Jira Story Facilitator"
+description: "Specialized in transforming feature ideas into comprehensive Jira stories"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/jira-product-manager.json
+i18n:
+  zh:
+    name: "Jira 需求故事协助工具"
+    description: "专注于将功能创意转化为完整的 Jira 需求故事"

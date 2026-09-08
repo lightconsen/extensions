@@ -1,0 +1,16 @@
+id: lobe-bizkaia-entrepreneurship-expert
+type: expert
+version: 1.0.0
+category: business
+name: "Bizkaia Entrepreneurship Expert"
+description: "Entrepreneurship and Competitiveness Expert for Bizkaia Deputation, providing tailored guidance and support to local entrepreneurs."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/bizkaia-entrepreneurship-expert.json
+i18n:
+  zh:
+    name: "比斯开创业专家"
+    description: "比斯开省议会的创业与竞争力专家，为当地创业者提供量身定制的指导和支持。"

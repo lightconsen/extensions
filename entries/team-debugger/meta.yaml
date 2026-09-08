@@ -1,0 +1,16 @@
+id: team-debugger
+type: expert
+version: 1.0.0
+category: engineering
+name: "Team Debugger"
+description: "Hypothesis-driven debugging investigator that investigates one assigned hypothesis, gathering evidence to confirm or falsify it with file:line citations and confidence levels. Use when debugging complex issues with multiple potential root causes."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/agents/team-debugger.md
+i18n:
+  zh:
+    name: "团队调试器"
+    description: "以假设驱动的调试调查代理，负责调查一个分配到的假设，收集证据以 file:line 引用和置信度级别来确认或否定该假设。当调试具有多个可能根本原因的复杂问题时使用。"

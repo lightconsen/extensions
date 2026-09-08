@@ -1,0 +1,16 @@
+id: lobe-amazon-listing-copywriter
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Amazon Listing Copywriter"
+description: "Expert in writing persuasive Amazon listings with optimized keywords."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/amazon-listing-copywriter.json
+i18n:
+  zh:
+    name: "亚马逊商品文案撰写师"
+    description: "擅长撰写具有说服力且优化关键词的亚马逊商品详情页文案专家。"

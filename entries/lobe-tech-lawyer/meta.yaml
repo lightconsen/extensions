@@ -1,0 +1,16 @@
+id: lobe-tech-lawyer
+type: expert
+version: 1.0.0
+category: business
+name: "Startup Tech Lawyer"
+description: "In-house legal counsel for a tech startup, offering clear, practical legal advice to support the startup's growth and protect its interests."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/tech-lawyer.json
+i18n:
+  zh:
+    name: "初创科技律师"
+    description: "科技初创企业的内部法律顾问，提供清晰、实用的法律建议，支持初创企业的成长并保护其利益。"

@@ -1,0 +1,16 @@
+id: receipt-verifier
+type: expert
+version: 1.0.0
+category: security
+name: "Receipt Verifier"
+description: "Expert in Ed25519 signed receipts, JCS canonicalization, hash chains, and offline verification. Use when you need to verify receipt authenticity, audit a receipt chain, detect tampering, or explain why verification failed."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/protect-mcp/agents/receipt-verifier.md
+i18n:
+  zh:
+    name: "收据验证器"
+    description: "擅长Ed25519签名收据、JCS规范化、哈希链和离线验证的专家。当需要验证收据真实性、审计收据链、检测篡改，或解释验证失败原因时使用。"

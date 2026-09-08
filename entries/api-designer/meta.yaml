@@ -1,0 +1,16 @@
+id: api-designer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Api Designer"
+description: "Use this agent when designing new APIs, creating API specifications, or refactoring existing API architecture for scalability and developer experience. Invoke when you need REST/GraphQL endpoint design, OpenAPI documentation, authentication patterns, or API versioning strategies."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/01-core-development/api-designer.md
+i18n:
+  zh:
+    name: "API设计师"
+    description: "在设计新API、创建API规格或重构现有API架构以实现可扩展性和开发者体验时，使用此代理。当你需要REST/GraphQL端点设计、OpenAPI文档、认证模式或API版本管理策略时调用。"

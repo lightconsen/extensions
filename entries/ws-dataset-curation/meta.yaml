@@ -1,0 +1,16 @@
+id: ws-dataset-curation
+type: skill
+version: 1.0.0
+category: data-ai
+name: dataset-curation
+description: "Prepare, format, and validate datasets for supervised fine-tuning and preference training. Use when converting raw data into training format, applying chat templates, configuring sequence packing, generating synthetic training data, or writing a dataset card before a run."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/skills/dataset-curation
+i18n:
+  zh:
+    name: "数据集整理"
+    description: "为监督式微调和偏好训练准备、格式化并验证数据集。适用于将原始数据转换为训练格式、应用聊天模板、配置序列打包、生成合成训练数据，或在训练运行前编写数据集卡。"

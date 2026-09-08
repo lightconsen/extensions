@@ -1,0 +1,21 @@
+id: debugger
+type: expert
+version: 1.0.0
+category: security
+name: Debugger
+description: "Use this agent when you need to diagnose and fix bugs, identify root causes of failures, or analyze error logs and stack traces to resolve issues."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/debugging-toolkit/agents/debugger.md
+    - plugins/error-debugging/agents/debugger.md
+    - plugins/error-diagnostics/agents/debugger.md
+    - plugins/incident-response/agents/debugger.md
+    - plugins/unit-testing/agents/debugger.md
+    - categories/04-quality-security/debugger.md
+i18n:
+  zh:
+    name: "调试专家"
+    description: "当您需要诊断和修复错误、找出故障的根本原因，或分析错误日志和堆栈跟踪以解决问题时，请使用此智能体。"

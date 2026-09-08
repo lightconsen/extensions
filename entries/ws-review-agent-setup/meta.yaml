@@ -1,0 +1,16 @@
+id: ws-review-agent-setup
+type: skill
+version: 1.0.0
+category: engineering
+name: review-agent-setup
+description: "Configure human-in-the-loop gating for AI agent review actions in Claude Code. Use when setting up a project where an agent may post PR reviews, comments, merges, or edit CI configuration, and you want a cryptographically auditable approval trail with Cedar-enforced gates."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/review-agent-governance/skills/review-agent-setup
+i18n:
+  zh:
+    name: "审查代理配置"
+    description: "在 Claude Code 中为 AI 代理的审查操作配置人工介入（human-in-the-loop）门控。当你在设置一个代理可能会发布 PR 审查、评论、合并或编辑 CI 配置的项目，并希望拥有由 Cedar 强制门控且可加密审计的审批轨迹时，请使用此技能。"

@@ -1,0 +1,16 @@
+id: anthropic-slack-gif-creator
+type: skill
+version: 1.0.0
+category: design
+name: "Slack GIF Creator"
+description: "Create animated GIFs optimized for Slack, with constraints and validation tooling"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - slack-gif-creator
+i18n:
+  zh:
+    name: "Slack GIF 制作"
+    description: "制作适配 Slack 的动图 GIF，内置约束与校验工具"

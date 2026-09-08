@@ -1,0 +1,16 @@
+id: ws-eval-harness-first
+type: skill
+version: 1.0.0
+category: data-ai
+name: eval-harness-first
+description: "Build the evaluation harness that gates every fine-tuning run — golden sets, per-failure-mode graders, judge calibration, and base-model baselines. Use when starting a fine-tuning effort, when converting traces into an eval set, or when calibrating a judge against human labels."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/skills/eval-harness-first
+i18n:
+  zh:
+    name: "评估框架优先"
+    description: "构建为每次微调运行把关的评估框架——包含金标准集、按失败模式划分的评分器、裁判校准和基础模型基线。在启动微调工作、将轨迹转化为评估集，或根据人工标签校准裁判时使用。"

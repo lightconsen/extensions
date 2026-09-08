@@ -1,0 +1,16 @@
+id: llm-finetuning-architect
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Llm Finetuning Architect"
+description: "Fine-tuning strategist who owns the eval gate and method/model selection. Refuses to plan training without a baselined eval harness. Use PROACTIVELY when a user wants to fine-tune a model, before any training configuration exists."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/agents/llm-finetuning-architect.md
+i18n:
+  zh:
+    name: "LLM 微调架构师"
+    description: "微调策略师，负责评估关卡及方法/模型选择。若没有已建立基线的评估框架，则拒绝规划训练。当用户想要微调模型、且尚不存在任何训练配置时，请主动使用。"

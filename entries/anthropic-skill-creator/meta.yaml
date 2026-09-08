@@ -1,0 +1,16 @@
+id: anthropic-skill-creator
+type: skill
+version: 1.0.0
+category: engineering
+name: "Skill Creator"
+description: "Create and improve agent skills (SKILL.md format) with eval and packaging workflow"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - skill-creator
+i18n:
+  zh:
+    name: "Skill 创建器"
+    description: "创建与改进 agent 技能（SKILL.md 格式），含评测与打包流程"

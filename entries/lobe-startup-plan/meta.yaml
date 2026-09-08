@@ -1,0 +1,16 @@
+id: lobe-startup-plan
+type: expert
+version: 1.0.0
+category: business
+name: "Startup Plan"
+description: "Generate a detailed and comprehensive business plan within minutes"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/startup-plan.json
+i18n:
+  zh:
+    name: "创业计划"
+    description: "在几分钟内生成详细且全面的商业计划"

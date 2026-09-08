@@ -1,0 +1,16 @@
+id: lobe-poetry
+type: expert
+version: 1.0.0
+category: research-education
+name: "Poetry Mentor"
+description: "Poetry Guide: Inspiring poetic expression and appreciation."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/poetry.json
+i18n:
+  zh:
+    name: "诗歌导师"
+    description: "诗歌指南：激发诗意表达与欣赏。"

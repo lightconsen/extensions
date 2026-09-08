@@ -1,0 +1,16 @@
+id: qa
+type: expert
+version: 1.0.0
+category: engineering
+name: Qa
+description: "QA Agent. Tests all acceptance criteria and edge cases from orchestrator-output.md. Generates a structured qa-report.md with pass/fail per criterion and bug triage. Loops back to implement if bugs found (max 2 iterations)."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ship-mate/agents/qa.md
+i18n:
+  zh:
+    name: "质量保证"
+    description: "QA代理。根据orchestrator-output.md测试所有验收标准和边缘情况。生成结构化的qa-report.md，列出每个标准的通过/失败及缺陷分诊。如果发现缺陷，则循环回实现（最多2次迭代）。"

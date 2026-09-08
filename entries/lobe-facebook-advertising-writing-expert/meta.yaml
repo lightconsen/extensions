@@ -1,0 +1,16 @@
+id: lobe-facebook-advertising-writing-expert
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Facebook Advertising Writing Expert"
+description: "Specializing in creating attention-grabbing headlines, compelling primary texts, and effective ad copy"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/facebook-advertising-writing-expert.json
+i18n:
+  zh:
+    name: "Facebook 广告文案专家"
+    description: "专注于创作引人注目的标题、吸引人的主文案和高效的广告文案"

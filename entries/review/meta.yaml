@@ -1,0 +1,16 @@
+id: review
+type: expert
+version: 1.0.0
+category: engineering
+name: Review
+description: "PR Reviewer agent. Reviews implemented code using a 3-tier taxonomy (🔴 Critical / 🟡 Should Fix / 💡 Consider). Auto-resolves minor issues, pauses on critical ones. Applies security guardrails. Outputs review-report.md."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ship-mate/agents/review.md
+i18n:
+  zh:
+    name: "代码审查"
+    description: "PR审查代理。使用三层分类法（🔴严重 / 🟡应修复 / 💡考虑）审查已实现代码。自动解决次要问题，遇到关键问题则暂停。应用安全护栏。输出review-report.md。"

@@ -1,0 +1,16 @@
+id: ws-git-advanced-workflows
+type: skill
+version: 1.0.0
+category: engineering
+name: git-advanced-workflows
+description: "Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature branches, or troubleshooting repository issues."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/git-advanced-workflows
+i18n:
+  zh:
+    name: "高级 Git 工作流"
+    description: "掌握高级 Git 工作流，包括 rebase、cherry-pick、bisect、worktree 和 reflog，以保持干净的提交历史并从任何情况中恢复。在管理复杂 Git 历史、在功能分支上协作或排查仓库问题时使用。"

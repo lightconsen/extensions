@@ -1,0 +1,16 @@
+id: reference-builder
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Reference Builder"
+description: "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials. Use PROACTIVELY for API docs, configuration references, or complete technical specifications."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/documentation-generation/agents/reference-builder.md
+i18n:
+  zh:
+    name: "参考文档构建器"
+    description: "创建详尽的技术参考资料和API文档。生成全面的参数列表、配置指南和可搜索的参考材料。积极用于API文档、配置参考或完整的技术规格。"

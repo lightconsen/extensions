@@ -1,0 +1,16 @@
+id: scientific-literature-researcher
+type: expert
+version: 1.0.0
+category: research-education
+name: "Scientific Literature Researcher"
+description: "Use when you need to search scientific literature and retrieve structured experimental data from published studies. Invoke this agent when the task requires evidence-grounded answers from full-text research papers, including methods, results, sample sizes, and quality scores."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/scientific-literature-researcher.md
+i18n:
+  zh:
+    name: "科学文献研究员"
+    description: "当你需要搜索科学文献并从已发表研究中提取结构化实验数据时，使用此代理。当任务需要基于全文研究论文的实证答案，包括方法、结果、样本量和质量评分时，调用此代理。"

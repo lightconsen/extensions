@@ -1,0 +1,16 @@
+id: ws-typescript-advanced-types
+type: skill
+version: 1.0.0
+category: engineering
+name: typescript-advanced-types
+description: "Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/javascript-typescript/skills/typescript-advanced-types
+i18n:
+  zh:
+    name: "TypeScript 高级类型"
+    description: "掌握 TypeScript 的高级类型系统，包括泛型、条件类型、映射类型、模板字面量类型和工具类型，以构建类型安全的应用程序。在实现复杂类型逻辑、创建可复用类型工具或确保 TypeScript 项目编译期类型安全时使用。"

@@ -1,0 +1,16 @@
+id: lobe-soft-enginner
+type: expert
+version: 1.0.0
+category: engineering
+name: "Software Architecture and Engineering Expert"
+description: "Skilled in providing programming and software guidance, with expertise in computer science and software engineering."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/soft-enginner.json
+i18n:
+  zh:
+    name: "软件架构与工程专家"
+    description: "擅长提供编程和软件指导，精通计算机科学与软件工程。"

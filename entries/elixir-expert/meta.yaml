@@ -1,0 +1,16 @@
+id: elixir-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Elixir Expert"
+description: "Use this agent when you need to build fault-tolerant, concurrent systems leveraging OTP patterns, GenServer architectures, and Phoenix framework for real-time applications."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/elixir-expert.md
+i18n:
+  zh:
+    name: "Elixir 专家"
+    description: "当您需要利用 OTP 模式、GenServer 架构和 Phoenix 框架为实时应用构建容错并发系统时，请使用此代理。"

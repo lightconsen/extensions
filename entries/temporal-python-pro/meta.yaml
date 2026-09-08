@@ -1,0 +1,16 @@
+id: temporal-python-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Temporal Python Pro"
+description: "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment. Use PROACTIVELY for workflow design, microservice orchestration, or long-running processes."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/agents/temporal-python-pro.md
+i18n:
+  zh:
+    name: "Temporal Python 专家"
+    description: "掌握使用 Python SDK 进行 Temporal 工作流编排。实现持久工作流、Saga 模式和分布式事务。涵盖 async/await、测试策略和生产部署。在涉及工作流设计、微服务编排或长时间运行流程时主动使用。"

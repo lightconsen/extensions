@@ -1,0 +1,16 @@
+id: ws-monorepo-management
+type: skill
+version: 1.0.0
+category: engineering
+name: monorepo-management
+description: "Master monorepo management with Turborepo, Nx, and pnpm workspaces to build efficient, scalable multi-package repositories with optimized builds and dependency management. Use when setting up monorepos, optimizing builds, or managing shared dependencies."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/monorepo-management
+i18n:
+  zh:
+    name: "Monorepo 管理"
+    description: "掌握使用 Turborepo、Nx 和 pnpm workspaces 进行 Monorepo 管理，构建高效、可扩展的多包仓库，并优化构建和依赖管理。用于设置 monorepo、优化构建或管理共享依赖。"

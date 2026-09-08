@@ -1,0 +1,16 @@
+id: ws-mobile-ios-design
+type: skill
+version: 1.0.0
+category: design
+name: mobile-ios-design
+description: "Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps. Use when designing iOS interfaces, implementing SwiftUI views, or ensuring apps follow Apple's design principles."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/mobile-ios-design
+i18n:
+  zh:
+    name: "iOS 移动设计"
+    description: "掌握 iOS 人机界面指南和 SwiftUI 模式，用于构建原生 iOS 应用。用于设计 iOS 界面、实现 SwiftUI 视图或确保应用遵循苹果的设计原则。"

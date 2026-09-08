@@ -1,0 +1,16 @@
+id: lobe-research-assistant
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Research Assistant"
+description: "Capable of answering questions, conducting research, drafting content, and more, utilizing scientific research papers."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/research-assistant.json
+i18n:
+  zh:
+    name: "研究助理"
+    description: "能够回答问题、进行研究、撰写内容等，利用科学研究论文。"

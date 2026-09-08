@@ -1,0 +1,16 @@
+id: code-review-preshipment
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Code Review Preshipment"
+description: "Comprehensive pre-ship review of all changes since the last deploy or a specified commit. Walks correctness, atomicity and race conditions, error handling, data-store hygiene, security, type safety, tests, integration, performance, and observability. Use after any sprint and always before deploying. Ends with a SHIP / SHIP WITH FIXES / DO NOT SHIP verdict."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/operating-kit/agents/code-review-preshipment.md
+i18n:
+  zh:
+    name: "发布前代码评审"
+    description: "对自上次部署或指定提交以来的所有变更进行全面的发布前评审。检查正确性、原子性和竞态条件、错误处理、数据存储卫生、安全性、类型安全、测试、集成、性能和可观测性。在每个 sprint 之后以及部署之前使用。最终给出 SHIP / SHIP WITH FIXES / DO NOT SHIP 的判断。"

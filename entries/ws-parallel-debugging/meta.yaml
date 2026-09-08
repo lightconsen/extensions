@@ -1,0 +1,16 @@
+id: ws-parallel-debugging
+type: skill
+version: 1.0.0
+category: engineering
+name: parallel-debugging
+description: "Debug complex issues using competing hypotheses with parallel investigation, evidence collection, and root cause arbitration. Use this skill when debugging bugs with multiple potential causes, performing root cause analysis, or organizing parallel investigation workflows."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/skills/parallel-debugging
+i18n:
+  zh:
+    name: "并行调试"
+    description: "通过并行调查、证据收集和根因仲裁，使用竞争性假设来调试复杂问题。用于调试具有多种潜在原因的 bug、执行根因分析或组织并行调查工作流。"

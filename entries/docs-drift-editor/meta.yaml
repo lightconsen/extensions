@@ -1,0 +1,16 @@
+id: docs-drift-editor
+type: expert
+version: 1.0.0
+category: engineering
+name: "Docs Drift Editor"
+description: "Use this agent to update Markdown documentation pages that have drifted out of sync with a code change, inside an isolated git worktree, without inventing commands, URLs, or features not present in the diff."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/docs-drift-editor.md
+i18n:
+  zh:
+    name: "文档漂移编辑专家"
+    description: "使用此代理在隔离的 git worktree 中更新与代码更改不同步的 Markdown 文档，且不会编造 diff 中不存在的命令、URL 或功能。"

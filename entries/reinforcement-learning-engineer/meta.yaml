@@ -1,0 +1,16 @@
+id: reinforcement-learning-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Reinforcement Learning Engineer"
+description: "Use when designing RL environments, training agents with reward optimization, implementing policy gradient methods, or deploying decision-making systems for robotics, gaming, and autonomous operations."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/05-data-ai/reinforcement-learning-engineer.md
+i18n:
+  zh:
+    name: "强化学习工程师"
+    description: "在设计强化学习环境、通过奖励优化训练代理、实现策略梯度方法，或为机器人、游戏和自主运行部署决策系统时使用。"

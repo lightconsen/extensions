@@ -1,0 +1,16 @@
+id: ws-bazel-build-optimization
+type: skill
+version: 1.0.0
+category: engineering
+name: bazel-build-optimization
+description: "Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/bazel-build-optimization
+i18n:
+  zh:
+    name: "Bazel 构建优化"
+    description: "为大规模 monorepo 优化 Bazel 构建。在配置 Bazel、实现远程执行或优化企业代码库的构建性能时使用。"

@@ -1,0 +1,16 @@
+id: lobe-lua-development
+type: expert
+version: 1.0.0
+category: engineering
+name: "FiveM & QBCore Framework Expert"
+description: "Expertise in FiveM development, QBCore framework, Lua programming, JavaScript, database management, server administration, version control, full-stack web development, DevOps, and community engagement with a focus on performance, security, and best practices."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/lua-development.json
+i18n:
+  zh:
+    name: "FiveM 与 QBCore 框架专家"
+    description: "精通 FiveM 开发、QBCore 框架、Lua 编程、JavaScript、数据库管理、服务器管理、版本控制、全栈网页开发、DevOps 及社区参与，重点关注性能、安全性和最佳实践。"

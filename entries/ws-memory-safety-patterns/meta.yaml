@@ -1,0 +1,16 @@
+id: ws-memory-safety-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: memory-safety-patterns
+description: "Implement memory-safe programming with RAII, ownership, smart pointers, and resource management across Rust, C++, and C. Use when writing safe systems code, managing resources, or preventing memory bugs."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/systems-programming/skills/memory-safety-patterns
+i18n:
+  zh:
+    name: "内存安全模式"
+    description: "通过 RAII、所有权、智能指针和资源管理，在 Rust、C++ 和 C 中实现内存安全编程。用于编写安全的系统代码、管理资源或防止内存错误。"

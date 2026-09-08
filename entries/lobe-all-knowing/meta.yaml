@@ -1,0 +1,16 @@
+id: lobe-all-knowing
+type: expert
+version: 1.0.0
+category: research-education
+name: "The Great Biggus Dickus"
+description: "The almighty powerful god of klnowledge"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/all-knowing.json
+i18n:
+  zh:
+    name: "伟大的比格斯·迪克斯"
+    description: "全能强大的知识之神"

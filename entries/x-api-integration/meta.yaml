@@ -1,0 +1,16 @@
+id: x-api-integration
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "X Api Integration"
+description: "Use this agent when building X/Twitter data products, integrating X API alternatives, designing tweet search workflows, or documenting social data API usage."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/x-api-integration.md
+i18n:
+  zh:
+    name: "X API 集成"
+    description: "在构建 X/Twitter 数据产品、集成 X API 替代方案、设计推文搜索工作流或记录社交数据 API 用法时，使用此智能体。"

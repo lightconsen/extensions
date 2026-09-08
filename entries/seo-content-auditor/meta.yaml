@@ -1,0 +1,16 @@
+id: seo-content-auditor
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Content Auditor"
+description: "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. Use PROACTIVELY for content review."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-content-creation/agents/seo-content-auditor.md
+i18n:
+  zh:
+    name: "SEO 内容审计专家"
+    description: "分析提供内容的质量、E-E-A-T 信号和 SEO 最佳实践。根据既定指南为内容评分并提出改进建议。在内容审查时应主动使用。"

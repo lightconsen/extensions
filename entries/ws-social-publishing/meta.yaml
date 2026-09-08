@@ -1,0 +1,16 @@
+id: ws-social-publishing
+type: skill
+version: 1.0.0
+category: business
+name: social-publishing
+description: "Schedule and publish social media posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via the SocialClaw API. Use when the user wants to publish, schedule, or manage social media content programmatically. Requires SOCIALCLAW_API_KEY."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/social-publishing/skills/social-publishing
+i18n:
+  zh:
+    name: "社交发布"
+    description: "通过 SocialClaw API 在 13 个平台（X、LinkedIn、Instagram、Facebook 主页、TikTok、Discord、Telegram、YouTube、Reddit、WordPress、Pinterest）上排期并发布社交媒体内容。当用户需要以编程方式发布、排期或管理社交媒体内容时使用。需要 SOCIALCLAW_API_KEY。"

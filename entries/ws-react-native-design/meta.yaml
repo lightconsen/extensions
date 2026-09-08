@@ -1,0 +1,16 @@
+id: ws-react-native-design
+type: skill
+version: 1.0.0
+category: design
+name: react-native-design
+description: "Master React Native styling, navigation, and Reanimated animations for cross-platform mobile development. Use when building React Native apps, implementing navigation patterns, or creating performant animations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/react-native-design
+i18n:
+  zh:
+    name: "React Native 设计"
+    description: "掌握 React Native 的样式、导航和 Reanimated 动画，用于跨平台移动开发。在构建 React Native 应用、实现导航模式或创建高性能动画时使用。"

@@ -1,0 +1,16 @@
+id: ai-writing-auditor
+type: expert
+version: 1.0.0
+category: security
+name: "Ai Writing Auditor"
+description: "Use this agent when you need to audit content for AI writing patterns and rewrite text to remove them."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/ai-writing-auditor.md
+i18n:
+  zh:
+    name: "AI写作审计员"
+    description: "当你需要审计内容中的AI写作模式并将文本重写以去除这些模式时，使用此代理。"

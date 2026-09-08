@@ -1,0 +1,16 @@
+id: wordpress-master
+type: expert
+version: 1.0.0
+category: business
+name: "Wordpress Master"
+description: "Use this agent when you need to architect, optimize, or troubleshoot WordPress implementations ranging from custom theme/plugin development to enterprise-scale multisite platforms. Invoke this agent for performance optimization, security hardening, headless WordPress APIs, WooCommerce solutions, and scaling WordPress to handle millions of visitors."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/wordpress-master.md
+i18n:
+  zh:
+    name: "WordPress 专家"
+    description: "当你需要架构、优化或排查 WordPress 实现时使用此 agent，范围涵盖自定义主题/插件开发到企业级多站点平台。在需要性能优化、安全加固、无头 WordPress API、WooCommerce 解决方案以及将 WordPress 扩展以承载数百万访问者时，调用此 agent。"

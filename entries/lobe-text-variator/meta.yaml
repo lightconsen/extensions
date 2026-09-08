@@ -1,0 +1,16 @@
+id: lobe-text-variator
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Text Variator"
+description: "Please provide the text you would like me to generate different versions of"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/text-variator.json
+i18n:
+  zh:
+    name: "文本变体生成器"
+    description: "请提供您希望我生成不同版本的文本"

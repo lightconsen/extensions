@@ -1,0 +1,17 @@
+id: python-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Python Pro"
+description: "Use this agent when you need to build type-safe, production-ready Python code for web APIs, system utilities, or complex applications requiring modern async patterns and extensive type coverage."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/python-development/agents/python-pro.md
+    - categories/02-language-specialists/python-pro.md
+i18n:
+  zh:
+    name: "Python 专家"
+    description: "当你需要为Web API、系统工具或需要现代异步模式和全面类型覆盖的复杂应用程序构建类型安全、生产级Python代码时，使用此代理。"

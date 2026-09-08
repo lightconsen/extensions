@@ -1,0 +1,16 @@
+id: anthropic-internal-comms
+type: skill
+version: 1.0.0
+category: content-writing
+name: "Internal Communications"
+description: "Write status reports, newsletters, FAQs and internal updates in business-appropriate formats"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - internal-comms
+i18n:
+  zh:
+    name: "内部通讯写作"
+    description: "以得体的商务格式撰写状态报告、内刊、FAQ 与内部公告"

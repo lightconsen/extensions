@@ -1,0 +1,16 @@
+id: sales-automator
+type: expert
+version: 1.0.0
+category: business
+name: "Sales Automator"
+description: "Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/customer-sales-automation/agents/sales-automator.md
+i18n:
+  zh:
+    name: "销售自动化专家"
+    description: "起草陌拜邮件、跟进邮件和提案模板。创建定价页面、案例研究和销售话术。在销售拓展或潜在客户培育时应主动使用。"

@@ -1,0 +1,16 @@
+id: lobe-product-reviews
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Product Review"
+description: "Expert in creating persuasive product testimonials highlighting the benefits and value proposition of [your product/service]."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/product-reviews.json
+i18n:
+  zh:
+    name: "产品评价"
+    description: "专注于创建有说服力的产品推荐，突出展示[您的产品/服务]的优势和价值主张的专家。"

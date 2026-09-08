@@ -1,0 +1,16 @@
+id: ruby-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Ruby Pro"
+description: "Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks. Use PROACTIVELY for Ruby refactoring, optimization, or complex Ruby features."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/web-scripting/agents/ruby-pro.md
+i18n:
+  zh:
+    name: "Ruby 专家"
+    description: "编写地道的 Ruby 代码，涵盖元编程、Rails 模式和性能优化。专注于 Ruby on Rails、gem 开发和测试框架。在 Ruby 重构、优化或复杂 Ruby 特性方面应主动使用。"

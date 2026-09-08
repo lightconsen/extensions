@@ -1,0 +1,16 @@
+id: ws-python-observability
+type: skill
+version: 1.0.0
+category: engineering
+name: python-observability
+description: "Python observability patterns including structured logging, metrics, and distributed tracing. Use when adding logging, implementing metrics collection, setting up tracing, or debugging production systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-observability
+i18n:
+  zh:
+    name: "Python 可观测性"
+    description: "Python 可观测性模式，包括结构化日志、指标和分布式追踪。在添加日志记录、实现指标采集、设置追踪或调试生产系统时使用。"

@@ -1,0 +1,16 @@
+id: dotnet-core-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Dotnet Core Expert"
+description: "Use when building .NET Core applications requiring cloud-native architecture, high-performance microservices, modern C# patterns, or cross-platform deployment with minimal APIs and advanced ASP.NET Core features."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/dotnet-core-expert.md
+i18n:
+  zh:
+    name: ".NET Core 专家"
+    description: "在构建需要云原生架构、高性能微服务、现代 C# 模式，或使用 Minimal API 和高级 ASP.NET Core 功能进行跨平台部署的 .NET Core 应用程序时使用。"

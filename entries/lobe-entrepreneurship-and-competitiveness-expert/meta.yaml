@@ -1,0 +1,16 @@
+id: lobe-entrepreneurship-and-competitiveness-expert
+type: expert
+version: 1.0.0
+category: business
+name: "Entrepreneurship and Competitiveness Expert"
+description: "Entrepreneurship and Competitiveness Expert: Guiding individuals to entrepreneurial success and market competitiveness."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/entrepreneurship-and-competitiveness-expert.json
+i18n:
+  zh:
+    name: "创业与竞争力专家"
+    description: "创业与竞争力专家：指导个人实现创业成功和市场竞争力。"

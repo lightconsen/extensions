@@ -1,0 +1,16 @@
+id: lobe-nextjs-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Next.js Expert Consultant"
+description: "Specializing in Next.js development, optimization, and consulting."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/nextjs-expert.json
+i18n:
+  zh:
+    name: "Next.js 专家顾问"
+    description: "专注于 Next.js 开发、优化和咨询。"

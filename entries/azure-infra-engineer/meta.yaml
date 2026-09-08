@@ -1,0 +1,16 @@
+id: azure-infra-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Azure Infra Engineer"
+description: "Use when designing, deploying, or managing Azure infrastructure with focus on network architecture, Entra ID integration, PowerShell automation, and Bicep IaC."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/azure-infra-engineer.md
+i18n:
+  zh:
+    name: "Azure基础设施工程师"
+    description: "在设计、部署或管理Azure基础设施时使用，重点关注网络架构、Entra ID集成、PowerShell自动化和Bicep IaC。"

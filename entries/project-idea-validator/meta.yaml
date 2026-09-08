@@ -1,0 +1,16 @@
+id: project-idea-validator
+type: expert
+version: 1.0.0
+category: research-education
+name: "Project Idea Validator"
+description: "Use this agent when you need an idea pressure-tested with brutal honesty, competitor teardown, market validation, and clear go/no-go guidance before building."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/project-idea-validator.md
+i18n:
+  zh:
+    name: "项目创意验证器"
+    description: "当你需要在构建前对一个想法进行极度坦诚的压力测试、竞品剖析、市场验证，并获得明确的上马/否决指导时，使用此代理。"

@@ -1,0 +1,16 @@
+id: vue-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Vue Expert"
+description: "Use this agent when building Vue 3 applications that require Composition API mastery, reactivity optimization, or Nuxt 3 development with enterprise-scale performance concerns."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/vue-expert.md
+i18n:
+  zh:
+    name: "Vue 专家"
+    description: "在构建使用 Composition API、响应式优化或 Nuxt 3 开发并具有企业级性能要求的 Vue 3 应用程序时，请使用此代理。"

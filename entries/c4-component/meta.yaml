@@ -1,0 +1,16 @@
+id: c4-component
+type: expert
+version: 1.0.0
+category: engineering
+name: "C4 Component"
+description: "Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships. Creates component diagrams and documentation. Use when synthesizing code-level documentation into logical components."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/c4-architecture/agents/c4-component.md
+i18n:
+  zh:
+    name: "C4组件"
+    description: "C4 组件层文档专家。将 C4 代码级文档综合为组件级架构，定义组件边界、接口和关系。创建组件图和文档。在将代码级文档综合为逻辑组件时使用。"

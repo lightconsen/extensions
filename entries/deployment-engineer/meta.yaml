@@ -1,0 +1,20 @@
+id: deployment-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Deployment Engineer"
+description: "Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation. Masters GitHub Actions, ArgoCD/Flux, progressive delivery, container security, and platform engineering. Handles zero-downtime deployments, security scanning, and developer experience optimization. Use PROACTIVELY for CI/CD design, GitOps implementation, or deployment automation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cicd-automation/agents/deployment-engineer.md
+    - plugins/cloud-infrastructure/agents/deployment-engineer.md
+    - plugins/deployment-strategies/agents/deployment-engineer.md
+    - plugins/full-stack-orchestration/agents/deployment-engineer.md
+    - categories/03-infrastructure/deployment-engineer.md
+i18n:
+  zh:
+    name: "部署工程师"
+    description: "专业部署工程师，专注于现代 CI/CD 流水线、GitOps 工作流和高级部署自动化。精通 GitHub Actions、ArgoCD/Flux、渐进式交付、容器安全和平台工程。处理零停机部署、安全扫描和开发者体验优化。请主动用于 CI/CD 设计、GitOps 实施或部署自动化。"

@@ -1,0 +1,16 @@
+id: ui-ux-designer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Ui Ux Designer"
+description: "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Specializes in design tokens, component libraries, and inclusive design. Use PROACTIVELY for design systems, user flows, or interface optimization."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/multi-platform-apps/agents/ui-ux-designer.md
+i18n:
+  zh:
+    name: "UI/UX 设计师"
+    description: "创建界面设计、线框图和设计系统。精通用户研究、无障碍标准与现代设计工具。专注于设计令牌、组件库和包容性设计。在设计系统、用户流或界面优化时主动使用。"

@@ -1,0 +1,16 @@
+id: electron-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Electron Pro"
+description: "Use this agent when building Electron desktop applications that require native OS integration, cross-platform distribution, security hardening, and performance optimization. Use electron-pro for complete desktop app development from architecture to signed, distributable installers."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/01-core-development/electron-pro.md
+i18n:
+  zh:
+    name: "Electron 高级专家"
+    description: "在构建需要原生操作系统集成、跨平台分发、安全加固和性能优化的 Electron 桌面应用程序时使用。使用 electron-pro 完成从架构到签名、可分发的安装程序的完整桌面应用开发。"

@@ -1,0 +1,16 @@
+id: team-lead
+type: expert
+version: 1.0.0
+category: engineering
+name: "Team Lead"
+description: "Team orchestrator that decomposes work into parallel tasks with file ownership boundaries, manages team lifecycle, and synthesizes results. Use when coordinating multi-agent teams, decomposing complex tasks, or managing parallel workstreams."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/agents/team-lead.md
+i18n:
+  zh:
+    name: "团队负责人"
+    description: "团队编排器，将工作分解为带文件所有权边界的并行任务，管理团队生命周期，并综合结果。当协调多代理团队、分解复杂任务或管理并行工作流时使用。"

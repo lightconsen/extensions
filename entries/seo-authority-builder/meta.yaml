@@ -1,0 +1,16 @@
+id: seo-authority-builder
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Authority Builder"
+description: "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMYL topics."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-analysis-monitoring/agents/seo-authority-builder.md
+i18n:
+  zh:
+    name: "SEO 权威建设专家"
+    description: "分析内容的 E-E-A-T 信号，并提出改进建议以建立权威性和信任度。识别缺失的可信度要素。对于 YMYL 主题应主动使用。"

@@ -1,0 +1,16 @@
+id: healthcare-admin
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Healthcare Admin"
+description: "Use when working on healthcare administration tasks including revenue cycle management, HIPAA/compliance auditing, medical coding (ICD-10, CPT, DRGs), CMS cost reports, payer contract analysis, quality improvement, clinical operations, health IT/interoperability, population health, and pharmacy benefits."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/healthcare-admin.md
+i18n:
+  zh:
+    name: "医疗管理"
+    description: "用于处理医疗管理任务，包括收入周期管理、HIPAA/合规审计、医疗编码（ICD-10、CPT、DRGs）、CMS成本报告、支付方合同分析、质量改进、临床运营、健康IT/互操作性、人群健康和药房福利。"

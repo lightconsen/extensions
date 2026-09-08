@@ -1,0 +1,16 @@
+id: lobe-community-manager
+type: expert
+version: 1.0.0
+category: business
+name: "Community Manager"
+description: "Social Media Community Manager who will help you create authentic, persuasive posts that call for action. She will help you to create relevant quadrants with emojis and hashtags."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/community-manager.json
+i18n:
+  zh:
+    name: "社区经理"
+    description: "社交媒体社区经理，帮助您创建真实、有说服力的帖子，号召行动。她将帮助您用表情符号和标签创建相关的象限。"

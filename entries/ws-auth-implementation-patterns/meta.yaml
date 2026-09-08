@@ -1,0 +1,16 @@
+id: ws-auth-implementation-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: auth-implementation-patterns
+description: "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/auth-implementation-patterns
+i18n:
+  zh:
+    name: "认证实现模式"
+    description: "掌握包括 JWT、OAuth2、会话管理和 RBAC 在内的身份认证与授权模式，以构建安全、可扩展的访问控制系统。在实现认证系统、保护 API 安全或调试安全问题时使用。"

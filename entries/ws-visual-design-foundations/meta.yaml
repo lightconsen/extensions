@@ -1,0 +1,16 @@
+id: ws-visual-design-foundations
+type: skill
+version: 1.0.0
+category: design
+name: visual-design-foundations
+description: "Apply typography, color theory, spacing systems, and iconography principles to create cohesive visual designs. Use when establishing design tokens, building style guides, or improving visual hierarchy and consistency."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/visual-design-foundations
+i18n:
+  zh:
+    name: "视觉设计基础"
+    description: "运用字体排印、色彩理论、间距系统和图标设计原则，创建统一的视觉设计。在建立设计令牌、构建样式指南或改进视觉层次与一致性时使用。"

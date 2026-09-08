@@ -1,0 +1,16 @@
+id: threat-modeling-expert
+type: expert
+version: 1.0.0
+category: security
+name: "Threat Modeling Expert"
+description: "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/security-scanning/agents/threat-modeling-expert.md
+i18n:
+  zh:
+    name: "威胁建模专家"
+    description: "威胁建模方法论、安全架构审查和风险评估专家。精通 STRIDE、PASTA、攻击树和安全需求提取。在涉及安全架构评审、威胁识别或构建安全设计系统时主动使用。"

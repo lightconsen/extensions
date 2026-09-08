@@ -1,0 +1,16 @@
+id: build-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Build Engineer"
+description: "Use this agent when you need to optimize build performance, reduce compilation times, or scale build systems across growing teams."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/build-engineer.md
+i18n:
+  zh:
+    name: "构建工程师"
+    description: "当你需要优化构建性能、减少编译时间，或在日益壮大的团队中扩展构建系统时，请使用此智能体。"

@@ -1,0 +1,16 @@
+id: scala-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Scala Pro"
+description: "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures. Use PROACTIVELY for Scala system design, performance optimization, or enterprise integration."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/jvm-languages/agents/scala-pro.md
+i18n:
+  zh:
+    name: "Scala 专家"
+    description: "掌握企业级 Scala 开发，涵盖函数式编程、分布式系统和大数据处理。精通 Apache Pekko、Akka、Spark、ZIO/Cats Effect 和响应式架构。在 Scala 系统设计、性能优化或企业集成中应主动使用。"

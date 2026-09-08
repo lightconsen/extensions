@@ -1,0 +1,16 @@
+id: team-reviewer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Team Reviewer"
+description: "Multi-dimensional code reviewer that operates on one assigned review dimension (security, performance, architecture, testing, or accessibility) with structured finding format. Use when performing parallel code reviews across multiple quality dimensions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/agents/team-reviewer.md
+i18n:
+  zh:
+    name: "团队审查器"
+    description: "多维代码审查代理，在一个指定的审查维度（安全、性能、架构、测试或可访问性）上执行操作，并以结构化发现格式输出结果。当跨多个质量维度进行并行代码审查时使用。"

@@ -1,0 +1,16 @@
+id: anthropic-algorithmic-art
+type: skill
+version: 1.0.0
+category: design
+name: "Algorithmic Art"
+description: "Generative art with p5.js - seeded randomness and interactive parameter exploration"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - algorithmic-art
+i18n:
+  zh:
+    name: "算法艺术生成"
+    description: "用 p5.js 创作生成艺术——带随机种子与可交互的参数探索"

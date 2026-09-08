@@ -1,0 +1,16 @@
+id: conductor-validator
+type: expert
+version: 1.0.0
+category: engineering
+name: "Conductor Validator"
+description: "Validates Conductor project artifacts for completeness, consistency, and correctness. Use after setup, when diagnosing issues, or before implementation to verify project context."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/conductor/agents/conductor-validator.md
+i18n:
+  zh:
+    name: "Conductor 验证器"
+    description: "验证 Conductor 项目制品的完整性、一致性和正确性。在设置后、诊断问题或实现前使用，以确认项目上下文。"

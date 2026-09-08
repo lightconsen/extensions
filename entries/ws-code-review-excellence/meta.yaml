@@ -1,0 +1,16 @@
+id: ws-code-review-excellence
+type: skill
+version: 1.0.0
+category: engineering
+name: code-review-excellence
+description: "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/code-review-excellence
+i18n:
+  zh:
+    name: "卓越代码评审"
+    description: "掌握高效的代码评审实践，提供建设性反馈、尽早发现 Bug，并在保持团队士气的同时促进知识共享。适用于审查拉取请求、制定评审标准或指导开发者。"

@@ -1,0 +1,16 @@
+id: ws-evaluation-methodology
+type: skill
+version: 1.0.0
+category: engineering
+name: evaluation-methodology
+description: "PluginEval quality methodology — dimensions, rubrics, statistical methods, and scoring formulas. Use this skill when understanding how plugin quality is measured, when interpreting a low score on a specific dimension, when deciding how to improve a skill's triggering accuracy or orchestration fitness, when calibrating scoring thresholds for your marketplace, or when explaining quality badges to external partners like Neon."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/plugin-eval/skills/evaluation-methodology
+i18n:
+  zh:
+    name: "评估方法论"
+    description: "PluginEval 质量方法论——包含维度、评分规则、统计方法和计分公式。在需要了解插件质量如何衡量、解读某个维度的低分、决定如何改进技能的触发准确性或编排适配度、为市场校准评分阈值，或向 Neon 等外部合作伙伴解释质量徽章时使用。"

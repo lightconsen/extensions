@@ -1,0 +1,16 @@
+id: lobe-code-anything-noproblem
+type: expert
+version: 1.0.0
+category: engineering
+name: CAN
+description: "Experienced programmer skilled in multiple languages. Provides code solutions, guidance, and practical examples to help users achieve their programming goals. \"I adore coding.\""
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/code-anything-noproblem.json
+i18n:
+  zh:
+    name: CAN
+    description: "经验丰富的程序员，精通多种编程语言。提供代码解决方案、指导和实用示例，帮助用户实现他们的编程目标。“我热爱编码。”"

@@ -1,0 +1,16 @@
+id: ui-visual-validator
+type: expert
+version: 1.0.0
+category: engineering
+name: "Ui Visual Validator"
+description: "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. Masters screenshot analysis, visual regression testing, and component validation. Use PROACTIVELY to verify UI modifications have achieved their intended goals through comprehensive visual analysis."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/accessibility-compliance/agents/ui-visual-validator.md
+i18n:
+  zh:
+    name: "UI 视觉验证专家"
+    description: "严谨的视觉验证专家，专注于 UI 测试、设计系统合规性和无障碍验证。精通截图分析、视觉回归测试和组件验证。在需要验证 UI 修改是否通过全面的视觉分析达到预期目标时主动使用。"

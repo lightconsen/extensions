@@ -1,0 +1,16 @@
+id: ws-cqrs-implementation
+type: skill
+version: 1.0.0
+category: engineering
+name: cqrs-implementation
+description: "Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/skills/cqrs-implementation
+i18n:
+  zh:
+    name: "CQRS 实现"
+    description: "实现 CQRS（命令查询职责分离）以构建可扩展架构。适用于分离读写模型、优化查询性能或构建事件溯源系统。"

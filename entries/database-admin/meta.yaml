@@ -1,0 +1,16 @@
+id: database-admin
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Database Admin"
+description: "Expert database administrator specializing in modern cloud databases, automation, and reliability engineering. Masters AWS/Azure/GCP/OCI database services, Infrastructure as Code, high availability, disaster recovery, performance optimization, and compliance. Handles multi-cloud strategies, container databases, and cost optimization. Use PROACTIVELY for database architecture, operations, or reliability engineering."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/database-migrations/agents/database-admin.md
+i18n:
+  zh:
+    name: "数据库管理员"
+    description: "专业数据库管理员，专注于现代云数据库、自动化和可靠性工程。精通 AWS/Azure/GCP/OCI 数据库服务、基础设施即代码、高可用性、灾难恢复、性能优化和合规性。处理多云策略、容器数据库和成本优化。请主动用于数据库架构、运维或可靠性工程。"

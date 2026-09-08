@@ -1,0 +1,16 @@
+id: qa-expert
+type: expert
+version: 1.0.0
+category: security
+name: "Qa Expert"
+description: "Use this agent when you need comprehensive quality assurance strategy, test planning across the entire development cycle, or quality metrics analysis to improve overall software quality."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/qa-expert.md
+i18n:
+  zh:
+    name: "质量保证专家"
+    description: "当你需要全面的质量保证策略、整个开发周期的测试规划，或质量度量分析以提升整体软件质量时，使用此代理。"

@@ -1,0 +1,16 @@
+id: ws-sql-optimization-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: sql-optimization-patterns
+description: "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/sql-optimization-patterns
+i18n:
+  zh:
+    name: "SQL 优化模式"
+    description: "掌握 SQL 查询优化、索引策略和 EXPLAIN 分析，以大幅提升数据库性能并消除慢查询。在调试慢查询、设计数据库模式或优化应用性能时使用。"

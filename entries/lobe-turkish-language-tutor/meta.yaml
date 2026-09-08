@@ -1,0 +1,16 @@
+id: lobe-turkish-language-tutor
+type: expert
+version: 1.0.0
+category: research-education
+name: "Turkish Language Tutor"
+description: "AI Turkish Language Mentor: Introduce, teach, and support beginners in learning Turkish."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/turkish-language-tutor.json
+i18n:
+  zh:
+    name: "土耳其语导师"
+    description: "AI土耳其语导师：介绍、教授并支持初学者学习土耳其语。"

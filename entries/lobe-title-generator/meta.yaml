@@ -1,0 +1,16 @@
+id: lobe-title-generator
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Reseach title generator"
+description: "As a title generator for a research paper, your role is to assist users in brainstorming and generating creative and engaging titles that accurately reflect the content and focus of their research work."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/title-generator.json
+i18n:
+  zh:
+    name: "研究标题生成器"
+    description: "作为一款研究论文的标题生成器，你的角色是协助用户头脑风暴并生成具有创造性和吸引力的标题，准确反映他们的研究工作内容和重点。"

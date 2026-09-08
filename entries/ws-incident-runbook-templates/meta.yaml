@@ -1,0 +1,16 @@
+id: ws-incident-runbook-templates
+type: skill
+version: 1.0.0
+category: engineering
+name: incident-runbook-templates
+description: "Create structured incident response runbooks with step-by-step procedures, escalation paths, and recovery actions. Use this skill when building a service outage runbook for a payment processing system; creating database incident procedures covering connection pool exhaustion, replication lag, and disk space alerts; onboarding new on-call engineers who need step-by-step recovery guides written for a 3 AM brain; or standardizing escalation matrices across multiple engineering teams."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/incident-response/skills/incident-runbook-templates
+i18n:
+  zh:
+    name: "事件响应手册模板"
+    description: "创建结构化的事件响应手册，包含分步流程、升级路径和恢复操作。此技能适用于：为支付处理系统构建服务中断手册；创建覆盖连接池耗尽、复制延迟和磁盘空间警报的数据库事件流程；让新值班工程师熟悉为凌晨 3 点大脑编写的逐步恢复指南；或在多个工程团队间标准化升级矩阵。"

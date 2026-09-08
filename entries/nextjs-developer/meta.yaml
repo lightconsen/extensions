@@ -1,0 +1,16 @@
+id: nextjs-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Nextjs Developer"
+description: "Use this agent when building production Next.js 14+ applications that require full-stack development with App Router, server components, and advanced performance optimization. Invoke when you need to architect or implement complete Next.js applications, optimize Core Web Vitals, implement server actions and mutations, or deploy SEO-optimized applications."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/nextjs-developer.md
+i18n:
+  zh:
+    name: "Next.js 开发者"
+    description: "在构建需要全栈开发（使用 App Router、服务器组件和高级性能优化）的生产级 Next.js 14+ 应用时，使用此智能体。当你需要架构或实现完整的 Next.js 应用、优化 Core Web Vitals、实现 Server Actions 和变更，或部署 SEO 优化的应用时，调用此智能体。"

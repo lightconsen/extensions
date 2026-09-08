@@ -1,0 +1,16 @@
+id: penetration-tester
+type: expert
+version: 1.0.0
+category: security
+name: "Penetration Tester"
+description: "Use this agent when you need to conduct authorized security penetration tests to identify real vulnerabilities through active exploitation and validation. Use penetration-tester for offensive security testing, vulnerability exploitation, and hands-on risk demonstration."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/penetration-tester.md
+i18n:
+  zh:
+    name: "渗透测试员"
+    description: "当需要通过主动利用和验证来识别真实漏洞，进行经授权的安全渗透测试时，使用此智能体。使用 penetration-tester 进行进攻性安全测试、漏洞利用和实际操作的风险演示。"

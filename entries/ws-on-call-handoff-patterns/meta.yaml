@@ -1,0 +1,16 @@
+id: ws-on-call-handoff-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: on-call-handoff-patterns
+description: "Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use this skill when transitioning on-call responsibilities between engineers and ensuring the incoming responder has full situational awareness, when writing a shift summary that captures active incidents, ongoing investigations, and recent changes, when handing off mid-incident so a fresh engineer can take over the incident commander role without losing context, when onboarding a new engineer to the on-call rotation for the first time, or when auditing and improving the quality of existing handoff processes across teams."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/incident-response/skills/on-call-handoff-patterns
+i18n:
+  zh:
+    name: "值班交接模式"
+    description: "掌握值班轮换交接，包括上下文传递、升级流程和文档记录。在工程师之间交接值班职责并确保接任者完全了解情况时，或在编写包含活动事件、进行中的调查和近期变更的轮班摘要时，或在事件中途交接以便新工程师能在不丢失上下文的情况下接管事件指挥角色时，或首次让新工程师加入值班轮换时，或审计和改进跨团队现有交接流程质量时，使用此技能。"

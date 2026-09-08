@@ -1,0 +1,16 @@
+id: ws-python-resilience
+type: skill
+version: 1.0.0
+category: engineering
+name: python-resilience
+description: "Python resilience patterns including automatic retries, exponential backoff, timeouts, and fault-tolerant decorators. Use when adding retry logic, implementing timeouts, building fault-tolerant services, or handling transient failures."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-resilience
+i18n:
+  zh:
+    name: "Python 韧性"
+    description: "Python 韧性模式，包括自动重试、指数退避、超时和容错装饰器。在添加重试逻辑、实现超时机制、构建容错服务或处理瞬时故障时使用。"

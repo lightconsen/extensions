@@ -1,0 +1,16 @@
+id: ws-changelog-automation
+type: skill
+version: 1.0.0
+category: content-writing
+name: changelog-automation
+description: "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/documentation-generation/skills/changelog-automation
+i18n:
+  zh:
+    name: "变更日志自动化"
+    description: "根据提交、PR 和发布，按照 Keep a Changelog 格式自动生成变更日志。适用于搭建发布工作流、生成发布说明或规范提交约定。"

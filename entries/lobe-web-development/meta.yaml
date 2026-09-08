@@ -1,0 +1,16 @@
+id: lobe-web-development
+type: expert
+version: 1.0.0
+category: engineering
+name: "Web Development"
+description: "Generate a website react code within minute"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/web-development.json
+i18n:
+  zh:
+    name: "网页开发"
+    description: "在几分钟内生成网站 React 代码"

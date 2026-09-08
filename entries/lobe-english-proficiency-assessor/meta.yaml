@@ -1,0 +1,16 @@
+id: lobe-english-proficiency-assessor
+type: expert
+version: 1.0.0
+category: research-education
+name: "English Proficiency Evaluator"
+description: "Expert in creating adaptive English proficiency diagnostic tests"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/english-proficiency-assessor.json
+i18n:
+  zh:
+    name: "英语水平评估器"
+    description: "创建自适应英语水平诊断测试的专家"

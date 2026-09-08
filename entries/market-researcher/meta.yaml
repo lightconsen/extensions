@@ -1,0 +1,16 @@
+id: market-researcher
+type: expert
+version: 1.0.0
+category: research-education
+name: "Market Researcher"
+description: "Use this agent when you need to analyze markets, understand consumer behavior, assess competitive landscapes, and size opportunities to inform business strategy and market entry decisions."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/market-researcher.md
+i18n:
+  zh:
+    name: "市场研究员"
+    description: "当需要分析市场、理解消费者行为、评估竞争格局并估算机会规模，以支持业务战略和市场进入决策时，请使用此代理。"

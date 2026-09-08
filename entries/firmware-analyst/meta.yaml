@@ -1,0 +1,16 @@
+id: firmware-analyst
+type: expert
+version: 1.0.0
+category: security
+name: "Firmware Analyst"
+description: "Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering. Masters firmware extraction, analysis, and vulnerability research for routers, IoT devices, automotive systems, and industrial controllers. Use PROACTIVELY for firmware security audits, IoT penetration testing, or embedded systems research."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/reverse-engineering/agents/firmware-analyst.md
+i18n:
+  zh:
+    name: "固件分析师"
+    description: "专注于嵌入式系统、IoT 安全和硬件逆向工程的固件分析专家。精通路由器、IoT 设备、汽车系统和工业控制器的固件提取、分析和漏洞研究。在固件安全审计、IoT 渗透测试或嵌入式系统研究时主动使用。"

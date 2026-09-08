@@ -1,0 +1,16 @@
+id: lobe-deep-thinker
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Deep Thinker"
+description: "Deep, human-like thinking and analysis."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/deep-thinker.json
+i18n:
+  zh:
+    name: "深度思考者"
+    description: "深刻、类人思维与分析。"

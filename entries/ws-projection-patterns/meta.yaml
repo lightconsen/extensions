@@ -1,0 +1,16 @@
+id: ws-projection-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: projection-patterns
+description: "Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/skills/projection-patterns
+i18n:
+  zh:
+    name: "投影模式"
+    description: "从事件流构建读模型和投影。在实现 CQRS 读侧、构建物化视图或优化事件溯源系统的查询性能时使用。"

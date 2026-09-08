@@ -1,0 +1,16 @@
+id: ws-visual-edit-precision
+type: skill
+version: 1.0.0
+category: engineering
+name: visual-edit-precision
+description: "Use when making UI/frontend changes guided by visual context, when the user selects elements visually, draws annotations, or provides screenshots alongside change requests. Also use when editing components where spatial context (element identity, DOM references, layout data) supplements text instructions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/skill-forge-essentials/skills/visual-edit-precision
+i18n:
+  zh:
+    name: "视觉编辑精度"
+    description: "在依据视觉上下文进行 UI/前端修改、用户以可视化方式选中元素、绘制标注，或在修改请求中附带截图时使用。同样适用于编辑需要空间上下文（元素标识、DOM 引用、布局数据）来补充文字指令的组件。"

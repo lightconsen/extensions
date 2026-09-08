@@ -1,0 +1,16 @@
+id: mcp-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Mcp Developer"
+description: "Use this agent when you need to build, debug, or optimize Model Context Protocol (MCP) servers and clients that connect AI systems to external tools and data sources."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/mcp-developer.md
+i18n:
+  zh:
+    name: "MCP 开发者"
+    description: "当需要构建、调试或优化用于将AI系统连接到外部工具和数据源的MCP服务器与客户端时，请使用此代理。"

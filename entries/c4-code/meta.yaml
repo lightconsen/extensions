@@ -1,0 +1,16 @@
+id: c4-code
+type: expert
+version: 1.0.0
+category: engineering
+name: "C4 Code"
+description: "Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure. Use when documenting code at the lowest C4 level for individual directories and code modules."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/c4-architecture/agents/c4-code.md
+i18n:
+  zh:
+    name: "C4代码"
+    description: "C4 代码层文档专家。分析代码目录，编写全面的 C4 代码级文档，包括函数签名、参数、依赖关系和代码结构。用于记录单个目录和代码模块在最低 C4 层级上的文档。"

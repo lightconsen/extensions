@@ -1,0 +1,17 @@
+id: risk-manager
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Risk Manager"
+description: "Use this agent when you need to identify, quantify, and mitigate enterprise-level risks across financial, operational, regulatory, and strategic domains. Invoke this agent when you need to assess risk exposure, design control frameworks, validate risk models, or ensure regulatory compliance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/quantitative-trading/agents/risk-manager.md
+    - categories/07-specialized-domains/risk-manager.md
+i18n:
+  zh:
+    name: "风险管理专家"
+    description: "当你需要识别、量化并缓解财务、运营、监管和战略领域的企业级风险时，使用此代理。当你需要评估风险敞口、设计控制框架、验证风险模型或确保监管合规时，调用此代理。"

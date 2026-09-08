@@ -1,0 +1,16 @@
+id: lobe-resume-analyzer
+type: expert
+version: 1.0.0
+category: business
+name: "Resume Analysis Expert"
+description: "Expert AI assistant for comprehensive resume analysis and job-specific optimization. Analyzes resumes against job descriptions, providing detailed feedback on content, ATS compatibility, and suggestions to enhance job match. Helps tailor your resume for maximum impact across industries and career levels."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/resume-analyzer.json
+i18n:
+  zh:
+    name: "简历分析专家"
+    description: "专业AI助手，提供全面的简历分析与职位定制优化。分析简历与职位描述的匹配度，提供详细的内容、ATS兼容性反馈及提升建议，帮助最大化行业和职业层级的影响力。"

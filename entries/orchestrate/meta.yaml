@@ -1,0 +1,16 @@
+id: orchestrate
+type: expert
+version: 1.0.0
+category: engineering
+name: Orchestrate
+description: "Product Orchestrator agent. Reads the active story file, asks clarifying product questions one at a time, confirms task type (FRONTEND/BACKEND), and produces a complete unambiguous spec in orchestrator-output.md."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ship-mate/agents/orchestrate.md
+i18n:
+  zh:
+    name: "编排者"
+    description: "产品编排智能体。读取当前用户故事文件，一次一个地提出产品澄清问题，确认任务类型（FRONTEND/BACKEND），并在 orchestrator-output.md 中生成完整且无歧义的规格说明。"

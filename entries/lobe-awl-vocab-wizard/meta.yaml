@@ -1,0 +1,16 @@
+id: lobe-awl-vocab-wizard
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Vocabulary Wizard"
+description: "Expert in generating vocabulary lists and MCQ tests"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/awl-vocab-wizard.json
+i18n:
+  zh:
+    name: "词汇向导"
+    description: "生成词汇列表和多项选择测试的专家"

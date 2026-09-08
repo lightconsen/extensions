@@ -1,0 +1,18 @@
+id: graphql-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Graphql Architect"
+description: "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems. Use PROACTIVELY for GraphQL architecture or performance optimization."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/api-scaffolding/agents/graphql-architect.md
+    - plugins/backend-development/agents/graphql-architect.md
+    - categories/01-core-development/graphql-architect.md
+i18n:
+  zh:
+    name: "GraphQL 架构师"
+    description: "掌握使用联邦、性能优化和企业安全的现代 GraphQL。构建可扩展的 schema、实现高级缓存并设计实时系统。在 GraphQL 架构或性能优化时主动使用。"

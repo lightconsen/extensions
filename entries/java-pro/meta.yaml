@@ -1,0 +1,16 @@
+id: java-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Java Pro"
+description: "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns. Use PROACTIVELY for Java development, microservices architecture, or performance optimization."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/jvm-languages/agents/java-pro.md
+i18n:
+  zh:
+    name: "Java专家"
+    description: "精通Java 21+及虚拟线程、模式匹配和Spring Boot 3.x等现代特性。深谙最新Java生态系统，包括GraalVM、Project Loom和云原生模式。请主动用于Java开发、微服务架构或性能优化。"

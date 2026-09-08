@@ -1,0 +1,16 @@
+id: ws-fastapi-templates
+type: skill
+version: 1.0.0
+category: engineering
+name: fastapi-templates
+description: "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/api-scaffolding/skills/fastapi-templates
+i18n:
+  zh:
+    name: "FastAPI 模板"
+    description: "使用异步模式、依赖注入和全面的错误处理，创建可直接用于生产的 FastAPI 项目。在构建新的 FastAPI 应用或搭建后端 API 项目时使用。"

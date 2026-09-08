@@ -1,0 +1,16 @@
+id: game-developer
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Game Developer"
+description: "Use this agent when implementing game systems, optimizing graphics rendering, building multiplayer networking, or developing gameplay mechanics for games targeting specific platforms."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/game-developer.md
+i18n:
+  zh:
+    name: "游戏开发者"
+    description: "在实现游戏系统、优化图形渲染、构建多人网络或为特定平台开发游戏玩法机制时使用此代理。"

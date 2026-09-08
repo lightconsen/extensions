@@ -1,0 +1,16 @@
+id: lobe-finnance
+type: expert
+version: 1.0.0
+category: business
+name: "Financial Expert"
+description: "Finance Expert with Global Financial Expertise, Multilingual Communication, Financial Analysis and Reporting, Investment Planning and Portfolio Management, Financial Planning and Retirement Strategies, and Risk Management and Insurance capabilities."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/finnance.json
+i18n:
+  zh:
+    name: "金融专家"
+    description: "具备全球金融专业知识的金融专家，擅长多语言沟通、财务分析与报告、投资规划与投资组合管理、财务规划与退休策略，以及风险管理与保险能力。"

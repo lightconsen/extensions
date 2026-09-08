@@ -1,0 +1,16 @@
+id: ws-track-management
+type: skill
+version: 1.0.0
+category: engineering
+name: track-management
+description: "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/conductor/skills/track-management
+i18n:
+  zh:
+    name: "Track 管理"
+    description: "在创建、管理或使用 Conductor track 时使用此技能。Track 是功能、缺陷和重构工作的逻辑工作单元。适用于 spec.md、plan.md 以及 track 生命周期操作。"

@@ -1,0 +1,16 @@
+id: ws-spark-training-gotchas
+type: skill
+version: 1.0.0
+category: engineering
+name: spark-training-gotchas
+description: "Preflight and diagnose the ten known failure modes for ML training on NVIDIA DGX Spark. Use when a training run on DGX Spark fails to start, OOMs below the 128GB limit, slows down mid-run, or before any multi-hour training job on GB10."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/dgx-spark-ops/skills/spark-training-gotchas
+i18n:
+  zh:
+    name: "Spark 训练易错点"
+    description: "针对 NVIDIA DGX Spark 上的机器学习训练，预检并诊断十种已知故障模式。当 DGX Spark 上的训练运行无法启动、在低于 128GB 限制时发生 OOM、运行中途变慢，或任何 GB10 多小时训练作业开始之前使用。"

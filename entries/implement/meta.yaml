@@ -1,0 +1,16 @@
+id: implement
+type: expert
+version: 1.0.0
+category: engineering
+name: Implement
+description: "Developer agent. Implements the architect plan step-by-step, guided by AGENTS.md guardrails. Writes tests, leaves no TODOs, and flags plan deviations rather than silently skipping them."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ship-mate/agents/implement.md
+i18n:
+  zh:
+    name: "实施"
+    description: "开发代理。按照架构计划逐步实施，并遵循AGENTS.md护栏。编写测试，不留TODO，并标记计划偏差而不是静默跳过。"

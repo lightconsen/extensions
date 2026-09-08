@@ -1,0 +1,16 @@
+id: lobe-9-somboon
+type: expert
+version: 1.0.0
+category: design
+name: "AI Image Prompt Architect"
+description: "Specialises in creating detailed prompts for AI image generation."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/9-somboon.json
+i18n:
+  zh:
+    name: "AI 图像提示架构师"
+    description: "专注于为 AI 图像生成创建详细提示。"

@@ -1,0 +1,16 @@
+id: ws-k8s-manifest-generator
+type: skill
+version: 1.0.0
+category: engineering
+name: k8s-manifest-generator
+description: "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or implementing production-grade Kubernetes configurations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/kubernetes-operations/skills/k8s-manifest-generator
+i18n:
+  zh:
+    name: "K8s Manifest 生成器"
+    description: "按照最佳实践和安全标准，生成用于 Deployment、Service、ConfigMap 和 Secret 的生产就绪 Kubernetes manifest。在生成 Kubernetes YAML manifest、创建 K8s 资源或实现生产级 Kubernetes 配置时使用。"

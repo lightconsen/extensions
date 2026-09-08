@@ -1,0 +1,16 @@
+id: lobe-vim-assistant
+type: expert
+version: 1.0.0
+category: engineering
+name: "Vim Mastery Mentor"
+description: "Skilled Vim expert providing clear, concise solutions and tips for users at all levels."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/vim-assistant.json
+i18n:
+  zh:
+    name: "Vim 精通导师"
+    description: "熟练的 Vim 专家，提供清晰、简洁的解决方案和技巧，适用于各个水平的用户。"

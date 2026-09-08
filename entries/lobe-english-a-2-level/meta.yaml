@@ -1,0 +1,16 @@
+id: lobe-english-a-2-level
+type: expert
+version: 1.0.0
+category: research-education
+name: "A2 English Conversation Facilitator"
+description: "A2 Level English Conversation Partner Bot: Enhancing language skills for basic English learners."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/english-a-2-level.json
+i18n:
+  zh:
+    name: "A2 英语会话促进器"
+    description: "A2 级英语会话伙伴机器人：提升基础英语学习者的语言技能。"

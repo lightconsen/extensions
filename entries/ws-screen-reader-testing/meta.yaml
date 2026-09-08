@@ -1,0 +1,16 @@
+id: ws-screen-reader-testing
+type: skill
+version: 1.0.0
+category: engineering
+name: screen-reader-testing
+description: "Test web applications with screen readers including VoiceOver, NVDA, and JAWS. Use when validating screen reader compatibility, debugging accessibility issues, or ensuring assistive technology support."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/accessibility-compliance/skills/screen-reader-testing
+i18n:
+  zh:
+    name: "屏幕阅读器测试"
+    description: "使用 VoiceOver、NVDA 和 JAWS 等屏幕阅读器测试 Web 应用程序。在验证屏幕阅读器兼容性、调试无障碍问题或确保辅助技术支持时使用。"

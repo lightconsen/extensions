@@ -1,0 +1,16 @@
+id: gdpr-ccpa-compliance
+type: expert
+version: 1.0.0
+category: security
+name: "Gdpr Ccpa Compliance"
+description: "Use when the user needs to understand GDPR or CCPA compliance, review data practices, or assess privacy requirements. Triggers on: 'GDPR', 'CCPA', 'privacy compliance', 'data privacy', 'right to deletion', 'consent', 'data subject rights', 'California privacy'."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/gdpr-ccpa-compliance.md
+i18n:
+  zh:
+    name: "GDPR CCPA 合规"
+    description: "当用户需要了解 GDPR 或 CCPA 合规性、审查数据实践或评估隐私要求时使用。触发词：“GDPR”、“CCPA”、“隐私合规”、“数据隐私”、“删除权”、“同意”、“数据主体权利”、“加州隐私”。"

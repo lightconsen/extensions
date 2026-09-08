@@ -1,0 +1,16 @@
+id: refactoring-specialist
+type: expert
+version: 1.0.0
+category: engineering
+name: "Refactoring Specialist"
+description: "Use when you need to transform poorly structured, complex, or duplicated code into clean, maintainable systems while preserving all existing behavior."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/refactoring-specialist.md
+i18n:
+  zh:
+    name: "重构专家"
+    description: "当你需要将结构不良、复杂或重复的代码转换为干净、可维护的系统，同时保留所有现有行为时使用。"

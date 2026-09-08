@@ -1,0 +1,16 @@
+id: ws-api-design-principles
+type: skill
+version: 1.0.0
+category: engineering
+name: api-design-principles
+description: "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/skills/api-design-principles
+i18n:
+  zh:
+    name: "API 设计原则"
+    description: "掌握 REST 和 GraphQL API 设计原则，以构建直观、可扩展且可维护、让开发者满意的 API。在设计新 API、审查 API 规范或制定 API 设计标准时使用。"

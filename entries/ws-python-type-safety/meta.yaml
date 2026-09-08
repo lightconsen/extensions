@@ -1,0 +1,16 @@
+id: ws-python-type-safety
+type: skill
+version: 1.0.0
+category: engineering
+name: python-type-safety
+description: "Python type safety with type hints, generics, protocols, and strict type checking. Use when adding type annotations, implementing generic classes, defining structural interfaces, or configuring mypy/pyright."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-type-safety
+i18n:
+  zh:
+    name: "Python 类型安全"
+    description: "利用类型提示、泛型、协议和严格类型检查确保 Python 类型安全。在添加类型注解、实现泛型类、定义结构化接口或配置 mypy/pyright 时使用。"

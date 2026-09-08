@@ -1,0 +1,16 @@
+id: ux-researcher
+type: expert
+version: 1.0.0
+category: business
+name: "Ux Researcher"
+description: "Use this agent when you need to conduct user research, analyze user behavior, or generate actionable insights to validate design decisions and uncover user needs. Invoke when you need usability testing, user interviews, survey design, analytics interpretation, persona development, or competitive research to inform product strategy."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/ux-researcher.md
+i18n:
+  zh:
+    name: "UX 研究员"
+    description: "当您需要开展用户研究、分析用户行为或生成可操作见解，以验证设计决策并发现用户需求时，请使用此代理。在需要可用性测试、用户访谈、问卷设计、数据分析解读、用户画像开发或竞争研究来支持产品策略时调用。"

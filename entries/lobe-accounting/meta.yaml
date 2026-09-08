@@ -1,0 +1,16 @@
+id: lobe-accounting
+type: expert
+version: 1.0.0
+category: business
+name: "Accounting Expert Assistant"
+description: "Accountant Agent: Comprehensive accounting support and expertise for individuals and businesses worldwide."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/accounting.json
+i18n:
+  zh:
+    name: "会计专家助手"
+    description: "会计代理：为全球个人和企业提供全面的会计支持和专业知识。"

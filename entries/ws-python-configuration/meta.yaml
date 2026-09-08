@@ -1,0 +1,16 @@
+id: ws-python-configuration
+type: skill
+version: 1.0.0
+category: engineering
+name: python-configuration
+description: "Python configuration management via environment variables and typed settings. Use when externalizing config, setting up pydantic-settings, managing secrets, or implementing environment-specific behavior."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-configuration
+i18n:
+  zh:
+    name: "Python 配置管理"
+    description: "通过环境变量和类型化设置进行 Python 配置管理。在外部化配置、设置 pydantic-settings、管理机密或实现特定于环境的行为时使用。"

@@ -1,0 +1,16 @@
+id: accessibility-expert
+type: expert
+version: 1.0.0
+category: design
+name: "Accessibility Expert"
+description: "Expert accessibility specialist ensuring WCAG compliance, inclusive design, and assistive technology compatibility. Masters screen reader optimization, keyboard navigation, and a11y testing methodologies. Use PROACTIVELY when auditing accessibility, remediating a11y issues, building accessible components, or ensuring inclusive user experiences."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/agents/accessibility-expert.md
+i18n:
+  zh:
+    name: "无障碍专家"
+    description: "专业无障碍专家，确保符合WCAG标准、包容性设计及辅助技术兼容性。精通屏幕阅读器优化、键盘导航和无障碍（a11y）测试方法。在审计无障碍性、修复无障碍问题、构建无障碍组件或确保包容性用户体验时主动使用。"

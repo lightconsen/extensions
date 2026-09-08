@@ -1,0 +1,16 @@
+id: ws-design-system-patterns
+type: skill
+version: 1.0.0
+category: design
+name: design-system-patterns
+description: "Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building component libraries, or establishing design system foundations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/design-system-patterns
+i18n:
+  zh:
+    name: "设计系统模式"
+    description: "使用设计令牌、主题化基础设施和组件架构模式，构建可扩展的设计系统。在创建设计令牌、实现主题切换、构建组件库或确立设计系统基础时使用。"

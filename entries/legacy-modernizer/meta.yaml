@@ -1,0 +1,19 @@
+id: legacy-modernizer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Legacy Modernizer"
+description: "Use this agent when modernizing legacy systems that need incremental migration strategies, technical debt reduction, and risk mitigation while maintaining business continuity."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/code-refactoring/agents/legacy-modernizer.md
+    - plugins/dependency-management/agents/legacy-modernizer.md
+    - plugins/framework-migration/agents/legacy-modernizer.md
+    - categories/06-developer-experience/legacy-modernizer.md
+i18n:
+  zh:
+    name: "遗留系统现代化专家"
+    description: "在对遗留系统进行现代化改造时使用，需要增量迁移策略、技术债务削减和风险缓解，同时保持业务连续性。"

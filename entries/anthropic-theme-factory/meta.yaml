@@ -1,0 +1,16 @@
+id: anthropic-theme-factory
+type: skill
+version: 1.0.0
+category: design
+name: "Theme Factory"
+description: "Apply themed styling (dark/playful/minimal) to slides, docs, reports and HTML landing pages"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - theme-factory
+i18n:
+  zh:
+    name: "主题工厂"
+    description: "为幻灯片、文档、报告与 HTML 落地页套用主题风格（暗色/活泼/极简）"

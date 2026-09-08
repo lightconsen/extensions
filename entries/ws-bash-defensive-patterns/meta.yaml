@@ -1,0 +1,16 @@
+id: ws-bash-defensive-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: bash-defensive-patterns
+description: "Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/shell-scripting/skills/bash-defensive-patterns
+i18n:
+  zh:
+    name: "Bash 防御性模式"
+    description: "掌握用于生产级脚本的 Bash 防御性编程技术。在编写健壮的 shell 脚本、CI/CD 流水线或需要容错和安全性的系统工具时使用。"

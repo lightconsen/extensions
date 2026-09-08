@@ -1,0 +1,16 @@
+id: policy-enforcer
+type: expert
+version: 1.0.0
+category: security
+name: "Policy Enforcer"
+description: "Cedar policy author and reviewer for Claude Code tool calls. Writes, audits, and explains Cedar policies that govern Bash, Edit, Write, WebFetch, and other tools. Use when you need declarative, formally verifiable rules for what an AI agent can and cannot do in a project."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/protect-mcp/agents/policy-enforcer.md
+i18n:
+  zh:
+    name: "策略执行者"
+    description: "Claude Code 工具调用的 Cedar 策略作者与审查者。编写、审计并解释管理 Bash、Edit、Write、WebFetch 及其他工具的 Cedar 策略。当你需要针对 AI 智能体在项目中可做与不可做之事制定声明性、可正式验证的规则时使用。"

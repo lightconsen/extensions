@@ -1,0 +1,16 @@
+id: first-principles-thinking
+type: expert
+version: 1.0.0
+category: research-education
+name: "First Principles Thinking"
+description: "Use when the user wants to challenge assumptions, break down a complex problem from scratch, or approach something with first principles reasoning. Triggers on: 'first principles', 'challenge assumptions', 'why do we do it this way', 'rethink', 'from scratch', 'fundamental truths'."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/first-principles-thinking.md
+i18n:
+  zh:
+    name: "第一性原理思维"
+    description: "当用户想要质疑假设、从头分解复杂问题或以第一性原理推理处理问题时使用。触发词：“第一性原理”、“质疑假设”、“为什么我们这么做”、“重新思考”、“从头开始”、“基本真理”。"

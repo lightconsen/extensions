@@ -1,0 +1,16 @@
+id: c4-container
+type: expert
+version: 1.0.0
+category: engineering
+name: "C4 Container"
+description: "Expert C4 Container-level documentation specialist. Synthesizes Component-level documentation into Container-level architecture, mapping components to deployment units, documenting container interfaces as APIs, and creating container diagrams. Use when synthesizing components into deployment containers and documenting system deployment architecture."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/c4-architecture/agents/c4-container.md
+i18n:
+  zh:
+    name: "C4容器"
+    description: "C4 容器层文档专家。将组件级文档综合为容器级架构，将组件映射到部署单元，将容器接口记录为 API，并创建容器图。在将组件综合为部署容器以及记录系统部署架构时使用。"

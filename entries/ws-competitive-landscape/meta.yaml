@@ -1,0 +1,16 @@
+id: ws-competitive-landscape
+type: skill
+version: 1.0.0
+category: business
+name: competitive-landscape
+description: "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill when evaluating competitors, assessing market positioning, identifying sustainable competitive advantages, or preparing competitive strategy analysis for a startup or investor pitch."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/startup-business-analyst/skills/competitive-landscape
+i18n:
+  zh:
+    name: "竞争格局分析"
+    description: "分析竞争态势，识别差异化机会，并运用波特五力模型、蓝海战略和定位图制定具有竞争力的市场定位策略。适用于评估竞争对手、判断市场定位、识别可持续的竞争优势，或为初创公司和投资人准备竞争战略分析。"

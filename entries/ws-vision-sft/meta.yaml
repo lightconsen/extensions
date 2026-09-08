@@ -1,0 +1,16 @@
+id: ws-vision-sft
+type: skill
+version: 1.0.0
+category: data-ai
+name: vision-sft
+description: "Fine-tune vision-language models (VLMs) with supervised learning on image+text data. Use when adapting a VLM to a visual domain or task, configuring frozen-vision-tower LoRA, or debugging a VLM fine-tune that trains without learning."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/skills/vision-sft
+i18n:
+  zh:
+    name: "视觉 SFT"
+    description: "在图像和文本数据上通过监督学习微调视觉语言模型（VLM）。在将 VLM 适配到视觉领域或任务、配置冻结视觉塔 LoRA，或调试能训练却没有学习效果的 VLM 微调时使用。"

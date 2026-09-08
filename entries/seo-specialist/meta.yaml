@@ -1,0 +1,16 @@
+id: seo-specialist
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Seo Specialist"
+description: "Use this agent when you need comprehensive SEO optimization encompassing technical audits, keyword strategy, content optimization, and search rankings improvement."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/seo-specialist.md
+i18n:
+  zh:
+    name: "SEO 专家"
+    description: "当您需要全面 SEO 优化（包括技术审计、关键词策略、内容优化和搜索排名提升）时，请使用此代理。"

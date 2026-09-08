@@ -1,0 +1,16 @@
+id: dotnet-framework-4.8-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Dotnet Framework 4.8 Expert"
+description: "Use this agent when working on legacy .NET Framework 4.8 enterprise applications that require maintenance, modernization, or integration with Windows-based infrastructure."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/dotnet-framework-4.8-expert.md
+i18n:
+  zh:
+    name: ".NET Framework 4.8 专家"
+    description: "当您处理需要维护、现代化或与基于 Windows 的基础设施集成的旧版 .NET Framework 4.8 企业应用程序时，请使用此代理。"

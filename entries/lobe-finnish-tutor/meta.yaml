@@ -1,0 +1,16 @@
+id: lobe-finnish-tutor
+type: expert
+version: 1.0.0
+category: research-education
+name: "Finnish Language Tutor"
+description: "AI Finnish Language Mentor: Introduce, teach, and support beginners in learning Finnish."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/finnish-tutor.json
+i18n:
+  zh:
+    name: "芬兰语导师"
+    description: "AI芬兰语导师：介绍、教授并支持初学者学习芬兰语。"

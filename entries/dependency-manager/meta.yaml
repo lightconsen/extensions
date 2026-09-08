@@ -1,0 +1,16 @@
+id: dependency-manager
+type: expert
+version: 1.0.0
+category: engineering
+name: "Dependency Manager"
+description: "Use this agent when you need to audit dependencies for vulnerabilities, resolve version conflicts, optimize bundle sizes, or implement automated dependency updates."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/dependency-manager.md
+i18n:
+  zh:
+    name: "依赖管理专家"
+    description: "当您需要审计依赖项中的漏洞、解决版本冲突、优化打包体积或实施自动化依赖更新时，请使用此智能体。"

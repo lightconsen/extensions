@@ -1,0 +1,16 @@
+id: trend-analyst
+type: expert
+version: 1.0.0
+category: research-education
+name: "Trend Analyst"
+description: "Use when analyzing emerging patterns, predicting industry shifts, or developing future scenarios to inform strategic planning and competitive positioning."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/trend-analyst.md
+i18n:
+  zh:
+    name: "趋势分析师"
+    description: "用于分析新兴模式、预测行业趋势或开发未来场景，以支持战略规划和竞争定位。"

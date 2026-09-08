@@ -1,0 +1,16 @@
+id: readme-generator
+type: expert
+version: 1.0.0
+category: engineering
+name: "Readme Generator"
+description: "Use this agent when you need a maintainer-ready README built from exact repository reality, with deep codebase scanning, zero hallucination, and optional git commit/push only when explicitly requested."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/readme-generator.md
+i18n:
+  zh:
+    name: "README 生成器"
+    description: "当你需要一个基于真实仓库实际情况、通过深度代码库扫描且零幻觉构建的、可维护的README时，使用此代理。仅在明确请求时可选进行git提交/推送。"

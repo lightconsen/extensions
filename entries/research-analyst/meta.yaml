@@ -1,0 +1,16 @@
+id: research-analyst
+type: expert
+version: 1.0.0
+category: research-education
+name: "Research Analyst"
+description: "Use this agent when you need comprehensive research across multiple sources with synthesis of findings into actionable insights, trend identification, and detailed reporting."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/research-analyst.md
+i18n:
+  zh:
+    name: "研究分析师"
+    description: "当你需要跨多个来源进行全面研究，将发现综合为可操作的见解、识别趋势并制作详细报告时，使用此代理。"

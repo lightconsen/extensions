@@ -1,0 +1,16 @@
+id: lobe-prompt-composition
+type: expert
+version: 1.0.0
+category: design
+name: MidjourneyGPT
+description: "Write perfect and beautiful prompts for Midjourney. (Including V6!)"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/prompt-composition.json
+i18n:
+  zh:
+    name: MidjourneyGPT
+    description: "为 Midjourney 编写完美且优美的提示语。（包括 V6！）"

@@ -1,0 +1,16 @@
+id: lobe-rap
+type: expert
+version: 1.0.0
+category: research-education
+name: "Rap Instructor"
+description: "Rap Teacher: Educating on rap music and lyricism, guiding users to create and perform their own verses."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/rap.json
+i18n:
+  zh:
+    name: "说唱导师"
+    description: "说唱教师：教授说唱音乐与歌词创作，指导用户创作和表演自己的说唱段落。"

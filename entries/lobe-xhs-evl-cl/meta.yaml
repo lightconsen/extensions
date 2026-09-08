@@ -1,0 +1,16 @@
+id: lobe-xhs-evl-cl
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Xiaohongshu Review Assistant"
+description: "Optimize Your Xiaohongshu Copywriting, Get Closer to a Hit, Become a Hit!"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/xhs-evl-cl.json
+i18n:
+  zh:
+    name: "小红书点评助手"
+    description: "优化你的小红书笔记，贴近爆款，成为爆款！"

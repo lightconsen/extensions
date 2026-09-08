@@ -1,0 +1,16 @@
+id: eval-orchestrator
+type: expert
+version: 1.0.0
+category: engineering
+name: "Eval Orchestrator"
+description: "Orchestrates plugin quality evaluation. Use PROACTIVELY when evaluating, scoring, or certifying plugin quality."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/plugin-eval/agents/eval-orchestrator.md
+i18n:
+  zh:
+    name: "评估编排器"
+    description: "编排插件质量评估。在评估、评分或认证插件质量时主动使用。"

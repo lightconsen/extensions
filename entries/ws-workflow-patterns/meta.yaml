@@ -1,0 +1,16 @@
+id: ws-workflow-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: workflow-patterns
+description: "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/conductor/skills/workflow-patterns
+i18n:
+  zh:
+    name: "工作流模式"
+    description: "在按照 Conductor 的 TDD 工作流实现任务、处理阶段检查点、管理任务的 git 提交或理解验证协议时，使用此技能。"

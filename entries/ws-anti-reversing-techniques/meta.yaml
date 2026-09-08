@@ -1,0 +1,16 @@
+id: ws-anti-reversing-techniques
+type: skill
+version: 1.0.0
+category: security
+name: anti-reversing-techniques
+description: "Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use this skill when analyzing malware evasion techniques, when implementing anti-debugging protections for CTF challenges, when reverse engineering packed binaries, or when building security research tools that need to detect virtualized environments."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/reverse-engineering/skills/anti-reversing-techniques
+i18n:
+  zh:
+    name: "反逆向技术"
+    description: "理解软件分析中遇到的防逆向、混淆和保护技术。在分析恶意软件规避技术、为 CTF 挑战实现反调试保护、逆向加壳二进制文件，或构建需要检测虚拟化环境的安全研究工具时使用此技能。"

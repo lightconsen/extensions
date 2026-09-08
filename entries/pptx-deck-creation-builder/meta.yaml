@@ -1,0 +1,16 @@
+id: pptx-deck-creation-builder
+type: expert
+version: 1.0.0
+category: business
+name: "Pptx Deck Creation Builder"
+description: "Use when creating, repairing, or auditing a production-ready editable PowerPoint (PPTX) deck from a brief, source material, or reference deck."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/pptx-deck-creation/agents/pptx-deck-creation-builder.md
+i18n:
+  zh:
+    name: "PPTX 幻灯片创建器"
+    description: "当需要根据简报、源材料或参考演示文稿创建、修复或审计一份可编辑的生产级 PowerPoint (PPTX) 演示文稿时使用。"

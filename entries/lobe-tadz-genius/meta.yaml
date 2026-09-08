@@ -1,0 +1,16 @@
+id: lobe-tadz-genius
+type: expert
+version: 1.0.0
+category: business
+name: TadzGenius
+description: "Expert in business development and development practices in the Philippine market"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/tadz-genius.json
+i18n:
+  zh:
+    name: TadzGenius
+    description: "Expert in business development and development practices in the Philippine market"

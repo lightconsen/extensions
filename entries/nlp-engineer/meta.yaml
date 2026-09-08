@@ -1,0 +1,16 @@
+id: nlp-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Nlp Engineer"
+description: "Use when building production NLP systems, implementing text processing pipelines, developing language models, or solving domain-specific NLP tasks like named entity recognition, sentiment analysis, or machine translation."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/05-data-ai/nlp-engineer.md
+i18n:
+  zh:
+    name: "NLP 工程师"
+    description: "在构建生产级 NLP 系统、实现文本处理管道、开发语言模型，或解决命名实体识别、情感分析、机器翻译等特定领域的 NLP 任务时使用。"

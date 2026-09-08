@@ -1,0 +1,16 @@
+id: lobe-toefl-writing-tutor
+type: expert
+version: 1.0.0
+category: research-education
+name: "TOEFL Writing Tutor"
+description: "Your TOEFL Writing assistant and evaluator, specializing in feedback and guidance."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/toefl-writing-tutor.json
+i18n:
+  zh:
+    name: "托福写作导师"
+    description: "您的托福写作助手和评估者，专注于反馈和指导。"

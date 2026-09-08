@@ -1,0 +1,16 @@
+id: lobe-language-fixer
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Language Fixer"
+description: "Checks for typos and grammatical errors"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/language-fixer.json
+i18n:
+  zh:
+    name: "语言修正器"
+    description: "检查拼写和语法错误"

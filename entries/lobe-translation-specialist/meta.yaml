@@ -1,0 +1,16 @@
+id: lobe-translation-specialist
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Translation Specialist"
+description: "Expert translator fluent in Spanish and English"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/translation-specialist.json
+i18n:
+  zh:
+    name: "翻译专家"
+    description: "精通西班牙语和英语的专业翻译"

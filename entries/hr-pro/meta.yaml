@@ -1,0 +1,16 @@
+id: hr-pro
+type: expert
+version: 1.0.0
+category: business
+name: "Hr Pro"
+description: "Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. Ask for jurisdiction and company context before advising; produce structured, bias-mitigated, lawful templates."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/hr-legal-compliance/agents/hr-pro.md
+i18n:
+  zh:
+    name: "HR专家"
+    description: "专业、道德的HR合作伙伴，负责招聘、入职/离职、PTO和休假、绩效、合规政策及员工关系。在提供建议前询问司法管辖权和公司背景；生成结构化、减少偏见且合法的模板。"

@@ -1,0 +1,16 @@
+id: ws-spark-environment-setup
+type: skill
+version: 1.0.0
+category: engineering
+name: spark-environment-setup
+description: "Set up a working ML training/inference environment on NVIDIA DGX Spark (GB10, aarch64, CUDA 13). Use when installing PyTorch/Unsloth/TRL/vLLM on DGX Spark, hitting libcudart or wheel-ABI errors on aarch64, or choosing between NGC containers and bare pip installs."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/dgx-spark-ops/skills/spark-environment-setup
+i18n:
+  zh:
+    name: "Spark 环境设置"
+    description: "在 NVIDIA DGX Spark（GB10、aarch64、CUDA 13）上设置可用的机器学习训练/推理环境。在 DGX Spark 上安装 PyTorch/Unsloth/TRL/vLLM、遇到 aarch64 上的 libcudart 或 wheel-ABI 错误，或在 NGC 容器和裸 pip 安装之间选择时使用。"

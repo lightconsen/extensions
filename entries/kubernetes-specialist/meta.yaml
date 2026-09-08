@@ -1,0 +1,16 @@
+id: kubernetes-specialist
+type: expert
+version: 1.0.0
+category: engineering
+name: "Kubernetes Specialist"
+description: "Use this agent when you need to design, deploy, configure, or troubleshoot Kubernetes clusters and workloads in production environments."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/kubernetes-specialist.md
+i18n:
+  zh:
+    name: "Kubernetes专家"
+    description: "在设计、部署、配置或排查生产环境中的Kubernetes集群和工作负载时使用此代理。"

@@ -1,0 +1,16 @@
+id: architect
+type: expert
+version: 1.0.0
+category: engineering
+name: Architect
+description: "Architect agent. Reads orchestrator-output.md, AGENTS.md, and project-doc.md to produce a numbered step-by-step implementation plan. Pauses for human approval before implementation begins."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ship-mate/agents/architect.md
+i18n:
+  zh:
+    name: "架构师"
+    description: "架构师代理。读取orchestrator-output.md、AGENTS.md和project-doc.md，以生成编号的分步实施计划。在实施开始前暂停等待人工批准。"

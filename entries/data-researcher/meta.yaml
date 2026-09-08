@@ -1,0 +1,16 @@
+id: data-researcher
+type: expert
+version: 1.0.0
+category: research-education
+name: "Data Researcher"
+description: "Use this agent when you need to discover, collect, and validate data from multiple sources to fuel analysis and decision-making. Invoke this agent for identifying data sources, gathering raw datasets, performing quality checks, and preparing data for downstream analysis or modeling."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/data-researcher.md
+i18n:
+  zh:
+    name: "数据研究员"
+    description: "当您需要从多个来源发现、收集和验证数据以支持分析和决策时，请使用此智能体。在识别数据源、收集原始数据集、执行质量检查以及为下游分析或建模准备数据时调用此智能体。"

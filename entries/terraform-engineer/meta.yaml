@@ -1,0 +1,16 @@
+id: terraform-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Terraform Engineer"
+description: "Use when building, refactoring, or scaling infrastructure as code using Terraform with focus on multi-cloud deployments, module architecture, and enterprise-grade state management."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/terraform-engineer.md
+i18n:
+  zh:
+    name: "Terraform 工程师"
+    description: "在使用 Terraform 构建、重构或扩展基础设施即代码时使用，专注于多云部署、模块架构和企业级状态管理。"

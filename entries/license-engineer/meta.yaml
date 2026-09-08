@@ -1,0 +1,16 @@
+id: license-engineer
+type: expert
+version: 1.0.0
+category: business
+name: "License Engineer"
+description: "Use this agent when architecting, implementing, or optimizing end-to-end legal licensing systems—from OSI standard selection and dependency compliance pipelines to proprietary deployment and risk monitoring."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/license-engineer.md
+i18n:
+  zh:
+    name: "许可证工程师"
+    description: "用于架构、实施或优化端到端的法律许可系统——从OSI标准选择、依赖合规流水线，到专有部署和风险监控。"

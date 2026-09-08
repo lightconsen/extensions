@@ -1,0 +1,16 @@
+id: customer-support
+type: expert
+version: 1.0.0
+category: business
+name: "Customer Support"
+description: "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Integrates modern support tools, chatbot platforms, and CX optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive customer experience management."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/customer-sales-automation/agents/customer-support.md
+i18n:
+  zh:
+    name: "客户支持"
+    description: "精英级 AI 驱动的客户支持专家，精通对话式 AI、自动化工单、情感分析和全渠道支持体验。集成现代支持工具、聊天机器人平台和 CX 优化，并遵循 2024/2025 最佳实践。请主动将其用于全面的客户体验管理。"

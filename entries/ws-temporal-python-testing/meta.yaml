@@ -1,0 +1,16 @@
+id: ws-temporal-python-testing
+type: skill
+version: 1.0.0
+category: engineering
+name: temporal-python-testing
+description: "Test Temporal workflows with pytest, time-skipping, and mocking strategies. Covers unit testing, integration testing, replay testing, and local development setup. Use when implementing Temporal workflow tests or debugging test failures."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/skills/temporal-python-testing
+i18n:
+  zh:
+    name: "Temporal Python 测试"
+    description: "使用 pytest、时间跳跃和模拟策略测试 Temporal 工作流，涵盖单元测试、集成测试、重放测试和本地开发环境搭建。在编写 Temporal 工作流测试或调试测试失败时使用。"

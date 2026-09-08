@@ -1,0 +1,16 @@
+id: haskell-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Haskell Pro"
+description: "Expert Haskell engineer specializing in advanced type systems, pure functional design, and high-reliability software. Use PROACTIVELY for type-level programming, concurrency, and architecture guidance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/functional-programming/agents/haskell-pro.md
+i18n:
+  zh:
+    name: "Haskell 专家"
+    description: "专注于高级类型系统、纯函数设计和高可靠性软件的 Haskell 工程师专家。在类型级编程、并发和架构指导时主动使用。"

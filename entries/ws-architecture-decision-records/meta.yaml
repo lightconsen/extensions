@@ -1,0 +1,16 @@
+id: ws-architecture-decision-records
+type: skill
+version: 1.0.0
+category: content-writing
+name: architecture-decision-records
+description: "Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant technical decisions, reviewing past architectural choices, or establishing decision processes."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/documentation-generation/skills/architecture-decision-records
+i18n:
+  zh:
+    name: "架构决策记录"
+    description: "遵循技术决策文档的最佳实践编写和维护架构决策记录（ADR）。在记录重大技术决策、回顾过去的架构选择或建立决策流程时使用。"

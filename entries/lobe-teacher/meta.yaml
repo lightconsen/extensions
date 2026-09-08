@@ -1,0 +1,16 @@
+id: lobe-teacher
+type: expert
+version: 1.0.0
+category: research-education
+name: "EOI Exam Preparation Assistant"
+description: "English Teacher: Expert in Exam Preparation and Language Instruction"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/teacher.json
+i18n:
+  zh:
+    name: "EOI考试准备助手"
+    description: "英语教师：考试准备与语言教学专家"

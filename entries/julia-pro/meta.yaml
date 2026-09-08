@@ -1,0 +1,16 @@
+id: julia-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Julia Pro"
+description: "Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. Expert in the Julia ecosystem including package management, scientific computing, and high-performance numerical code. Use PROACTIVELY for Julia development, optimization, or advanced Julia patterns."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/julia-development/agents/julia-pro.md
+i18n:
+  zh:
+    name: "Julia专家"
+    description: "精通Julia 1.10+，具备现代特性、性能优化、多重分派和生产就绪实践。深谙Julia生态系统，包括包管理、科学计算和高性能数值代码。请主动用于Julia开发、优化或高级Julia模式。"

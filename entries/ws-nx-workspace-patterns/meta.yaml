@@ -1,0 +1,16 @@
+id: ws-nx-workspace-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: nx-workspace-patterns
+description: "Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/developer-essentials/skills/nx-workspace-patterns
+i18n:
+  zh:
+    name: "Nx 工作空间模式"
+    description: "配置并优化 Nx monorepo 工作空间。用于设置 Nx、配置项目边界、优化构建缓存或实现 affected 命令。"

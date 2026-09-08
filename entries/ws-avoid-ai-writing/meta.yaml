@@ -1,0 +1,16 @@
+id: ws-avoid-ai-writing
+type: skill
+version: 1.0.0
+category: content-writing
+name: avoid-ai-writing
+description: "Audit and rewrite prose so it stops reading as machine-generated. Use this skill when asked to remove AI-isms, clean up AI writing, edit a draft for AI tells, audit a README, changelog, release note, PR description, or blog post for machine-sounding prose, or make text sound less like AI. Supports a detect-only mode, a rewrite mode, and an edit-in-place mode, with optional voice and context profiles."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/avoid-ai-writing/skills/avoid-ai-writing
+i18n:
+  zh:
+    name: "去除 AI 写作痕迹"
+    description: "审查并重写文章，使其不再像机器生成的内容。当被要求去除 AI 腔、清理 AI 写作痕迹、编辑带有 AI 特征的草稿、审计 README、变更日志、发布说明、PR 描述或博客文章中的机器人腔调，或让文字听起来更不像 AI 时，使用此技能。支持仅检测、重写和原地编辑三种模式，并提供可选的语气与上下文配置文件。"

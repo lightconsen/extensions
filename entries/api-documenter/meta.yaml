@@ -1,0 +1,18 @@
+id: api-documenter
+type: expert
+version: 1.0.0
+category: engineering
+name: "Api Documenter"
+description: "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals. Use PROACTIVELY for API documentation or developer portal creation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/api-testing-observability/agents/api-documenter.md
+    - plugins/documentation-generation/agents/api-documenter.md
+    - categories/07-specialized-domains/api-documenter.md
+i18n:
+  zh:
+    name: "API文档工程师"
+    description: "精通使用OpenAPI 3.1、AI驱动工具和现代开发者体验实践编写API文档。创建交互式文档、生成SDK并构建全面的开发者门户。在API文档或开发者门户创建时主动使用。"

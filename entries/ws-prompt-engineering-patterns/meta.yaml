@@ -1,0 +1,16 @@
+id: ws-prompt-engineering-patterns
+type: skill
+version: 1.0.0
+category: data-ai
+name: prompt-engineering-patterns
+description: "This skill should be used when the user asks to \"optimize a prompt\", \"improve prompt performance\", \"design a prompt template\", \"write better prompts\", \"debug prompt issues\", \"use chain-of-thought\", \"structured prompting\", \"few-shot prompting\", or wants to apply advanced prompt engineering patterns for production LLM applications."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/skills/prompt-engineering-patterns
+i18n:
+  zh:
+    name: "提示工程模式"
+    description: "当用户要求\"优化提示词\"、\"提升提示词性能\"、\"设计提示词模板\"、\"写出更好的提示词\"、\"调试提示词问题\"、\"使用思维链\"、\"结构化提示\"、\"少样本提示\"，或希望在生产级 LLM 应用中应用高级提示工程模式时使用本技能。"

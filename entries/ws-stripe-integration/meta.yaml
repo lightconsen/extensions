@@ -1,0 +1,16 @@
+id: ws-stripe-integration
+type: skill
+version: 1.0.0
+category: business
+name: stripe-integration
+description: "Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/payment-processing/skills/stripe-integration
+i18n:
+  zh:
+    name: "Stripe 集成"
+    description: "实现 Stripe 支付处理，构建稳定且符合 PCI 标准的支付流程，包括结账、订阅和 Webhook。在集成 Stripe 支付、构建订阅系统或实现安全结账流程时使用。"

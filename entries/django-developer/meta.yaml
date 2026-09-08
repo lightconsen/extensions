@@ -1,0 +1,16 @@
+id: django-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Django Developer"
+description: "Use when building Django 4+ web applications, REST APIs, or modernizing existing Django projects with async views and enterprise patterns."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/django-developer.md
+i18n:
+  zh:
+    name: "Django 开发者"
+    description: "用于构建 Django 4+ Web 应用、REST API，或使用异步视图和企业模式对现有 Django 项目进行现代化改造。"

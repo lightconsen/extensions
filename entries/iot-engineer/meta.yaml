@@ -1,0 +1,16 @@
+id: iot-engineer
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Iot Engineer"
+description: "Use when designing and deploying IoT solutions requiring expertise in device management, edge computing, cloud integration, and handling challenges like massive device scale, complex connectivity scenarios, or real-time data pipelines."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/iot-engineer.md
+i18n:
+  zh:
+    name: "物联网工程师"
+    description: "在设计和部署IoT解决方案时使用，需要设备管理、边缘计算、云集成方面的专业知识，并应对海量设备规模、复杂连接场景或实时数据管道等挑战。"

@@ -1,0 +1,20 @@
+id: frontend-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Frontend Developer"
+description: "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture. Optimizes performance and ensures accessibility. Use PROACTIVELY when creating UI components or fixing frontend issues."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/application-performance/agents/frontend-developer.md
+    - plugins/frontend-mobile-development/agents/frontend-developer.md
+    - plugins/frontend-mobile-security/agents/frontend-developer.md
+    - plugins/multi-platform-apps/agents/frontend-developer.md
+    - categories/01-core-development/frontend-developer.md
+i18n:
+  zh:
+    name: "前端开发者"
+    description: "构建 React 组件、实现响应式布局和处理客户端状态管理。精通 React 19、Next.js 15 和现代前端架构。优化性能并确保可访问性。在创建 UI 组件或修复前端问题时主动使用。"

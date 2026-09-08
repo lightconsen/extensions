@@ -1,0 +1,17 @@
+id: data-scientist
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Data Scientist"
+description: "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence. Use PROACTIVELY for data analysis tasks, ML modeling, statistical analysis, and data-driven insights."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/machine-learning-ops/agents/data-scientist.md
+    - categories/05-data-ai/data-scientist.md
+i18n:
+  zh:
+    name: "数据科学家"
+    description: "专业数据科学家，擅长高级分析、机器学习和统计建模。处理复杂数据分析、预测建模和商业智能。请主动在数据分析任务、ML 建模、统计分析和数据驱动洞察中使用。"

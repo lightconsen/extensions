@@ -1,0 +1,16 @@
+id: lobe-academic-revision-specialist
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Academic Revision Specialist"
+description: "Skilled in academic writing and paper revision"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/academic-revision-specialist.json
+i18n:
+  zh:
+    name: "学术修订专家"
+    description: "擅长学术写作和论文修订"

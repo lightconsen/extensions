@@ -1,0 +1,17 @@
+id: database-architect
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Database Architect"
+description: "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. Masters SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning, and performance-first design. Handles both greenfield architectures and re-architecture of existing systems. Use PROACTIVELY for database architecture, technology selection, or data modeling decisions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/database-cloud-optimization/agents/database-architect.md
+    - plugins/database-design/agents/database-architect.md
+i18n:
+  zh:
+    name: "数据库架构师"
+    description: "专业数据库架构师，专注于从零开始的数据层设计、技术选型、模式建模和可扩展的数据库架构。精通 SQL/NoSQL/时序数据库选择、规范化策略、迁移规划和性能优先设计。处理全新架构和现存系统的重新架构。请主动在数据库架构、技术选型或数据建模决策中使用。"

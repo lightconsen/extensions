@@ -1,0 +1,16 @@
+id: ws-web3-testing
+type: skill
+version: 1.0.0
+category: engineering
+name: web3-testing
+description: "Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forking. Use when testing Solidity contracts, setting up blockchain test suites, or validating DeFi protocols."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/blockchain-web3/skills/web3-testing
+i18n:
+  zh:
+    name: "Web3 测试"
+    description: "使用 Hardhat 和 Foundry 对智能合约进行综合测试，涵盖单元测试、集成测试和主网分叉。适用于测试 Solidity 合约、搭建区块链测试套件或验证 DeFi 协议。"

@@ -1,0 +1,18 @@
+id: kubernetes-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Kubernetes Architect"
+description: "Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. Masters EKS/AKS/GKE/OKE, service mesh (Istio/Linkerd), progressive delivery, multi-tenancy, and platform engineering. Handles security, observability, cost optimization, and developer experience. Use PROACTIVELY for K8s architecture, GitOps implementation, or cloud-native platform design."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cicd-automation/agents/kubernetes-architect.md
+    - plugins/cloud-infrastructure/agents/kubernetes-architect.md
+    - plugins/kubernetes-operations/agents/kubernetes-architect.md
+i18n:
+  zh:
+    name: "Kubernetes架构师"
+    description: "专注于云原生基础设施、先进GitOps工作流（ArgoCD/Flux）和企业级容器编排的Kubernetes架构专家。精通EKS/AKS/GKE/OKE、服务网格（Istio/Linkerd）、渐进式交付、多租户和平台工程。处理安全性、可观测性、成本优化和开发者体验。请主动用于K8s架构、GitOps实施或云原生平台设计。"

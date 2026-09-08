@@ -1,0 +1,16 @@
+id: ws-go-concurrency-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: go-concurrency-patterns
+description: "Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/systems-programming/skills/go-concurrency-patterns
+i18n:
+  zh:
+    name: "Go 并发模式"
+    description: "掌握使用 goroutine、channel、同步原语和 context 的 Go 并发模式。在构建并发 Go 应用、实现 worker 池或调试竞态条件时使用。"

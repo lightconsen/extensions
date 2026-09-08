@@ -1,0 +1,16 @@
+id: ws-prometheus-configuration
+type: skill
+version: 1.0.0
+category: engineering
+name: prometheus-configuration
+description: "Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, setting up monitoring infrastructure, or configuring alerting systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/observability-monitoring/skills/prometheus-configuration
+i18n:
+  zh:
+    name: "Prometheus 配置"
+    description: "设置 Prometheus 以全面收集、存储和监控基础设施与应用的指标。在实现指标收集、设置监控基础设施或配置告警系统时使用。"

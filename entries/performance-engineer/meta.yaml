@@ -1,0 +1,21 @@
+id: performance-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Performance Engineer"
+description: "Expert performance engineer specializing in modern observability, application optimization, and scalable system performance. Masters OpenTelemetry, distributed tracing, load testing, multi-tier caching, Core Web Vitals, and performance monitoring. Handles end-to-end optimization, real user monitoring, and scalability patterns. Use PROACTIVELY for performance optimization, observability, or scalability challenges."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/application-performance/agents/performance-engineer.md
+    - plugins/backend-development/agents/performance-engineer.md
+    - plugins/full-stack-orchestration/agents/performance-engineer.md
+    - plugins/observability-monitoring/agents/performance-engineer.md
+    - plugins/performance-testing-review/agents/performance-engineer.md
+    - categories/04-quality-security/performance-engineer.md
+i18n:
+  zh:
+    name: "性能工程师"
+    description: "专注于现代可观测性、应用优化和可扩展系统性能的专业性能工程师。精通 OpenTelemetry、分布式链路追踪、负载测试、多层缓存、Core Web Vitals 和性能监控。处理端到端优化、真实用户监控和可扩展性模式。在性能优化、可观测性或可扩展性挑战中主动使用。"

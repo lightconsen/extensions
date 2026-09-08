@@ -1,0 +1,16 @@
+id: mobile-security-coder
+type: expert
+version: 1.0.0
+category: security
+name: "Mobile Security Coder"
+description: "Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns. Use PROACTIVELY for mobile security implementations or mobile security code reviews."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/frontend-mobile-security/agents/mobile-security-coder.md
+i18n:
+  zh:
+    name: "移动安全程序员"
+    description: "精通移动安全编码实践的专家，专注于输入验证、WebView安全和移动安全模式。在移动安全实现或移动安全代码审查中，请主动使用。"

@@ -1,0 +1,16 @@
+id: ws-sast-configuration
+type: skill
+version: 1.0.0
+category: security
+name: sast-configuration
+description: "Configure Static Application Security Testing (SAST) tools for automated vulnerability detection in application code. Use when setting up security scanning, implementing DevSecOps practices, or automating code vulnerability detection."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/security-scanning/skills/sast-configuration
+i18n:
+  zh:
+    name: "SAST 配置"
+    description: "配置静态应用安全测试（SAST）工具，在应用程序代码中实现自动化漏洞检测。在设置安全扫描、实施 DevSecOps 实践或自动化代码漏洞检测时使用。"

@@ -1,0 +1,16 @@
+id: ws-python-error-handling
+type: skill
+version: 1.0.0
+category: engineering
+name: python-error-handling
+description: "Python error handling patterns including input validation, exception hierarchies, and partial failure handling. Use when implementing validation logic, designing exception strategies, handling batch processing failures, or building robust APIs."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-error-handling
+i18n:
+  zh:
+    name: "Python 错误处理"
+    description: "Python 错误处理模式，包括输入验证、异常层次结构和部分失败处理。在实现验证逻辑、设计异常策略、处理批量处理失败或构建健壮的 API 时使用。"

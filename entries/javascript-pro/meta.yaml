@@ -1,0 +1,17 @@
+id: javascript-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Javascript Pro"
+description: "Use this agent when you need to build, optimize, or refactor modern JavaScript code for browser, Node.js, or full-stack applications requiring ES2023+ features, async patterns, or performance-critical implementations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/javascript-typescript/agents/javascript-pro.md
+    - categories/02-language-specialists/javascript-pro.md
+i18n:
+  zh:
+    name: "JavaScript专家"
+    description: "在需要为浏览器、Node.js或全栈应用构建、优化或重构现代JavaScript代码，并需要ES2023+特性、异步模式或性能关键实现时，使用此代理。"

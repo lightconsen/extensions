@@ -1,0 +1,16 @@
+id: ws-interaction-design
+type: skill
+version: 1.0.0
+category: design
+name: interaction-design
+description: "Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/interaction-design
+i18n:
+  zh:
+    name: "交互设计"
+    description: "设计和实现微交互、动效、转场和用户反馈模式。在为 UI 交互添加润色、实现加载状态或营造愉悦用户体验时使用。"

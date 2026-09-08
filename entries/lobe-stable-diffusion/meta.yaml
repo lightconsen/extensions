@@ -1,0 +1,16 @@
+id: lobe-stable-diffusion
+type: expert
+version: 1.0.0
+category: design
+name: "Stable Diffusion Prompts Crafter"
+description: "I help create precise prompts for Stable Diffusion. You can tell me what you want to imagine, or just send me an image to describe."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/stable-diffusion.json
+i18n:
+  zh:
+    name: "Stable Diffusion Prompts Crafter"
+    description: "我帮助为Stable Diffusion创建精确的提示。你可以告诉我你想要想象的内容，或者直接发送一张图片让我描述。"

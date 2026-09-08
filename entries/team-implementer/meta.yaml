@@ -1,0 +1,16 @@
+id: team-implementer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Team Implementer"
+description: "Parallel feature builder that implements components within strict file ownership boundaries, coordinating at integration points via messaging. Use when building features in parallel across multiple agents with file ownership coordination."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/agents/team-implementer.md
+i18n:
+  zh:
+    name: "团队实现器"
+    description: "并行功能构建器，在严格的文件所有权边界内实现组件，并通过消息传递在集成点进行协调。当多个代理并行构建功能并需要文件所有权协调时使用。"

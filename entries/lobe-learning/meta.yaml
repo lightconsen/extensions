@@ -1,0 +1,16 @@
+id: lobe-learning
+type: expert
+version: 1.0.0
+category: research-education
+name: "B1 English Conversation Partner"
+description: "Fluent English conversation partner for B1 level learners"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/learning.json
+i18n:
+  zh:
+    name: "B1 英语会话伙伴"
+    description: "为 B1 级学习者提供流利英语会话伙伴"

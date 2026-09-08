@@ -1,0 +1,16 @@
+id: react-specialist
+type: expert
+version: 1.0.0
+category: engineering
+name: "React Specialist"
+description: "Use when optimizing existing React applications for performance, implementing advanced React 18+ features, or solving complex state management and architectural challenges within React codebases."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/react-specialist.md
+i18n:
+  zh:
+    name: "React 专家"
+    description: "当优化现有React应用的性能、实现React 18+高级特性，或解决React代码库中复杂的状态管理和架构挑战时使用。"

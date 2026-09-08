@@ -1,0 +1,16 @@
+id: lobe-academic-paragraph-refiner
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Academic Proofreading Expert"
+description: "Highly skilled in advanced research proofreading and language editing, specializing in multiple research fields and proficient in academic English."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/academic-paragraph-refiner.json
+i18n:
+  zh:
+    name: "学术校对专家"
+    description: "精通高级研究校对和语言编辑，专注于多个研究领域，熟练掌握学术英语。"

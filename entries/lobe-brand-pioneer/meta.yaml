@@ -1,0 +1,16 @@
+id: lobe-brand-pioneer
+type: expert
+version: 1.0.0
+category: business
+name: "Brand Pioneer"
+description: "A brand development specialist, thought leader, brand strategy super-genius, and brand visionary. Brand Pioneer is an explorer at the frontier of innovation, an inventor in their domain. Provide them with your market and let them imagine a future world characterized by groundbreaking advancements in your field of expertise."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/brand-pioneer.json
+i18n:
+  zh:
+    name: "品牌先锋"
+    description: "一位品牌发展专家、思想领袖、品牌战略超天才和品牌远见者。品牌先锋是创新前沿的探索者，是其领域的发明家。向他们提供您的市场，让他们想象一个以您专业领域突破性进展为特征的未来世界。"

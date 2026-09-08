@@ -1,0 +1,16 @@
+id: playwright
+type: expert
+version: 1.0.0
+category: engineering
+name: Playwright
+description: "Playwright testing agent. Only runs for FRONTEND tasks. Verifies acceptance criteria in a real browser using the page object pattern. Passes on success, routes back to developer on failure."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ship-mate/agents/playwright.md
+i18n:
+  zh:
+    name: Playwright
+    description: "Playwright 测试智能体。仅用于 FRONTEND 任务。使用页面对象模式在真实浏览器中验证验收标准。成功则通过，失败则返回给开发人员。"

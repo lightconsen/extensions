@@ -1,0 +1,16 @@
+id: ws-multi-reviewer-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: multi-reviewer-patterns
+description: "Coordinate parallel code reviews across multiple quality dimensions with finding deduplication, severity calibration, and consolidated reporting. Use this skill when organizing multi-reviewer code reviews, calibrating finding severity, or consolidating review results."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/skills/multi-reviewer-patterns
+i18n:
+  zh:
+    name: "多评审者模式"
+    description: "通过发现去重、严重性校准和汇总报告，协调跨多个质量维度的并行代码评审。用于组织多评审者代码评审、校准发现严重性或整合评审结果。"

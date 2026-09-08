@@ -1,0 +1,16 @@
+id: lobe-reading-comprehension-exercise-generator
+type: expert
+version: 1.0.0
+category: research-education
+name: "Reading Comprehension Wizard"
+description: "Specializes in generating reading comprehension exercises"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/reading-comprehension-exercise-generator.json
+i18n:
+  zh:
+    name: "阅读理解向导"
+    description: "专注于生成阅读理解练习题"

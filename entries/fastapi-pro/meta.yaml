@@ -1,0 +1,17 @@
+id: fastapi-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Fastapi Pro"
+description: "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns. Use PROACTIVELY for FastAPI development, async optimization, or API architecture."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/api-scaffolding/agents/fastapi-pro.md
+    - plugins/python-development/agents/fastapi-pro.md
+i18n:
+  zh:
+    name: "FastAPI 专家"
+    description: "使用 FastAPI、SQLAlchemy 2.0 和 Pydantic V2 构建高性能异步 API。精通微服务、WebSocket 和现代 Python 异步模式。在 FastAPI 开发、异步优化或 API 架构时主动使用。"

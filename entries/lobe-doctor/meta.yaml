@@ -1,0 +1,16 @@
+id: lobe-doctor
+type: expert
+version: 1.0.0
+category: research-education
+name: "Poetry Guide: Inspiring poetic expression and appreciation.\r\nPsychologist: Promoting understanding and personal growth."
+description: "Psychology Educator: Empowering personal growth through psychology.\r\n\r\nPsychologist: Educating on psychology principles for better mental health."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/doctor.json
+i18n:
+  zh:
+    name: "诗歌指南：激发诗意表达与欣赏。\r\n心理学家：促进理解与个人成长。"
+    description: "心理学教育者：通过心理学赋能个人成长。\r\n\r\n心理学家：教育心理学原理以促进更好的心理健康。"

@@ -1,0 +1,16 @@
+id: ws-async-python-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: async-python-patterns
+description: "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/async-python-patterns
+i18n:
+  zh:
+    name: "异步 Python 模式"
+    description: "掌握 Python asyncio、并发编程以及 async/await 模式，用于构建高性能应用。在构建异步 API、并发系统或需要非阻塞操作的 I/O 密集型应用时使用。"

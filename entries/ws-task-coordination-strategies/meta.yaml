@@ -1,0 +1,16 @@
+id: ws-task-coordination-strategies
+type: skill
+version: 1.0.0
+category: engineering
+name: task-coordination-strategies
+description: "Decompose complex tasks, design dependency graphs, and coordinate multi-agent work with proper task descriptions and workload balancing. Use this skill when breaking down work for agent teams, managing task dependencies, or monitoring team progress."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/skills/task-coordination-strategies
+i18n:
+  zh:
+    name: "任务协调策略"
+    description: "将复杂任务分解，设计依赖关系图，并通过适当的任务描述与工作负载均衡来协调多智能体工作。在为智能体团队拆分工作、管理任务依赖或监控团队进度时使用此技能。"

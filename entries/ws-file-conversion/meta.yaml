@@ -1,0 +1,16 @@
+id: ws-file-conversion
+type: skill
+version: 1.0.0
+category: specialized-domains
+name: file-conversion
+description: "Convert files between formats — PDF to Word, HEIC to JPG, MP4 to MP3, CSV to JSON, EPUB to MOBI, and 999 total routes across images, video, audio, documents, data, fonts, ebooks, and archives. Free via changethisfile.com, no API key or signup. Use when the user needs a file converted to a different format."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/file-conversion/skills/file-conversion
+i18n:
+  zh:
+    name: "文件转换"
+    description: "在格式之间转换文件——从 PDF 到 Word、HEIC 到 JPG、MP4 到 MP3、CSV 到 JSON、EPUB 到 MOBI，涵盖图片、视频、音频、文档、数据、字体、电子书和压缩包共 999 条转换路线。通过 changethisfile.com 免费使用，无需 API 密钥或注册。在用户需要将文件转换为不同格式时使用。"

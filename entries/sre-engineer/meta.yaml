@@ -1,0 +1,16 @@
+id: sre-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Sre Engineer"
+description: "Use this agent when you need to establish or improve system reliability through SLO definition, error budget management, and automation. Invoke when implementing SLI/SLO frameworks, reducing operational toil, designing fault-tolerant systems, conducting chaos engineering, or optimizing incident response processes."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/sre-engineer.md
+i18n:
+  zh:
+    name: "SRE 工程师"
+    description: "当您需要通过 SLO 定义、错误预算管理和自动化来建立或提高系统可靠性时，请使用此代理。在实施 SLI/SLO 框架、减少运维琐事、设计容错系统、进行混沌工程或优化事件响应流程时调用。"

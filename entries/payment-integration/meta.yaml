@@ -1,0 +1,17 @@
+id: payment-integration
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Payment Integration"
+description: "Use this agent when implementing payment systems, integrating payment gateways, or handling financial transactions that require PCI compliance, fraud prevention, and secure transaction processing."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/payment-processing/agents/payment-integration.md
+    - categories/07-specialized-domains/payment-integration.md
+i18n:
+  zh:
+    name: "支付集成"
+    description: "在实现支付系统、集成支付网关或处理需要 PCI 合规、防欺诈和安全交易处理的金融交易时，使用此智能体。"

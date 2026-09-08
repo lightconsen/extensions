@@ -1,0 +1,16 @@
+id: growth-loops
+type: expert
+version: 1.0.0
+category: business
+name: "Growth Loops"
+description: "Use when the user wants to design a growth loop, understand PLG mechanics, or build sustainable acquisition. Triggers on: 'growth loop', 'flywheel', 'viral loop', 'PLG growth', 'product-led growth', 'growth mechanics', 'how do we grow', 'word of mouth'."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/growth-loops.md
+i18n:
+  zh:
+    name: "增长循环"
+    description: "当用户想要设计增长循环、了解 PLG 机制或建立可持续获取时使用。触发词：“增长循环”、“飞轮”、“病毒循环”、“PLG 增长”、“产品驱动增长”、“增长机制”、“我们如何增长”、“口碑”。"

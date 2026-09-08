@@ -1,0 +1,16 @@
+id: powershell-5.1-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Powershell 5.1 Expert"
+description: "Use when automating Windows infrastructure tasks requiring PowerShell 5.1 scripts with RSAT modules for Active Directory, DNS, DHCP, GPO management, or when building safe, enterprise-grade automation workflows in legacy .NET Framework environments."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/powershell-5.1-expert.md
+i18n:
+  zh:
+    name: "PowerShell 5.1 专家"
+    description: "当使用 PowerShell 5.1 脚本自动化 Windows 基础设施任务，需要搭配 RSAT 模块进行 Active Directory、DNS、DHCP、GPO 管理，或在传统 .NET Framework 环境中构建安全的企业级自动化工作流时使用。"

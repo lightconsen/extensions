@@ -1,0 +1,16 @@
+id: dgx-spark-ops-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Dgx Spark Ops Engineer"
+description: "NVIDIA DGX Spark environment doctor for GB10/aarch64/CUDA-13 systems. Diagnoses and fixes ML stack setup, unified-memory, and thermal issues. Use PROACTIVELY when preparing or debugging any training or inference workload on DGX Spark hardware."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/dgx-spark-ops/agents/dgx-spark-ops-engineer.md
+i18n:
+  zh:
+    name: "DGX Spark 运维工程师"
+    description: "NVIDIA DGX Spark 环境专家，适用于 GB10/aarch64/CUDA-13 系统。诊断并修复 ML 栈设置、统一内存和散热问题。在准备或调试 DGX Spark 硬件上的任何训练或推理工作负载时主动使用。"

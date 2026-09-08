@@ -1,0 +1,21 @@
+id: security-auditor
+type: expert
+version: 1.0.0
+category: engineering
+name: "Security Auditor"
+description: "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. Masters vulnerability assessment, threat modeling, secure authentication (OAuth2/OIDC), OWASP standards, cloud security, and security automation. Handles DevSecOps integration, compliance (GDPR/HIPAA/SOC2), and incident response. Use PROACTIVELY for security audits, DevSecOps, or compliance implementation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/agents/security-auditor.md
+    - plugins/comprehensive-review/agents/security-auditor.md
+    - plugins/full-stack-orchestration/agents/security-auditor.md
+    - plugins/security-compliance/agents/security-auditor.md
+    - plugins/security-scanning/agents/security-auditor.md
+    - categories/04-quality-security/security-auditor.md
+i18n:
+  zh:
+    name: "安全审计专家"
+    description: "专注于 DevSecOps、全面网络安全和合规框架的专业安全审计专家。精通漏洞评估、威胁建模、安全认证（OAuth2/OIDC）、OWASP 标准、云安全和安全自动化。可处理 DevSecOps 集成、合规（GDPR/HIPAA/SOC2）和事件响应。在安全审计、DevSecOps 或合规实施时应主动使用。"

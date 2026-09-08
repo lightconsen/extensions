@@ -1,0 +1,16 @@
+id: docker-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Docker Expert"
+description: "Use this agent when you need to build, optimize, or secure Docker container images and orchestration for production environments."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/docker-expert.md
+i18n:
+  zh:
+    name: "Docker 专家"
+    description: "当您需要为生产环境构建、优化或保护 Docker 容器镜像和编排时，请使用此代理。"

@@ -1,0 +1,17 @@
+id: incident-responder
+type: expert
+version: 1.0.0
+category: engineering
+name: "Incident Responder"
+description: "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability patterns. Handles critical outages, communication strategies, and continuous improvement. Use IMMEDIATELY for production incidents or SRE practices."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/incident-response/agents/incident-responder.md
+    - categories/03-infrastructure/incident-responder.md
+i18n:
+  zh:
+    name: "事件响应专家"
+    description: "专门从事快速问题解决、现代可观测性和全面事件管理的SRE事件响应专家。精通事故指挥、无指责事后复盘、错误预算管理和系统可靠性模式。处理严重中断、沟通策略和持续改进。请立即用于生产事故或SRE实践。"

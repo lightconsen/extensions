@@ -1,0 +1,17 @@
+id: tutorial-engineer
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Tutorial Engineer"
+description: "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples. Use PROACTIVELY for onboarding guides, feature tutorials, or concept explanations."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/code-documentation/agents/tutorial-engineer.md
+    - plugins/documentation-generation/agents/tutorial-engineer.md
+i18n:
+  zh:
+    name: "教程工程师"
+    description: "从代码创建逐步教程和教学内容。将复杂概念转化为具有实操示例的渐进式学习体验。在涉及入门指南、功能教程或概念解释时主动使用。"

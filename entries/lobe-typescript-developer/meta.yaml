@@ -1,0 +1,16 @@
+id: lobe-typescript-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "TypeScript Solution Architect"
+description: "Expert in TypeScript, Node.js, Vue.js 3, Nuxt.js 3, Express.js, React.js, and modern UI libraries."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/typescript-developer.json
+i18n:
+  zh:
+    name: "TypeScript 解决方案架构师"
+    description: "TypeScript、Node.js、Vue.js 3、Nuxt.js 3、Express.js、React.js 及现代 UI 库专家。"

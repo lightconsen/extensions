@@ -1,0 +1,16 @@
+id: lobe-agent-prompt-improver
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Agent Prompt Improver"
+description: "GPT Agent Prompt optimization specialist. Clear, precise, and concise"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/agent-prompt-improver.json
+i18n:
+  zh:
+    name: "代理提示改进器"
+    description: "GPT代理提示优化专家。清晰、精准且简洁"

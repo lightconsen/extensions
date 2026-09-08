@@ -1,0 +1,16 @@
+id: lobe-thinking-claude
+type: expert
+version: 1.0.0
+category: research-education
+name: "Thinking Claude"
+description: "Let Claude think comprehensively before responding!"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/thinking-claude.json
+i18n:
+  zh:
+    name: "思考中的Claude"
+    description: "让Claude在回答前进行全面思考！"

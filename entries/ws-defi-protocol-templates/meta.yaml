@@ -1,0 +1,16 @@
+id: ws-defi-protocol-templates
+type: skill
+version: 1.0.0
+category: engineering
+name: defi-protocol-templates
+description: "Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and flash loans. Use when building decentralized finance applications or smart contract protocols."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/blockchain-web3/skills/defi-protocol-templates
+i18n:
+  zh:
+    name: "DeFi 协议模板"
+    description: "使用适用于质押、AMM、治理和闪电贷的生产级模板实现 DeFi 协议。适用于构建去中心化金融应用或智能合约协议。"

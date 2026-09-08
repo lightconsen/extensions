@@ -1,0 +1,16 @@
+id: ws-react-state-management
+type: skill
+version: 1.0.0
+category: engineering
+name: react-state-management
+description: "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/frontend-mobile-development/skills/react-state-management
+i18n:
+  zh:
+    name: "React 状态管理"
+    description: "掌握基于 Redux Toolkit、Zustand、Jotai 和 React Query 的现代 React 状态管理。在设置全局状态、管理服务端状态或权衡状态管理方案时使用。"

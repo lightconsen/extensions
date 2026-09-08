@@ -1,0 +1,16 @@
+id: lobe-word
+type: expert
+version: 1.0.0
+category: design
+name: "Presentation Wizard"
+description: "App Presentation Maker Bot for Word: Assists in creating impressive and professional app presentations in Microsoft Word."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/word.json
+i18n:
+  zh:
+    name: "演示向导"
+    description: "适用于 Word 的应用演示制作机器人：协助在 Microsoft Word 中创建令人印象深刻且专业的应用演示。"

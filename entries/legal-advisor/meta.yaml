@@ -1,0 +1,17 @@
+id: legal-advisor
+type: expert
+version: 1.0.0
+category: business
+name: "Legal Advisor"
+description: "Use this agent when you need to draft contracts, review compliance requirements, develop IP protection strategies, or assess legal risks for technology businesses."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/hr-legal-compliance/agents/legal-advisor.md
+    - categories/08-business-product/legal-advisor.md
+i18n:
+  zh:
+    name: "法律顾问"
+    description: "在起草合同、审查合规要求、制定知识产权保护策略或评估技术业务法律风险时使用此代理。"

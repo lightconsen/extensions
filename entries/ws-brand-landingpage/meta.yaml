@@ -1,0 +1,16 @@
+id: ws-brand-landingpage
+type: skill
+version: 1.0.0
+category: design
+name: brand-landingpage
+description: "Brand-first landing page designer — runs a brand-identity interview (colors, typography, shape language), then generates and iterates on a polished landing page via Stitch with deployment-ready HTML. Use when the user asks to create, design, or build a landing page, homepage, or marketing page and has no established visual direction. Skip when they have a design mockup, need a dashboard or app UI, are working at component level, building a multi-page app, or restyling with known design tokens — use frontend-design instead."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/brand-landingpage/skills/brand-landingpage
+i18n:
+  zh:
+    name: "品牌落地页"
+    description: "品牌优先的落地页设计师——先进行品牌识别访谈（色彩、字体、形状语言），然后通过 Stitch 生成并迭代出可部署的精致落地页 HTML。当用户要求创建、设计或构建落地页/主页/营销页且尚无既定视觉方向时使用；若已有设计稿、需要仪表盘或应用 UI、在组件层面工作、构建多页应用，或用既定设计令牌改版，则跳过——改用 frontend-design。"

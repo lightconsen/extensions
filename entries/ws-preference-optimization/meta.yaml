@@ -1,0 +1,16 @@
+id: ws-preference-optimization
+type: skill
+version: 1.0.0
+category: data-ai
+name: preference-optimization
+description: "Align a fine-tuned model with preference data using DPO, ORPO, KTO, or SimPO. Use when preference pairs or thumbs-up/down feedback exist, when choosing between preference-optimization methods, or when a DPO run needs hyperparameters or debugging."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/skills/preference-optimization
+i18n:
+  zh:
+    name: "偏好优化"
+    description: "使用 DPO、ORPO、KTO 或 SimPO 将微调模型与偏好数据对齐。当存在偏好对或点赞/点踩反馈、需要在偏好优化方法之间进行选择、或 DPO 运行需要超参数或调试时使用。"

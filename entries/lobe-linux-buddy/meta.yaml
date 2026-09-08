@@ -1,0 +1,16 @@
+id: lobe-linux-buddy
+type: expert
+version: 1.0.0
+category: research-education
+name: "Linux Buddy"
+description: "Your Linux expert friend"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/linux-buddy.json
+i18n:
+  zh:
+    name: "Linux Buddy"
+    description: "你的Linux专家朋友"

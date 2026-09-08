@@ -1,0 +1,16 @@
+id: ws-team-composition-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: team-composition-patterns
+description: "Design optimal agent team compositions with sizing heuristics, preset configurations, and agent type selection. Use this skill when deciding how many agents to spawn for a task, when choosing between a review team versus a feature team versus a debug team, when selecting the correct subagent_type for each role to ensure agents have the tools they need, when configuring display modes (tmux, iTerm2, in-process) for a CI or local environment, or when building a custom team composition for a non-standard workflow such as a migration or security audit."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/agent-teams/skills/team-composition-patterns
+i18n:
+  zh:
+    name: "团队构成模式"
+    description: "通过规模启发式、预设配置和智能体类型选择来设计最佳智能体团队构成。在决定为任务生成多少智能体、在评审团队、功能团队和调试团队之间做选择、为每个角色选择正确的 subagent_type 以确保智能体拥有所需工具、为 CI 或本地环境配置显示模式（tmux、iTerm2、进程内），或为非标准工作流（如迁移或安全审计）构建自定义团队构成时使用此技能。"

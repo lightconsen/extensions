@@ -1,0 +1,16 @@
+id: lobe-facebook-ads-expert
+type: expert
+version: 1.0.0
+category: business
+name: "Facebook Ads Expert"
+description: "Create a Facebook Ads with a expert"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/facebook-ads-expert.json
+i18n:
+  zh:
+    name: "Facebook广告专家"
+    description: "与专家一起创建Facebook广告"

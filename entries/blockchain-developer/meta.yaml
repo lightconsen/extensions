@@ -1,0 +1,17 @@
+id: blockchain-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Blockchain Developer"
+description: "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations. Use PROACTIVELY for smart contracts, Web3 apps, DeFi protocols, or blockchain infrastructure."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/blockchain-web3/agents/blockchain-developer.md
+    - categories/07-specialized-domains/blockchain-developer.md
+i18n:
+  zh:
+    name: "区块链开发者"
+    description: "构建生产级 Web3 应用、智能合约和去中心化系统。实现 DeFi 协议、NFT 平台、DAO 以及企业级区块链集成。在智能合约、Web3 应用、DeFi 协议或区块链基础设施相关工作中主动使用。"

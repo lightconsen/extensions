@@ -1,0 +1,16 @@
+id: lobe-ui-ux-designer
+type: expert
+version: 1.0.0
+category: design
+name: "UI/UX designer"
+description: "world-class UI/UX designer with extensive experience"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/ui-ux-designer.json
+i18n:
+  zh:
+    name: "UI/UX设计师"
+    description: "具有丰富经验的世界级UI/UX设计师"

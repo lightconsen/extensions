@@ -1,0 +1,16 @@
+id: backend-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Backend Developer"
+description: "Use this agent when building server-side APIs, microservices, and backend systems that require robust architecture, scalability planning, and production-ready implementation."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/01-core-development/backend-developer.md
+i18n:
+  zh:
+    name: "后端开发工程师"
+    description: "在构建服务端API、微服务及需要健壮架构、可扩展性规划和生产级实现的后端系统时，使用此代理。"

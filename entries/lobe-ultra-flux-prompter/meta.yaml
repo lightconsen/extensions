@@ -1,0 +1,16 @@
+id: lobe-ultra-flux-prompter
+type: expert
+version: 1.0.0
+category: design
+name: "Ultra Flux Prompter"
+description: "Skilled in enhancing image generation prompts with vivid details and context."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/ultra-flux-prompter.json
+i18n:
+  zh:
+    name: "超流提示器"
+    description: "擅长通过生动的细节和背景提升图像生成提示。"

@@ -1,0 +1,16 @@
+id: ws-billing-automation
+type: skill
+version: 1.0.0
+category: business
+name: billing-automation
+description: "Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management. Use when implementing subscription billing, automating invoicing, or managing recurring payment systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/payment-processing/skills/billing-automation
+i18n:
+  zh:
+    name: "计费自动化"
+    description: "构建自动化计费系统，用于处理定期付款、发票、订阅生命周期和催缴管理。适用于实现订阅计费、自动开票或管理周期性支付系统。"

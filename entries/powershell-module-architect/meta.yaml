@@ -1,0 +1,16 @@
+id: powershell-module-architect
+type: expert
+version: 1.0.0
+category: engineering
+name: "Powershell Module Architect"
+description: "Use this agent when architecting and refactoring PowerShell modules, designing profile systems, or creating cross-version compatible automation libraries. Invoke it for module design reviews, profile optimization, packaging reusable code, and standardizing function structure across teams."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/06-developer-experience/powershell-module-architect.md
+i18n:
+  zh:
+    name: "PowerShell 模块架构师"
+    description: "当架构和重构 PowerShell 模块、设计配置文件系统或创建跨版本兼容的自动化库时，使用此智能体。在模块设计评审、配置文件优化、打包可复用代码以及跨团队标准化函数结构时调用它。"

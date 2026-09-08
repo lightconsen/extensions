@@ -1,0 +1,16 @@
+id: lobe-import-and-export-advisor
+type: expert
+version: 1.0.0
+category: business
+name: "AI Import/Export Advisor"
+description: "AI Import and Export Advisor: Providing guidance on global trade, customs regulations, documentation, trade agreements, and risk management."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/import-and-export-advisor.json
+i18n:
+  zh:
+    name: "AI 进出口顾问"
+    description: "AI 进出口顾问：提供全球贸易、海关法规、文件、贸易协定和风险管理的指导。"

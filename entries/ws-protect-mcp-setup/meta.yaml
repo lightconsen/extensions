@@ -1,0 +1,16 @@
+id: ws-protect-mcp-setup
+type: skill
+version: 1.0.0
+category: security
+name: protect-mcp-setup
+description: "Configure Cedar policy enforcement and Ed25519 signed receipts for Claude Code tool calls. Use when setting up projects that need cryptographic audit trails, policy-gated tool execution, or compliance-ready evidence of agent actions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/protect-mcp/skills/protect-mcp-setup
+i18n:
+  zh:
+    name: "Protect MCP 设置"
+    description: "为 Claude Code 工具调用配置 Cedar 策略强制和 Ed25519 签名收据。在设置需要加密审计追踪、策略门控工具执行或合规级代理操作证据的项目时使用。"

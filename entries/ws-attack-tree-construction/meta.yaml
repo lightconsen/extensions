@@ -1,0 +1,16 @@
+id: ws-attack-tree-construction
+type: skill
+version: 1.0.0
+category: security
+name: attack-tree-construction
+description: "Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/security-scanning/skills/attack-tree-construction
+i18n:
+  zh:
+    name: "攻击树构建"
+    description: "构建全面的攻击树以可视化威胁路径。在映射攻击场景、识别防御缺口或向利益相关者传达安全风险时使用。"

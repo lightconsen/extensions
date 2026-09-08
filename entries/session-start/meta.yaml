@@ -1,0 +1,16 @@
+id: session-start
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Session Start"
+description: "Use at the start of every work session. Reads the canonical state doc, verifies live state, reconciles drift from external deploys or dirty shutdowns, and prints a concise briefing. Pairs with session-end."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/operating-kit/agents/session-start.md
+i18n:
+  zh:
+    name: "会话开始"
+    description: "在每个工作会话开始时使用。读取规范状态文档，验证实时状态，协调外部部署或异常关闭造成的漂移，并输出简明简报。与 session-end 配对。"

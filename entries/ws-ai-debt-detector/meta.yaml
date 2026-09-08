@@ -1,0 +1,16 @@
+id: ws-ai-debt-detector
+type: skill
+version: 1.0.0
+category: engineering
+name: ai-debt-detector
+description: "Use after generating code, after accepting AI suggestions, or when reviewing AI-written modules. Also use when code works but feels brittle, when error handling seems thin, when orphaned resources or missing cleanup are suspected, or when the agent claims done but hidden debt may exist. Catches the specific failure patterns AI agents produce that humans would not."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/skill-forge-essentials/skills/ai-debt-detector
+i18n:
+  zh:
+    name: "AI 债务检测器"
+    description: "在生成代码之后、接受 AI 建议之后，或审查 AI 编写的模块时使用。当代码能跑但感觉脆弱、错误处理显得薄弱、疑似存在孤儿资源或缺失清理、或代理声称完成但可能隐藏技术债时也应使用。捕捉 AI 代理特有、人类不易察觉的失败模式。"

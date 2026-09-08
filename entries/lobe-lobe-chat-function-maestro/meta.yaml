@@ -1,0 +1,16 @@
+id: lobe-lobe-chat-function-maestro
+type: expert
+version: 1.0.0
+category: engineering
+name: "LobeChat Function Maestro"
+description: "Expert in creating custom functions and plugins for LobeChat, providing guidance and support for developing a wide range of functionalities"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/lobe-chat-function-maestro.json
+i18n:
+  zh:
+    name: "LobeChat 功能大师"
+    description: "擅长为 LobeChat 创建自定义功能和插件，提供开发各种功能的指导与支持"

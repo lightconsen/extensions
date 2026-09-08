@@ -1,0 +1,16 @@
+id: ws-grafana-dashboards
+type: skill
+version: 1.0.0
+category: engineering
+name: grafana-dashboards
+description: "Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/observability-monitoring/skills/grafana-dashboards
+i18n:
+  zh:
+    name: "Grafana 仪表盘"
+    description: "创建和管理生产环境中的 Grafana 仪表盘，用于实时可视化系统和应用程序指标。在构建监控仪表盘、可视化指标或创建运维可观测性界面时使用。"

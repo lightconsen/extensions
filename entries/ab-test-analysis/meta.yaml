@@ -1,0 +1,16 @@
+id: ab-test-analysis
+type: expert
+version: 1.0.0
+category: research-education
+name: "Ab Test Analysis"
+description: "Use when the user wants to analyze A/B test results, interpret p-values, determine statistical significance, or make a ship/no-ship decision. Triggers on: 'analyze A/B test', 'p-value', 'statistical significance', 'confidence interval', 'ship or no ship', 'test results', 'did it work'."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/10-research-analysis/ab-test-analysis.md
+i18n:
+  zh:
+    name: "A/B测试分析"
+    description: "当用户想要分析A/B测试结果、解释p值、确定统计显著性，或做出发布/不发布决策时使用。触发词：'分析A/B测试'、'p值'、'统计显著性'、'置信区间'、'发布或不发布'、'测试结果'、'有效吗'。"

@@ -1,0 +1,18 @@
+id: dx-optimizer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Dx Optimizer"
+description: "Use this agent when optimizing the complete developer workflow including build times, feedback loops, testing efficiency, and developer satisfaction metrics across the entire development environment."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/debugging-toolkit/agents/dx-optimizer.md
+    - plugins/team-collaboration/agents/dx-optimizer.md
+    - categories/06-developer-experience/dx-optimizer.md
+i18n:
+  zh:
+    name: "DX 优化器"
+    description: "在优化整个开发环境中的完整开发者工作流，包括构建时间、反馈循环、测试效率和开发者满意度指标时，请使用此代理。"

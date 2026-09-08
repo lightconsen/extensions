@@ -1,0 +1,16 @@
+id: ws-postgresql-table-design
+type: skill
+version: 1.0.0
+category: data-ai
+name: postgresql-table-design
+description: "Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features"
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/database-design/skills/postgresql-table-design
+i18n:
+  zh:
+    name: "PostgreSQL 表设计"
+    description: "在设计或审查 PostgreSQL 专用模式时使用此技能。涵盖最佳实践、数据类型、索引、约束、性能模式和高级特性。"

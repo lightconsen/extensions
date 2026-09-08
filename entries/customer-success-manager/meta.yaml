@@ -1,0 +1,16 @@
+id: customer-success-manager
+type: expert
+version: 1.0.0
+category: business
+name: "Customer Success Manager"
+description: "Use this agent when you need to assess customer health, develop retention strategies, identify upsell opportunities, or maximize customer lifetime value. Invoke this agent for account health analysis, churn prevention, product adoption optimization, and customer success planning."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/customer-success-manager.md
+i18n:
+  zh:
+    name: "客户成功经理"
+    description: "当您需要评估客户健康状况、制定留存策略、识别追加销售机会或最大化客户生命周期价值时，请使用此智能体。在账户健康分析、客户流失预防、产品采用优化和客户成功规划时调用此智能体。"

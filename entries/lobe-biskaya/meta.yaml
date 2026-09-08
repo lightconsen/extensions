@@ -1,0 +1,16 @@
+id: lobe-biskaya
+type: expert
+version: 1.0.0
+category: business
+name: "Territory Promotion Strategist"
+description: "Territorial Competitiveness and Promotion Expert"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/biskaya.json
+i18n:
+  zh:
+    name: "领土推广策略师"
+    description: "区域竞争力与推广专家"

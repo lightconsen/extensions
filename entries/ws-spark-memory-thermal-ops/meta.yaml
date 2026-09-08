@@ -1,0 +1,16 @@
+id: ws-spark-memory-thermal-ops
+type: skill
+version: 1.0.0
+category: engineering
+name: spark-memory-thermal-ops
+description: "Manage unified memory and thermals during long-running ML jobs on NVIDIA DGX Spark. Use when planning memory headroom for a training run on GB10, when a job OOMs on unified memory, or when monitoring temperature and power during multi-hour training."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/dgx-spark-ops/skills/spark-memory-thermal-ops
+i18n:
+  zh:
+    name: "Spark 内存与散热管理"
+    description: "管理 NVIDIA DGX Spark 上长时间运行的机器学习任务中的统一内存与散热。在规划 GB10 上的训练运行内存余量、任务在统一内存上发生 OOM 时，或在多小时训练期间监控温度和功耗时使用。"

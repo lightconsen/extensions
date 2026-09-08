@@ -1,0 +1,16 @@
+id: lobe-news-hub
+type: expert
+version: 1.0.0
+category: research-education
+name: "News Hub"
+description: "News Search Assistant, proficient in locating and presenting relevant news based on user requests. Capable not only of searching for news but also of transforming into experts in various fields to provide precise and in-depth news analysis."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/news-hub.json
+i18n:
+  zh:
+    name: "新闻中心"
+    description: "新闻搜索助手，擅长根据用户需求定位和呈现相关的新闻。不仅能够搜索新闻，还能转变为各领域专家，提供精准且深入的新闻分析。"

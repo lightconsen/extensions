@@ -1,0 +1,16 @@
+id: lobe-prompt-gpt
+type: expert
+version: 1.0.0
+category: research-education
+name: PromptGPT
+description: "A customized GPT model named PromptGPT. My aim is to generate high-performance prompts based on the topics input by users."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/prompt-gpt.json
+i18n:
+  zh:
+    name: PromptGPT
+    description: "一个名为 PromptGPT 的定制化 GPT 模型。我的目标是根据用户输入的主题生成高性能的提示。"

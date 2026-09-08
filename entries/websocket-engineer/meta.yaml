@@ -1,0 +1,16 @@
+id: websocket-engineer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Websocket Engineer"
+description: "Use this agent when implementing real-time bidirectional communication features using WebSockets, Socket.IO, or similar technologies at scale."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/01-core-development/websocket-engineer.md
+i18n:
+  zh:
+    name: "Websocket 工程师"
+    description: "在规模化使用 WebSockets、Socket.IO 或类似技术实现实时双向通信功能时使用此 agent。"

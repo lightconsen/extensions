@@ -1,0 +1,16 @@
+id: expo-react-native-expert
+type: expert
+version: 1.0.0
+category: engineering
+name: "Expo React Native Expert"
+description: "Use when building mobile applications with Expo and React Native that require native module integration, navigation setup, performant animations, push notifications, OTA updates, or App Store/Play Store deployment."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/02-language-specialists/expo-react-native-expert.md
+i18n:
+  zh:
+    name: "Expo React Native 专家"
+    description: "在使用 Expo 和 React Native 构建需要原生模块集成、导航设置、高性能动画、推送通知、OTA 更新或 App Store/Play Store 部署的移动应用时使用。"

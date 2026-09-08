@@ -1,0 +1,16 @@
+id: ws-python-background-jobs
+type: skill
+version: 1.0.0
+category: engineering
+name: python-background-jobs
+description: "Python background job patterns including task queues, workers, and event-driven architecture. Use when implementing async task processing, job queues, long-running operations, or decoupling work from request/response cycles."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-background-jobs
+i18n:
+  zh:
+    name: "Python 后台任务"
+    description: "Python 后台任务模式，包括任务队列、工作进程和事件驱动架构。在实现异步任务处理、作业队列、长时间运行操作或将工作与请求/响应周期解耦时使用。"

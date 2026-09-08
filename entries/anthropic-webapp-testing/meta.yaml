@@ -1,0 +1,16 @@
+id: anthropic-webapp-testing
+type: skill
+version: 1.0.0
+category: engineering
+name: "Web App Testing"
+description: "Test local web apps with Playwright - element discovery, console logging, server orchestration"
+license: Apache-2.0
+source:
+  repo: https://github.com/anthropics/skills
+  commit: unknown
+  paths:
+    - webapp-testing
+i18n:
+  zh:
+    name: "Web 应用测试"
+    description: "用 Playwright 测试本地 Web 应用——元素发现、控制台日志、服务器编排"

@@ -1,0 +1,17 @@
+id: tdd-orchestrator
+type: expert
+version: 1.0.0
+category: engineering
+name: "Tdd Orchestrator"
+description: "Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices. Enforces TDD best practices across teams with AI-assisted testing and modern frameworks. Use PROACTIVELY for TDD implementation and governance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/agents/tdd-orchestrator.md
+    - plugins/tdd-workflows/agents/tdd-orchestrator.md
+i18n:
+  zh:
+    name: "TDD 编排器"
+    description: "精通红-绿-重构纪律、多代理工作流协调和全面测试驱动开发实践的 TDD 编排大师。通过 AI 辅助测试和现代框架在团队中执行 TDD 最佳实践。请主动用于 TDD 实施和治理。"

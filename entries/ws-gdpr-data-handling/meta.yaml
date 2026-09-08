@@ -1,0 +1,16 @@
+id: ws-gdpr-data-handling
+type: skill
+version: 1.0.0
+category: business
+name: gdpr-data-handling
+description: "Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. Use when building systems that process EU personal data, implementing privacy controls, or conducting GDPR compliance reviews."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/hr-legal-compliance/skills/gdpr-data-handling
+i18n:
+  zh:
+    name: "GDPR 数据处理"
+    description: "按照 GDPR 实现合规的数据处理，包括同意管理、数据主体权利和隐私设计。在构建处理欧盟个人数据的系统、实施隐私控制或进行 GDPR 合规性审查时使用。"

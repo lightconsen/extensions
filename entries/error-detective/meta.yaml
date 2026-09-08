@@ -1,0 +1,20 @@
+id: error-detective
+type: expert
+version: 1.0.0
+category: security
+name: "Error Detective"
+description: "Use this agent when you need to diagnose why errors are occurring in your system, correlate errors across services, identify root causes, and prevent future failures."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/distributed-debugging/agents/error-detective.md
+    - plugins/error-debugging/agents/error-detective.md
+    - plugins/error-diagnostics/agents/error-detective.md
+    - plugins/incident-response/agents/error-detective.md
+    - categories/04-quality-security/error-detective.md
+i18n:
+  zh:
+    name: "错误侦探"
+    description: "当您需要诊断系统中错误发生的原因、关联跨服务错误、识别根本原因并防止未来故障时，请使用此代理。"

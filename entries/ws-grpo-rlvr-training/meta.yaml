@@ -1,0 +1,16 @@
+id: ws-grpo-rlvr-training
+type: skill
+version: 1.0.0
+category: data-ai
+name: grpo-rlvr-training
+description: "Train reasoning and verifiable-task behavior with GRPO and reinforcement learning from verifiable rewards (RLVR). Use when task success is algorithmically checkable (math, code, tool calls, structured output), when designing GRPO reward functions, or when a GRPO run diverges or reward-hacks."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/skills/grpo-rlvr-training
+i18n:
+  zh:
+    name: "GRPO/RLVR 训练"
+    description: "使用 GRPO 和基于可验证奖励的强化学习（RLVR）训练模型的推理行为和可验证任务行为。当任务成功可通过算法检查（数学、代码、工具调用、结构化输出）时，在设计 GRPO 奖励函数时，或当 GRPO 训练出现发散或奖励黑客行为时使用。"

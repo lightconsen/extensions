@@ -1,0 +1,16 @@
+id: embedded-systems
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Embedded Systems"
+description: "Use when developing firmware for resource-constrained microcontrollers, implementing RTOS-based applications, or optimizing real-time systems where hardware constraints, latency guarantees, and reliability are critical."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/07-specialized-domains/embedded-systems.md
+i18n:
+  zh:
+    name: "嵌入式系统专家"
+    description: "在开发资源受限微控制器固件、实现基于 RTOS 的应用程序，或优化对硬件限制、延迟保证和可靠性要求严苛的实时系统时使用。"

@@ -1,0 +1,16 @@
+id: ws-threat-mitigation-mapping
+type: skill
+version: 1.0.0
+category: security
+name: threat-mitigation-mapping
+description: "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/security-scanning/skills/threat-mitigation-mapping
+i18n:
+  zh:
+    name: "威胁缓解映射"
+    description: "将识别出的威胁映射到适当的安全控制与缓解措施。在确定安全投资优先级、制定修复计划或验证控制有效性时使用。"

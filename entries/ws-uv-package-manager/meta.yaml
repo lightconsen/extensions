@@ -1,0 +1,16 @@
+id: ws-uv-package-manager
+type: skill
+version: 1.0.0
+category: engineering
+name: uv-package-manager
+description: "Master the uv package manager for fast Python dependency management, virtual environments, and modern Python project workflows. Use when setting up Python projects, managing dependencies, or optimizing Python development workflows with uv."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/uv-package-manager
+i18n:
+  zh:
+    name: "uv 包管理器"
+    description: "掌握 uv 包管理器，实现快速的 Python 依赖管理、虚拟环境和现代 Python 项目工作流。在设置 Python 项目、管理依赖或使用 uv 优化 Python 开发工作流时使用。"

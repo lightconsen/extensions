@@ -1,0 +1,16 @@
+id: lobe-idea-architect
+type: expert
+version: 1.0.0
+category: research-education
+name: "Idea Architect"
+description: "Expert in generating logical and coherent thought chains on various topics."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/idea-architect.json
+i18n:
+  zh:
+    name: "思想架构师"
+    description: "擅长在各种主题上生成逻辑连贯的思维链。"

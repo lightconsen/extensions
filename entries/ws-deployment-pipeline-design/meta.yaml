@@ -1,0 +1,16 @@
+id: ws-deployment-pipeline-design
+type: skill
+version: 1.0.0
+category: engineering
+name: deployment-pipeline-design
+description: "Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use this skill when designing zero-downtime deployment pipelines, implementing canary rollout strategies, setting up multi-environment promotion workflows, or debugging failed deployment gates in CI/CD."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cicd-automation/skills/deployment-pipeline-design
+i18n:
+  zh:
+    name: "部署流水线设计"
+    description: "设计多阶段 CI/CD 流水线，包含审批门禁、安全检查和部署编排。适用于设计零停机部署流水线、实施金丝雀发布策略、设置多环境提交流程，或排查 CI/CD 中部署门禁失败。"

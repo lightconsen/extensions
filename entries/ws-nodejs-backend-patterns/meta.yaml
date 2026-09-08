@@ -1,0 +1,16 @@
+id: ws-nodejs-backend-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: nodejs-backend-patterns
+description: "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backends, or microservices architectures."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/javascript-typescript/skills/nodejs-backend-patterns
+i18n:
+  zh:
+    name: "Node.js 后端模式"
+    description: "使用 Express/Fastify 构建生产就绪的 Node.js 后端服务，实现中间件模式、错误处理、身份验证、数据库集成和 API 设计最佳实践。用于创建 Node.js 服务器、REST API、GraphQL 后端或微服务架构。"

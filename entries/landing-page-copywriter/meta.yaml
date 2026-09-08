@@ -1,0 +1,16 @@
+id: landing-page-copywriter
+type: expert
+version: 1.0.0
+category: business
+name: "Landing Page Copywriter"
+description: "Use this agent when writing or optimizing landing page copy, hero sections, CTAs, or conversion-focused funnel content for a specific audience and offer."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/landing-page-copywriter.md
+i18n:
+  zh:
+    name: "着陆页文案作者"
+    description: "在为特定受众和产品撰写或优化着陆页文案、首屏部分、CTA或转化漏斗内容时使用此代理。"

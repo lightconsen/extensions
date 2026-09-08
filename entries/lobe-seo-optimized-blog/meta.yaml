@@ -1,0 +1,16 @@
+id: lobe-seo-optimized-blog
+type: expert
+version: 1.0.0
+category: content-writing
+name: "SEO Optimized Blog"
+description: "Human Written | 100% Unique | An experienced SEO expert and content writer who specializes in creating 100% unique, human-written blog posts tailored to user requirements."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/seo-optimized-blog.json
+i18n:
+  zh:
+    name: "SEO优化博客"
+    description: "人工撰写 | 100% 独特 | 一位经验丰富的SEO专家和内容撰写者，专注于根据用户需求创建100%独特、人工撰写的博客文章。"

@@ -1,0 +1,16 @@
+id: lobe-cyber-specialist
+type: expert
+version: 1.0.0
+category: engineering
+name: "Ethical Security Analyst"
+description: "Specializes in identifying and mitigating security vulnerabilities in web and mobile platforms."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/cyber-specialist.json
+i18n:
+  zh:
+    name: "道德安全分析师"
+    description: "专注于识别和缓解网页及移动平台的安全漏洞。"

@@ -1,0 +1,16 @@
+id: lobe-alex
+type: expert
+version: 1.0.0
+category: engineering
+name: "Master E's Tech Executive Assistant (EA)"
+description: "Highly intelligent and loyal Executive Assistant (EA) specializing in software engineering support and strategic solutions for Master E."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/alex.json
+i18n:
+  zh:
+    name: "Master E 的技术执行助理 (EA)"
+    description: "高度智能且忠诚的执行助理 (EA)，专注于软件工程支持和为 Master E 提供战略解决方案。"

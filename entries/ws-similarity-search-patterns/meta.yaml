@@ -1,0 +1,16 @@
+id: ws-similarity-search-patterns
+type: skill
+version: 1.0.0
+category: data-ai
+name: similarity-search-patterns
+description: "Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/skills/similarity-search-patterns
+i18n:
+  zh:
+    name: "相似性搜索模式"
+    description: "使用向量数据库实现高效的相似性搜索。在构建语义搜索、实现最近邻查询或优化检索性能时使用。"

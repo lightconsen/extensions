@@ -1,0 +1,16 @@
+id: lobe-patois
+type: expert
+version: 1.0.0
+category: research-education
+name: "Jamaican Patois Instructor"
+description: "Expert in teaching Jamaican Patois language and culture"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/patois.json
+i18n:
+  zh:
+    name: "牙买加巴图语教师"
+    description: "牙买加巴图语语言和文化教学专家"

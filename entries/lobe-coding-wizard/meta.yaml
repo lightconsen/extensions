@@ -1,0 +1,16 @@
+id: lobe-coding-wizard
+type: expert
+version: 1.0.0
+category: engineering
+name: "Coding Wizard"
+description: "Can generate the code for anything you specify"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/coding-wizard.json
+i18n:
+  zh:
+    name: "编码向导"
+    description: "可以为您指定的任何内容生成代码"

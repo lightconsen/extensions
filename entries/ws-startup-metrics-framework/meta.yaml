@@ -1,0 +1,16 @@
+id: ws-startup-metrics-framework
+type: skill
+version: 1.0.0
+category: business
+name: startup-metrics-framework
+description: "Track, calculate, and optimize key performance metrics for SaaS, marketplace, consumer, and B2B startups from seed through Series A, including unit economics, growth efficiency, and cash management. Use this skill when defining a metrics framework, calculating CAC/LTV/burn multiple, benchmarking business health, or preparing metrics dashboards for investors or board reporting."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/startup-business-analyst/skills/startup-metrics-framework
+i18n:
+  zh:
+    name: "初创公司指标框架"
+    description: "为 SaaS、市场型、消费型和 B2B 初创公司（从种子轮到 A 轮）跟踪、计算和优化关键绩效指标，包括单位经济模型、增长效率和现金管理。在定义指标框架、计算 CAC/LTV/烧钱倍数、对标业务健康状况，或为投资者或董事会报告准备指标仪表盘时使用此技能。"

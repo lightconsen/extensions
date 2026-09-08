@@ -1,0 +1,18 @@
+id: devops-troubleshooter
+type: expert
+version: 1.0.0
+category: engineering
+name: "Devops Troubleshooter"
+description: "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and root cause analysis. Handles production outages, system reliability, and preventive monitoring. Use PROACTIVELY for debugging, incident response, or system troubleshooting."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cicd-automation/agents/devops-troubleshooter.md
+    - plugins/distributed-debugging/agents/devops-troubleshooter.md
+    - plugins/incident-response/agents/devops-troubleshooter.md
+i18n:
+  zh:
+    name: "DevOps 故障排除专家"
+    description: "专业的 DevOps 故障排除专家，专注于快速事件响应、高级调试和现代可观测性。精通日志分析、分布式追踪、Kubernetes 调试、性能优化和根因分析。处理生产中断、系统可靠性和预防性监控。在调试、事件响应或系统故障排除时主动使用。"

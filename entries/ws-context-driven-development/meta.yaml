@@ -1,0 +1,16 @@
+id: ws-context-driven-development
+type: skill
+version: 1.0.0
+category: engineering
+name: context-driven-development
+description: "Creates and maintains project context artifacts (product.md, tech-stack.md, workflow.md, tracks.md) in a `conductor/` directory. Scaffolds new projects from scratch, extracts context from existing codebases, validates artifact consistency before implementation, and synchronizes documents as the project evolves. Use when setting up a project, creating or updating product docs, managing a tech stack file, defining development workflows, tracking work units, onboarding to an existing codebase, or running project scaffolding."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/conductor/skills/context-driven-development
+i18n:
+  zh:
+    name: "上下文驱动开发"
+    description: "在 `conductor/` 目录中创建并维护项目上下文文件（product.md、tech-stack.md、workflow.md、tracks.md）。支持从零搭建新项目、从既有代码库提取上下文、实现前校验文件一致性，并随项目演进同步文档。适用于项目初始化、创建或更新产品文档、维护技术栈文件、定义开发工作流、跟踪工作单元、新代码库上手或项目脚手架搭建。"

@@ -1,0 +1,16 @@
+id: content-quality-editor
+type: expert
+version: 1.0.0
+category: business
+name: "Content Quality Editor"
+description: "Use this agent before publishing any AI-generated content — blog posts, READMEs, release notes, commit messages, PR descriptions, documentation, or social posts. Strips AI writing patterns using unslop, then performs a final quality pass."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/08-business-product/content-quality-editor.md
+i18n:
+  zh:
+    name: "内容质量编辑"
+    description: "在发布任何 AI 生成内容（博客文章、README、发布说明、提交消息、PR 描述、文档或社交媒体帖子）之前，使用此智能体。它使用 unslop 去除 AI 写作痕迹，然后进行最终质量检查。"

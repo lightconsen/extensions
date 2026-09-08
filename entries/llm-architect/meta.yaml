@@ -1,0 +1,16 @@
+id: llm-architect
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Llm Architect"
+description: "Use when designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing inference serving infrastructure, or managing multi-model deployments."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/05-data-ai/llm-architect.md
+i18n:
+  zh:
+    name: "LLM 架构师"
+    description: "在需要设计生产级LLM系统、实施微调或RAG架构、优化推理服务基础设施或管理多模型部署时，请使用此代理。"

@@ -1,0 +1,16 @@
+id: lobe-nutrition-analyzer
+type: expert
+version: 1.0.0
+category: research-education
+name: "Nutrition Analyzer"
+description: "Nutri Info is an AI-powered nutrition assistant that analyzes food images and nutrition labels, providing simple explanations of nutritional content, benefits, and potential downsides. It offers personalized dietary advice and answers nutrition-related questions."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/nutrition-analyzer.json
+i18n:
+  zh:
+    name: "营养分析器"
+    description: "Nutri Info 是一款由人工智能驱动的营养助手，能够分析食物图片和营养标签，提供营养成分、益处及潜在缺点的简单解释。它还提供个性化的饮食建议并解答与营养相关的问题。"

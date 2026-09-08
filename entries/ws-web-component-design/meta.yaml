@@ -1,0 +1,16 @@
+id: ws-web-component-design
+type: skill
+version: 1.0.0
+category: design
+name: web-component-design
+description: "Master React, Vue, and Svelte component patterns including CSS-in-JS, composition strategies, and reusable component architecture. Use when building UI component libraries, designing component APIs, or implementing frontend design systems."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/ui-design/skills/web-component-design
+i18n:
+  zh:
+    name: "Web 组件设计"
+    description: "掌握 React、Vue 和 Svelte 的组件模式，包括 CSS-in-JS、组合策略及可复用组件架构。适用于构建 UI 组件库、设计组件 API 或实现前端设计系统。"

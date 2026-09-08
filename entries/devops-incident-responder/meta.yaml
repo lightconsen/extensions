@@ -1,0 +1,16 @@
+id: devops-incident-responder
+type: expert
+version: 1.0.0
+category: engineering
+name: "Devops Incident Responder"
+description: "Use when actively responding to production incidents, diagnosing critical service failures, or conducting incident postmortems to implement permanent fixes and preventative measures."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/03-infrastructure/devops-incident-responder.md
+i18n:
+  zh:
+    name: "DevOps 事件响应专家"
+    description: "用于主动响应生产事故、诊断关键服务故障，或进行事故复盘以实施永久修复和预防措施。"

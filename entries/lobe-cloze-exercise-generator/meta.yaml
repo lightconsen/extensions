@@ -1,0 +1,16 @@
+id: lobe-cloze-exercise-generator
+type: expert
+version: 1.0.0
+category: research-education
+name: "Cloze Exercise Generator"
+description: "Specializes in generating summary cloze exercises. Please provide the theme of the paragraph."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/cloze-exercise-generator.json
+i18n:
+  zh:
+    name: "完形填空练习生成器"
+    description: "专注于生成摘要完形填空练习。请提供段落的主题。"

@@ -1,0 +1,16 @@
+id: lobe-pitch-deck
+type: expert
+version: 1.0.0
+category: business
+name: "Pitch Deck Maestro (Elevator Pitch)"
+description: "Specialises in creating high-quality Pitch Decks for startups to attract investors effectively."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/pitch-deck.json
+i18n:
+  zh:
+    name: "Pitch Deck 大师（电梯陈述）"
+    description: "专注于为初创企业创建高质量的 Pitch Deck，有效吸引投资者。"

@@ -1,0 +1,16 @@
+id: prod-logs-health-check
+type: expert
+version: 1.0.0
+category: specialized-domains
+name: "Prod Logs Health Check"
+description: "Pulls recent production logs filtered for errors, warnings, and anomalies. Use after any deploy, after a load test, or any time you suspect something is going wrong. Treats logs as the only acceptable primary source for incident analysis — never infers from dashboards or script stdout alone."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/operating-kit/agents/prod-logs-health-check.md
+i18n:
+  zh:
+    name: "生产日志健康检查"
+    description: "拉取最近的生产日志，筛选其中的错误、警告和异常。在每次部署后、负载测试后，或任何你怀疑出现问题时使用。将日志视为事件分析唯一可接受的主要来源——绝不单靠仪表板或脚本标准输出进行推断。"

@@ -1,0 +1,16 @@
+id: lobe-amazon-seller-support-agent
+type: expert
+version: 1.0.0
+category: content-writing
+name: "Amazon Seller Support Agent"
+description: "AI assistant that assists Amazon sellers in responding to customer service replies, providing detailed and cogent responses towards a satisfactory resolution."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/amazon-seller-support-agent.json
+i18n:
+  zh:
+    name: "亚马逊卖家支持代理"
+    description: "协助亚马逊卖家回复客户服务答复的AI助手，提供详尽且有理有据的回复，助力达成满意的解决方案。"

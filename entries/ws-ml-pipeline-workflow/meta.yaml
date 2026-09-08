@@ -1,0 +1,16 @@
+id: ws-ml-pipeline-workflow
+type: skill
+version: 1.0.0
+category: data-ai
+name: ml-pipeline-workflow
+description: "Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/machine-learning-ops/skills/ml-pipeline-workflow
+i18n:
+  zh:
+    name: "ML 流水线工作流"
+    description: "构建从数据准备到模型训练、验证和生产部署的端到端 MLOps 流水线。用于创建 ML 流水线、实施 MLOps 实践或自动化模型训练和部署工作流。"

@@ -1,0 +1,16 @@
+id: ws-bats-testing-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: bats-testing-patterns
+description: "Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/shell-scripting/skills/bats-testing-patterns
+i18n:
+  zh:
+    name: "Bats 测试模式"
+    description: "掌握 Bash 自动化测试系统（Bats），对 shell 脚本进行全面测试。在为 shell 脚本、CI/CD 流水线编写测试或需要对 shell 工具进行测试驱动开发时使用。"

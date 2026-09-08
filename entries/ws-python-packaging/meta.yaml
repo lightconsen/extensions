@@ -1,0 +1,16 @@
+id: ws-python-packaging
+type: skill
+version: 1.0.0
+category: engineering
+name: python-packaging
+description: "Create distributable Python packages with proper project structure, setup.py/pyproject.toml, and publishing to PyPI. Use when packaging Python libraries, creating CLI tools, or distributing Python code."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/python-development/skills/python-packaging
+i18n:
+  zh:
+    name: "Python 打包"
+    description: "使用符合规范的项目结构、setup.py/pyproject.toml 创建可分发的 Python 包，并发布到 PyPI。在打包 Python 库、创建命令行工具或分发 Python 代码时使用。"

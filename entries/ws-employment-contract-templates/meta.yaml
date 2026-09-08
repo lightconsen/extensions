@@ -1,0 +1,16 @@
+id: ws-employment-contract-templates
+type: skill
+version: 1.0.0
+category: business
+name: employment-contract-templates
+description: "Create employment contracts, offer letters, and HR policy documents following legal best practices. Use when drafting employment agreements, creating HR policies, or standardizing employment documentation."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/hr-legal-compliance/skills/employment-contract-templates
+i18n:
+  zh:
+    name: "雇佣合同模板"
+    description: "遵循法律最佳实践创建雇佣合同、录用通知书和 HR 政策文档。在起草雇佣协议、制定 HR 政策或标准化雇佣文档时使用。"

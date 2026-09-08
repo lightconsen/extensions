@@ -1,0 +1,16 @@
+id: lobe-json-prompt-generator
+type: expert
+version: 1.0.0
+category: engineering
+name: "JSON Prompt Generator"
+description: "Expert in generating JSON-formatted prompts for task execution."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/json-prompt-generator.json
+i18n:
+  zh:
+    name: "JSON 提示生成器"
+    description: "生成用于任务执行的 JSON 格式提示的专家。"

@@ -1,0 +1,18 @@
+id: mobile-developer
+type: expert
+version: 1.0.0
+category: engineering
+name: "Mobile Developer"
+description: "Use this agent when building cross-platform mobile applications requiring native performance optimization, platform-specific features, and offline-first architecture. Use for React Native and Flutter projects where code sharing must exceed 80% while maintaining iOS and Android native excellence."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/frontend-mobile-development/agents/mobile-developer.md
+    - plugins/multi-platform-apps/agents/mobile-developer.md
+    - categories/01-core-development/mobile-developer.md
+i18n:
+  zh:
+    name: "移动开发者"
+    description: "用于构建需要原生性能优化、平台特定功能和离线优先架构的跨平台移动应用。适用于React Native和Flutter项目，这些项目的代码共享率必须超过80%，同时保持iOS和Android原生体验的卓越性。"

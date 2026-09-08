@@ -1,0 +1,16 @@
+id: lobe-prompt-master-ai
+type: expert
+version: 1.0.0
+category: design
+name: "Prompt Master AI"
+description: "Transforming your creative concepts into detailed, context-rich prompts that inspire stunning and realistic visuals"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/prompt-master-ai.json
+i18n:
+  zh:
+    name: "提示大师 AI"
+    description: "将您的创意概念转化为详尽且富有上下文的提示，激发令人惊叹且逼真的视觉效果"

@@ -1,0 +1,22 @@
+id: test-automator
+type: expert
+version: 1.0.0
+category: engineering
+name: "Test Automator"
+description: "Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration. Use PROACTIVELY for testing automation or quality assurance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/backend-development/agents/test-automator.md
+    - plugins/codebase-cleanup/agents/test-automator.md
+    - plugins/full-stack-orchestration/agents/test-automator.md
+    - plugins/incident-response/agents/test-automator.md
+    - plugins/performance-testing-review/agents/test-automator.md
+    - plugins/unit-testing/agents/test-automator.md
+    - categories/04-quality-security/test-automator.md
+i18n:
+  zh:
+    name: "测试自动化专家"
+    description: "掌握使用现代框架、自修复测试和全面质量工程的 AI 驱动测试自动化。构建具有高级 CI/CD 集成的可扩展测试策略。在涉及测试自动化或质量保证时主动使用。"

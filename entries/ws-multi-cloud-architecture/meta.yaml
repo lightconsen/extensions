@@ -1,0 +1,16 @@
+id: ws-multi-cloud-architecture
+type: skill
+version: 1.0.0
+category: engineering
+name: multi-cloud-architecture
+description: "Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, GCP, and OCI. Use when building multi-cloud systems, avoiding vendor lock-in, or leveraging best-of-breed services from multiple providers."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/cloud-infrastructure/skills/multi-cloud-architecture
+i18n:
+  zh:
+    name: "多云架构"
+    description: "使用决策框架设计多云架构，以选择和集成 AWS、Azure、GCP 和 OCI 上的服务。用于构建多云系统、避免供应商锁定或利用多家提供商的同类最佳服务。"

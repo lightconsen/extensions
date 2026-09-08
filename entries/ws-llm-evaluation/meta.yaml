@@ -1,0 +1,16 @@
+id: ws-llm-evaluation
+type: skill
+version: 1.0.0
+category: data-ai
+name: llm-evaluation
+description: "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/skills/llm-evaluation
+i18n:
+  zh:
+    name: "LLM 评估"
+    description: "使用自动化指标、人工反馈和基准测试，为 LLM 应用实施全面的评估策略。在测试 LLM 性能、衡量 AI 应用质量或建立评估框架时使用。"

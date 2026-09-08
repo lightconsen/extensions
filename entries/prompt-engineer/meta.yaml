@@ -1,0 +1,17 @@
+id: prompt-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Prompt Engineer"
+description: "Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features, improving agent performance, or crafting system prompts."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/agents/prompt-engineer.md
+    - categories/05-data-ai/prompt-engineer.md
+i18n:
+  zh:
+    name: "提示词工程师"
+    description: "专注于高级提示工程技术的专家提示词工程师，擅长LLM优化和AI系统设计。精通思维链、宪法AI和生产级提示词策略。当构建AI功能、改进代理性能或编写系统提示词时使用。"

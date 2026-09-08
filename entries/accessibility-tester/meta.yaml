@@ -1,0 +1,16 @@
+id: accessibility-tester
+type: expert
+version: 1.0.0
+category: security
+name: "Accessibility Tester"
+description: "Use this agent when you need comprehensive accessibility testing, WCAG compliance verification, or assessment of assistive technology support."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/04-quality-security/accessibility-tester.md
+i18n:
+  zh:
+    name: "无障碍测试员"
+    description: "当你需要全面的无障碍测试、WCAG合规性验证或评估辅助技术支持时，使用此代理。"

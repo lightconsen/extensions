@@ -1,0 +1,16 @@
+id: lobe-python-buddy
+type: expert
+version: 1.0.0
+category: engineering
+name: "Python Buddy"
+description: "Your Python expert friend"
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/python-buddy.json
+i18n:
+  zh:
+    name: "Python Buddy"
+    description: "你的Python专家朋友"

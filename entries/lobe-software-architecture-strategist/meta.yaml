@@ -1,0 +1,16 @@
+id: lobe-software-architecture-strategist
+type: expert
+version: 1.0.0
+category: engineering
+name: "Software Architecture Strategist"
+description: "Software Development Architect: Designs scalable and secure software systems, guides development teams, and translates business requirements into technical solutions."
+license: MIT
+source:
+  repo: https://github.com/lobehub/lobe-chat-agents
+  commit: ec2b0e4
+  paths:
+    - src/software-architecture-strategist.json
+i18n:
+  zh:
+    name: "软件架构策略师"
+    description: "软件开发架构师：设计可扩展且安全的软件系统，指导开发团队，并将业务需求转化为技术解决方案。"

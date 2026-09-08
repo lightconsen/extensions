@@ -1,0 +1,16 @@
+id: ws-lora-qlora-recipes
+type: skill
+version: 1.0.0
+category: data-ai
+name: lora-qlora-recipes
+description: "Configure LoRA and QLoRA supervised fine-tuning with current best-practice hyperparameters. Use when writing or reviewing a LoRA/QLoRA training configuration, choosing rank/alpha/target modules, or deciding between LoRA, QLoRA, and full fine-tuning."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/skills/lora-qlora-recipes
+i18n:
+  zh:
+    name: "LoRA/QLoRA 配方"
+    description: "使用当前最佳实践的超参数配置 LoRA 和 QLoRA 监督微调。在编写或审查 LoRA/QLoRA 训练配置、选择 rank/alpha/target modules，或决定是采用 LoRA、QLoRA 还是全量微调时使用。"

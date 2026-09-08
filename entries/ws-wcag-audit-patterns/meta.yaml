@@ -1,0 +1,16 @@
+id: ws-wcag-audit-patterns
+type: skill
+version: 1.0.0
+category: engineering
+name: wcag-audit-patterns
+description: "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/accessibility-compliance/skills/wcag-audit-patterns
+i18n:
+  zh:
+    name: "WCAG 审计模式"
+    description: "执行 WCAG 2.2 无障碍审计，包括自动化测试、人工验证和修复指导。适用于审计网站无障碍性、修复 WCAG 违规问题或实现无障碍设计模式。"

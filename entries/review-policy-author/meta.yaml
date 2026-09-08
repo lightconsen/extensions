@@ -1,0 +1,16 @@
+id: review-policy-author
+type: expert
+version: 1.0.0
+category: engineering
+name: "Review Policy Author"
+description: "Cedar policy author specialized in gating AI agent review actions (PR comments, reviews, merges, CI edits) behind human approval. Use when writing, auditing, or extending a review-governance.cedar policy for review-bot governance."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/review-agent-governance/agents/review-policy-author.md
+i18n:
+  zh:
+    name: "审查策略作者"
+    description: "Cedar 策略作者，专注于将 AI 代理的审查操作（PR 评论、审核、合并、CI 编辑）置于人工审批流程之后。在编写、审计或扩展用于 review-bot 治理的 review-governance.cedar 策略时使用。"

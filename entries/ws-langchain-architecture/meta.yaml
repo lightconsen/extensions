@@ -1,0 +1,16 @@
+id: ws-langchain-architecture
+type: skill
+version: 1.0.0
+category: data-ai
+name: langchain-architecture
+description: "Design LLM applications using LangChain 1.x and LangGraph for agents, memory, and tool integration. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-application-dev/skills/langchain-architecture
+i18n:
+  zh:
+    name: "LangChain 架构"
+    description: "使用 LangChain 1.x 和 LangGraph 设计用于智能体、记忆和工具集成的 LLM 应用。在构建 LangChain 应用、实现 AI 智能体或创建复杂 LLM 工作流时使用。"

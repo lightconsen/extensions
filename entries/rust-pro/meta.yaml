@@ -1,0 +1,16 @@
+id: rust-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Rust Pro"
+description: "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. Expert in the latest Rust ecosystem including Tokio, axum, and cutting-edge crates. Use PROACTIVELY for Rust development, performance optimization, or systems programming."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/systems-programming/agents/rust-pro.md
+i18n:
+  zh:
+    name: "Rust 专家"
+    description: "掌握 Rust 1.75+，熟悉现代异步模式、高级类型系统特性和生产级系统编程。精通最新 Rust 生态，包括 Tokio、axum 和前沿 crates。在 Rust 开发、性能优化或系统编程时应主动使用。"

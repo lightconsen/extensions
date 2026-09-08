@@ -1,0 +1,17 @@
+id: architect-review
+type: expert
+version: 1.0.0
+category: engineering
+name: "Architect Review"
+description: "Master software architect specializing in modern architecture patterns, clean architecture, microservices, event-driven systems, and DDD. Reviews system designs and code changes for architectural integrity, scalability, and maintainability. Use PROACTIVELY for architectural decisions."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/comprehensive-review/agents/architect-review.md
+    - plugins/framework-migration/agents/architect-review.md
+i18n:
+  zh:
+    name: "架构评审"
+    description: "精通现代架构模式、干净架构、微服务、事件驱动系统和DDD的软件架构大师。审查系统设计和代码变更的架构完整性、可扩展性和可维护性。在架构决策时主动使用。"

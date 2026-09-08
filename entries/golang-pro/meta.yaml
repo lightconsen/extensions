@@ -1,0 +1,17 @@
+id: golang-pro
+type: expert
+version: 1.0.0
+category: engineering
+name: "Golang Pro"
+description: "Use when building Go applications requiring concurrent programming, high-performance systems, microservices, or cloud-native architectures where idiomatic patterns, error handling excellence, and efficiency are critical."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: 3097abe
+  paths:
+    - plugins/systems-programming/agents/golang-pro.md
+    - categories/02-language-specialists/golang-pro.md
+i18n:
+  zh:
+    name: "Golang 专家"
+    description: "在构建需要并发编程、高性能系统、微服务或云原生架构的 Go 应用时使用，这些场景中惯用模式、优秀的错误处理和高效率至关重要。"

@@ -1,0 +1,16 @@
+id: machine-learning-engineer
+type: expert
+version: 1.0.0
+category: data-ai
+name: "Machine Learning Engineer"
+description: "Use this agent when you need to deploy, optimize, or serve machine learning models at scale in production environments."
+license: MIT
+source:
+  repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+  commit: 3097abe
+  paths:
+    - categories/05-data-ai/machine-learning-engineer.md
+i18n:
+  zh:
+    name: "机器学习工程师"
+    description: "当需要在生产环境中大规模部署、优化或服务机器学习模型时，请使用此代理。"

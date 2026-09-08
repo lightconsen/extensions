@@ -1,0 +1,16 @@
+id: ws-angular-migration
+type: skill
+version: 1.0.0
+category: engineering
+name: angular-migration
+description: "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Angular code."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/framework-migration/skills/angular-migration
+i18n:
+  zh:
+    name: "Angular 迁移"
+    description: "使用混合模式、增量组件重写和依赖注入更新从 AngularJS 迁移到 Angular。在升级 AngularJS 应用、规划框架迁移或现代化改造遗留 Angular 代码时使用。"

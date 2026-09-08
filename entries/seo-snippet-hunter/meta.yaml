@@ -1,0 +1,16 @@
+id: seo-snippet-hunter
+type: expert
+version: 1.0.0
+category: business
+name: "Seo Snippet Hunter"
+description: "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/seo-technical-optimization/agents/seo-snippet-hunter.md
+i18n:
+  zh:
+    name: "SEO 摘要猎手"
+    description: "将内容格式化，使其有资格获得精选摘要和 SERP 特性。根据最佳实践创建针对摘要优化的内容块。请主动用于问答式内容。"

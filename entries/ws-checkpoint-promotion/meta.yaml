@@ -1,0 +1,16 @@
+id: ws-checkpoint-promotion
+type: skill
+version: 1.0.0
+category: data-ai
+name: checkpoint-promotion
+description: "Gate fine-tuned checkpoints with drift budgets, paired comparison, and forgetting checks before promotion. Use after a training run produces a checkpoint, when deciding whether a tuned model ships, or when a promoted model needs re-gating against updated goldens."
+license: MIT
+source:
+  repo: https://github.com/wshobson/agents
+  commit: a30778f
+  paths:
+    - plugins/llm-finetuning/skills/checkpoint-promotion
+i18n:
+  zh:
+    name: "检查点晋升"
+    description: "在微调检查点晋升之前，以漂移预算、成对比较和遗忘检查作为门禁进行把关。适用于训练运行产生检查点后、决定调优模型是否上线，或已晋升模型需要对照更新的黄金基准重新评估时。"

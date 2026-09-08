@@ -178,8 +178,10 @@ for (const m of samples) {
 }
 
 // 3. catalog ETags: en vs zh distinct + 304 round-trip.
+//    GET, not HEAD — the worker's catalog handler only synthesizes ETags on GET.
 const etagOf = async (url) => {
-  const r = await fetch(url, { method: "HEAD" });
+  const r = await fetch(url);
+  await r.arrayBuffer(); // drain the body; we only need headers
   return r.headers.get("etag");
 };
 const ee = await etagOf(`${process.env.CATALOG_BASE_URL ?? "https://api.syscity.net"}/catalog.json`);

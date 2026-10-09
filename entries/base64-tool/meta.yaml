@@ -1,0 +1,17 @@
+id: base64-tool
+type: plugin
+version: 1.0.0
+category: engineering
+name: "Base64 Tool"
+description: "Encode and decode base64 without shelling out. A sandboxed WASM plugin tool that turns text into base64 and back, so an agent can handle encoded payloads without quoting hazards or a shell."
+license: MIT
+source:
+  repo: https://github.com/lightconsen/syscity
+  commit: f0ba1b04e272fef23364d5d4887e5a3ec2c0be47
+  paths:
+    - "examples/wasm-plugins/base64-tool/src/lib.rs"
+    - "examples/wasm-plugins/base64-tool/Cargo.toml"
+i18n:
+  zh:
+    name: "Base64 工具"
+    description: "不经 shell 即可完成 base64 编解码。一个沙箱化的 WASM 插件工具，把文本转成 base64 再转回来，让 agent 处理编码载荷时不必面对转义与 shell 的坑。"

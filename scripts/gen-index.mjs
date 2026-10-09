@@ -42,6 +42,13 @@ for (const id of fs.readdirSync(ENTRIES).sort()) {
     source: { type: "tar.gz", url: archiveUrl(id, version) },
     sha256: shas.get(id) ?? null,
     auto_update: false,
+    // Usage signal, mirrored from the live shape. Both are runtime-owned
+    // (the worker counts fetches and recomputes ratings), so a generated
+    // index shows zero — which is what the live one shows for an entry
+    // nobody has fetched or rated yet.
+    downloads: 0,
+    rating: null,
+    rating_count: 0,
     i18n: meta.i18n?.zh ? { zh: { name: meta.i18n.zh.name ?? null, description: meta.i18n.zh.description ?? null } } : null,
   });
 }
@@ -67,6 +74,11 @@ if (fs.existsSync(CONNECTORS)) {
       source: { type: "mcp", url: meta.connector?.url ?? "" },
       sha256: null,
       auto_update: false,
+      // Connectors have no archive, so nothing is ever fetched; the
+      // fields exist so both kinds share one response shape.
+      downloads: 0,
+      rating: null,
+      rating_count: 0,
       i18n: meta.i18n?.zh ? { zh: { name: meta.i18n.zh.name ?? null, description: meta.i18n.zh.description ?? null } } : null,
     });
   }

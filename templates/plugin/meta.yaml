@@ -1,0 +1,16 @@
+id: my-plugin-id
+type: plugin            # plugin — a WASM package, installed by the engine's plugin manager
+version: 1.0.0
+category: engineering   # engineering | data-ai | security | design | content-writing | business | research-education | specialized-domains
+name: "My Plugin"
+description: "One-paragraph description of what the plugin provides (tools, channels, providers)."
+license: MIT
+source:
+  repo: https://github.com/owner/repo
+  commit: abc1234
+  paths:
+    - "path/to/upstream/source"
+i18n:
+  zh:
+    name: "插件中文名"
+    description: "中文描述，语义与英文一致。"

@@ -2,7 +2,7 @@
 
 # syscity extensions catalog
 
-Source of truth for the **public syscity marketplace catalog**. Every expert and skill lives in its own directory under `entries/<id>/`; merging to `main` makes CI pack and publish it to the live marketplace.
+Source of truth for the **public syscity marketplace catalog**. Every expert, skill, and WASM plugin lives in its own directory under `entries/<id>/`; merging to `main` makes CI pack and publish it to the live marketplace.
 
 **Live catalog**: `https://api.syscity.net/catalog.json` · consumed by the syscity app's built-in marketplace
 

@@ -14,6 +14,9 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const ENTRIES = path.join(ROOT, "entries");
 
 const MAX_FILE = 512 * 1024;
+// WASM plugins are legitimately bigger than prompt packs —
+// a bundled `.wasm` alone is commonly a few hundred KB to a few MB.
+const MAX_FILE_PLUGIN = 4 * 1024 * 1024;
 const MAX_ENTRY = 8 * 1024 * 1024;
 /** hard-fail: executable/binary payloads. Others (pdf/zip/images/media) warn —
  * upstream skills legitimately ship reference assets; human review gates them. */
@@ -77,7 +80,7 @@ for (const id of fs.readdirSync(ENTRIES).sort()) {
   }
   if (meta.id !== id) err(id, `meta.id "${meta.id}" != directory name`);
   if (!idValid(String(meta.id ?? ""))) err(id, `id must match ${ID_RE} (no "..")`);
-  if (!["expert", "skill"].includes(meta.type)) err(id, `type must be expert|skill (got ${meta.type})`);
+  if (!["expert", "skill", "plugin"].includes(meta.type)) err(id, `type must be expert|skill|plugin (got ${meta.type})`);
   if (!VERSION_RE.test(String(meta.version ?? ""))) err(id, `version must be semver (got ${meta.version})`);
   if (!CATEGORIES.includes(meta.category)) err(id, `category "${meta.category}" not allowed (use one of: ${CATEGORIES.join(", ")})`);
   if (typeof meta.name !== "string" || !meta.name.trim()) err(id, "name missing");
@@ -96,29 +99,65 @@ for (const id of fs.readdirSync(ENTRIES).sort()) {
   for (const f of ["meta.yaml", "LICENSE", "ATTRIBUTION.md"]) {
     if (!fs.existsSync(path.join(dir, f))) err(id, `missing ${f}`);
   }
-  const main = meta.type === "expert" ? "SOUL.md" : "SKILL.md";
-  const other = meta.type === "expert" ? "SKILL.md" : "SOUL.md";
-  if (!fs.existsSync(path.join(dir, main))) err(id, `missing ${main} for type=${meta.type}`);
-  if (fs.existsSync(path.join(dir, other))) err(id, `unexpected ${other} for type=${meta.type}`);
-
-  const fm = main && fs.existsSync(path.join(dir, main)) ? frontmatter(fs.readFileSync(path.join(dir, main), "utf8")) : null;
-  if (fm === null) {
-    err(id, `${main} has no frontmatter block`);
-  } else if (meta.type === "expert") {
-    if (!/^name:/m.test(fm)) err(id, "SOUL.md frontmatter missing name:");
-    if (!/^persona:/m.test(fm)) err(id, "SOUL.md frontmatter missing persona:");
+  if (meta.type === "plugin") {
+    // A WASM plugin is a plugin.json manifest (+ the wasm itself), not a
+    // prompt pack: the .md files belong to skill/expert entries.
+    const manifestPath = path.join(dir, "plugin.json");
+    if (!fs.existsSync(manifestPath)) {
+      err(id, "missing plugin.json for type=plugin");
+    } else {
+      let manifest;
+      try {
+        manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+      } catch (e) {
+        err(id, `plugin.json is not valid JSON: ${e.message}`);
+      }
+      if (manifest) {
+        for (const key of ["id", "name", "version", "description"]) {
+          if (typeof manifest[key] !== "string" || !manifest[key].trim())
+            err(id, `plugin.json missing "${key}"`);
+        }
+        // The engine's manifest id and the catalog id must agree, or the
+        // installed directory and the loaded identity diverge.
+        if (manifest.id && manifest.id !== id)
+          err(id, `plugin.json id "${manifest.id}" != catalog id "${id}"`);
+        // `main` names the wasm inside the package; check it points at a
+        // real file rather than at thin air.
+        if (manifest.main && !fs.existsSync(path.join(dir, manifest.main)))
+          err(id, `plugin.json main "${manifest.main}" does not exist in the package`);
+      }
+    }
+    for (const md of ["SOUL.md", "SKILL.md"]) {
+      if (fs.existsSync(path.join(dir, md))) err(id, `unexpected ${md} for type=plugin`);
+    }
   } else {
-    if (!/^name:/m.test(fm)) err(id, "SKILL.md frontmatter missing name:");
-    if (!/^description:/m.test(fm)) err(id, "SKILL.md frontmatter missing description:");
+    const main = meta.type === "expert" ? "SOUL.md" : "SKILL.md";
+    const other = meta.type === "expert" ? "SKILL.md" : "SOUL.md";
+    if (!fs.existsSync(path.join(dir, main))) err(id, `missing ${main} for type=${meta.type}`);
+    if (fs.existsSync(path.join(dir, other))) err(id, `unexpected ${other} for type=${meta.type}`);
+
+    const fm = main && fs.existsSync(path.join(dir, main)) ? frontmatter(fs.readFileSync(path.join(dir, main), "utf8")) : null;
+    if (fm === null) {
+      err(id, `${main} has no frontmatter block`);
+    } else if (meta.type === "expert") {
+      if (!/^name:/m.test(fm)) err(id, "SOUL.md frontmatter missing name:");
+      if (!/^persona:/m.test(fm)) err(id, "SOUL.md frontmatter missing persona:");
+    } else {
+      if (!/^name:/m.test(fm)) err(id, "SKILL.md frontmatter missing name:");
+      if (!/^description:/m.test(fm)) err(id, "SKILL.md frontmatter missing description:");
+    }
   }
 
   // ── hygiene ──
   let total = 0;
   for (const { p, st } of walk(dir)) {
     total += st.size;
-    if (st.size > MAX_FILE) err(id, `file > 512KB: ${path.relative(ENTRIES, p)}`);
+    const maxFile = meta.type === "plugin" ? MAX_FILE_PLUGIN : MAX_FILE;
+    if (st.size > maxFile) err(id, `file > ${Math.round(maxFile / 1024)}KB: ${path.relative(ENTRIES, p)}`);
     const ext = path.extname(p).toLowerCase();
-    if (BIN_FAIL.has(ext)) err(id, `binary file not allowed: ${path.relative(ENTRIES, p)}`);
+    // `.wasm` is the point of a plugin; everywhere else it stays a hard fail.
+    if (!(meta.type === "plugin" && ext === ".wasm") && BIN_FAIL.has(ext))
+      err(id, `binary file not allowed: ${path.relative(ENTRIES, p)}`);
     if (BIN_WARN.has(ext)) warn(id, `binary-ish asset (review): ${path.relative(ENTRIES, p)}`);
     if (path.basename(p).startsWith(".") && path.basename(p) !== ".gitignore") {
       warn(id, `dotfile: ${path.relative(ENTRIES, p)}`);
@@ -133,7 +172,7 @@ for (const id of fs.readdirSync(ENTRIES).sort()) {
       }
     }
   }
-  if (total > MAX_ENTRY) err(id, `entry > 2MB (${total} bytes)`);
+  if (total > MAX_ENTRY) err(id, `entry > ${Math.round(MAX_ENTRY / 1024 / 1024)}MB (${total} bytes)`);
 
   ok++;
 }

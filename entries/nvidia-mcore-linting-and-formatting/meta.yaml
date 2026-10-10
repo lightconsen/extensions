@@ -1,0 +1,16 @@
+id: nvidia-mcore-linting-and-formatting
+type: skill
+version: 1.0.0
+category: engineering
+name: "Megatron-LM Linting and Formatting"
+description: "Run Megatron-LM's autoformat and linting tools — ruff, black, isort, pylint, mypy — and follow its Python style rules. Use before opening a PR, or when a lint or style check fails."
+license: Apache-2.0
+source:
+  repo: https://github.com/NVIDIA/skills
+  commit: 14a98ae278cec7e867695189d0f4003c08e4f765
+  paths:
+    - "skills/mcore-linting-and-formatting/SKILL.md"
+i18n:
+  zh:
+    name: "Megatron-LM 代码检查与格式化"
+    description: "运行 Megatron-LM 的 autoformat 与检查工具（ruff、black、isort、pylint、mypy），并遵循其 Python 风格规则。提交 PR 前、或 lint 与风格检查失败时使用。"

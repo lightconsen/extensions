@@ -7,6 +7,14 @@ description: "Official Linear server: manage issues, projects, teams and roadmap
 connector:
   url: "https://mcp.linear.app/mcp"
   auth: oauth
+suggest:
+  keywords:
+    - issue tracking
+    - backlog
+    - sprint
+    - roadmap
+  hosts:
+    - linear.app
 i18n:
   zh:
     name: Linear

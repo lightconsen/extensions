@@ -9722,6 +9722,33 @@
       }
     },
     {
+      "id": "nvidia-mcore-linting-and-formatting",
+      "version": "1.0.0",
+      "display_name": "Megatron-LM Linting and Formatting",
+      "description": "Run Megatron-LM's autoformat and linting tools — ruff, black, isort, pylint, mypy — and follow its Python style rules. Use before opening a PR, or when a lint or style check fails.",
+      "icon": null,
+      "type": "skill",
+      "kind": "byoa",
+      "visibility": "public",
+      "credits_per_use": 0,
+      "category": "engineering",
+      "source": {
+        "type": "tar.gz",
+        "url": "https://api.syscity.net/archives/nvidia-mcore-linting-and-formatting/1.0.0/nvidia-mcore-linting-and-formatting.tar.gz"
+      },
+      "sha256": "2c6dcff4c14b4920929c612644bddb046a675881b97f9c8291a9623357a01c1b",
+      "auto_update": false,
+      "downloads": 0,
+      "rating": null,
+      "rating_count": 0,
+      "i18n": {
+        "zh": {
+          "name": "Megatron-LM 代码检查与格式化",
+          "description": "运行 Megatron-LM 的 autoformat 与检查工具（ruff、black、isort、pylint、mypy），并遵循其 Python 风格规则。提交 PR 前、或 lint 与风格检查失败时使用。"
+        }
+      }
+    },
+    {
       "id": "observability-engineer",
       "version": "1.0.0",
       "display_name": "Observability Engineer",

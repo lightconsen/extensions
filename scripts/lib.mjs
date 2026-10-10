@@ -43,6 +43,22 @@ export const REPO_RE = /^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+
 
 export const CATALOG_BASE_URL = process.env.CATALOG_BASE_URL ?? "https://api.syscity.net";
 
+/**
+ * Read a boolean out of the restricted parser's output.
+ *
+ * `parseMeta` decodes bare words as strings and JSON-quoted scalars as parsed
+ * values, so `default_enabled: true` arrives as the *string* `"true"` while
+ * `default_enabled: "true"` arrives as a boolean. Both are what an author
+ * reasonably writes, so the schema layer — not the author — reconciles them.
+ * Returns `undefined` for anything else, which callers treat as invalid.
+ */
+export function asBool(v) {
+  if (typeof v === "boolean") return v;
+  if (v === "true") return true;
+  if (v === "false") return false;
+  return undefined;
+}
+
 function scalar(s) {
   s = s.trim();
   if (s.startsWith('"') && s.endsWith('"')) return JSON.parse(s);

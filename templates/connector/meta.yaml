@@ -1,0 +1,44 @@
+id: my-connector-id
+type: connector            # connectors are relay metadata only — no archive
+version: 1.0.0
+category: engineering       # engineering | data-ai | security | design | content-writing | business | research-education | specialized-domains
+name: "My Connector"
+description: "One paragraph on what this MCP endpoint gives an agent."
+license: MIT                # optional but recommended (SPDX id from the allowlist)
+source:
+  repo: https://github.com/owner/repo   # optional provenance
+connector:
+  url: "https://mcp.example.com/mcp"    # must be an https:// MCP endpoint
+  auth: oauth                           # none | oauth | operator
+
+# ── Optional hints ───────────────────────────────────────────────────────────
+# Everything below is optional and validated only when present. They are
+# published as one JSON column and read whole by whoever surfaces the
+# connector, so declaring none is exactly the same as not having the field.
+
+# Whether this connector's tools start enabled once it is installed.
+# Write `true`/`false` — both the bare and the quoted form are accepted; the
+# schema layer reconciles them, since the meta.yaml parser reads bare words as
+# strings.
+tools:
+  default_enabled: true
+
+# What to offer this connector for: keywords the user's request might contain,
+# and hosts whose mention implies it.
+suggest:
+  keywords:
+    - issue tracking
+  hosts:
+    - example.com
+
+# The OAuth scopes the endpoint asks for, so the prompt can say what it wants.
+scopes:
+  - read
+
+# Anything the operator should do after installing.
+post_install: "Restart the gateway so the new tools register."
+
+i18n:
+  zh:
+    name: "连接器中文名"
+    description: "中文描述，语义与英文一致。"

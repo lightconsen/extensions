@@ -8,7 +8,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseMeta, CATEGORIES, LICENSES, ID_RE, idValid, VERSION_RE, COMMIT_RE, REPO_RE } from "./lib.mjs";
+import { parseMeta, asBool, CATEGORIES, LICENSES, ID_RE, idValid, VERSION_RE, COMMIT_RE, REPO_RE } from "./lib.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const ENTRIES = path.join(ROOT, "entries");
@@ -216,6 +216,42 @@ if (fs.existsSync(CONNECTORS)) {
     const zh = meta.i18n?.zh ?? {};
     if (typeof zh.name !== "string" || !zh.name.trim()) err(id, "i18n.zh.name missing (zh translation is required)");
     if (typeof zh.description !== "string" || !zh.description.trim()) err(id, "i18n.zh.description missing");
+
+    // Optional connector hints. Each is validated only when present, so every
+    // existing meta.yaml keeps validating — what they buy is the engine being
+    // able to suggest a connector for a task and to pre-enable its tools.
+    if (meta.tools != null) {
+      if (typeof meta.tools !== "object" || Array.isArray(meta.tools)) {
+        err(id, "tools must be a mapping");
+      } else if (meta.tools.default_enabled != null && asBool(meta.tools.default_enabled) === undefined) {
+        err(id, `tools.default_enabled must be true or false (got ${meta.tools.default_enabled})`);
+      }
+    }
+    if (meta.suggest != null) {
+      if (typeof meta.suggest !== "object" || Array.isArray(meta.suggest)) {
+        err(id, "suggest must be a mapping of keyword/host lists");
+      } else {
+        for (const key of ["keywords", "hosts"]) {
+          const list = meta.suggest[key];
+          if (list == null) continue;
+          if (!Array.isArray(list) || !list.length) {
+            err(id, `suggest.${key} must be a non-empty list`);
+          } else if (!list.every((v) => typeof v === "string" && v.trim())) {
+            err(id, `suggest.${key} entries must be non-empty strings`);
+          }
+        }
+      }
+    }
+    if (meta.scopes != null) {
+      if (!Array.isArray(meta.scopes) || !meta.scopes.length) {
+        err(id, "scopes must be a non-empty list");
+      } else if (!meta.scopes.every((v) => typeof v === "string" && v.trim())) {
+        err(id, "scopes entries must be non-empty strings");
+      }
+    }
+    if (meta.post_install != null && (typeof meta.post_install !== "string" || !meta.post_install.trim())) {
+      err(id, "post_install must be a non-empty string");
+    }
 
     const extra = fs.readdirSync(dir).filter((f) => f !== "meta.yaml");
     if (extra.length) err(id, `unexpected files (only meta.yaml allowed): ${extra.join(", ")}`);

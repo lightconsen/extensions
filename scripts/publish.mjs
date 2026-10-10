@@ -15,7 +15,7 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseMeta } from "./lib.mjs";
+import { parseMeta, asBool } from "./lib.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const BUILD = path.join(ROOT, ".build");
@@ -162,22 +162,42 @@ if (connManifest.length && !dryRun) {
     if (c.i18n?.zh?.description) a.push(`'$.zh.description', '${esc(c.i18n.zh.description)}'`);
     return a.length ? `json_set('{}', ${a.join(", ")})` : "NULL";
   };
+  // Connector hints travel as one JSON column. They are read whole by whoever
+  // surfaces the connector — "suggest this for a task", "enable these tools by
+  // default" — and none of them is queried on its own, so a blob keeps the
+  // table honest about what is a first-class catalog column and what is
+  // per-type metadata.
+  const connExtra = (c) => {
+    const extra = {};
+    if (c.tools != null) {
+      // Normalise the one type the restricted parser cannot express, so what
+      // lands in the column is a JSON boolean regardless of how it was written.
+      const enabled = c.tools.default_enabled;
+      extra.tools =
+        enabled == null ? { ...c.tools } : { ...c.tools, default_enabled: asBool(enabled) };
+    }
+    if (c.suggest != null) extra.suggest = c.suggest;
+    if (c.scopes != null) extra.scopes = c.scopes;
+    if (c.post_install != null) extra.post_install = c.post_install;
+    return Object.keys(extra).length ? `'${esc(JSON.stringify(extra))}'` : "NULL";
+  };
   let cout = "";
   for (const c of connManifest) {
     const url = c.connector?.url ?? "";
     const auth = c.connector?.auth ?? "";
     cout += `INSERT INTO catalog_entries
 (id, version, display_name, description, icon, source_type, source_url, sha256,
- type, kind, visibility, credits_per_use, category, required_plan, i18n, updated_at)
+ type, kind, visibility, credits_per_use, category, required_plan, i18n, connector_extra, updated_at)
 VALUES
 ('${esc(c.id)}', '${esc(c.version)}', '${esc(c.name)}', '${esc(c.description)}',
  NULL, 'mcp', '${esc(url)}', NULL,
- 'connector', 'cloud', 'public', 0, '${esc(c.category)}', NULL, ${connI18n(c)}, datetime('now'))
+ 'connector', 'cloud', 'public', 0, '${esc(c.category)}', NULL, ${connI18n(c)}, ${connExtra(c)}, datetime('now'))
 ON CONFLICT(id, version) DO UPDATE SET
   display_name = excluded.display_name, description = excluded.description,
   source_type = excluded.source_type, source_url = excluded.source_url,
   type = excluded.type, kind = excluded.kind, category = excluded.category,
-  i18n = excluded.i18n, updated_at = excluded.updated_at;
+  i18n = excluded.i18n, connector_extra = excluded.connector_extra,
+  updated_at = excluded.updated_at;
 `;
     if (auth === "none") {
       cout += `INSERT INTO cloud_connectors (id, provider_mcp_url, provider_auth, credits_per_use)
